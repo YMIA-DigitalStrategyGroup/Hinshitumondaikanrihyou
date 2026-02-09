@@ -251,7 +251,17 @@
   },
   {
     "ModuleName": "MasterPCPage/全体概要",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-09T15:27:59.4201223+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\全体概要.json",
+      "MasterPages\\全体概要.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/Fコスト",
