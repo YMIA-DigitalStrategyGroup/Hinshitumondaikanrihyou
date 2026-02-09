@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "サーバーへ発行1",
+    "ApplicationUrl": "http://YMIADIGITALSV01/クレーム進捗管理表",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "YMIADIGITALSV01",
+      "UserName": "kazuki_irei@yanmar.com",
+      "SitePort": 80,
+      "AppName": "クレーム進捗管理表",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  }
+]

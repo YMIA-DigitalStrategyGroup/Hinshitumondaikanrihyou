@@ -1,0 +1,495 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Count": 55
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      134,
+      135,
+      136,
+      142
+    ],
+    "Count": 143
+  },
+  "AttachInfos": {
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.svg"
+      }
+    },
+    "2,92": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,4": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "進捗管理表",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "進捗管理表"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "クレームリスト",
+            "IconPath": "Navigation/183_table_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "クレームリスト_管理表"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "品質問題管理表",
+            "Text": "品質問題管理表",
+            "IconPath": "Application/133_table_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "品質問題管理表"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "Fコスト",
+            "Text": "Fコスト",
+            "IconPath": "Application/130_list_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Fコスト管理"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "全体管理表",
+            "IconPath": "Chart/363_column_chart_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "進捗管理表_全体概要"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 21.333333333333332,
+            "Height": 60.0,
+            "Width": 200.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "9,2": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "7,4": 0,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "7,17": 1,
+      "7,18": 1,
+      "7,19": 1,
+      "7,20": 1,
+      "7,21": 1,
+      "7,22": 1,
+      "7,23": 1,
+      "7,24": 1,
+      "7,25": 1,
+      "7,26": 1,
+      "7,27": 1,
+      "7,28": 1,
+      "7,29": 1,
+      "7,30": 1,
+      "7,31": 1,
+      "7,32": 1,
+      "7,33": 1,
+      "7,34": 1,
+      "7,35": 1,
+      "7,36": 1,
+      "7,37": 1,
+      "7,38": 1,
+      "7,39": 1,
+      "7,40": 1,
+      "7,41": 1,
+      "7,42": 1,
+      "7,43": 1,
+      "7,44": 1,
+      "7,45": 1,
+      "7,46": 1,
+      "7,47": 1,
+      "7,48": 1,
+      "7,49": 1,
+      "7,50": 1,
+      "7,51": 1,
+      "7,52": 1,
+      "7,53": 1,
+      "7,54": 1,
+      "7,55": 1,
+      "7,56": 1,
+      "7,57": 1,
+      "7,58": 1,
+      "7,59": 1,
+      "7,60": 1,
+      "7,61": 1,
+      "7,62": 1,
+      "7,63": 1,
+      "7,64": 1,
+      "7,65": 1,
+      "7,66": 1,
+      "7,67": 1,
+      "7,68": 1,
+      "7,69": 1,
+      "7,70": 1,
+      "7,71": 1,
+      "7,72": 1,
+      "7,73": 1,
+      "7,74": 1,
+      "7,75": 1,
+      "7,76": 1,
+      "7,77": 1,
+      "7,78": 1,
+      "7,79": 1,
+      "7,80": 1,
+      "7,81": 1,
+      "7,82": 1,
+      "7,83": 1,
+      "7,84": 1,
+      "7,85": 1,
+      "7,86": 1,
+      "7,87": 1,
+      "7,88": 1,
+      "7,89": 1,
+      "7,90": 1,
+      "7,91": 1,
+      "7,92": 1,
+      "7,93": 1,
+      "7,94": 1,
+      "7,95": 1,
+      "7,96": 1,
+      "7,97": 1,
+      "7,98": 1,
+      "7,117": 1,
+      "7,118": 1,
+      "7,119": 1,
+      "7,120": 1,
+      "7,121": 1,
+      "7,122": 1,
+      "7,123": 1,
+      "7,124": 1,
+      "7,125": 1,
+      "7,126": 1,
+      "7,127": 1,
+      "7,128": 1,
+      "7,129": 1,
+      "7,130": 1,
+      "7,131": 1,
+      "7,132": 1,
+      "7,133": 1,
+      "7,134": 0,
+      "7,135": 0,
+      "7,136": 0,
+      "7,137": 0,
+      "7,138": 0,
+      "7,139": 0,
+      "8,4": 1,
+      "8,5": 1,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,12": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,16": 1,
+      "8,17": 1,
+      "8,18": 1,
+      "8,19": 1,
+      "8,20": 1,
+      "8,21": 1,
+      "8,22": 1,
+      "8,23": 1,
+      "8,24": 1,
+      "8,25": 1,
+      "8,26": 1,
+      "8,27": 1,
+      "8,28": 1,
+      "8,29": 1,
+      "8,30": 1,
+      "8,31": 1,
+      "8,32": 1,
+      "8,33": 1,
+      "8,34": 1,
+      "8,35": 1,
+      "8,36": 1,
+      "8,37": 1,
+      "8,38": 1,
+      "8,39": 1,
+      "8,40": 1,
+      "8,41": 1,
+      "8,42": 1,
+      "8,43": 1,
+      "8,44": 1,
+      "8,45": 1,
+      "8,46": 1,
+      "8,47": 1,
+      "8,48": 1,
+      "8,49": 1,
+      "8,50": 1,
+      "8,51": 1,
+      "8,52": 1,
+      "8,53": 1,
+      "8,54": 1,
+      "8,55": 1,
+      "8,56": 1,
+      "8,57": 1,
+      "8,58": 1,
+      "8,59": 1,
+      "8,60": 1,
+      "8,61": 1,
+      "8,62": 1,
+      "8,63": 1,
+      "8,64": 1,
+      "8,65": 1,
+      "8,66": 1,
+      "8,67": 1,
+      "8,68": 1,
+      "8,69": 1,
+      "8,70": 1,
+      "8,71": 1,
+      "8,72": 1,
+      "8,73": 1,
+      "8,74": 1,
+      "8,75": 1,
+      "8,76": 1,
+      "8,77": 1,
+      "8,78": 1,
+      "8,79": 1,
+      "8,80": 1,
+      "8,81": 1,
+      "8,82": 1,
+      "8,83": 1,
+      "8,84": 1,
+      "8,85": 1,
+      "8,86": 1,
+      "8,87": 1,
+      "8,88": 1,
+      "8,89": 1,
+      "8,90": 1,
+      "8,91": 1,
+      "8,92": 1,
+      "8,93": 1,
+      "8,94": 1,
+      "8,95": 1,
+      "8,96": 1,
+      "8,97": 1,
+      "8,98": 1,
+      "8,117": 1,
+      "8,118": 1,
+      "8,119": 1,
+      "8,120": 1,
+      "8,121": 1,
+      "8,122": 1,
+      "8,123": 1,
+      "8,124": 1,
+      "8,125": 1,
+      "8,126": 1,
+      "8,127": 1,
+      "8,128": 1,
+      "8,129": 1,
+      "8,130": 1,
+      "8,131": 1,
+      "8,132": 1,
+      "8,133": 1,
+      "8,134": 0,
+      "8,135": 0,
+      "8,136": 0,
+      "8,137": 0,
+      "8,138": 0,
+      "8,139": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,3,5,10",
+    "9,2,46,141",
+    "2,92,3,51",
+    "7,4,2,130"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "Name": "515397b3-ef9b-4f31-a45b-aa3c3ce18665",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 2,
+      "Location": "40,0",
+      "Size": "200,224"
+    },
+    {
+      "Name": "d7fb6181-e71a-4167-8b3d-6a2865f62b2a",
+      "DisplayName": "背景画像2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Location": "40,0",
+      "Size": "2820,100"
+    }
+  ]
+}//3zrAfwtfENtvHUO99rxS1GPw8LOaucKyy6KzoYOxyWoZ3OJbMtILqTJISsDZre6vK+k5JFiHoqBCb1rS4VLwP9TcaOU1+O44NMgDx/7Vzrpkphr0lG8uyqDMhSUd/gcDK4hDPhBdAEpaOGguz8tYETfzCLCObH9+3T+h97F1EMOxJrYKHSF5K84odO7BSYNQPzIab88tORyqPzeDlQjY5hLsx9LBlF2keNawDGWDxunwqtqueMc0YDbrfcjA1txNwKCGOGNez+a1N87TzUp2bF9F0AORs1dFEx5e+K8OJowkUI6s2bi7f+S5LGwWq/HG9/UCCMdoxcuPAYDygDOjqPp6fT6RP6/Z9iFHZcxKN+J6dT5oyCKMkchkW68qDZndqu9qf3wYSf6Exph9EUjogZUNsVPFLJ98ELjzjIau5wL8LEJ83vhePswQu0INjGeqMrTeQWfYpGmyqwxibgUdUSu7KWA9Pd4oEbIp2wKNXdGUAzflnYZkumhT75J4cNDiBlj7UgVD2V0uqqPiaTdbNKJEP8eiiO7fQyQIsmMoeCmHUDoTQOy85yXH+nqEjcmxG9JBBBkO/KPbhKDzpygklka7jhZK2DEDFjDRvywbPer4UhH6QutCz078Ee1i/VI1iNHnEki1Sa9D/IBfJCBy23y51WQtE93rTNUKsDCDeAm2uCZ+PoKSw+jiQFi4tbqP0x9eYzrj/IoDIM6sDwjNvsXVop6g4P/wlIGVD6NYit9850fMwI4vJxhlD61d8CseH/g/vIQPX5K+RXuSZC+MGITNweAMTBuKrrkgL89PXuo0IOkcDT52G3acc9NGZQEw2NU52+S/bjG+ZI7xp9pSit1DOldxJBtYWv4d4J0h6oBqhurHE3SxxTgjyJ8DOHqPtzX2/CiYUjH9N2dNoI6tcg==|920
