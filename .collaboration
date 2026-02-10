@@ -173,7 +173,17 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-10T15:21:56.3921001+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\進捗管理表.json",
+      "Pages\\進捗管理表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成",
