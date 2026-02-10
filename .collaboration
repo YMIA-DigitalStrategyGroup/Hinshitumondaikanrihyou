@@ -189,11 +189,31 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-10T11:53:47.0668081+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト_管理表.json",
+      "Pages\\クレームリスト_管理表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表 (3)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-10T11:53:47.0669982+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト_管理表 (3).json",
+      "Pages\\クレームリスト_管理表 (3).rd"
+    ]
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
@@ -221,7 +241,17 @@
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-10T11:53:47.0663098+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
+      "Pages\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ2",
