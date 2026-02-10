@@ -1,7 +1,16 @@
 [
   {
     "ModuleName": "Table/品質問題_進捗管理表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-10T17:06:25.1658037+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_進捗管理表.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_クレーム費用",
