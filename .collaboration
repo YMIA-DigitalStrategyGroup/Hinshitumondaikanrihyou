@@ -453,15 +453,5 @@
     },
     "LockDateTime": "2026-02-16T16:48:10.0025749+09:00",
     "ModuleType": 22
-  },
-  {
-    "ModuleName": "Table/期間費用明細",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-16T16:50:46.8358831+09:00",
-    "ModuleType": 7
   }
 ]
