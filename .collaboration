@@ -483,5 +483,15 @@
     },
     "LockDateTime": "2026-02-19T11:00:13.1661781+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/クレームリスト_編集画面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-19T11:00:39.0586831+09:00",
+    "ModuleType": 1
   }
 ]
