@@ -18,7 +18,16 @@
   },
   {
     "ModuleName": "Table/tknow",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-19T13:13:57.425741+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tknow.json"
+    ]
   },
   {
     "ModuleName": "Table/mname",
@@ -233,7 +242,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-10T11:53:47.0668081+09:00",
+    "LockDateTime": "2026-02-19T13:13:57.4257138+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\クレームリスト_管理表.json",
