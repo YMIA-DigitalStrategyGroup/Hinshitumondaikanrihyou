@@ -321,7 +321,17 @@
   },
   {
     "ModuleName": "MasterPCPage/メニュー進捗管理表",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-19T14:17:49.3038172+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\メニュー進捗管理表.json",
+      "MasterPages\\メニュー進捗管理表.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/クレームリスト管理表",
