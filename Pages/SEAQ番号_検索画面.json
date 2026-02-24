@@ -264,7 +264,10 @@
             }
           ]
         },
-        "TopCondition": null,
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 100
+        },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
         },
@@ -410,6 +413,28 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "PassValueBack": true,
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "e411bb82-de43-4000-9292-b0589b7067f1"
+              }
+            ]
+          },
+          {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
             "ParameterName": "設定有無",
             "TableValue": {
@@ -428,7 +453,8 @@
                 }
               }
             },
-            "ID": "92fe762864d74b03a8999e80b8f14199"
+            "ID": "84ca7208309d40b5a863a2f8bb3688be",
+            "Disabled": true
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -446,14 +472,8 @@
                   },
                   "value": "0"
                 },
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                    "PassValueBack": true,
-                    "ReloadData": true
-                  }
-                ],
-                "ID": "fd189eee-834d-45d4-a71a-8ee38aab5d8a"
+                "CommandList": [],
+                "ID": "a864197b-781b-426a-af91-fd2548cd7c77"
               },
               {
                 "CommandList": [
@@ -462,9 +482,10 @@
                     "MessageFormula": "SEAQ番号は既に設定されています。"
                   }
                 ],
-                "ID": "219ac131-6273-4f9f-a6af-7b060c22d777"
+                "ID": "1a465f1b-a5fa-4cf1-8110-ad6733bc128d"
               }
-            ]
+            ],
+            "Disabled": true
           }
         ],
         "Text": "適用",
@@ -916,4 +937,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//ToQ9CFK+/zaadoYBM8xP/kVmbaMV79+73tTP13W7uBcK8pDWdt+DaN/0i5d0zv0+5qumbIeDpIRH/hFvUtECXCecixjUYaTu51Gnl2GRCUqO4/nsaRrIClyTWBI4a8kFhNpmlQYMReEuz8gYCsQd6kT7hpbrH1kD8D9EF2P4TvzrZxn4bbBptvJIQSxJDlWliPhTEdbGsT9RIS/ILmjr3IcS0lK37F1Blmxsj5tblWRlSJhfiTyOe0BqcwLbEwZftbhhxNKe1a+ClQgeJAmXAZG5NubpS4qKUY9W2o41HAFoxET1hBxgEdXNQfBQvGEgimYvCLHIRaLCpNY//HiUcmdqHW2ZuJn1SyOHpsm6BBYFQZLinZicR55ORlytcDeV0Ms2bssX+T3RMvFrtiPhUWGKIxBVckIswwzU5ULwuDtf5FS4WGdZ5Ytdntg4XbwozRqut3ANAEJ7OiTKKm8RKHirZ5z5iqggphuxtIgYolUR1QQUhvBCiefiIC7bVl+svMPeIapi2zVAwhIvo1l5WGUeD0pd7+YHtzsYg7GHnka6AN//4SfQEpGOIRPkS9RNIEqkVlUhCHzCXfC3kHbOm09pdoAskst3di0AVzXGEtjQh6/iu6dv0vhCrd2piYuY5UEGylItOzkTSCXbl3fZ4z/vlG9Gl/R+GUn0Isd3ZSqmRugO9qYCkCh+WSJBFUL5Q36fauWdqGV3Eue8OUtL+e7SCF8CpeS5Wf2gtVJlwLjAIfyfRNQu6j4wujTyXJCMUq5SXnszo5mPLaFb6EJRCNHz6XehxKT2tniw0GLnIpT8k7RYPnAbi5+5l8TuVB66sjFtn5uSkKmw8L/wv2uaShtXDS8dF2CbDx6ljbLT5SWzd7Z7A8hL2fzqWQOEidw9rq48/5AC/c4ANV4Hrpsjjw==|920
+}//MbvXCSc8NMqzpNMbM9PTOS3oO9AWGVgcANtX0K7VQUjsNm695vERS0+zV08nzj6uOaat9NhnxUqLWQDgI2T9s77f6VQcqBBfN+8hLuU/goG8zQfpKJtOV1S5zyKckJuhAOwa7X11QjIf6zq06K1gCvbQmX4shjKbc+pzb+4IhJ6ysV0Xw61MW1GpPGSoLuUngHGkdnPMAewtPHwrW/YH55D/V+xO9kEVIFHKXLI1cJ1KNZcNWg3GRa1fQdgKdbsJAhVKYCH0CmNOd4zEWhVQC3lbFztkjFM6+fdqTWbaws+YfmEV37QdWtoSp3G5M+PNpzfY96PzCGhFL0bfiL2qAV10M4+thGiERlG6tM6H8DGr9HkGbkfaPRWD+tz0WE7DcaNFwi6AE6bm+MlCVAc/AUgik3DJUDT3vBOsGQYCxieJcyLYE+WRZzTuskEx8EqCNr+BUVd3jrTbZvPAxZluuvX9HYn1m6F/lZlHPLmdebCMtDh2EYXf5CQEWYwhw4oECGfXyfulo8wOoU2R5QVzG/SAB4PMkKwEnnvIz/bnoBcBZhhrx8ddgVtoAL2fMNxUMI3dIcYw/cq5bpTPHuWdG2wJf36ebk3ZA+DoL7eT+xbkmxJEWwuBqbkOkgmJYJ2ZCZIaUUac/m2jvW98bYZKewHFf4UWep0IXI/acA3mluMdJ0oOc8rooIOTi+GJ+Vh8+Q8iymDtGd5dDLZpe4lbdcuV3JZL4+MHfSZTmT8Gm82PWguM844snJYSK7/1FabwEZfIPQKUaGbmsg4AjtSK2byjoHmIr9E+UV02xEMkvFGTUfZowW1LVtMBZxiLxhsOfPWDvS3TiRFruZLDvz/JsmbU7fIeAI/wlkM2uiC54dFsdAWgm/uKsqDX+pH8Jk4I1nBtcq19qd8orGcZsiwxUA==|920

@@ -537,7 +537,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEIBAN",
-        "GUID": "0a8d6b57-72dd-4533-bfef-307fb396fa3c"
+        "GUID": "31cece84-1d42-45af-b8c8-a4376d7bde20"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -553,27 +553,27 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TORIHIKISAKI_CODE",
-        "GUID": "a1e9610c-d0bd-4dad-959e-20fc31c27c69"
+        "GUID": "4ce5045e-1107-4c1a-8710-573460ee5792"
       }
     },
     "3,24": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SHAGAISEKININ_TORIHIKI_CODE",
-        "GUID": "58268e0c-a57a-4ff7-8bbd-e94c4910e660"
+        "GUID": "f818aeb5-58f2-4307-a95c-aae65cc7fbab"
       }
     },
     "10,8": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "JOHO_NBR",
-        "GUID": "5270434e-613b-4b32-bc9b-8674e25a7aa5"
+        "GUID": "3782f565-0d38-4cb9-b706-cdaa1d8e7f62"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_新規作成!Y1"
+          "SerializeProperty": "=クレームリスト_編集画面!Y1"
         },
         "SavedValidators": [
           {
@@ -591,14 +591,14 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TITLE",
-        "GUID": "c68fd78c-302d-41fd-b2ce-d6bb6f5628c9"
+        "GUID": "60e98113-6ec7-4296-b867-1011b8d94a3b"
       }
     },
     "19,8": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HASSEI_KUBUN",
-        "GUID": "4a007c1f-102c-40f9-9d4d-39bce640629d"
+        "GUID": "b9a94184-431f-4478-8ca9-a874967d21ed"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -620,7 +620,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "NYURYOKU_KUBUN",
-        "GUID": "d6bcbc1a-90a5-4254-bd62-d6efb508f810"
+        "GUID": "72d2b2a6-b0c8-4960-8500-a8c39b6d933d"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -646,13 +646,13 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "W_NBR_HAKKOBI",
-        "GUID": "b7723a1d-fe7c-4227-a900-b170bfbe293b"
+        "GUID": "afab1ebd-187b-441f-bfc5-93b9268676d7"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_新規作成!Y2"
+          "SerializeProperty": "=クレームリスト_編集画面!Y2"
         },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
@@ -661,15 +661,10 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEIZOBI",
-        "GUID": "1f69da46-79d0-41a1-9d4c-7dd73c895e57"
+        "GUID": "2468e2bb-79aa-414a-a7ea-be7c7de8b6ee"
       },
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
@@ -677,7 +672,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEAQ_NBR",
-        "GUID": "4b029574-274a-419f-a980-06cb78dc15a6"
+        "GUID": "984dfc53-8ebc-4229-93aa-bde24302f2f2"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -700,7 +695,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!I14"
+                  "SerializeProperty": "=クレームリスト_編集画面!I14"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=SEAQ番号_検索画面!C4"
@@ -709,7 +704,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!Y14"
+                  "SerializeProperty": "=クレームリスト_編集画面!Y14"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=SEAQ番号_検索画面!O4"
@@ -718,7 +713,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!I25"
+                  "SerializeProperty": "=クレームリスト_編集画面!I25"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=SEAQ番号_検索画面!H1"
@@ -735,15 +730,10 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "NONYUBI",
-        "GUID": "88301d9b-f165-4a9c-b065-671a2246fb06"
+        "GUID": "8c59536a-075c-4c93-9084-57d5db513287"
       },
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
@@ -751,7 +741,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HASSEI_DATE",
-        "GUID": "2c89f312-e7a2-4402-9522-001c32adb48f"
+        "GUID": "040803fd-4b0a-4421-b3d8-8e95e680c213"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
@@ -771,11 +761,11 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "a2f88a43-3ad5-49e0-bc84-0d073a8a3c8a",
+                  "GUID": "58e8d014-b59c-4df6-9e60-ba144d4bc75f",
                   "BindingInfo": {
                     "TableName": "v_baa38",
                     "ColumnName": "A38070",
-                    "GUID": "3447c573-0ba8-4a0d-a8ab-255c4155efd4"
+                    "GUID": "7ce7f709-522e-4aa3-bca6-059088d78cd0"
                   },
                   "ColumnName": "A38070"
                 }
@@ -788,11 +778,11 @@
                     "ColumnBindingInfo": {
                       "TableName": "v_baa38",
                       "ColumnName": "A38020",
-                      "GUID": "d6d3ecb4-20ca-4696-95e6-4a96c380b501"
+                      "GUID": "f36f5eaa-0380-4298-b682-bdea20a5a15d"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!I14"
+                      "SerializeProperty": "=クレームリスト_編集画面!I14"
                     }
                   },
                   {
@@ -800,17 +790,17 @@
                     "ColumnBindingInfo": {
                       "TableName": "v_baa38",
                       "ColumnName": "A38030",
-                      "GUID": "85c7a89c-e51b-4a6b-8ec7-e56037916268"
+                      "GUID": "f3da6199-a794-4d0f-bb6c-4a303bdcfb40"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!Y14"
+                      "SerializeProperty": "=クレームリスト_編集画面!Y14"
                     }
                   }
                 ]
               }
             },
-            "ID": "173030d899c44b67a0eb46b72dff0c1c"
+            "ID": "eed55e10c3af48b5849843cbea4024f6"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -825,7 +815,7 @@
                   "BindingInfo": {
                     "TableName": "v_baa23",
                     "ColumnName": "A23280",
-                    "GUID": "dee134dc-ee3f-4fda-8604-351431e35843"
+                    "GUID": "48d1afcb-00bf-4ccd-95fb-06cb72042a32"
                   },
                   "ColumnName": "A23280"
                 }
@@ -838,11 +828,11 @@
                     "ColumnBindingInfo": {
                       "TableName": "v_baa23",
                       "ColumnName": "A23080",
-                      "GUID": "c9b23b1e-078b-4f11-ae25-8c5d6d482b0d"
+                      "GUID": "c183ed7c-a5b1-437e-add5-a3715ee9ed7d"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!I14"
+                      "SerializeProperty": "=クレームリスト_編集画面!I14"
                     }
                   },
                   {
@@ -850,17 +840,17 @@
                     "ColumnBindingInfo": {
                       "TableName": "v_baa23",
                       "ColumnName": "A23090",
-                      "GUID": "321429a9-672e-4cfb-9bae-afa2264caf81"
+                      "GUID": "67c3362a-f4c7-4226-890c-2609bb9c9bd1"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!Y14"
+                      "SerializeProperty": "=クレームリスト_編集画面!Y14"
                     }
                   }
                 ]
               }
             },
-            "ID": "33d20270d05c4fc896a168ebb2a1a97a"
+            "ID": "49dd9b88f4fc448cb9f309aeadec2a2c"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -868,21 +858,21 @@
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!Z23"
+                  "SerializeProperty": "=クレームリスト_編集画面!Z23"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!製造年月日"
+                  "SerializeProperty": "=クレームリスト_編集画面!製造年月日"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!Z25"
+                  "SerializeProperty": "=クレームリスト_編集画面!Z25"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!納入年月日"
+                  "SerializeProperty": "=クレームリスト_編集画面!納入年月日"
                 }
               }
             ]
@@ -896,7 +886,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "d1ba21d3-f2d1-4ac7-9abf-c46f0840dd30"
+        "GUID": "6d7d615f-f4db-4efc-981b-f99ee8238901"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -908,19 +898,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "ea57dd01-f9f4-41dd-a57a-494ca15b1389"
+          "GUID": "55c9106e-3ff8-4584-9497-5bbee098bd49"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "5c7d59d1-804d-466d-9b85-00049a511a01"
+          "GUID": "70586d40-7133-4c85-ae6b-2b1bc243badc"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "5d8b87e4-b18c-46c0-a2f6-994843e64dbe"
+            "GUID": "b7071b07-e3d9-4955-b0a2-69c6a2a219bc"
           },
           "Value": "部品又は場所別"
         },
@@ -930,7 +920,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "2fbb1978-640f-4269-b06e-7141348da481"
+              "GUID": "a4df9232-1be8-4c5e-8af7-0ab4e9ce9832"
             },
             "ColumnName": "コード",
             "Formatter": "000"
@@ -940,7 +930,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "af1c108a-ca82-492f-afee-596d98b79d40"
+              "GUID": "02aa03b6-ba62-4df0-8266-4cbdc674c0aa"
             },
             "ColumnName": "名称"
           }
@@ -955,7 +945,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "bed8a042-810e-4ff3-95d3-f927f261977e"
+        "GUID": "3ff47ea2-9170-4f4c-a09b-9778f133b478"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -967,19 +957,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "25d55dd9-1ad0-4f97-a861-48fb163cc6f7"
+          "GUID": "ba3bec9d-0138-4a43-a4a4-e525069aeba2"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO",
-          "GUID": "99fa9f9d-6f86-4beb-978e-2a42ea1ac4dd"
+          "GUID": "6a18a7d1-286a-46c1-9934-671610c99297"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "MEISHO_KUBUN",
-            "GUID": "157c7798-26c8-42bd-893c-908d1ad0e0ec"
+            "GUID": "149a7b0c-2472-408c-9323-1a1744f3581f"
           },
           "Value": "91"
         },
@@ -991,7 +981,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "36fbb865-47f9-443f-9832-b1cd9d819b7d"
+        "GUID": "cd34a1db-a4e3-473c-bc0c-a183a255f9d8"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1003,19 +993,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "8b38c24f-a898-4c5e-bf34-8c8b9e01a6ed"
+          "GUID": "a056178e-582f-4c71-ab04-525f9ffa2774"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "1c806368-60b2-4ba7-b53d-3d10631a6bb7"
+          "GUID": "df2d69e2-7b7f-4f8e-8ece-2b91030fca65"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "30b0c5e0-e4b0-411b-9846-c0c78c7fda1a"
+            "GUID": "7bac693e-e474-4b07-8cdd-4e28d415cd5f"
           },
           "Value": "要因"
         },
@@ -1025,7 +1015,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "f4fc4782-fd6b-4d23-981d-aba5f2039219"
+              "GUID": "46943fc2-413e-4631-916b-89adda24c59a"
             },
             "ColumnName": "コード",
             "Formatter": "0000"
@@ -1035,7 +1025,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "61c0e396-0684-4828-b4f1-3ad5b3a23215"
+              "GUID": "b0e7cdf4-d880-4da7-a57d-dd2385276850"
             },
             "ColumnName": "名称"
           }
@@ -1050,7 +1040,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "1d5c6e91-d79c-49f3-80c0-0b4fd7b498c1"
+        "GUID": "f3e85cd0-eee2-46c8-bd60-35c20795474a"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1062,19 +1052,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "46d581aa-4f24-4bbb-a926-5f3507012d0f"
+          "GUID": "0d086d05-9da9-425a-9bff-925a5429d0f7"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "5520ed5e-6480-4fd7-aed9-c772cf9a1ceb"
+          "GUID": "05f16042-ca67-47d2-824b-0636171006f1"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "04201d96-e52c-41e5-9600-c94c7f70037a"
+            "GUID": "5c2c9e89-f1a4-4314-9f41-979fdddf7d91"
           },
           "Value": "現象"
         },
@@ -1084,7 +1074,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "390c5261-c827-47a4-9eff-d3afe5263e97"
+              "GUID": "b9c7873b-75f1-43bb-bc17-a116ca3e3d28"
             },
             "ColumnName": "コード",
             "Formatter": "000"
@@ -1094,7 +1084,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "7f94992a-c13f-4d73-a170-593f3c84c423"
+              "GUID": "05fdd548-d78d-4257-bab3-77f10ebca6f6"
             },
             "ColumnName": "名称"
           }
@@ -1109,7 +1099,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HASSEIHINDO",
-        "GUID": "822acf64-51b4-4538-a559-866bd3760fda"
+        "GUID": "c3985c20-af41-4dbc-9eb7-2ec9605d4a39"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1120,19 +1110,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "146854b0-07b2-4ba0-8380-9a7becc22e31"
+          "GUID": "a5e96573-0a08-4c46-95bc-b3dfb6d0ae22"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "75472dad-f884-4630-8a44-b2424c10e87a"
+          "GUID": "e6ec1169-9f08-401b-a651-2d2e8be2068c"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "81e8acce-6b3d-4c32-b7af-47fa278bb257"
+            "GUID": "b6905cf8-c126-401a-9929-02c9e33593a5"
           },
           "Value": "発生頻度"
         },
@@ -1142,7 +1132,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "3179be88-fd9c-4c59-9cc6-1db96fbff934"
+              "GUID": "9f0bec15-c2d5-4952-bdc9-b85c988618b1"
             },
             "ColumnName": "コード"
           },
@@ -1151,7 +1141,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "2da6fc01-1d45-481b-b0df-85da65f1d231"
+              "GUID": "6e713859-ccd6-4052-a17f-612b7e6c0e2d"
             },
             "ColumnName": "名称"
           }
@@ -1166,7 +1156,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "RPN",
-        "GUID": "937477f3-1f81-4d5e-ab21-b0742b296e2f"
+        "GUID": "7530ffcb-8113-4054-b6fb-323f4b678872"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -1187,7 +1177,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                        "SerializeProperty": "=クレームリスト_編集画面!Z39"
                       }
                     ]
                   },
@@ -1201,14 +1191,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "S"
                       }
                     ]
                   }
                 ],
-                "ID": "674138f0-5b74-4f91-86ef-bf0534a7150f"
+                "ID": "0037eea2-f695-4979-a6f5-b1acca992f55"
               },
               {
                 "Condition": {
@@ -1220,7 +1210,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1233,7 +1223,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1249,14 +1239,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "A"
                       }
                     ]
                   }
                 ],
-                "ID": "8696d158-5e07-474e-af7f-06afc0767f5e"
+                "ID": "1b6f3ff4-001d-4a45-baee-813ab846d466"
               },
               {
                 "Condition": {
@@ -1268,7 +1258,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1281,7 +1271,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1297,14 +1287,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "B"
                       }
                     ]
                   }
                 ],
-                "ID": "bd3b76fc-7280-4003-abe7-dfa068425657"
+                "ID": "f704b000-05c7-4697-b3ab-7e0446b78b33"
               },
               {
                 "CommandList": [
@@ -1314,14 +1304,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "C"
                       }
                     ]
                   }
                 ],
-                "ID": "ec15aa2e-1e3d-4ecd-abd7-8990b606f994"
+                "ID": "b5e34d10-e709-4a47-a01f-6f1548bcc805"
               }
             ]
           }
@@ -1335,7 +1325,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "EIKYOUDO",
-        "GUID": "fe046cbb-b3ef-4262-af65-010afc285eef"
+        "GUID": "49beb303-5d87-4f56-be74-ef6447b5c77a"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1346,19 +1336,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "74e34874-c4d9-4049-938c-79f8a11a501c"
+          "GUID": "6ef678ff-6577-44df-adc4-0fba37c12264"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "7859a1e3-2387-47d1-a566-8664899548a5"
+          "GUID": "7d864d82-913e-480d-8030-00f4b368d9a4"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "d4e5550f-3140-4e32-86af-9309ecd7c26e"
+            "GUID": "17b79349-4710-4e62-b9d8-32daa2e41e60"
           },
           "Value": "影響度"
         },
@@ -1368,7 +1358,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "9f2d463b-950c-43cc-af1a-67de75e11c61"
+              "GUID": "f158f930-7a10-41dc-9397-445a34e5a90c"
             },
             "ColumnName": "コード"
           },
@@ -1377,7 +1367,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "ca96891f-920d-42e2-9fb9-e7896f0931e4"
+              "GUID": "a081e5b1-eeb7-4a58-93b4-6d0725ab9c85"
             },
             "ColumnName": "名称"
           }
@@ -1392,14 +1382,14 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "JUYOUDO",
-        "GUID": "8f022e86-bc5a-4334-b5fd-a87cf70a6968"
+        "GUID": "a36c0948-b471-49ac-9664-45ee8cbec392"
       }
     },
     "42,8": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "KENSHUTUNANIDO",
-        "GUID": "2639c6ec-ece2-49a7-8ea2-401c3d38783c"
+        "GUID": "0ef02523-c3d8-4e2b-8ba2-58e43295a1da"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1411,19 +1401,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "c24096e1-f32c-4a31-bd2e-4b39bdd00596"
+          "GUID": "1de37444-7ca0-4b8b-a0b0-654985fac419"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "f8682026-afa2-4442-b7c8-4b131c82ae57"
+          "GUID": "a40e9c6e-4755-4fe5-beff-8cb9a3420077"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "67d3a334-6331-4b5b-8eb3-f4df26a13154"
+            "GUID": "f735a4c5-9d94-4a4d-b2c0-35d95ed65c1f"
           },
           "Value": "検出難易度"
         },
@@ -1433,7 +1423,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO_CODE",
-              "GUID": "00cf9bd6-0fa8-4512-8c75-4dd018b184a2"
+              "GUID": "5857b489-cd51-40aa-aba5-cb4ee1b20110"
             },
             "ColumnName": "コード"
           },
@@ -1442,7 +1432,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "076f86fd-1243-4df0-a491-ace8e59df7a3"
+              "GUID": "5e1cd282-a3f2-4bd4-a804-b6e458e29f47"
             },
             "ColumnName": "名称"
           }
@@ -1457,7 +1447,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "NAIYO",
-        "GUID": "572e6c3e-4570-496c-afd7-0549905aa11a"
+        "GUID": "0bc33547-59de-4503-b95b-164a0339907b"
       },
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
@@ -1471,7 +1461,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENIN",
-        "GUID": "a0bd2b92-59d9-4bea-974c-2f75803a74f9"
+        "GUID": "511ddc6e-c23a-4320-8c41-ada124955723"
       },
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
@@ -1482,7 +1472,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SAIHATUBOUSHI",
-        "GUID": "d506fa83-0931-4bbe-a6ed-7a455c7e23c1"
+        "GUID": "c88fe8e2-936f-4d87-9522-967715842d94"
       },
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
@@ -1493,7 +1483,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SHAGAISEKININ_TORIHIKI_CODE",
-        "GUID": "91ad387c-ffd5-46b8-b5c6-52c534e0d5a7"
+        "GUID": "15fa9cd1-4154-4f2b-aa6f-1396f0a087e4"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1505,12 +1495,12 @@
         "ValueColumnBindingInfo": {
           "TableName": "mtorihiki",
           "ColumnName": "TORIHIKISAKI_NAME",
-          "GUID": "0a208fc7-f553-42d9-b37f-1dffa661ae4c"
+          "GUID": "ab077bdc-20a6-4852-a7aa-d172b8f1f302"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mtorihiki",
           "ColumnName": "TORIHIKISAKI_NAME",
-          "GUID": "9d1f06cc-d95a-4efd-b175-b607041d252d"
+          "GUID": "a87533ff-bad6-4a5c-adba-dc668425cbdf"
         }
       }
     },
@@ -1518,7 +1508,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TAIOUHOUHOU",
-        "GUID": "8414386b-ce86-4867-a988-d2be79b51510"
+        "GUID": "dcf8ada3-9c33-4b70-803e-2bf35b320162"
       },
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
@@ -1529,7 +1519,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "3fd2617a-2fdb-4d54-897a-2f5a675e3719"
+        "GUID": "bd8a48d6-e62f-487e-a72a-4fa818ef4a0c"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1542,19 +1532,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO_CODE",
-          "GUID": "923e63cb-c69d-4598-9dd2-906c74011b52"
+          "GUID": "fa972684-ba55-428f-a755-e7b0aca1b033"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO",
-          "GUID": "56f5add8-dcf1-4746-8c40-4947ca81c247"
+          "GUID": "dc600f64-4746-4c6a-a9d3-6b89a229c0cc"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "KUBUN_MEISHO",
-            "GUID": "6fd047bf-64fe-4fcd-b579-1104fc45c9e4"
+            "GUID": "6c370b3a-14ea-4b69-a866-06d22969ad0d"
           },
           "Value": "責任部門"
         },
@@ -1576,15 +1566,15 @@
                 "ColumnBindingInfo": {
                   "TableName": "品質問題_進捗管理表",
                   "ColumnName": "W番号",
-                  "GUID": "20f8865b-b6fa-4eec-9ee5-e121468f202b"
+                  "GUID": "8138b670-193b-45cb-b3bb-6cf7eb4f87b0"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!H84"
+                  "SerializeProperty": "=クレームリスト_編集画面!H84"
                 }
               }
             },
-            "ID": "e1474e4601f840b1bd1519ed5475ac01"
+            "ID": "533a98bba5a545ca883af2206b1132b7"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1595,11 +1585,11 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "4f587ac8-eb0f-41b3-9531-0a8f16d7eab4",
+                  "GUID": "069f431f-87b9-4d6d-9262-9dbf4b05e1f2",
                   "BindingInfo": {
                     "TableName": "tknow",
                     "ColumnName": "W_NBR",
-                    "GUID": "3aa179f0-f2df-407e-b157-3e868ce9f304"
+                    "GUID": "67fa0903-a352-436d-ba8a-808937dfcc59"
                   },
                   "ColumnName": "W_NBR"
                 }
@@ -1611,14 +1601,14 @@
                     "ColumnBindingInfo": {
                       "TableName": "tknow",
                       "ColumnName": "W_NBR",
-                      "GUID": "032e9d3c-84bd-4411-aeac-d67c19d05450"
+                      "GUID": "b40f4444-80dc-4d8b-8f07-c95d6c489394"
                     },
                     "Order": 1
                   }
                 ]
               }
             },
-            "ID": "2758f71eef324abe80378f9ef9456a58"
+            "ID": "2d700d5202c34b1fa2957960fe6d6a37"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1633,33 +1623,6 @@
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "tknow",
-                    "UpdateType": "add",
-                    "ShowConfirm": false,
-                    "UpdateBindingValues": [
-                      {
-                        "BindingInfo": {
-                          "TableName": "tknow",
-                          "ColumnName": "KOSHIN_TIMESTAMP",
-                          "GUID": "115f8a6e-861b-4c35-b1b4-965e215ca852"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Y6"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "tknow",
-                          "ColumnName": "KOSHINSHA_CODE",
-                          "GUID": "f2682b0a-b516-42b1-b796-bba24dbb4dc0"
-                        },
-                        "Value": "%CurrentUser%"
-                      }
-                    ]
-                  },
-                  {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
                     "ConditionAndCommandPairList": [
                       {
@@ -1669,70 +1632,159 @@
                             "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                             "cellLocations": [
                               {
-                                "SerializeProperty": "=クレームリスト_新規作成!AO1"
+                                "SerializeProperty": "=W番"
                               }
                             ]
                           },
-                          "compareType": 1
+                          "value": "0",
+                          "compareType": 2
                         },
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                            "TableName": "品質問題_進捗管理表",
-                            "ShowConfirm": false,
-                            "RowsToUpdate": 1,
-                            "RowsToUpdateCondition": {
-                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                              "ColumnBindingInfo": {
-                                "TableName": "品質問題_進捗管理表",
-                                "ColumnName": "管理番号",
-                                "GUID": "83ba402d-4382-4715-9d13-e646fcb5ad06"
-                              },
-                              "Value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                "SerializeProperty": "=クレームリスト_新規作成!AO1"
-                              }
-                            },
-                            "UpdateBindingValues": [
+                            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                            "MessageFormula": "このW番号は既に発番されています。"
+                          },
+                          {
+                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                            "PropertyItemsList": [
                               {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "W番号",
-                                  "GUID": "7455a26a-d4ff-4f74-9fe9-f96d031c7bcc"
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=クレームリスト_編集画面!H84"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_新規作成!最新W番号+1"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "W番号発行日",
-                                  "GUID": "2ec4b7d2-11c7-4bde-a38a-9def3076f9ef"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_新規作成!I23"
+                                  "SerializeProperty": "=クレームリスト_編集画面!最新W番号+1"
                                 }
                               }
                             ]
                           }
                         ],
-                        "ID": "82184aba-a484-444c-826c-5d3be79c9a7c"
+                        "ID": "df910ae7-99f6-4ff8-8294-8213b40d721d"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "tknow",
+                            "UpdateType": "add",
+                            "ShowConfirm": false,
+                            "UpdateBindingValues": [
+                              {
+                                "BindingInfo": {
+                                  "TableName": "tknow",
+                                  "ColumnName": "KOSHIN_TIMESTAMP",
+                                  "GUID": "aae041ec-d281-473d-a9b1-4bb022b851dd"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=クレームリスト_編集画面!Y6"
+                                }
+                              },
+                              {
+                                "BindingInfo": {
+                                  "TableName": "tknow",
+                                  "ColumnName": "KOSHINSHA_CODE",
+                                  "GUID": "ee8a0829-0366-4279-8640-da745b6c8930"
+                                },
+                                "Value": "%CurrentUser%"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                            "PropertyItemsList": [
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=クレームリスト_編集画面!I6"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=クレームリスト_編集画面!H84"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                            "ConditionAndCommandPairList": [
+                              {
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "=クレームリスト_編集画面!AO1"
+                                      }
+                                    ]
+                                  },
+                                  "compareType": 1
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                    "TableName": "品質問題_進捗管理表",
+                                    "ShowConfirm": false,
+                                    "RowsToUpdate": 1,
+                                    "RowsToUpdateCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "品質問題_進捗管理表",
+                                        "ColumnName": "管理番号",
+                                        "GUID": "fcbcbe61-be9a-4429-8353-eca2159d3ca4"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=クレームリスト_編集画面!AO1"
+                                      }
+                                    },
+                                    "UpdateBindingValues": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "品質問題_進捗管理表",
+                                          "ColumnName": "W番号",
+                                          "GUID": "8eca9327-7f28-4fa8-822a-68310d95acc1"
+                                        },
+                                        "Value": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=クレームリスト_編集画面!H84"
+                                        }
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "品質問題_進捗管理表",
+                                          "ColumnName": "W番号発行日",
+                                          "GUID": "6c20946c-abed-42e8-8581-f82fd2259201"
+                                        },
+                                        "Value": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=クレームリスト_編集画面!I23"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "ID": "9368ea07-1385-4922-9e7e-dec899c0e436"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                            "MessageFormula": "クレーム情報を追加しました！！"
+                          },
+                          {
+                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                            "ReloadData": true
+                          }
+                        ],
+                        "ID": "b6e1e9d1-f726-490e-908a-bd570f492f69"
                       }
                     ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
-                    "MessageFormula": "クレーム情報を追加しました！！"
-                  },
-                  {
-                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                    "ReloadData": true
                   }
                 ],
-                "ID": "c9c54386-471f-4ae6-9f77-c76903f5081d"
+                "ID": "73cce2c5-8db3-4d9d-b3d3-fd12e29b5b92"
               }
             ]
           }
@@ -1773,7 +1825,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                        "SerializeProperty": "=クレームリスト_編集画面!Z39"
                       }
                     ]
                   },
@@ -1787,14 +1839,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "S"
                       }
                     ]
                   }
                 ],
-                "ID": "6b555f81-f107-4f08-9262-8afe7c9c707b"
+                "ID": "d22d8a06-811c-41ea-8190-b39a53b0322b"
               },
               {
                 "Condition": {
@@ -1806,7 +1858,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1819,7 +1871,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1835,14 +1887,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "A"
                       }
                     ]
                   }
                 ],
-                "ID": "32d17cbd-a5c1-4fd4-855a-9da3cb93ce38"
+                "ID": "0bbe9896-5f21-4358-8db8-f01e39f96fce"
               },
               {
                 "Condition": {
@@ -1854,7 +1906,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1867,7 +1919,7 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "=クレームリスト_新規作成!Z39"
+                            "SerializeProperty": "=クレームリスト_編集画面!Z39"
                           }
                         ]
                       },
@@ -1883,14 +1935,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "B"
                       }
                     ]
                   }
                 ],
-                "ID": "805cf7b9-2960-4daa-a1de-a8bfdd0a7ec9"
+                "ID": "64b35458-8db6-4bdb-a121-07d82afe513a"
               },
               {
                 "CommandList": [
@@ -1900,14 +1952,14 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_新規作成!Z41"
+                          "SerializeProperty": "=クレームリスト_編集画面!Z41"
                         },
                         "Value": "C"
                       }
                     ]
                   }
                 ],
-                "ID": "28f558d1-a3ba-4e07-b1e3-ce742590771c"
+                "ID": "f6476c42-3052-4c30-ac3c-58b9ffa91ad3"
               }
             ]
           }
@@ -1921,13 +1973,13 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SHORIGETUDO",
-        "GUID": "796d44bf-dfc3-4011-be1d-edbc80f01a42"
+        "GUID": "e04dff83-df1e-4635-a174-ba7e785b5427"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_新規作成!Y2"
+          "SerializeProperty": "=クレームリスト_編集画面!Y2"
         },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
@@ -1936,7 +1988,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TAIOUHOUHOU",
-        "GUID": "12e6faec-4d9c-40dd-a3f8-12e83f5177aa"
+        "GUID": "999410d5-f967-45da-9b62-36455692b11d"
       },
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
@@ -1947,13 +1999,13 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "W_NBR",
-        "GUID": "8616eb4a-72bf-41da-b89c-d1c9c0c6b9a6"
+        "GUID": "836d3c69-a64c-4f73-b9a5-e26be737b214"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_新規作成!Y3"
+          "SerializeProperty": "=クレームリスト_編集画面!Y3"
         },
         "SavedValidators": [
           {
@@ -4555,13 +4607,13 @@
     "7,1,1,3",
     "79,0,3,7",
     "79,7,3,25",
+    "22,25,2,9",
+    "24,25,2,9",
     "83,0,2,7",
     "83,7,2,9",
     "24,1,2,7",
     "24,15,2,2",
-    "24,8,2,7",
-    "22,25,2,9",
-    "24,25,2,9"
+    "24,8,2,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4576,7 +4628,7 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=クレームリスト_新規作成!I6"
+                    "SerializeProperty": "=クレームリスト_編集画面!I6"
                   }
                 ]
               },
@@ -4589,14 +4641,14 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!B70"
+                      "SerializeProperty": "=クレームリスト_編集画面!B70"
                     },
                     "Value": "作成"
                   }
                 ]
               }
             ],
-            "ID": "62453de6-2629-4150-be36-59a75116beb6"
+            "ID": "f8542d5b-243a-4e26-a887-e405b8bb2abe"
           },
           {
             "CommandList": [
@@ -4606,14 +4658,14 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=クレームリスト_新規作成!B70"
+                      "SerializeProperty": "=クレームリスト_編集画面!B70"
                     },
                     "Value": "更新"
                   }
                 ]
               }
             ],
-            "ID": "5b9b3ce8-6000-4b5b-aefe-2e8a58cfbb46"
+            "ID": "bf4a0fac-0fce-4475-949c-35a223c8b564"
           }
         ]
       }
@@ -4639,4 +4691,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//3zCBDPUGNo6jwAyTJd+8/FQEEe6kwPKPF/tCft1CN9C3s8sXwr3tBAXpPkFs8ES2a3k965Sa9GjSfJPIO4uAJnwkzDvYnbk11EEJOlJ6QPOiOaXL3w4fd2dlb6pmsGR451YkLqAFF7IIj3yJPDolCBCb6Z/p8zMpj5w6RX6Pl7GrCg9ypClARuoQCrrQpWgQxgh0MrdQ1ldSSHilS5aiy2shYyRj/LHoNxdrfwrPDC+y/sGRD2zzI7gudQEqegiBwSONbn8UejcgpurQS2p9WagB/uBWssNfa4eP5xpLqPxya4/81XaDSfAUUY7py9R69f29S2Pg53PRol07iBGaxdeuWp9UadHlSozKe8h+JSKMXHau53JJZNBgkaGx+fpG+fULru8/yAU0r3gtVdUBONyASNaBdE8/gwfz2WRy8DJ3y2teAx3oWjSgBPo2sBk5GLenGOkFTvmYAWCZbO7BpbJ6Nlma8TuIOX/x6VH0faynZwrtRE3zZsWUVBV4Y5WSpdt06dFK0XPG45avWs0AYKn0S7LWsfOZuzbI/ZtXNCdbDR+oMlu2/1jpCci7HvCgmP8IJaT3RnLkd7Q6oH/5KgNItAqcGBXGu1PxeCdwa4QmgT3PGmY4b0n4gGTRZnroAISXaQuCcFRmmtnWZN5rBffOPPGh7f4/OFZe/3IAxVgfZYvCFlcvf7szkImk4ZUO0ADucgoa+zR5AzoXav0TLldGq6dW9FdFp6/ibjx3hv4Ml5X8OgqwtOqCUlICyFuFk+N7G8hN6pRlJN2OpydlG9rpSra3MFsV6XvkOd5+M0NNKMwj+9F0Soj3qBvcOMx9+ZQl/gQ8/Vhjzc8BpovGy7X5M2mjpz003HEI+1nbiq2bn3IJiqVCJPrxSICpiR0mZfw4ij6lTmqavHEb+XxSpQ==|920
+}//0dMTbeL5aJkVuuxk9gH5Cgw68xl04aHHpBokJy3ftUtVV26bkHFXtADc14IIanDheZeQE4CMoeKkbqfB+RtVDrZu4ETqCEKoffBCkqc3Q/UI2dkp50oSYEMuPDy0nEmIeBHJr6yr/joRLOBUpJxbWyOZLUv6zQjPtjrbLoqhUQX11s7rxlh8Po0I4U0WtlFG6aij0NXr8P1t2WgkyFzI7LebZACHk1gDwgHZWZ/9bzFvN+trmTQiVYqvjHVrKPJlVdhu9FxTGwX1Ek/uSlXMqXHX5ovoOFnI00t7tuJVuxLSdKRtp6SBYm0vBml5Af6zampvj6qHL6OcTSUxyMISyd1UEoXv/k2W0nlams63lEstaM66GIyyzB2f+uj3J4SRgvhzgP2O5ued06X0tP3ZQwtjcQPWhJiXsAsU71yMnP6adZ5sEfuGNFHlGMg2wCxyIWsCRfR+5akkjLtE3DE6DV0ETWps7tPUqWFgl//am1XdpmbGCl4N0HPGDAuwQndZ10TbY6G9WJzv1u4JY6jafxH9P5D0eSo39J1GGxpcmI2NJPY7Uq6d4Zspu4dxAZ94q5lb4ClgRrTh0doLUOc2WVwh4JgvUnvxAMS1zA151g9SAJxjKdi/RFlb+JuiTIGbCc4CgAIx/BXag+JOR+2PN8i3cpvKHH02CyGqlf4TYUS0veAv1plDvRc23qH/aXhH+YR6TM3igQ1CSIZBbN5l8vZqSLm3R49jYlP/y2H+ut6yFfXRE8WZa4YqeQ71wdry50xnuSImKPBDpKmsYzPdfDZdjRACJt5m2NtvtEQCSbVeM7NJhm3Dh+WEIru6zop0bPiDTs8lBznJqLAfa8TX80XqmkmC1jascJ7yq2L1k+//1DnIGVYEhCgT/Z/f8rcCuZDcxo1zU2UXf1x2a4/16Q==|920

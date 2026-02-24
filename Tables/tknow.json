@@ -406,5 +406,13 @@
   "PrimaryKey": [
     "JOHO_NBR"
   ],
+  "Relations": [
+    {
+      "PrimaryTable": "品質問題_進捗管理表",
+      "PrimaryColumn": "W番号",
+      "ForeignTable": "tknow",
+      "ForeignColumn": "W_NBR"
+    }
+  ],
   "Indexes": []
 }

@@ -13,5 +13,10 @@
     "ConnectionString": "Server=170.71.10.75;User ID=USER01;Password=PASSPORT;Database=zdb;Port=3306",
     "DataBaseType": "6f9b2f11-4f6a-43db-9b65-bbd46872e09d",
     "ID": "MySql1"
+  },
+  {
+    "ConnectionString": "Data Source=YMIADIGITALSV01;Initial Catalog=経営管理部;Persist Security Info=True;User ID=ymia_reader;Password=ymia_reader!",
+    "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
+    "ID": "SqlServer3"
   }
 ]

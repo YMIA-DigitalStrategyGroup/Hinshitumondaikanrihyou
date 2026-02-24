@@ -100,7 +100,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "進捗管理表"
+                "PageName": "進捗管理表",
+                "DeleteCachedQuery": true
               }
             ],
             "CanVisitRoleList": [
@@ -117,7 +118,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "クレームリスト_管理表"
+                "PageName": "クレームリスト_管理表",
+                "DeleteCachedQuery": true
               }
             ],
             "CanVisitRoleList": [
@@ -135,7 +137,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "品質問題管理表"
+                "PageName": "品質問題管理表",
+                "DeleteCachedQuery": true
               }
             ],
             "CanVisitRoleList": [
@@ -153,7 +156,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "Fコスト管理"
+                "PageName": "Fコスト管理",
+                "DeleteCachedQuery": true
               }
             ],
             "CanVisitRoleList": [
@@ -170,7 +174,8 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "進捗管理表_全体概要"
+                "PageName": "進捗管理表_全体概要",
+                "DeleteCachedQuery": true
               }
             ],
             "CanVisitRoleList": [
@@ -492,4 +497,4 @@
       "Size": "2820,100"
     }
   ]
-}//3zrAfwtfENtvHUO99rxS1GPw8LOaucKyy6KzoYOxyWoZ3OJbMtILqTJISsDZre6vK+k5JFiHoqBCb1rS4VLwP9TcaOU1+O44NMgDx/7Vzrpkphr0lG8uyqDMhSUd/gcDK4hDPhBdAEpaOGguz8tYETfzCLCObH9+3T+h97F1EMOxJrYKHSF5K84odO7BSYNQPzIab88tORyqPzeDlQjY5hLsx9LBlF2keNawDGWDxunwqtqueMc0YDbrfcjA1txNwKCGOGNez+a1N87TzUp2bF9F0AORs1dFEx5e+K8OJowkUI6s2bi7f+S5LGwWq/HG9/UCCMdoxcuPAYDygDOjqPp6fT6RP6/Z9iFHZcxKN+J6dT5oyCKMkchkW68qDZndqu9qf3wYSf6Exph9EUjogZUNsVPFLJ98ELjzjIau5wL8LEJ83vhePswQu0INjGeqMrTeQWfYpGmyqwxibgUdUSu7KWA9Pd4oEbIp2wKNXdGUAzflnYZkumhT75J4cNDiBlj7UgVD2V0uqqPiaTdbNKJEP8eiiO7fQyQIsmMoeCmHUDoTQOy85yXH+nqEjcmxG9JBBBkO/KPbhKDzpygklka7jhZK2DEDFjDRvywbPer4UhH6QutCz078Ee1i/VI1iNHnEki1Sa9D/IBfJCBy23y51WQtE93rTNUKsDCDeAm2uCZ+PoKSw+jiQFi4tbqP0x9eYzrj/IoDIM6sDwjNvsXVop6g4P/wlIGVD6NYit9850fMwI4vJxhlD61d8CseH/g/vIQPX5K+RXuSZC+MGITNweAMTBuKrrkgL89PXuo0IOkcDT52G3acc9NGZQEw2NU52+S/bjG+ZI7xp9pSit1DOldxJBtYWv4d4J0h6oBqhurHE3SxxTgjyJ8DOHqPtzX2/CiYUjH9N2dNoI6tcg==|920
+}//SRkiwc/FpC3Kn/905ufPMq75bwsE6SowVRyRkHdlx0qc9WUUj7mjf22L8vRTySBNjcl1Ag9Ljd3hlLsC+IQdBXdt3rWee6+DhOhBE3hS6LHKo0/1sLlWmUV4fAfXkR2SE4zbAJIIhlLB1FNf/idlDWUsh+1vMtiwaYihHzwAg27gmWeB9/5XGveOfOlgIajyHZqycpxgsEhod5dfFAs8WHEijRTUaAGI6EuVcLQT80cwvuMaSTREFBFuh7Vr+nz5LwNRU5vUDao6NS5bW2Qh/17B9qWNbASD0fhi2orRv0PGr1gYtENgKdVqvdtIBwW2o/hnYuhwMkJ/AMZTf6j0B9OQbw/CAmgDXUu7zNVJgl5k+KSVG0bnMhdGYlxXtAoqK9Rw/S8M9QdcpfWf9wT/leX4BQ95jprDyRKJTmx6WiBqm1fBRmGwzgPwrzdUDb8ND/3/LZ/w3yMmPGOGHte9hht9KdAh3Munnr+a/rMFOZOSEJ99EMhMj3D0iCuUmNTEdenXSY65l+JfyGORTDi0lq7Kb3rbw86zz129g5G7cxFYgp1yWZAEBV8w4k1JMlfmgMS7NDiBpVeNoZHA33S8iK2PhQ33ob1z/yzY6szBxxryNYD6zEkgedkGyvOzl+H+lIP8yRPkdeApifkGSJShMe2dPBe4A9t+EVEzn9DXS9DLI0X7gATLlFARmnLBLRGafjWRewkb39s1D5V2DPMkNw17YeyKK0zm+qGcVtI4rZrmm9ioge1hdV0pWiK0tNjjzBm9h5zea0j3NPJbJH4GPLSz/x00OsU1P47bZ7auVQ3zNhSK9XyWgrZpsAFm8EQ1Et+3ZBUSY0xom8nVDmuUOxRYaLIpzJSz1ML9YzcHE8Hxaozuqp9uvghvYi82qqXX5i836xhMKVKvHgrp4Q9Q7w==|920
