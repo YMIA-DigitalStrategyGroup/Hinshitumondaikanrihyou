@@ -333,10 +333,30 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成 (2)",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-27T08:44:54.7090957+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\進捗管理表_新規作成 (2).json",
+      "Pages\\進捗管理表_新規作成 (2).rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレームリスト_新規作成 (2)",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/進捗管理表_編集画面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-27T08:44:54.7091079+09:00",
     "ModuleType": 1
   }
 ]
