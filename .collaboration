@@ -217,7 +217,17 @@
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-27T08:50:21.9729981+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\SEAQ番号_検索画面.json",
+      "Pages\\SEAQ番号_検索画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/品質問題管理表_2",
