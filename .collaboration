@@ -173,17 +173,7 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:42:47.3572304+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表.json",
-      "Pages\\進捗管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成",
@@ -199,17 +189,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-26T16:09:16.5630388+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表 (3)",
@@ -352,51 +332,11 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "PCPage/進捗管理表_編集画面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:42:47.3565877+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表_編集画面.json",
-      "Pages\\進捗管理表_編集画面.rd"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:42:56.1981389+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト_編集画面.json",
-      "Pages\\クレームリスト_編集画面.rd"
-    ]
-  },
-  {
     "ModuleName": "PCPage/進捗管理表_新規作成 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:43:24.8583361+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_新規作成 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:43:24.8589369+09:00",
     "ModuleType": 1
   }
 ]

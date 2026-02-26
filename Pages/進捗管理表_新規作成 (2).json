@@ -1,0 +1,1425 @@
+{
+  "Rows": {
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      26,
+      27,
+      32,
+      33,
+      34,
+      35
+    ],
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 34
+  },
+  "Values": {
+    "0,1": "管理番号",
+    "0,17": "本日日付",
+    "1,1": "管理番号+1の値",
+    "1,17": "製番",
+    "2,1": "管理番号\r\n※自動採番",
+    "2,17": "W番号",
+    "8,1": "艇種",
+    "8,17": "艇番",
+    "12,1": "SEAQ管理番号",
+    "12,18": "参照",
+    "14,1": "不具合内容",
+    "19,1": "初報",
+    "21,1": "ステータス",
+    "21,8": "未対応",
+    "23,1": "アクション",
+    "29,1": "更新",
+    "29,26": "キャンセル",
+    "32,1": "クレーム認定結果",
+    "34,1": "認定日"
+  },
+  "Formulas": {
+    "0,8": "ODATA(\"品質問題_進捗管理表?$select=管理番号&$top=1&$orderby=管理番号 desc\")",
+    "0,24": "TODAY()",
+    "1,8": "I1+1",
+    "1,22": "LEFTB(I9&REPT(\" \",11),11)&LEFTB(Y9&REPT(\" \",4),4)"
+  },
+  "AttachInfos": {
+    "2,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "管理番号",
+        "GUID": "ff5245d0-b5d3-4aa3-8442-2308b3e90b50"
+      }
+    },
+    "8,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "艇種",
+        "GUID": "61a23eaa-c076-4a34-aec0-f234479154c0"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "8,24": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "艇番",
+        "GUID": "7cd456e0-2a4d-4f83-9b26-1e665ec2baac"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "12,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "SEAQ管理番号",
+        "GUID": "dae8615a-07e8-4272-a878-b3e2b6e09deb"
+      }
+    },
+    "12,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "SEAQ番号_検索画面",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='進捗管理表_新規作成 (2)'!I13"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=SEAQ番号_検索画面!H1"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "参照",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/153_folder_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "14,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "不具合内容",
+        "GUID": "65fe351e-0354-4671-b562-fda272458597"
+      },
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "初報",
+        "GUID": "23d4d389-07c5-4a85-b548-b8a9906b2708"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "='進捗管理表_新規作成 (2)'!Y1"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "ステータス",
+        "GUID": "4df6a45c-1ea2-4133-b1f6-621ee33949be"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "未対応",
+            "DisplayValue": "未対応"
+          },
+          {
+            "Value": "対応中",
+            "DisplayValue": "対応中"
+          },
+          {
+            "Value": "対策工事中",
+            "DisplayValue": "対策工事中"
+          },
+          {
+            "Value": "メーカー調査中",
+            "DisplayValue": "メーカー調査中"
+          },
+          {
+            "Value": "代品手配中",
+            "DisplayValue": "代品手配中"
+          },
+          {
+            "Value": "費用処理中",
+            "DisplayValue": "費用処理中"
+          },
+          {
+            "Value": "YMS問合せ中",
+            "DisplayValue": "YMS問合せ中"
+          },
+          {
+            "Value": "社内原因調査中",
+            "DisplayValue": "社内原因調査中"
+          },
+          {
+            "Value": "不具合改修中",
+            "DisplayValue": "不具合改修中"
+          },
+          {
+            "Value": "対策工事検討中",
+            "DisplayValue": "対策工事検討中"
+          },
+          {
+            "Value": "処理完了",
+            "DisplayValue": "処理完了"
+          },
+          {
+            "Value": "クローズ",
+            "DisplayValue": "クローズ"
+          },
+          {
+            "Value": "",
+            "DisplayValue": ""
+          }
+        ],
+        "CellDefaultValue": "未対応"
+      }
+    },
+    "23,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "アクション",
+        "GUID": "aa589947-40cc-41e9-b4ce-d3cd20c87c68"
+      },
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "29,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "品質問題_進捗管理表",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "艇種",
+                          "GUID": "b0fd436b-3242-454c-92e8-9da563ff2315"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!I9"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "艇番",
+                          "GUID": "f747fb4c-dbb6-4896-b98a-85275a184266"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!Y9"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "アクション",
+                          "GUID": "6de3662f-17d0-4f22-8854-a8b7f6e2b3c5"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!I24"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "SEAQ管理番号",
+                          "GUID": "8d9865d8-12c8-4cb1-aa45-4dc6d06cdd00"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!I13"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "不具合内容",
+                          "GUID": "f217ecd1-000e-41f1-ae48-6734a21a7498"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!I15"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_進捗管理表",
+                          "ColumnName": "ステータス",
+                          "GUID": "1ec49738-41b9-419a-866f-a1de1d289ef1"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='進捗管理表_新規作成 (2)'!I22"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='進捗管理表_新規作成 (2)'!W3"
+                              }
+                            ]
+                          },
+                          "value": "%Null%",
+                          "compareType": 1
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "tknow",
+                            "ShowConfirm": false,
+                            "RowsToUpdate": 1,
+                            "RowsToUpdateCondition": {
+                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                              "ColumnBindingInfo": {
+                                "TableName": "tknow",
+                                "ColumnName": "W_NBR",
+                                "GUID": "9d558810-ee52-4e36-a9c2-8c5bd0514546"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "='進捗管理表_新規作成 (2)'!W3"
+                              }
+                            },
+                            "UpdateBindingValues": [
+                              {
+                                "BindingInfo": {
+                                  "TableName": "tknow",
+                                  "ColumnName": "TITLE",
+                                  "GUID": "6e508270-7f75-40b2-a65f-adf277909f94"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='進捗管理表_新規作成 (2)'!I15"
+                                }
+                              },
+                              {
+                                "BindingInfo": {
+                                  "TableName": "tknow",
+                                  "ColumnName": "SEAQ_NBR",
+                                  "GUID": "378cc986-9c59-45b0-b558-7b5be978a26a"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='進捗管理表_新規作成 (2)'!I13"
+                                }
+                              },
+                              {
+                                "BindingInfo": {
+                                  "TableName": "tknow",
+                                  "ColumnName": "SEIBAN",
+                                  "GUID": "4bab2345-5ec0-4de7-97e2-055a375c43bd"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='進捗管理表_新規作成 (2)'!W2"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "8340500a-0c4f-4a4c-bd6e-c0d12dae6959"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "15029030-9b06-48b0-8065-55af6978ad54"
+              }
+            ]
+          }
+        ],
+        "Text": "更新",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/002_add_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "29,26": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "32,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "クレーム認定結果",
+        "GUID": "a22ff5ff-9b9c-4029-a13f-e9c850b180df"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "納入初期",
+            "DisplayValue": "納入初期"
+          },
+          {
+            "Value": "コンプレイン",
+            "DisplayValue": "コンプレイン"
+          },
+          {
+            "Value": "調査中",
+            "DisplayValue": "調査中"
+          },
+          {
+            "Value": "NC",
+            "DisplayValue": "NC"
+          },
+          {
+            "Value": "クレーム",
+            "DisplayValue": "クレーム"
+          },
+          {
+            "Value": "",
+            "DisplayValue": ""
+          }
+        ]
+      }
+    },
+    "34,8": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "認定日",
+        "GUID": "e010dd33-90cd-4851-beda-32622e03467e"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "='進捗管理表_新規作成 (2)'!Y1"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "Formatter": 3,
+        "WordWrap": true,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 6,
+        "HorizontalAlignment": 7,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 8,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 8,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 8,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 8,
+        "VerticalAlignment": 10,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "FontFamily": 2,
+        "Foreground": 1,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 6 80",
+        "black",
+        "Body",
+        "[AUTO]General",
+        "Accent 3 60",
+        "Text 1 50",
+        "Accent 6 40",
+        "Center",
+        "@",
+        "Left",
+        "Top"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 2,
+      "0,18": 3,
+      "0,19": 3,
+      "0,20": 3,
+      "0,21": 3,
+      "0,22": 3,
+      "0,23": 3,
+      "0,24": 3,
+      "0,25": 3,
+      "0,26": 3,
+      "0,27": 3,
+      "0,28": 3,
+      "0,29": 3,
+      "0,30": 4,
+      "0,31": 4,
+      "0,32": 4,
+      "1,1": 5,
+      "1,2": 4,
+      "1,3": 4,
+      "1,4": 4,
+      "1,5": 4,
+      "1,6": 4,
+      "1,7": 4,
+      "1,8": 4,
+      "1,9": 4,
+      "1,10": 4,
+      "1,11": 4,
+      "1,12": 4,
+      "1,13": 4,
+      "1,14": 4,
+      "1,15": 4,
+      "1,16": 6,
+      "1,17": 7,
+      "1,18": 1,
+      "1,19": 1,
+      "1,20": 1,
+      "1,21": 1,
+      "1,22": 1,
+      "1,23": 1,
+      "1,24": 1,
+      "1,25": 1,
+      "1,26": 1,
+      "1,27": 1,
+      "1,28": 1,
+      "1,29": 1,
+      "2,1": 8,
+      "2,2": 4,
+      "2,3": 4,
+      "2,4": 4,
+      "2,5": 4,
+      "2,6": 4,
+      "2,7": 4,
+      "2,8": 9,
+      "2,9": 10,
+      "2,10": 10,
+      "2,11": 10,
+      "2,12": 10,
+      "2,13": 10,
+      "2,14": 10,
+      "2,15": 10,
+      "2,16": 10,
+      "2,17": 11,
+      "2,18": 12,
+      "2,19": 12,
+      "2,20": 12,
+      "2,21": 12,
+      "2,22": 12,
+      "2,23": 12,
+      "2,24": 12,
+      "2,25": 12,
+      "2,26": 12,
+      "2,27": 12,
+      "2,28": 12,
+      "2,29": 12,
+      "3,1": 4,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 4,
+      "3,5": 4,
+      "3,6": 4,
+      "3,7": 4,
+      "3,8": 13,
+      "3,9": 14,
+      "3,10": 14,
+      "3,11": 14,
+      "3,12": 14,
+      "3,13": 14,
+      "3,14": 14,
+      "3,15": 14,
+      "3,16": 14,
+      "3,17": 1,
+      "3,18": 1,
+      "3,19": 1,
+      "3,20": 1,
+      "3,21": 1,
+      "3,22": 1,
+      "3,23": 1,
+      "3,24": 1,
+      "3,25": 1,
+      "3,26": 1,
+      "3,27": 1,
+      "3,28": 1,
+      "3,29": 1,
+      "8,1": 15,
+      "8,2": 4,
+      "8,3": 4,
+      "8,4": 4,
+      "8,5": 4,
+      "8,6": 4,
+      "8,7": 4,
+      "8,8": 16,
+      "8,9": 17,
+      "8,10": 17,
+      "8,11": 17,
+      "8,12": 17,
+      "8,13": 17,
+      "8,14": 17,
+      "8,15": 17,
+      "8,16": 18,
+      "8,17": 15,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 4,
+      "8,23": 4,
+      "8,24": 19,
+      "8,25": 17,
+      "8,26": 17,
+      "8,27": 17,
+      "8,28": 17,
+      "8,29": 17,
+      "8,30": 17,
+      "8,31": 17,
+      "8,32": 18,
+      "9,1": 4,
+      "9,2": 4,
+      "9,3": 4,
+      "9,4": 4,
+      "9,5": 4,
+      "9,6": 4,
+      "9,7": 4,
+      "9,8": 20,
+      "9,9": 21,
+      "9,10": 21,
+      "9,11": 21,
+      "9,12": 21,
+      "9,13": 21,
+      "9,14": 21,
+      "9,15": 21,
+      "9,16": 22,
+      "9,17": 4,
+      "9,18": 4,
+      "9,19": 4,
+      "9,20": 4,
+      "9,21": 4,
+      "9,22": 4,
+      "9,23": 4,
+      "9,24": 20,
+      "9,25": 21,
+      "9,26": 21,
+      "9,27": 21,
+      "9,28": 21,
+      "9,29": 21,
+      "9,30": 21,
+      "9,31": 21,
+      "9,32": 22,
+      "10,1": 23,
+      "10,2": 23,
+      "10,3": 23,
+      "10,4": 23,
+      "10,5": 23,
+      "10,6": 23,
+      "10,7": 23,
+      "10,17": 23,
+      "10,18": 23,
+      "10,19": 23,
+      "10,20": 23,
+      "10,21": 23,
+      "10,22": 23,
+      "10,23": 23,
+      "10,24": 24,
+      "10,25": 24,
+      "10,26": 24,
+      "10,27": 24,
+      "10,28": 24,
+      "10,29": 24,
+      "10,30": 24,
+      "10,31": 24,
+      "10,32": 24,
+      "12,1": 15,
+      "12,2": 4,
+      "12,3": 4,
+      "12,4": 4,
+      "12,5": 4,
+      "12,6": 4,
+      "12,7": 4,
+      "12,8": 25,
+      "12,9": 10,
+      "12,10": 10,
+      "12,11": 10,
+      "12,12": 10,
+      "12,13": 10,
+      "12,14": 10,
+      "12,15": 10,
+      "12,16": 26,
+      "12,17": 24,
+      "12,18": 27,
+      "12,19": 24,
+      "12,20": 24,
+      "12,21": 24,
+      "13,1": 4,
+      "13,2": 4,
+      "13,3": 4,
+      "13,4": 4,
+      "13,5": 4,
+      "13,6": 4,
+      "13,7": 4,
+      "13,8": 28,
+      "13,9": 24,
+      "13,10": 24,
+      "13,11": 24,
+      "13,12": 24,
+      "13,13": 24,
+      "13,14": 24,
+      "13,15": 24,
+      "13,16": 29,
+      "13,17": 24,
+      "13,18": 24,
+      "13,19": 24,
+      "13,20": 24,
+      "13,21": 24,
+      "14,1": 15,
+      "14,2": 4,
+      "14,3": 4,
+      "14,4": 4,
+      "14,5": 4,
+      "14,6": 4,
+      "14,7": 6,
+      "14,8": 30,
+      "14,9": 17,
+      "14,10": 17,
+      "14,11": 17,
+      "14,12": 17,
+      "14,13": 17,
+      "14,14": 17,
+      "14,15": 17,
+      "14,16": 17,
+      "14,17": 17,
+      "14,18": 17,
+      "14,19": 17,
+      "14,20": 17,
+      "14,21": 17,
+      "14,22": 17,
+      "14,23": 17,
+      "14,24": 17,
+      "14,25": 17,
+      "14,26": 17,
+      "14,27": 17,
+      "14,28": 17,
+      "14,29": 17,
+      "14,30": 17,
+      "14,31": 17,
+      "14,32": 18,
+      "15,1": 1,
+      "15,2": 1,
+      "15,3": 1,
+      "15,4": 1,
+      "15,5": 1,
+      "15,6": 1,
+      "15,7": 31,
+      "15,8": 32,
+      "15,32": 33,
+      "16,1": 4,
+      "16,2": 4,
+      "16,3": 4,
+      "16,4": 4,
+      "16,5": 4,
+      "16,6": 4,
+      "16,7": 6,
+      "16,8": 20,
+      "16,9": 21,
+      "16,10": 21,
+      "16,11": 21,
+      "16,12": 21,
+      "16,13": 21,
+      "16,14": 21,
+      "16,15": 21,
+      "16,16": 21,
+      "16,17": 21,
+      "16,18": 21,
+      "16,19": 21,
+      "16,20": 21,
+      "16,21": 21,
+      "16,22": 21,
+      "16,23": 21,
+      "16,24": 21,
+      "16,25": 21,
+      "16,26": 21,
+      "16,27": 21,
+      "16,28": 21,
+      "16,29": 21,
+      "16,30": 21,
+      "16,31": 21,
+      "16,32": 22,
+      "19,1": 34,
+      "19,2": 4,
+      "19,3": 4,
+      "19,4": 4,
+      "19,5": 4,
+      "19,6": 4,
+      "19,7": 4,
+      "19,8": 25,
+      "19,9": 10,
+      "19,10": 10,
+      "19,11": 10,
+      "19,12": 10,
+      "19,13": 10,
+      "19,14": 10,
+      "19,15": 10,
+      "19,16": 26,
+      "20,1": 4,
+      "20,2": 4,
+      "20,3": 4,
+      "20,4": 4,
+      "20,5": 4,
+      "20,6": 4,
+      "20,7": 4,
+      "20,8": 13,
+      "20,9": 14,
+      "20,10": 14,
+      "20,11": 14,
+      "20,12": 14,
+      "20,13": 14,
+      "20,14": 14,
+      "20,15": 14,
+      "20,16": 35,
+      "21,1": 15,
+      "21,2": 4,
+      "21,3": 4,
+      "21,4": 4,
+      "21,5": 4,
+      "21,6": 4,
+      "21,7": 4,
+      "21,8": 25,
+      "21,9": 10,
+      "21,10": 10,
+      "21,11": 10,
+      "21,12": 10,
+      "21,13": 10,
+      "21,14": 10,
+      "21,15": 10,
+      "21,16": 26,
+      "22,1": 3,
+      "22,2": 3,
+      "22,3": 3,
+      "22,4": 3,
+      "22,5": 3,
+      "22,6": 3,
+      "22,7": 3,
+      "22,8": 28,
+      "22,9": 24,
+      "22,10": 24,
+      "22,11": 24,
+      "22,12": 24,
+      "22,13": 24,
+      "22,14": 24,
+      "22,15": 24,
+      "22,16": 29,
+      "23,1": 15,
+      "23,2": 1,
+      "23,3": 1,
+      "23,4": 1,
+      "23,5": 1,
+      "23,6": 1,
+      "23,7": 1,
+      "23,8": 36,
+      "23,9": 17,
+      "23,10": 17,
+      "23,11": 17,
+      "23,12": 17,
+      "23,13": 17,
+      "23,14": 17,
+      "23,15": 17,
+      "23,16": 17,
+      "23,17": 17,
+      "23,18": 17,
+      "23,19": 17,
+      "23,20": 17,
+      "23,21": 17,
+      "23,22": 17,
+      "23,23": 17,
+      "23,24": 17,
+      "23,25": 17,
+      "23,26": 17,
+      "23,27": 17,
+      "23,28": 17,
+      "23,29": 17,
+      "23,30": 17,
+      "23,31": 17,
+      "23,32": 18,
+      "24,1": 1,
+      "24,2": 1,
+      "24,3": 1,
+      "24,4": 1,
+      "24,5": 1,
+      "24,6": 1,
+      "24,7": 1,
+      "24,8": 32,
+      "24,32": 33,
+      "25,1": 1,
+      "25,2": 1,
+      "25,3": 1,
+      "25,4": 1,
+      "25,5": 1,
+      "25,6": 1,
+      "25,7": 1,
+      "25,8": 20,
+      "25,9": 21,
+      "25,10": 21,
+      "25,11": 21,
+      "25,12": 21,
+      "25,13": 21,
+      "25,14": 21,
+      "25,15": 21,
+      "25,16": 21,
+      "25,17": 21,
+      "25,18": 21,
+      "25,19": 21,
+      "25,20": 21,
+      "25,21": 21,
+      "25,22": 21,
+      "25,23": 21,
+      "25,24": 21,
+      "25,25": 21,
+      "25,26": 21,
+      "25,27": 21,
+      "25,28": 21,
+      "25,29": 21,
+      "25,30": 21,
+      "25,31": 21,
+      "25,32": 22,
+      "29,1": 37,
+      "29,26": 38,
+      "29,27": 24,
+      "29,28": 24,
+      "29,29": 24,
+      "29,30": 24,
+      "29,31": 24,
+      "29,32": 24,
+      "30,26": 24,
+      "30,27": 24,
+      "30,28": 24,
+      "30,29": 24,
+      "30,30": 24,
+      "30,31": 24,
+      "30,32": 24,
+      "32,1": 15,
+      "32,2": 4,
+      "32,3": 4,
+      "32,4": 4,
+      "32,5": 4,
+      "32,6": 4,
+      "32,7": 4,
+      "32,8": 25,
+      "32,9": 10,
+      "32,10": 10,
+      "32,11": 10,
+      "32,12": 10,
+      "32,13": 10,
+      "32,14": 10,
+      "32,15": 10,
+      "32,16": 26,
+      "33,1": 4,
+      "33,2": 4,
+      "33,3": 4,
+      "33,4": 4,
+      "33,5": 4,
+      "33,6": 4,
+      "33,7": 4,
+      "33,8": 13,
+      "33,9": 14,
+      "33,10": 14,
+      "33,11": 14,
+      "33,12": 14,
+      "33,13": 14,
+      "33,14": 14,
+      "33,15": 14,
+      "33,16": 35,
+      "34,1": 15,
+      "34,2": 4,
+      "34,3": 4,
+      "34,4": 4,
+      "34,5": 4,
+      "34,6": 4,
+      "34,7": 4,
+      "34,8": 25,
+      "34,9": 10,
+      "34,10": 10,
+      "34,11": 10,
+      "34,12": 10,
+      "34,13": 10,
+      "34,14": 10,
+      "34,15": 10,
+      "34,16": 26,
+      "35,1": 4,
+      "35,2": 4,
+      "35,3": 4,
+      "35,4": 4,
+      "35,5": 4,
+      "35,6": 4,
+      "35,7": 4,
+      "35,8": 13,
+      "35,9": 14,
+      "35,10": 14,
+      "35,11": 14,
+      "35,12": 14,
+      "35,13": 14,
+      "35,14": 14,
+      "35,15": 14,
+      "35,16": 35
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,1,1,7",
+    "0,8,1,9",
+    "0,17,1,7",
+    "0,24,1,9",
+    "1,1,1,7",
+    "1,8,1,9",
+    "1,17,1,5",
+    "1,22,1,8",
+    "2,1,2,7",
+    "2,8,2,9",
+    "2,17,2,5",
+    "2,22,2,8",
+    "8,1,2,7",
+    "8,8,2,9",
+    "8,17,2,7",
+    "8,24,2,9",
+    "12,1,2,7",
+    "12,8,2,9",
+    "12,18,2,4",
+    "14,1,3,7",
+    "14,8,3,25",
+    "19,1,2,7",
+    "19,8,2,9",
+    "21,1,2,7",
+    "21,8,2,9",
+    "23,1,3,7",
+    "23,8,3,25",
+    "29,1,2,7",
+    "29,26,2,7",
+    "32,1,2,7",
+    "32,8,2,9",
+    "34,1,2,7",
+    "34,8,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+        "TargetTableName": "品質問題_進捗管理表",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "品質問題_進捗管理表",
+            "ColumnName": "管理番号",
+            "GUID": "690bb917-2fcf-4130-852f-de3ca49386a3"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='進捗管理表_新規作成 (2)'!I3"
+          }
+        },
+        "ID": "aae7ec118c294202a36d33d6226a5666"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//dr4ZRQ77JlCoSh8piV3ySiimt0mJkYcvcUYEIqSAq0AbK3Un31b4/8Va7DwW2nIV1FP5XgL8qi3PYlkR0NxqF+mmBk9XtSs3k51+PHbPK6yInQTAGu3hsZc7endyTW//eH3bOgF9ghhVNfQNXf9MMl2aOoEfNO8YCWEAvY5AvhMKTXDnNCdXP6/AboF7+5s0oVkrQ218sqK+LnTdVViTBVcnOx8Tsiro6KZ/BqBgPecEbjHiXl4oVXRAJQZ0A/mBfqLMcTrBeZ4aYcEFohdpUDbixIz8fYma2IQHV79qtUrkclCvkQ+oTva8G3MZ0q0H5xfudjLliMciFUIpDJKgSAqEV3u4N1eyXbEhiq6l9kgyEfEFaxKvzheadTGYus1Kpo2fPfZx/eiiCh1U3+SLb6eEbEbLDOAvmTsaSAyNAzFJKLTwYS3iDcAKFIQ8r2uAN25b+kHam2EscW6P+QYcbq/fCcquOXbIzgLPFuOPFTPNAgk8sTsXFuRbk8LJFr0ncUK7ee250N+RFjwiRlrr3HrpIXF9R94/bWpMY85v66gggVpVuQ/WmgF+0I59YNPOsa8kPiFcMEXCZHt7bmiMbhlYAEEjbbJVOt51H20tjju9O6sTeW53tfxYXn+kWdimbi3YSG5qHAuEqZYIyqaEsa+YUPONBaSjGiK63BVIgKNqAhTsk94sKMOkSYJ0TfpZwWSOt9omWvL4E1PzEXxbCisnbry61ilQLdKx7KU3LIA8xQDKmVnEBOLWiTksSjrI91ZG2PYSIHMV/GmHJrcjb2gMPrndzcMS/iXc0QHeouIK6+FOmhM4B5pjM4u7OnizVZZn+dJa0f1LNFLmze9gxeOGQKZodvxeK2lHL+RvTbwccFssQh5aHaOnzLAMGC/VPYOi5OkmclIYTDGrMBoGPA==|920
