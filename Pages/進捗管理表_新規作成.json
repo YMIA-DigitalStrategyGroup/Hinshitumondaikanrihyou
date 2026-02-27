@@ -32,9 +32,7 @@
     "21,8": "未対応",
     "23,1": "アクション",
     "29,1": "作成",
-    "29,26": "キャンセル",
-    "32,1": "クレーム認定結果",
-    "34,1": "認定日"
+    "29,26": "キャンセル"
   },
   "Formulas": {
     "0,8": "ODATA(\"品質問題_進捗管理表?$select=管理番号&$top=1&$orderby=管理番号 desc\")",
@@ -328,7 +326,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "9ae85999-4b0c-48df-a157-966cc614d30d"
+                "ID": "2fa08ff7-9af2-41ad-99fd-02c619d7edfe"
               }
             ]
           }
@@ -353,58 +351,6 @@
         ],
         "Text": "キャンセル",
         "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "32,8": {
-      "BindingInfo": {
-        "TableName": "品質問題_進捗管理表",
-        "ColumnName": "クレーム認定結果",
-        "GUID": "98da6918-5292-4532-ae71-e4ff4e3ceef4"
-      },
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "Items": [
-          {
-            "Value": "納入初期",
-            "DisplayValue": "納入初期"
-          },
-          {
-            "Value": "コンプレイン",
-            "DisplayValue": "コンプレイン"
-          },
-          {
-            "Value": "調査中",
-            "DisplayValue": "調査中"
-          },
-          {
-            "Value": "NC",
-            "DisplayValue": "NC"
-          },
-          {
-            "Value": "クレーム",
-            "DisplayValue": "クレーム"
-          },
-          {
-            "Value": "",
-            "DisplayValue": ""
-          }
-        ]
-      }
-    },
-    "34,8": {
-      "BindingInfo": {
-        "TableName": "品質問題_進捗管理表",
-        "ColumnName": "認定日",
-        "GUID": "d0c31fd1-0339-48ad-8066-a2084df46fc3"
-      },
-      "CellType": {
-        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=進捗管理表_新規作成!Y1"
-        },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     }
   },
@@ -1176,4 +1122,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//TgKOIolzGOw2aDCa1za0eX9xn49UxtmGjXz7WauqOwjcglMfSvDSjncaH3rHUzlA2YsO5Ki0zLISQWsicVGh8LEQgYOVL0bCRVN98XHyBsqNGkT906G/i9Gcmk2GXEZKlnJoJVuD+2MCl248P6VpuQtt+KpyAIBOI0XVWvdhskPCtgQ8fKisMadXH5glDskhx0L/kKbj1NZQLHKlkAguITikq0mmB7ih6t7Djr23aZuktok3t9g8KdyunxuODNzdpqcITWBjT+42XXi19Se7WJxn/NoYjX1H6BaBInNdyUGru9IqcV+6KJr27BvP9/3NCKdD74tFkQpsQQ89LseYGgrAmgnCw6CEVRaFbUlvlCYPAY4a43tBIxJ4is2sXr1UO2MNawxnxIgS6DPIGFplF5WBjWaTd88dgeciGUfqLo32wMjWfrArfwxlICdNNfSB76Wer/xSaJgD5pEVGsiawvX4webS4QmtEDaw7HMbtzDWELtr0unpqAkuJY8mk4UtS1BjPdIcOmGcOniIMtbFNTJFWFdCulruP/bxFU/B4qYGYO88hZVx+bbHOiLL4djAKb4RIsNXyKm8CH1LbbxcQojNzfp2FFvAIazm93kSSUmqjAC3Y7tqPAbzBFAeJ2j0NOzWdw6sZBR6vIYBvRk1k26VZux8m+3L7W7BXxyi8R6acH1C5J2OMfZmt7AHzP9h7xTsTc9nwchtmPzQcKgrQyQ6NbxA0cxFQe9w26Ao1mXPfB/o2Pvz+RRpBs7hPYECd5ZwyJ7NE42c5AtsKVaNruiiKa0gbgNugPvB4clu2ruC6oqUCrwqe1trxyoLGztRwjXZ1A8frazvUizHnfOgd96tHC9Up36aeQ5fFo0W9cgpC4yFkjKkdKAKBYLxl06gknlCdF2o85PJ8I/g5nOd0w==|920
+}//JtR4AgoWBTbogGTuZOdxj2Is0lwSelw7NNkwKjaSOv0/4Qr5gO155KBhCv3Jju0ExfjOkFS/adRZor3IcT7YmVEIA51xaFFGLnTeBtlUNX8NnQ0ZOV7BRsnkP9rW1imQJCf6DcrBG2oeOqgaDUC4+px6SqtQKIXWNARTqPjAFyDVjF8EDuR4G59lvHVNHM2PwTp5TKuo64i6iK5qcMhp74JghggwIGZ5ki4gmLM3EFEpGHudBwz2csWB8otZzmLA/xtq5U+ycpyYI7Qgi/mA3ajkHYw4EvxQwbNsE08S/WGbX/YPrO7XtN1VMTB4tFrkT1WxUwoxh0blxb2WYnIQMnTyK8ACyjCSczC11C088j+YNlaGTtE4n67Qmgd9iL7JzvrsuxTATBReC2JvUUo9ZcNfeE6sInFvGFh1C+TXhC6/qnAqsfem/4VC7Z6XkQJ/bSUqEh3SrcmevzSZYq30/STtUmoR41n3EiJYqKXmh74oXiZW+rkYa+BdNDcwFjy6olVLxXYNYkPeicUZfdn9t+Oec/Opkj5jGwXXrSKTU5hEcgShQ1L6RYQ+57FH79fC8Bc5TDwjat5Zuv1HTpxB4RoiMbapwQRy0lGerJr0bI12o+0dD2lj4zx63AO1osY6zltfmKF7qYheNCsS+pbLmQvFBf3uGxUkusqwXHCn8a1otohVFCgso2Pp/tmpdnI4lTKeYgEafdf7r+RZv28NZPwjhkQ4FyYPhbS1csX2AQknWlOAcze3IaL7CN/xOr3HlwU907V8pvyAKppAmYedtypXjh4BHkI6K0jgMpXJSTJTlvElqh7FI7bGwhFNwDDr+l6HrOVVBKexvWNinBxqTca+oL0TqEE5G1dp0xSumEBMTg0fecYcINYzb/daCapIGKqQ91slbtYvsJJTN7AUOw==|920

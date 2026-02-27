@@ -215,10 +215,6 @@
       110,
       111,
       112,
-      113,
-      114,
-      115,
-      116,
       117,
       118,
       119,
@@ -265,6 +261,8 @@
     "7,110": "社外責任部門",
     "7,111": "社内責任部門",
     "7,112": "完了日",
+    "7,113": "編集ボタン",
+    "8,113": "編集",
     "28,2": "SEAQ情報表示",
     "28,12": "削除",
     "31,14": "データ更新",
@@ -611,7 +609,7 @@
           "IsEnabled": true,
           "DemandedRowCount": 50
         },
-        "ListViewStyleName": "カスタムスタイル1",
+        "ListViewStyleName": "_RS_Medium7",
         "CurrentRowChangedCommandList": [
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -700,14 +698,20 @@
           }
         ],
         "ReadOnly": true
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,5": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "W_NBR_HAKKOBI",
         "GUID": "25847123-a222-4f98-a6b8-3fdf789aac1a"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,9": {
       "BindingInfo": {
@@ -724,21 +728,24 @@
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "Items": [
           {
-            "Value": "-",
+            "Value": "1",
             "DisplayValue": "-"
           },
           {
-            "Value": "○",
+            "Value": "2",
             "DisplayValue": "○"
           }
         ]
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,13": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "W_NBR",
-        "GUID": "2d0f8eb8-60e3-4d51-a372-bcc2ffb3b289",
+        "GUID": "d7e173f7-7ac7-45e2-a2a0-d2b1da3fb8e5",
         "RelationBinding": {
           "RelatedTable": "品質問題_進捗管理表",
           "RelatedColumn": "W番号",
@@ -759,7 +766,10 @@
           "ColumnName": "クレーム認定結果",
           "GUID": "cafeacc3-3fa9-4c04-b6c2-62c277966a6a"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,18": {
       "BindingInfo": {
@@ -774,20 +784,36 @@
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,23": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEAQ_NBR",
         "GUID": "832986ef-a846-4c39-96e1-c60d355befa5"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
+    },
+    "8,29": {
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
+    },
+    "8,34": {
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,38": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "28c86037-ca2e-4970-8660-b017cc44c5a0"
+        "GUID": "90e836c4-4cb7-4c49-8bb3-5183569a6a5f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -812,41 +838,56 @@
           },
           "Value": "91"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,46": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TITLE",
         "GUID": "e6d900de-c138-4534-906b-4da256b386d6"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,57": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEIZOBI",
         "GUID": "f3cd5209-d79d-4ccc-a82c-4c15e486f15c"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,62": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "NONYUBI",
         "GUID": "d88d3a62-e3ce-4831-9d24-3e80569fbdda"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,67": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HASSEI_DATE",
         "GUID": "9e2c33ae-97bd-4386-aca5-44982f875a63"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,72": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "b505d58e-3a86-462c-a000-f7ede4c53e22"
+        "GUID": "78e2f5c7-32ea-44d3-af97-f4c85df23f04"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -871,13 +912,16 @@
           },
           "Value": "要因"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,76": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "d8e6550e-22ed-4754-9ebf-3e51f796d322"
+        "GUID": "e6b988d7-833a-445f-87fe-29ec8ef55fa6"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -902,13 +946,16 @@
           },
           "Value": "部品又は場所別"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,79": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "b8b97a26-1936-4082-9092-66c88120b269"
+        "GUID": "ab12dd1d-63a4-422a-bb7a-10af30880dc1"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -933,83 +980,116 @@
           },
           "Value": "現象"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,82": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENIN",
         "GUID": "93c5ee36-f6bc-4e29-9639-81a79b85693d"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,91": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HASSEIHINDO",
         "GUID": "3e565c84-da53-436d-9ee2-026c6371e79a"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,94": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "EIKYOUDO",
         "GUID": "ec8b6061-082e-4ddd-80aa-de33c12ab8e4"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,97": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "KENSHUTUNANIDO",
         "GUID": "ecfbf1a2-d26b-4067-9006-f84f50030a50"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,101": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "RPN",
         "GUID": "4470213c-d8bd-4e85-bebd-05b32aa2483f"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,104": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "JUYOUDO",
         "GUID": "d6367f9e-835b-4182-88a8-3501f3ff663b"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,107": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "TAIOUHOUHOU",
         "GUID": "b9653f7f-2264-4adb-987d-f55c56ec5163"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,108": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEIBAN",
         "GUID": "b707e45f-2f75-414f-b569-d71161c131c9"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,109": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "JOHO_NBR",
         "GUID": "93d01457-bc13-4e94-9959-f4a7a50c8722"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,110": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SHAGAISEKININ_TORIHIKI_CODE",
         "GUID": "0d76572b-6ea7-47bc-b741-d5dfc76e3a7e"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,111": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "926970b8-d191-42c5-9257-07a106f095a6"
+        "GUID": "33a4fa0c-8bb9-4cd2-b9cc-33315a073982"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1034,20 +1114,101 @@
           },
           "Value": "責任部門"
         }
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,112": {
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "KANRYOBI",
         "GUID": "3bb00218-f8e7-4a4e-9a09-8174f6ef8d85"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "8,113": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "クレームリスト_編集画面",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!C9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!I25"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!C9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!AM8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!AD9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!I14"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!AI9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!Y14"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!J9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!Z31"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!N9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!I31"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=クレームリスト_管理表!S9"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=クレームリスト_編集画面!I33"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "編集",
         "TemplateKey": "_RS_Normal_Style2"
-      }
+      },
+      "RulesGuidList": [
+        "a56c687f-ae2b-4191-bef6-32e50199fd8f"
+      ]
     },
     "28,2": {
       "CellType": {
@@ -1151,7 +1312,7 @@
                     ]
                   }
                 ],
-                "ID": "ecdcd399-c4dc-4408-bbc4-20186765c536"
+                "ID": "3de82974-b96a-46e1-9eed-5fbf711cc825"
               }
             ]
           }
@@ -1256,7 +1417,7 @@
                     "UpdateType": 3
                   }
                 ],
-                "ID": "95de751f-8d39-4f68-b14b-e004463bbfdb"
+                "ID": "315a6843-6cf3-4d7f-9ed0-32d5fe184873"
               }
             ]
           }
@@ -1417,6 +1578,7 @@
         "BorderRight": 0
       },
       {
+        "Background": 10,
         "FontFamily": 1,
         "Formatter": 14,
         "HorizontalAlignment": 3,
@@ -1430,12 +1592,10 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 10,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": 1
       },
       {
-        "BorderBottom": 1,
         "BorderTop": 1
       },
       {
@@ -1444,13 +1604,11 @@
         "FontSize": 14.666666666666666,
         "Foreground": 10,
         "WordWrap": true,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1467,7 +1625,6 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 10,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1475,7 +1632,6 @@
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1485,13 +1641,11 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 10,
-        "BorderBottom": 1,
         "BorderTop": 1
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "BorderBottom": 1,
         "BorderTop": 1
       },
       {
@@ -1501,7 +1655,6 @@
         "Foreground": 10,
         "HorizontalAlignment": 3,
         "WordWrap": true,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1510,7 +1663,6 @@
         "Background": 15,
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1520,7 +1672,6 @@
         "FontFamily": 1,
         "FontSize": 13.333333333333332,
         "Foreground": 10,
-        "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": null,
         "BorderRight": null
@@ -1531,10 +1682,12 @@
         "Foreground": 7,
         "Formatter": 14,
         "BorderBottom": 2,
+        "BorderTop": 2,
         "BorderLeft": 0
       },
       {
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
@@ -1542,20 +1695,30 @@
         "Foreground": 7,
         "Formatter": 16,
         "HorizontalAlignment": 17,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
-        "Formatter": 16
+        "HorizontalAlignment": 3,
+        "BorderBottom": 2,
+        "BorderTop": 2
+      },
+      {
+        "Formatter": 16,
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 7,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
@@ -1563,42 +1726,59 @@
         "Foreground": 7,
         "Formatter": 18,
         "HorizontalAlignment": 17,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 7,
         "Formatter": 19,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 7,
         "Formatter": 20,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 7,
         "HorizontalAlignment": 17,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "FontFamily": 1,
         "FontSize": 13.333333333333332,
         "Foreground": 10,
-        "BorderBottom": 2
+        "BorderBottom": 2,
+        "BorderTop": 2
       },
       {
         "Background": 21,
         "FontFamily": 1,
+        "BorderBottom": 2,
+        "BorderTop": 2
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 2,
+        "BorderTop": 2,
+        "BorderRight": 0
+      },
+      {
+        "Background": 22,
+        "FontFamily": 1,
         "Formatter": 5
       },
       {
-        "Background": 21,
+        "Background": 22,
         "FontFamily": 1,
         "Foreground": 10,
         "HorizontalAlignment": 3
@@ -1618,12 +1798,12 @@
         "BorderRight": 0
       },
       {
-        "Background": 21,
+        "Background": 22,
         "FontFamily": 1,
         "Foreground": 10
       },
       {
-        "Background": 22,
+        "Background": 23,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0
@@ -1674,6 +1854,7 @@
         "yyyy/MM/dd",
         "0000",
         "000",
+        "Accent 6 40",
         "Accent 6 -50",
         "#FFFFFF00"
       ],
@@ -2536,101 +2717,114 @@
       "8,6": 40,
       "8,7": 40,
       "8,8": 40,
-      "8,18": 42,
-      "8,23": 43,
-      "8,24": 44,
-      "8,25": 44,
-      "8,26": 44,
-      "8,27": 44,
-      "8,28": 44,
-      "8,29": 43,
-      "8,30": 44,
-      "8,31": 44,
-      "8,32": 44,
-      "8,33": 44,
-      "8,34": 43,
-      "8,35": 44,
-      "8,36": 44,
-      "8,37": 44,
-      "8,38": 43,
-      "8,39": 44,
-      "8,40": 44,
-      "8,41": 44,
-      "8,42": 44,
-      "8,43": 44,
-      "8,44": 44,
-      "8,45": 44,
-      "8,46": 43,
-      "8,47": 44,
-      "8,48": 44,
-      "8,49": 44,
-      "8,50": 44,
-      "8,51": 44,
-      "8,52": 44,
-      "8,53": 44,
-      "8,54": 44,
-      "8,55": 44,
-      "8,56": 44,
-      "8,57": 45,
-      "8,58": 44,
-      "8,59": 44,
-      "8,60": 44,
-      "8,61": 44,
-      "8,62": 45,
-      "8,63": 44,
-      "8,64": 44,
-      "8,65": 44,
-      "8,66": 44,
-      "8,67": 45,
-      "8,68": 44,
-      "8,69": 44,
-      "8,70": 44,
-      "8,71": 44,
-      "8,72": 46,
-      "8,73": 44,
-      "8,74": 44,
-      "8,75": 44,
-      "8,76": 47,
-      "8,77": 44,
-      "8,78": 44,
-      "8,79": 47,
-      "8,80": 44,
-      "8,81": 44,
-      "8,82": 43,
-      "8,83": 44,
-      "8,84": 44,
-      "8,85": 44,
-      "8,86": 44,
-      "8,87": 44,
-      "8,88": 44,
-      "8,89": 44,
-      "8,90": 44,
-      "8,91": 48,
-      "8,92": 44,
-      "8,93": 44,
-      "8,94": 48,
-      "8,95": 44,
-      "8,96": 44,
-      "8,97": 48,
-      "8,98": 44,
-      "8,99": 44,
-      "8,100": 44,
-      "8,101": 48,
-      "8,102": 44,
-      "8,103": 44,
-      "8,104": 44,
-      "8,105": 44,
-      "8,106": 44,
-      "8,107": 43,
-      "8,108": 44,
-      "8,109": 49,
-      "8,110": 43,
-      "8,111": 43,
-      "8,112": 45,
-      "8,113": 44,
-      "8,114": 44,
-      "8,115": 44,
-      "8,116": 44,
+      "8,9": 42,
+      "8,10": 40,
+      "8,11": 40,
+      "8,12": 40,
+      "8,13": 40,
+      "8,14": 40,
+      "8,15": 40,
+      "8,16": 40,
+      "8,17": 40,
+      "8,18": 43,
+      "8,19": 40,
+      "8,20": 40,
+      "8,21": 40,
+      "8,22": 40,
+      "8,23": 44,
+      "8,24": 45,
+      "8,25": 45,
+      "8,26": 45,
+      "8,27": 45,
+      "8,28": 45,
+      "8,29": 44,
+      "8,30": 45,
+      "8,31": 45,
+      "8,32": 45,
+      "8,33": 45,
+      "8,34": 44,
+      "8,35": 45,
+      "8,36": 45,
+      "8,37": 45,
+      "8,38": 44,
+      "8,39": 45,
+      "8,40": 45,
+      "8,41": 45,
+      "8,42": 45,
+      "8,43": 45,
+      "8,44": 45,
+      "8,45": 45,
+      "8,46": 44,
+      "8,47": 45,
+      "8,48": 45,
+      "8,49": 45,
+      "8,50": 45,
+      "8,51": 45,
+      "8,52": 45,
+      "8,53": 45,
+      "8,54": 45,
+      "8,55": 45,
+      "8,56": 45,
+      "8,57": 46,
+      "8,58": 45,
+      "8,59": 45,
+      "8,60": 45,
+      "8,61": 45,
+      "8,62": 46,
+      "8,63": 45,
+      "8,64": 45,
+      "8,65": 45,
+      "8,66": 45,
+      "8,67": 46,
+      "8,68": 45,
+      "8,69": 45,
+      "8,70": 45,
+      "8,71": 45,
+      "8,72": 47,
+      "8,73": 45,
+      "8,74": 45,
+      "8,75": 45,
+      "8,76": 48,
+      "8,77": 45,
+      "8,78": 45,
+      "8,79": 48,
+      "8,80": 45,
+      "8,81": 45,
+      "8,82": 44,
+      "8,83": 45,
+      "8,84": 45,
+      "8,85": 45,
+      "8,86": 45,
+      "8,87": 45,
+      "8,88": 45,
+      "8,89": 45,
+      "8,90": 45,
+      "8,91": 49,
+      "8,92": 45,
+      "8,93": 45,
+      "8,94": 49,
+      "8,95": 45,
+      "8,96": 45,
+      "8,97": 49,
+      "8,98": 45,
+      "8,99": 45,
+      "8,100": 45,
+      "8,101": 49,
+      "8,102": 45,
+      "8,103": 45,
+      "8,104": 45,
+      "8,105": 45,
+      "8,106": 45,
+      "8,107": 44,
+      "8,108": 45,
+      "8,109": 50,
+      "8,110": 44,
+      "8,111": 44,
+      "8,112": 46,
+      "8,113": 51,
+      "8,114": 45,
+      "8,115": 45,
+      "8,116": 52,
       "9,2": 8,
       "9,3": 8,
       "9,4": 8,
@@ -4352,7 +4546,7 @@
       "26,122": 8,
       "26,123": 8,
       "26,124": 8,
-      "28,2": 50,
+      "28,2": 53,
       "28,3": 8,
       "28,4": 8,
       "28,5": 8,
@@ -4362,7 +4556,7 @@
       "28,9": 8,
       "28,10": 8,
       "28,11": 8,
-      "28,12": 51,
+      "28,12": 54,
       "28,13": 8,
       "28,14": 8,
       "28,15": 8,
@@ -4446,7 +4640,7 @@
       "31,11": 9,
       "31,12": 9,
       "31,13": 9,
-      "31,14": 50,
+      "31,14": 53,
       "31,15": 8,
       "31,16": 8,
       "31,17": 8,
@@ -4455,28 +4649,28 @@
       "31,20": 8,
       "31,21": 8,
       "31,22": 9,
-      "31,23": 52,
-      "31,24": 53,
-      "31,25": 53,
-      "31,26": 53,
-      "31,27": 53,
-      "31,28": 53,
-      "31,29": 53,
-      "31,30": 53,
-      "31,31": 54,
+      "31,23": 55,
+      "31,24": 56,
+      "31,25": 56,
+      "31,26": 56,
+      "31,27": 56,
+      "31,28": 56,
+      "31,29": 56,
+      "31,30": 56,
+      "31,31": 57,
       "31,32": 8,
       "31,33": 8,
-      "31,34": 55,
+      "31,34": 58,
       "31,35": 8,
       "31,36": 8,
       "31,37": 8,
       "31,38": 8,
       "31,39": 8,
-      "32,1": 56,
+      "32,1": 59,
       "32,2": 11,
       "32,3": 11,
       "32,4": 11,
-      "32,5": 57,
+      "32,5": 60,
       "32,6": 11,
       "32,7": 11,
       "32,8": 11,
@@ -4488,15 +4682,15 @@
       "32,18": 8,
       "32,19": 8,
       "32,20": 8,
-      "32,23": 58,
-      "32,24": 59,
-      "32,25": 59,
-      "32,26": 59,
-      "32,27": 59,
-      "32,28": 59,
-      "32,29": 59,
-      "32,30": 59,
-      "32,31": 60,
+      "32,23": 61,
+      "32,24": 62,
+      "32,25": 62,
+      "32,26": 62,
+      "32,27": 62,
+      "32,28": 62,
+      "32,29": 62,
+      "32,30": 62,
+      "32,31": 63,
       "32,34": 8,
       "32,35": 8,
       "32,36": 8,
@@ -4505,7 +4699,7 @@
       "32,39": 8
     },
     "RowStyles": {
-      "7": 61
+      "7": 64
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -4635,10 +4829,30 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "tknow"
+    "RelatedDataTableName": "tknow",
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=クレームリスト_管理表!$C$9>0"
+          },
+          "GUID": "a56c687f-ae2b-4191-bef6-32e50199fd8f",
+          "StyleInfo": {
+            "BorderLeft": "black|1",
+            "BorderTop": "black|4",
+            "BorderRight": "black|1",
+            "BorderBottom": "black|4",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        }
+      ]
+    }
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//BvkxHICXoCOGGC4680ao9xLJw8ZT0GJC6gG7tqHNCoMpaoqijkdKclBEq3iTwNqeB66I8+W4PFQTFRU+1nVMuOis0uplMClPtXQfrcL6h6uzk759EtIUjpSRxBW/bqPMyUshHbDeMR57ikVrYgEx1ddpj0koAYMyGeRHVig8xyjQ5pyUKUL36osYuUqYXVjgUdSYhpRpe+ozksr2ZOr6oMGaeu1KcSumcueX6T2P9CCNK4D0Qc0aL4X1ScpueK82L+Nf5PDzuldJqjUOfVF42zqVabnI0shP7i2FhSv8bzCOLdeKV96Hxipt/puXvdy8DqwVe7tRa6qMK0lI397ptWVqpFO4Rzar2idan7oqJweXmCsV1M1PGW5jcNqrnZD7+vUWyLAGxVlq6EZcTl9zu+ZMy5uGjUiUtBToYRJ3oijOe/99+dA/NYU6c2V9ak07uV27gzZIgc2tQTBahjTKZbojp0wnlvfuYNNrUK1LVvx7cMaTjoMQnzfPMitDM83glt/qNv7SAzKXvBihLn5D4uL2AbBg/tFE7hfgym3WXXv0q5QAZwKW1uNDndFTWzorCORZ13jYI6xJ0e0m7TGiKg3TIUTw+T1EtgtaMA/ohWUu4qs5dDM4OSEEgeIJDkE3kWLAJ4PAAuw75c4E59MpsH0+L8ky8GL8jqYgVdw8Ak20f9Nh7LnPrIkh5RGU4WVpgi68QOHVBDx7XEfF/CS5gob52rb0r3JKpnXN6Yzb0m7ddQQsgLNvnfnYBAaPD1evcKvAKACOVuN+LG/B77/R/8rawFT7vmYwGEdA9dyAKTBm+5mrXfh8BjWC8659S+PxUeAfBB2Uqg1SSQRjTeWpCSoGPNUm9woQ63I1tnHKAow11Ij5iveyzVQ1P6kfdIhJygZ/z5HWKxeqfCrW6FBDsQ==|920
+}//hI2ti4uCYIHRMEwd8rtwfnD5QgYORol+AET1QzSSf+yjijCEK/e78UJ9lHBPglNGJgss135MJ+Fo8haMJUCOZky97lCaCtH0KLA5t4MgpUJ0nJV0l/JU7O0S7K4lCz4o4kL8B/4TL4Cm7l/BRp9Xrspwwqv+uZBAzkzQpBZzDIjkp6iZrYfTWUrkO4NMPHgYTIz3DWZrzjrWxm0+uzDT9E8SzJiXX+Waz8Jle3Fsap1JZP3PMNmYPr2iYwm/8kgIohCYBN+KDgRQMVlddp0b/txUbJN1KGAsTljURD8DuwmAEwOVHkYdidnlhBhWuII+UCMjgP62u0brq6S1RIFJKiwC2I1QrZM1qgAl6ssd/fQ/ljhhpQmxadu1t5uAicuB5JDC2XU9AqvFiSkUJ+a5KSINY2CHzJtoTdUv/r7iD8uQJVlkRT5K69nzZwRxn2kJRyniXuus9LBnKHaSYSevQDbYXVhGcoFguFrszTwCcurC68/qtxyaRoHMotzqOsA7EpzciuVMuQ7BwvZAqhCdQv/xwbIiwlpt9bZ9JShsGhGemfyHOfu9qJtC4OoAbHFBjyO2hkpthsEMirrWKVYSIVVqfgPD8goZ4ZID7AQvxaYV7Iwt6nXhxBvHz3zF9jW7aeaUwSf8qOToQ4a+mBKmLBQN3sqSiKujSNa2hxL9cQ5K5VmyPawNCaLDmdGCJr85gElfxVmqyzCivkSt6UxXbm4iEct8OH5eDTK765a4VfPgYYxc2CgTM5hd04BnKniWLsyfuZzn4ZntTyEND9YJknLVUxioKb+SLgBvPWyCLpo+PWO9ZrxW2xtfu5gAui1AkkLqq4HjNN0Gl0Je5aqYxIbIcK9DFrgwkINAyUtypwu64OPas8T1F7PTeL12vHfgR0eo8rzXSJHkb9cpLfPuAg==|920

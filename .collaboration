@@ -173,31 +173,11 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:46:09.5748931+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表.json",
-      "Pages\\進捗管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T14:11:38.3284902+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表_新規作成.json",
-      "Pages\\進捗管理表_新規作成.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/進捗管理表_全体概要",
@@ -209,17 +189,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:48:46.5180058+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表 (3)",
@@ -227,17 +197,7 @@
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:50:21.9729981+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\SEAQ番号_検索画面.json",
-      "Pages\\SEAQ番号_検索画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_2",
@@ -301,20 +261,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T13:05:15.2989758+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "image/組み込み画像",
@@ -385,51 +332,11 @@
     "ModuleType": 23
   },
   {
-    "ModuleName": "PCPage/進捗管理表_新規作成 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:44:54.7090957+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表_新規作成 (2).json",
-      "Pages\\進捗管理表_新規作成 (2).rd"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/クレームリスト_新規作成 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:45:09.947358+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト_新規作成 (2).json",
-      "Pages\\クレームリスト_新規作成 (2).rd"
-    ]
-  },
-  {
     "ModuleName": "PCPage/進捗管理表_編集画面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:44:54.7091079+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-27T08:45:09.9473715+09:00",
     "ModuleType": 1
   }
 ]
