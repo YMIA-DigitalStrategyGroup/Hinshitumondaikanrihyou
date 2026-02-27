@@ -264,7 +264,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "艇種",
-                          "GUID": "b0fd436b-3242-454c-92e8-9da563ff2315"
+                          "GUID": "12646564-e859-492f-a141-7ecd0e296ad2"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -275,7 +275,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "艇番",
-                          "GUID": "f747fb4c-dbb6-4896-b98a-85275a184266"
+                          "GUID": "2ba73011-b37d-484a-a17a-3a2f77301143"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -286,7 +286,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "アクション",
-                          "GUID": "6de3662f-17d0-4f22-8854-a8b7f6e2b3c5"
+                          "GUID": "f91d7d4c-b767-4c09-aae1-47c0f26cf0ed"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -297,7 +297,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "SEAQ管理番号",
-                          "GUID": "8d9865d8-12c8-4cb1-aa45-4dc6d06cdd00"
+                          "GUID": "571cdd33-67aa-456f-b32f-a804d527906a"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -308,7 +308,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "不具合内容",
-                          "GUID": "f217ecd1-000e-41f1-ae48-6734a21a7498"
+                          "GUID": "03dcb376-12d5-4782-9b7e-255462cf5d89"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -319,7 +319,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "ステータス",
-                          "GUID": "1ec49738-41b9-419a-866f-a1de1d289ef1"
+                          "GUID": "1d67d8a9-38f1-49a3-b434-4e5995f696ad"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -368,7 +368,7 @@
                                 "BindingInfo": {
                                   "TableName": "tknow",
                                   "ColumnName": "TITLE",
-                                  "GUID": "6e508270-7f75-40b2-a65f-adf277909f94"
+                                  "GUID": "be2addae-932c-4b93-9cdc-0ef079da0cc8"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -379,7 +379,7 @@
                                 "BindingInfo": {
                                   "TableName": "tknow",
                                   "ColumnName": "SEAQ_NBR",
-                                  "GUID": "378cc986-9c59-45b0-b558-7b5be978a26a"
+                                  "GUID": "bd4f4df0-859d-4380-9741-511cb07a87fd"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -390,7 +390,7 @@
                                 "BindingInfo": {
                                   "TableName": "tknow",
                                   "ColumnName": "SEIBAN",
-                                  "GUID": "4bab2345-5ec0-4de7-97e2-055a375c43bd"
+                                  "GUID": "f62a1564-3513-4025-be98-1aa12ce4ba35"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -400,7 +400,7 @@
                             ]
                           }
                         ],
-                        "ID": "b2fc91f5-7d64-4127-b54e-e50e8a9589d8"
+                        "ID": "c53dc8f8-f936-4a91-9b81-d36678578281"
                       }
                     ]
                   },
@@ -409,7 +409,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "6c182185-62dd-401b-abf9-d477694b18be"
+                "ID": "43f524e6-92f2-49e0-9cdf-80507a21f47b"
               }
             ]
           }
@@ -417,7 +417,7 @@
         "Text": "更新",
         "TemplateKey": "_RS_Normal_Style2",
         "Icon": {
-          "Name": "Application/002_add_2.svg",
+          "Name": "Application/058_refresh_2.svg",
           "BuiltIn": true,
           "Color": "Background 1",
           "UseCellTypeForeColor": true
@@ -1441,4 +1441,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//W3fmEepbZpPJQbldkTVGySc+TKMK2q08HK31bC51duEMnrGvUEv3HA6cJt3G1i06jwQRp8fbXVBhBGEGhU+6wJdPQWf8+okaMcVh4BNQyS8c4h3qjMz4W2pmPaefsUccid4DjNVdzp6LPBCpNs6Ow31bD4fZtfi3/MPoFgUe1xG50wZQbnvGJRoAWsLwBqame0W0vq+1sR722r5isVKLkFTe8tgNLudZ8XiG8MhTN8hYmbuYAX/lpmyJb+xAsTQLL6soXLxQjC8vvPcMLMRylPMMpsEiVkczAucdajRK3GZDaUtqn6SyZkGKBskoyL58Gj8L/wBrQH41sJtoNXHczTtTEvmL2gukCCKkeRrHb1U9GLpQVKQcdgMAzJ4Ul2uBnH71QJm9XB17SRwVkenwjrqIRt5x/asJZWyeZ1vqSVG3YiONFrKFFDPVyuKQ2NvimBQQ0ZM2+hbD1KoCzWu5xnpRIuee4DuC9CM9OP3O0T3XDjQOOm/zdavsfvvf30xnLAbSvKFx4jaswM79GTXmMY9QvXXPxob3TSQJX7ueZk9+O6e3VdCJ+Sr/kRvF2gGLB8mFtQqZmGTL/a9mpMMZOW82hlcnNc9gWMmCsL4CnNKrlTnnkBkZq6j83kN/UTQm0u5oJUp0Pnvyy+vUg0rJdfGRekwvaABT1sfcHVu3iBgbamV0NV2eX5pRbOjCx1A7XKFdTuyJiszGQqy/eC+cK9ijOBvNh6XI8oyOTtyffst4/nw7wRlQnEo2ng/wgsW5+bhY2frecDNYgf/zkiZLv9U/NRArY17JEKShJg3OfWVozFG2nhxoQ3VU/EXW0SfeQJI3NBAYoUM8Xg4bNt/rKQe8sLiOricRaU44iD7sEJeR2Wp1NO9ohiT/wXUO7c1p0XtRSN0q4xp6Vai+xTCUsA==|920
+}//uIiU88GPXsBRO20zOFKKgg45ESOtYtYOJJKbY3jGOZOxtr23qUu+ep9somIF7x2vvD2waVosd4OfDSPlLZEaiO8KG2MezExid0KDdFwWKX9tpN4DuTGTmGe0lLt8irgzZZlq4pERMz0EsIQWWVPJPKif/VwceDTfqy41MiCGyRGRAH1Dn6wKiBhhyfgweZ8UcM9k5h3C8IhPNwMY2PmYfYPgMTSoLI7PEGTw+bl4y/SYDNHUhzuY8L4DWrQ02rSqhz/4mLT4yanV1orioA6mRwvvStzYtzWWNr/AVBJuTwaID+0uyf3WjAdi8SAW6BDtW6SHqUu9O7tOL3tjekJCqhTEuxhcgZMhjros3XOec/IeE5C6tz0gJPx6DKJl7PqMcytTa1odgo8kKKeWOf/uQ7rLGgIozbY9G6aC2k2NTseaa8TJYIqDxSL37tJEFURd+PrYPabqtjeDqfVySFCSNX4q6KER5I1GPGjZM88sISB2n8Y11AEXOLWzIIKnd06bL/kn+cIZZQcZu914h0En6DVhRu5P+s2u6vOfEkj224JvIcNaSVse7KXCOxt6wm2N/ZNBjI8LUasoYqTOdxAdhagx0MahKisaVVqs14u7o0OYnhHVOh0doMV3EqQQ/7b3pUaWx/V0707h9J5MNkt33gF171vwAHEMHTbOmX4bE9E9CNgYgiOTevejN7IHJjWByyu2aTAsRZIbr5Y/f8GYxtcPrRvWHUNxoexh2Nrzb9+RH/u4qAfNDW+ttcGYb/nHBO/DEfOjbg0iRrNg4+jqEIU4YpUPmC5tVeOuRc8AlGOgxR5r9mYNnoAtvtkj1aCxz2p+0vwfz5WbRuLtapXXfscGE2G0MMS0SyMk/4eu840p2qMVwIp1mPCuJC0ttLD0eL4rGuRpSutkRYTvAIY3DQ==|920
