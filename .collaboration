@@ -195,7 +195,17 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_新規作成",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-27T14:32:14.0420804+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト_新規作成.json",
+      "Pages\\クレームリスト_新規作成.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
