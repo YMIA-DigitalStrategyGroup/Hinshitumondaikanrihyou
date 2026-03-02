@@ -61,16 +61,7 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-02T17:22:36.3135107+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\品質問題_Fコスト.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/品質問題_全体概要",
@@ -350,12 +341,6 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_統合会計版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-02T16:24:53.0949701+09:00",
     "ModuleType": 1
   }
 ]
