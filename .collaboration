@@ -61,7 +61,16 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-02T17:22:36.3135107+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_Fコスト.json"
+    ]
   },
   {
     "ModuleName": "TableView/品質問題_全体概要",
