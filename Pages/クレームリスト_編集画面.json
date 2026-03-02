@@ -733,10 +733,6 @@
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_編集画面!Y3"
-        },
         "SavedValidators": [
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
@@ -1338,7 +1334,7 @@
                     ]
                   }
                 ],
-                "ID": "069d2c67-7f88-4a98-b9cb-3c900cf9382f"
+                "ID": "6068b63e-10a5-48bc-b47a-859e4321129e"
               },
               {
                 "Condition": {
@@ -1386,7 +1382,7 @@
                     ]
                   }
                 ],
-                "ID": "8c863b44-6ed0-4a0f-90b9-a76958126b03"
+                "ID": "5999024a-38d3-44f6-b266-3d46c9aa3d8e"
               },
               {
                 "Condition": {
@@ -1434,7 +1430,7 @@
                     ]
                   }
                 ],
-                "ID": "0fc3da29-b86b-49ae-b37d-ad92164e3c09"
+                "ID": "218c1323-b6ce-4d79-a129-f9b92e15d2eb"
               },
               {
                 "CommandList": [
@@ -1451,7 +1447,7 @@
                     ]
                   }
                 ],
-                "ID": "5afb6b61-39ed-4bbb-a6fb-0293269ae95e"
+                "ID": "b05983d6-e428-4946-9e23-926e88b0e443"
               }
             ]
           }
@@ -2106,7 +2102,7 @@
                             "ReloadData": true
                           }
                         ],
-                        "ID": "9b503674-49fe-4f45-b932-ec0df82a03bb"
+                        "ID": "7a8a85c8-4b8b-4c2c-be1a-0ddd2f813d4f"
                       },
                       {
                         "CommandList": [
@@ -2115,12 +2111,12 @@
                             "MessageFormula": "このW番号は既に設定されています。"
                           }
                         ],
-                        "ID": "2adeb8d5-488c-4751-ba42-1fcf11ccbbbe"
+                        "ID": "a5da6032-be21-4e8d-a0fd-d06bad62faa1"
                       }
                     ]
                   }
                 ],
-                "ID": "6e6c9d1e-2475-4f1d-8712-645e56238dac"
+                "ID": "4b055fa5-b55b-4444-8886-1aecf90a3850"
               }
             ]
           }
@@ -2182,7 +2178,7 @@
                     ]
                   }
                 ],
-                "ID": "134f5a66-0efb-4e6c-91ce-b7dad561977d"
+                "ID": "ea72a1c9-37f5-4b6a-b3c8-b93cffabb473"
               },
               {
                 "Condition": {
@@ -2230,7 +2226,7 @@
                     ]
                   }
                 ],
-                "ID": "d4e6251c-1f79-48d5-a5ec-3753846698a0"
+                "ID": "1f2bd5ab-1f21-491f-a28d-182603058f43"
               },
               {
                 "Condition": {
@@ -2278,7 +2274,7 @@
                     ]
                   }
                 ],
-                "ID": "12cf3673-588f-4b50-ae1a-0b8f690b6927"
+                "ID": "881edc49-ad8d-485e-a04d-c78dbb49bcdc"
               },
               {
                 "CommandList": [
@@ -2295,7 +2291,7 @@
                     ]
                   }
                 ],
-                "ID": "c19c64a7-dde1-48f4-8468-9462c05fc4c1"
+                "ID": "e7a4e881-0f01-4563-8980-7d6d41b373d7"
               }
             ]
           }
@@ -5789,7 +5785,7 @@
                 ]
               }
             ],
-            "ID": "f0be3036-1663-4f10-a1f4-7b3ac91015be"
+            "ID": "9163271f-225f-4de0-ac3b-2e913f6cb34c"
           },
           {
             "CommandList": [
@@ -5806,7 +5802,7 @@
                 ]
               }
             ],
-            "ID": "37656ff5-7a37-422c-a18b-189852baeeeb"
+            "ID": "c54b476e-976f-435d-85e2-e7e818f89514"
           }
         ]
       },
@@ -5866,4 +5862,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//KOTAgYv6+ZHqzi69wv/x8CtEMDogBGfbBCuR4fTIsQnx40PBYKQS4vCJzo3FVBQaxXGINOIBOa+cZUdyjuNHAkacQ+8gxxHL440QahV1dFbtGiYVr3PGNlh/XZoN49Hk0uBfgZBV7xGiTNDhCxvmSaRANK/h30aWQ3nKivQ3X91up2mPBsf1UkeBIBjLtgOq5XiPrePsFlaLln2Hvk5w0Z8EfET/tz80Rj1VtuvtpjIC8+rBznQam0G7h8PaD2n8DS+CPiCUgXdDgsJ+9cKM3kiChKXxeLyF6kKh/uDhK3FJAElWCjakhL24YW6iXOwFQFR3bYsNG+OoLARr1yawqO/dTR4o9vIXEgfp+9EhL1DQ0Mch/xdFx9WnZ4Y9SN18n6+lXm7ddxFAtLWQbQhda2TBv/bnBmLOATdiGYZ7POdzjdLS1T+NpxyGPUGQ6pfn32MmgVhJqEVGVy1w72PIlWzCqB+VCAW/Stl6MeUnQS9JafQMozx1zU9ST6YWLfdpjilyNNBSgMHHBNtCKT8HnO3V7x8Cx94eQK2hr8qtmxITVk+i9nslVugBPtkbn9l7bx0lejKldrwfjguZcpLnmCoR5oG9e+O0KZdFc9a2LMId08zeM5JLwiljrqgioTurwFqbTG6q6HlmKoDxqUeqR8UzYBdTSjfUosJVh5xNENuBeKZWu70RUabVHhdw37pVpBxXTKNyNf7SCtaklQVoC0dgLJS6DqAOx8ok0fhbqQlUDy/3+mk4VG7iK9UWvrRk0fEhyrw+Japtg9gyNhPzk/+8OySml963f+fRPYnKlg9M+8DBJ8XacJOfWsk8eich5UaVaidVxagym7hcE/lX7d7gWmb7HCvTvH+IVSaTFK4gzCKtNcMVNn5GcivPTl9uhxxmBcI9fw1R7xVcWwbGFw==|920
+}//9+Ikg1x6bJwzZP39DoN4pXct4OXUvemPrRpaLxUGXIUoJ1Or79y1yE+nrona6Tg2m0rskvVDAp8ySc0Dk5ujSMqVAB28BsmFqYQ6Pta+bNfAXeH778Wu2X7nnQR2HI3Lli99vmUpxXjmKj9XVaFuRLYjyFpPZ0rQN5RD2paxCO8upQsrissVBFUHRzvAJ7fp+tRgRUsHB300OCy0NcCJtMXHSJtfqXQ/83GhU6Sbky7k2quNdNjvX0qRrmCI4COaBOwNMGAEQoUFUHSQ/xt5VSN0XLTfyEdA0Wh8PtvwtmClGxtUWAnXINaDU3od13rlR8/YZ5oeTqpB9GW/QqKKRKOB78l9FbsAugPO1Xvb618tsncbwuKKlCYMBEFDJenJDHtVc2dz3FQUR6I4p4FvUNlSl7HnELDWa3dfDFVexJXoKtvpjMJTrCHlEZu2rzamiFzE56RN9kSUh28PoeHk5IQRPrxMoLCqK7PjGHr1i+7+HfECkb85/GedtGmJksZN9nU9AWeoJ4qo/+lPzbOGlcrgyU7ItBYBUGw2UP228351HvRObiyaxzMCgq8FFWMkhgVyupSf911ysfA+Vf20eyWcxaUhtpKRCCjVQI+QoUYY2xA3qHYUWn6hOqEwLzJe/Dxto0l/GMdrxpgtTt8lgpan3n9UFh5GqTQb6IocAe1i6x5qbGAIk2mRjutlVKGWKKbXpZHOF+eeDnIP3bI7HXPfQI3hwgooly5pTaMrXy+CpEQy99Yhf80OZ2KhEPwb7VS27z9/zXtEignEn6KvtMrTYTcPKCgYVWygZnlr8FDsD0/bw8cVod2JvPUWP6Hg9zLmSM+hFnt5X4aL/4Yf/c/OVUnov345wrSEt3O7o1YfEKL5m/qwsQGqDuNkmGWDeJAzGZsNHU11tdMpwmIHBQ==|920

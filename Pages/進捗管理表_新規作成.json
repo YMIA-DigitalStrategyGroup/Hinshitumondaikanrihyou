@@ -40,13 +40,6 @@
     "0,24": "TODAY()"
   },
   "AttachInfos": {
-    "5,8": {
-      "BindingInfo": {
-        "TableName": "品質問題_進捗管理表",
-        "ColumnName": "管理番号",
-        "GUID": "93b75404-486f-4a3b-86ba-1cd5e9b2777a"
-      }
-    },
     "8,8": {
       "BindingInfo": {
         "TableName": "品質問題_進捗管理表",
@@ -272,7 +265,7 @@
                       "TableValueType": 0,
                       "BindingInfos": [
                         {
-                          "GUID": "67de0dd8-272e-49f8-bb89-b34cff39e206",
+                          "GUID": "8c97dfb7-e881-4d73-bce4-07386c1494e0",
                           "BindingInfo": {
                             "TableName": "品質問題_進捗管理表",
                             "ColumnName": "管理番号",
@@ -295,7 +288,7 @@
                         ]
                       }
                     },
-                    "ID": "60945cf5f4ec449da11faf457e6af606"
+                    "ID": "154744674d64487d8ac3e6ca2641b8c5"
                   },
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -307,7 +300,7 @@
                         "BindingInfo": {
                           "TableName": "品質問題_進捗管理表",
                           "ColumnName": "管理番号",
-                          "GUID": "f8b19c4b-26b4-4164-abdc-88b31249ecf1"
+                          "GUID": "645e9ada-6d53-4f7c-845f-4b15f199aa5d"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -326,7 +319,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "2fa08ff7-9af2-41ad-99fd-02c619d7edfe"
+                "ID": "62de4ce8-6171-41cd-8980-17e814f58dc9"
               }
             ]
           }
@@ -1122,4 +1115,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//JtR4AgoWBTbogGTuZOdxj2Is0lwSelw7NNkwKjaSOv0/4Qr5gO155KBhCv3Jju0ExfjOkFS/adRZor3IcT7YmVEIA51xaFFGLnTeBtlUNX8NnQ0ZOV7BRsnkP9rW1imQJCf6DcrBG2oeOqgaDUC4+px6SqtQKIXWNARTqPjAFyDVjF8EDuR4G59lvHVNHM2PwTp5TKuo64i6iK5qcMhp74JghggwIGZ5ki4gmLM3EFEpGHudBwz2csWB8otZzmLA/xtq5U+ycpyYI7Qgi/mA3ajkHYw4EvxQwbNsE08S/WGbX/YPrO7XtN1VMTB4tFrkT1WxUwoxh0blxb2WYnIQMnTyK8ACyjCSczC11C088j+YNlaGTtE4n67Qmgd9iL7JzvrsuxTATBReC2JvUUo9ZcNfeE6sInFvGFh1C+TXhC6/qnAqsfem/4VC7Z6XkQJ/bSUqEh3SrcmevzSZYq30/STtUmoR41n3EiJYqKXmh74oXiZW+rkYa+BdNDcwFjy6olVLxXYNYkPeicUZfdn9t+Oec/Opkj5jGwXXrSKTU5hEcgShQ1L6RYQ+57FH79fC8Bc5TDwjat5Zuv1HTpxB4RoiMbapwQRy0lGerJr0bI12o+0dD2lj4zx63AO1osY6zltfmKF7qYheNCsS+pbLmQvFBf3uGxUkusqwXHCn8a1otohVFCgso2Pp/tmpdnI4lTKeYgEafdf7r+RZv28NZPwjhkQ4FyYPhbS1csX2AQknWlOAcze3IaL7CN/xOr3HlwU907V8pvyAKppAmYedtypXjh4BHkI6K0jgMpXJSTJTlvElqh7FI7bGwhFNwDDr+l6HrOVVBKexvWNinBxqTca+oL0TqEE5G1dp0xSumEBMTg0fecYcINYzb/daCapIGKqQ91slbtYvsJJTN7AUOw==|920
+}//6lp1vdDglBx5JduleCrxTwaRLPT0BGYbmpDT8RRNe5rlSpdqeFuTz1M9eKdtFgho2M4xscjmHabZr72E8Ira/wY6XCYSPmbOjP+v6i8tsrKKHX2udcgB0IB7c93j5+sF3hHn2i3NSO6NGfu2Kbux6Rps1O5YYXfECG7V8BCZpGYbmwuP+9ELC43qgNMgioc5KhHJA+1VRnSMdUGEkVwbxGPhW/xG40uuFnIc15aFgVEWhXWOeGteV8+p7LuthVcqdeZEQhTinFxoRMsK2S2O14G/RtjKV8Di1y2JzRwAUGMLGD4qOEVBjHWir6zJ93M8necZ/N0YDvdA+AJy2B3A8P/E3zNP9tEa67XmUh4EPq6TvqtZx9/iAMSRwRaDyQ14uhWW914JN1EF1Wt8fooa8ZHMdHLftDA89UaDjsYqEowSebdwVWNHM7vRL3jyeh3Nih7F9Sl3bJBFU5urCyoUlNNNC+7CL60dF9i80TFvyF/yoYxKVCMiAOZFIVH087N1dYqUJqJk0KTwl5fgN9+SzIwpoPQ5o+m5yqPcF+EImYtFj6F6n3f2gFEDwMBFVuBbUvTp36YrULxxQLCnGd7++ifqWL1dtw5Yv59a0BiQITg38LBbe8GcoD408isiPkaYfsUeehDUMkP7RyWJ7CKkRpg1Pp3zq4lsiv8bnabZIgWvDj9Yk3abzeYJ1dxkrUb/U3NibHkmPisvQNcvY8lg9ZPFMmMF/2ZXbwyIyITroAMOdOzTMfbPyQ8X018dbAJCKk2P9LgYKHU1GR6aPhKeVr+gPSS2gIAMfyinx/k3hJ//izUfTYFh+j701dEBUTvNefMsTI/axEyah+6DHdvLXr9Ls3u9Y94ytvwRz3ESmk1Uc8Mk3QfAwaY96b3CQlhxgT6avFWF1E927m+cuBh/YQ==|920

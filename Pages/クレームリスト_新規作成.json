@@ -1210,7 +1210,7 @@
                     ]
                   }
                 ],
-                "ID": "16914b6a-0c2e-437a-97a6-d68a67ef0edd"
+                "ID": "20b0d602-98eb-44e6-97e7-07315e7321cf"
               },
               {
                 "Condition": {
@@ -1258,7 +1258,7 @@
                     ]
                   }
                 ],
-                "ID": "88d3f583-7bed-408e-abeb-0add2c0bb4c3"
+                "ID": "84eec4c9-5c50-4d7b-86d3-b69e6fccb789"
               },
               {
                 "Condition": {
@@ -1306,7 +1306,7 @@
                     ]
                   }
                 ],
-                "ID": "3f6dfcae-54e9-4a92-90a3-b89a15adf48a"
+                "ID": "7c53d0df-940e-4f48-8084-f6357e89b1db"
               },
               {
                 "CommandList": [
@@ -1323,7 +1323,7 @@
                     ]
                   }
                 ],
-                "ID": "462e34fe-5a4c-4ec2-885e-5c0a4a038c9b"
+                "ID": "541d1fa2-71fd-4909-9483-6468718b8943"
               }
             ]
           }
@@ -1568,61 +1568,6 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-            "ParameterName": "W番",
-            "TableValue": {
-              "TableName": "品質問題_進捗管理表",
-              "TableValueType": 3,
-              "SqlCondition": {
-                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                "ColumnBindingInfo": {
-                  "TableName": "品質問題_進捗管理表",
-                  "ColumnName": "W番号",
-                  "GUID": "20f8865b-b6fa-4eec-9ee5-e121468f202b"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=クレームリスト_新規作成!H84"
-                }
-              }
-            },
-            "ID": "e1474e4601f840b1bd1519ed5475ac01"
-          },
-          {
-            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-            "ParameterName": "最新W番号",
-            "TableValue": {
-              "TableName": "tknow",
-              "OnlyGetValue": true,
-              "TableValueType": 0,
-              "BindingInfos": [
-                {
-                  "GUID": "4f587ac8-eb0f-41b3-9531-0a8f16d7eab4",
-                  "BindingInfo": {
-                    "TableName": "tknow",
-                    "ColumnName": "W_NBR",
-                    "GUID": "3aa179f0-f2df-407e-b157-3e868ce9f304"
-                  },
-                  "ColumnName": "W_NBR"
-                }
-              ],
-              "TopCount": "1",
-              "OrderBySqlCondition": {
-                "OrderByColumns": [
-                  {
-                    "ColumnBindingInfo": {
-                      "TableName": "tknow",
-                      "ColumnName": "W_NBR",
-                      "GUID": "032e9d3c-84bd-4411-aeac-d67c19d05450"
-                    },
-                    "Order": 1
-                  }
-                ]
-              }
-            },
-            "ID": "2758f71eef324abe80378f9ef9456a58"
-          },
-          {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
             "ConditionAndCommandPairList": [
               {
@@ -1635,6 +1580,40 @@
                 },
                 "CommandList": [
                   {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "最新W番号",
+                    "TableValue": {
+                      "TableName": "tknow",
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": [
+                        {
+                          "GUID": "ca418c0f-f468-48b6-9b72-2ba023973909",
+                          "BindingInfo": {
+                            "TableName": "tknow",
+                            "ColumnName": "W_NBR",
+                            "GUID": "3aa179f0-f2df-407e-b157-3e868ce9f304"
+                          },
+                          "ColumnName": "W_NBR"
+                        }
+                      ],
+                      "TopCount": "1",
+                      "OrderBySqlCondition": {
+                        "OrderByColumns": [
+                          {
+                            "ColumnBindingInfo": {
+                              "TableName": "tknow",
+                              "ColumnName": "W_NBR",
+                              "GUID": "032e9d3c-84bd-4411-aeac-d67c19d05450"
+                            },
+                            "Order": 1
+                          }
+                        ]
+                      }
+                    },
+                    "ID": "956fd15fc68b4c1aa9d67a2d59ccd71a"
+                  },
+                  {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "tknow",
                     "UpdateType": "add",
@@ -1644,7 +1623,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHIN_TIMESTAMP",
-                          "GUID": "115f8a6e-861b-4c35-b1b4-965e215ca852"
+                          "GUID": "34b7125d-e1b8-47e3-990e-8e8f8011d6a4"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1655,9 +1634,20 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHINSHA_CODE",
-                          "GUID": "f2682b0a-b516-42b1-b796-bba24dbb4dc0"
+                          "GUID": "ec825b2d-2bb9-4615-9053-5b9f4b3bb97f"
                         },
                         "Value": "%CurrentUser%"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "tknow",
+                          "ColumnName": "W_NBR",
+                          "GUID": "ab5e2f3c-c2e3-4bac-8f1f-dc547a5fcdab"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=クレームリスト_新規作成!最新W番号+1"
+                        }
                       }
                     ]
                   },
@@ -1700,7 +1690,7 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "W番号",
-                                  "GUID": "7455a26a-d4ff-4f74-9fe9-f96d031c7bcc"
+                                  "GUID": "65812d8d-c42c-41d0-8af1-8231ebfba87e"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1711,7 +1701,7 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "W番号発行日",
-                                  "GUID": "2ec4b7d2-11c7-4bde-a38a-9def3076f9ef"
+                                  "GUID": "5b2011aa-e804-4262-9772-1816b6861f22"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1721,7 +1711,7 @@
                             ]
                           }
                         ],
-                        "ID": "df44bebc-821f-466d-bda5-abb9db906f00"
+                        "ID": "545646ff-32c1-4a3d-8c5a-5057a5ef0f4f"
                       }
                     ]
                   },
@@ -1734,7 +1724,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "d014175f-7b08-48c9-b7d0-76ce7a024005"
+                "ID": "86a61fbb-696e-4c3e-a5a2-9eb2991514c0"
               }
             ]
           }
@@ -1796,7 +1786,7 @@
                     ]
                   }
                 ],
-                "ID": "6c7f45f7-e89a-4e08-adad-f88582743cec"
+                "ID": "e60a5def-6916-4700-a46a-9b8ebdeb2496"
               },
               {
                 "Condition": {
@@ -1844,7 +1834,7 @@
                     ]
                   }
                 ],
-                "ID": "3d78a6a8-376a-4982-a852-b98de1f228ea"
+                "ID": "2df94998-39a3-473f-b71a-f20c2bed9469"
               },
               {
                 "Condition": {
@@ -1892,7 +1882,7 @@
                     ]
                   }
                 ],
-                "ID": "5feae26b-551f-4101-9261-a127f80a3f56"
+                "ID": "3f08a69b-e9d0-4b2b-9a8f-41ea11d91b15"
               },
               {
                 "CommandList": [
@@ -1909,7 +1899,7 @@
                     ]
                   }
                 ],
-                "ID": "2ed816aa-ef92-40cc-9f6c-2ed353c6b071"
+                "ID": "7683af35-8c7c-4715-b0b1-572dfbd00f50"
               }
             ]
           }
@@ -1944,27 +1934,6 @@
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
-    },
-    "83,7": {
-      "BindingInfo": {
-        "TableName": "tknow",
-        "ColumnName": "W_NBR",
-        "GUID": "8616eb4a-72bf-41da-b89c-d1c9c0c6b9a6"
-      },
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=クレームリスト_新規作成!Y3"
-        },
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "DataValidationInfo": {}
     }
   },
   "StyleDatas": {
@@ -4598,7 +4567,7 @@
                 ]
               }
             ],
-            "ID": "65defe81-3429-4bc1-b1f8-c00cf9eaf336"
+            "ID": "5a9bc72e-ef46-442f-9493-cc8d28c8188c"
           },
           {
             "CommandList": [
@@ -4615,7 +4584,7 @@
                 ]
               }
             ],
-            "ID": "9ed3967a-8ab0-488d-ba61-b53ac94bd324"
+            "ID": "73047ed6-b0e5-4785-99c6-e23c574cf207"
           }
         ]
       }
@@ -4641,4 +4610,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//iZ6zM0A0881jcssyX8RLNb+d9nNvj+zXRmvGGBwmmVTkmXcZpvr0Zhzjdhig3esdcz+8faNciTZN6Wi+/tPEaBVHdq6oGYiqdid6IVe26OMhwCoNpUV3CgSdyY0OE1HaAGMcUkVxxe/U/AAadEd6mGMzzMPiGG/Aq96jS4Xmejw7A/i2dTX+zXeBIE+tSFlpVWO2SqxFAzmZR7etbsHHlDuvyttI7H3jnmfAYhab9OLkKLSKnpyKBIp5MOroLgOy7JnrXajRog3tY4SWCBwRInNQc+DSO3xwIiGpct/1m9JERAeLPS7zdxADTJd03nXCj45LQlk6WRyAA/uJFMCQPtQrNgZecFPlh7ppgEBz9tl4eEtv8D9XdGkoi25f4sfxQo0arMG3ubMsw7ALCTUBHjX2UF3RepwCVHiFuY98YCv5YMJ4CRuJydNCpdMPziYf0uRh/SZTJ5PnE7J6eHyib2KM4peabgxM/W9/6UuW4emyIqlvEku/mozCuXW09ETc2gHbp3wqcCB5Lgx2uYxm30o9edKDX645WxEE/Bn2zCorXSxCC4OOUrHvsM4Nv3w4OjbHLOnuH47zoEMbrGvHp8myYUx+lnpu4EajBldaBIUEponEDdCIWgujcToPITF+XyDWtqSsU28/ow+LvpkzDRWNkHJnIUeNNXkI9DJPIXqyrqMmYirJQVDxUuvmyuLHrM+Pemar/XB84OhZQLGiQFHtfAZ2wq5DGNt1AXRVVaikEhwyrGV4BE78f8gyv401gO7W0vBV8M22o+srrU3qDXPVYFqfwazXObYXbNc0FuJdAxOmZ+ZgMLwqDz4NWTZebq/okKx/eG3iCRonhWsuXb7z2KvoJ3EiHMv3jXYW8VDr/xWzb8zkJ5p9WE0w8a3UnNb9GgYo4QfqFtsgCRt1UA==|920
+}//Fuhs6ihbXLK8eeIG1r+pwmH/59zxRc/mLGTITh8scTovHS/3UcEw7vHg6wdpCOPRVFLTD9ndYWbJ0EBxuWhEAgh+iYMX5LhqYUunV4u9Q1O6OQlQvF85fZGItpwRWUUyDkHK27YvlhKfA80rsjVuPAUqtTNfL0cxbzVQMVvqKuxubzVbyUAfzgT+3ZyHfVMhPnt2AZ72giwMl92dYFk6IlqThcflprG5zIy0Rp1gDqbKQxwxaZuEuQdfHXgbG5JU8l235FfOX6t7ayW4nuhIphiv3RtUCot0xecUl3Pk9Hr3NIyXo052lMT3GYz+Rn+i/Vt/YqMh7I8OjTzPNl6fkEA9wi+Y0mb0EthwCNyHJONQR1+kbBW3Zh4lz4y5f+2v7pnT1YhiSPWLPlAFYsDVawYTlQitZLwCRm6Pn+n7Ne2xSJhhoP5YQZBNBzKPeh2az1Y8QLSglbirHYbjs3YzJ0uK1efYwbk7Q8Ze4IYiE08itzKp5EQqPeKyecdgeQe+UoF5CXcb2f9EPZXj9YBok7mpxr9hAZCXqNJ9QohmDBd6bB6sxmoVnQbotzoG3nJ/4xGypOMxjQ3n0uC9wqn/ytGARvhGnPnIxW47Nv6dpvOJtZZydLK6YBgoCxR0v0FJhoCQAu0oR7dfd6KDlXooujTUU04GLcwJMIGIAMTQmVe9K31Q2CiBt38OOhEow9q4xAKwtH1LYDMTrnRcgD4CTB1w7bjWPASJsW//zJfS8PJHrj0KPz+tN5TeA2abyFWvOeG+DGdlT0qzh0EsM8yeFtcKU4oerW6oD2oPr0yvyajk1FF9CLZgQ2yYXZJLf9NeCVUCLWfCX10jyVaLWqM/f6FQrhlE54QQtsJxHv8K/no4hTULZpQ2tzU3SKm6x7UPsk6A6Q1IsdcXNpu/apBn1w==|920
