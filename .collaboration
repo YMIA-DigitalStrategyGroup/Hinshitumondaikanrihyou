@@ -387,7 +387,18 @@
   },
   {
     "ModuleName": "Plugin",
-    "ModuleType": 40
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-03T17:13:18.6874628+09:00",
+    "ModuleType": 40,
+    "ToRemoveFiles": [
+      "Plugin\\MySqlWrapper.zip",
+      "Plugin\\SqlServerWrapper.zip",
+      "Plugin\\メニュー／ツリービュー型セル.zip"
+    ]
   },
   {
     "ModuleName": "PublishSetting",
