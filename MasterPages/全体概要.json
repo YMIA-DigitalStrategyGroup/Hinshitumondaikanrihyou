@@ -140,7 +140,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "Fコスト管理",
+                "PageName": "Fコスト管理_統合会計版",
                 "DeleteCachedQuery": true
               }
             ],
@@ -508,4 +508,4 @@
       "Size": "3080,100"
     }
   ]
-}//AFB+dYM32N0auers4uZxd7/2Cje1sji7KoSy6g9G35i02Tz8VuebP7pfXlp9PDkAOp63eGWGMpNcf4L1VpzqqoH2aXfMcdmStKMykNiOyoFL6gHE9bccOG8NXUWOZPEoyV2V7Jr2K3rGWLWbJyPpW57IU8Wu530EHebcehpqW8m2cx1M7nL3FhflnO01cKUc96V2tDGW7aXz3gY3WRDu2uEwSohjRhtLt72P1o4IRZdfEHoJdlXcJ2wP7r3wEEorri8OEmpaNs+PkGbAHw2yAL1ANen6Cdnd/ngMZ0dLy3qJn8CT6M9msufCY/8OKfEPO6sx2pMatq5CCsxcoMDsJBVvbT1DRJ+N8QTBTqYF5evgPUbFUFDLfCTFgup8RYjtU9IzP35Wx+BOBZ1oyRFYFNVN1DHdbS+51ERBY6ymyloUR4p5wU612StTxewZ6RiPi507R0dQy2vpsHZVsXJySYTRQnOVysg13gEfnY1+i4W5mLyv+rX2MnSmyE8B39fmC3XerfRS0bCnDeUotTdHk+AAmhtDYlBmp1RyS3KFNqXOiUgv9RUK4HvWRzCZhrvVH+3BNPKtr4hFzR1O6whapX+f7ZH2Dm+zf9pwqI4hGVg6ojwLxFjDG27IkZB7sQzAkPQ7vuxRB01ZWVjoX80x82XxiJWPiYVGOkFvVgKi3f1jjfbefDKJnWZ4MescrCAUFw0BG80fMBH45psz2NcpsviPgXIrDgS1tuAAPJIyqilXbxw0eTqg1FkwK+i62uEhFwE81aertnYnHw4pDZuA4iob7qJQam6Wdi7UlXIh3ppmE0dx/CTFMSRiTv65lWsDetubyt5edezM3xkQZiuIPirg2VMHP/Q8DpyyN2MVlGDhtvIe2Lo6AlMWsY0rqGeYJxNt/UQHfSOLsWMPqwlX2A==|920
+}//AKZnjWLQfPYJY2UhU1yax0vlcR3ijUPA6FZD1+J3TKxBaOyfpyuX9hFKXfuiAG6mjtEwDYoHwHfKwnJiwmbsMGMHUuiCg/GO155G3GHQlo6MJNBGMRCDBMlsoI9oMaF2Y9coDBJQ5jn3T2i0f0lY17U/zhWyr6s03UH4llf3KLsjE8rStRKVM+j6MVUoW0ZPEMSzl9iVAc9mjk6B7WZezcUzs6uXKDW3ECMeHV9c0AfNoBZzLXfOFkpa7YDqUU+lDra6bKcpBRlVrVmWHqu6eHNmSR3QsalmjLX6IGZjLnOskXyKLp/Ah+wrwhtgQ4xseliH+aFSinBHt7zhausyEPMENnOUF+vHJVG2Guij/SRfZL33axYI490/H9mStuItnAh/lrQ5w23+9qs8tJ9kb3h8bCkDrhqcVC90UJmKz8PMlPNM6QKEdqm2Dqn+F6+8+diPq3qq/497/Oibe/777YyKB5uC+C0Baw0RxVq1HQK+JQZUIu2bB/0s2xKvJOsvNt/sjhJwIa0qDTIZGWqugV/CQPoSfQkIeaVbt4x9pevHHZPsjQIApBWtZ4OocniaQDueiSqQm4XiT5AhX/mSDVYop1Ko7LvSbXlVT1eT6IKKKLJnJFViAoKHV+U1S4vC0E69ZbWngBUcAMvooZzaxmVYWbBc7eSNFlwwpqyB/fPV0epF3I1J4R0Cs1LLGfLgCmuataImu6KnFKe9to7uuI+PXH4E+vqjw++gfut1eLMXV+zrbMU5V+EAxa+V54F7i7ncKWTDLLEnavtmmNuvv84ttDTM+YWZySaQf79n90QZE2jfum5hmPuT9LG6oQjReeu71HPJouMGH4sicE/1n233C+Li+R7ZCqyLjpycc6ZfuiJdy9qKR/FBBr1Cy/UiS07hJpt1C5uOfiKh4JluQw==|920

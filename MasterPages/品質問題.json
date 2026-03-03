@@ -136,7 +136,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "Fコスト管理",
+                "PageName": "Fコスト管理_統合会計版",
                 "DeleteCachedQuery": true
               }
             ],
@@ -504,4 +504,4 @@
       "Size": "3080,100"
     }
   ]
-}//QK5qS5MgMG09TLErgHida/cFd07w/lX6gQEXa/zVLQ4MPr3xLQCtm45S553SCi3iAwMg3tg2xWw0YJVG+OCecnjZDmvpkXpea0GXGCV1OVTksD7JjZ4IBcPRxGDKEYGjD2No/nxTeKaRWcZn58TTxrQrdD9aieMk5hkxyt6YkWRfxJdteNZvdn8GaTo6w7TnqpRcAhPkYiDxcAlQc/A/ipzyzHLRIalYSpa1DdHpfcFc74F5Osuqc1GAUthAZE8PYfNKW+0q1VzLgSZf0x+lAcWb+TAwJLXJ4Ce7tMn9nl8FOdGRkUNaVoZMfTWMLwd8rHdmxGPMdTC8qYMjdEybU9YisYJMEisWxxn2L4h9mpPkicVXNc9+SVy/jypjoCEtXoldanGEwApmN54ai7c6wEyDuPslY/u05V5d+1jJJuOfqmxsQaGPhphRRnDmXwPXML8b3r+IIUa4xaBz3re48ZJ8vbZAElRlBYr7gS2wY2X1sXvBkeHT7zYYtsZ+z/qtVfmi/qQge9ddgrZDgsT6eybv/Hrw0OpO07i+bFYuY0QdmMqGnM1jLFU/m3Z7Z9kpipFwnO1t4ZeLKsbkLOsStdEF1E/AC6rPQDTM5k0V3nZN1XtT+3rQ1TQbL5t6GLjTC/HqecYGn9BUKJ62yKM+U5V5xxtp8UfzWMAaRT0d73S3TvTwnnSzBTzivOkueUK7VikiW3suqDAtjvRPxiimycU3pZUZlzjLi1cqr2/uxCdLaggPbTL3jvCU4/vOiht5tNdQlUCq/J2DXLRKp1mEAcvNWOFj0yVXrCqBHQy3Q2OMHzHduX0j0sThNUWm1QKSbM6itbCC9Nbtho/GpbYEwicblYzBbGoAsPbVJO3lgYsUCC+TvRXoaZwdZ2WI8dGQ/saw4+9rtlf5VUIYcCvCeA==|920
+}//bPMhnvwdk196TPiWlhhy+wFyNHy5jgsyzSrrk081Z1+PqTwc4btQVDJS2xbfdE8o1vecsnCSNFcUCqJVpyEtPc/urz6t3f48D5mPdPpgFRzHUjkc6BFb7VbC/TTxWLWlPkShog6drP3jl6M4mW9AO0fo0CIl6ixvZytTvrIW5GuaLG7ZAHXZznvKvr2IZkkUAzatz/ltjWmNLHDe71yv1k+Tw0g6sVjWpq4Gbw8jKnmPorlZCZZX3JHtDyHH+w+iosmaswXSGCP3ek5bWhGceO9YZF++3hFJ+/3VkuMoQ0Co1a1wGVVjDPbq8A0FnCYJcW5BgwMgQZJf17SXVXmeNO9uwpWZdrbEYQJQoBiyRa6DVEYA/Xq6MfInii7WMkBr7L1W2JxFsFFjHSPXal/Tp7vQL7NRGfRXR8Z9DRfAtMQvAfWid1xy+nVq5Sv3FzPoOTF7RBMxMls9/V3eNLllNCtYnsrtJ/RtD1q0+nDuBEsgoxm+uF03BGLqkq8IJsltJXNT0tazYOZCgKDBuniP+S0jHjEmOjGZdFopTTL/jk8q3AoedxQxVUOFpLi9K9M0jR0ysfSE34VU/wpAqcLIMnc73n2vmNzxwbaJpESFT0tbsIZolzvhDbT0xwe8r+dMM+1HDill9g7xn3XK+I4U7riUA03r1Q7TiDXTkEOtHU6wbBGkSFgOm5PvNJ5gvzXA+TdNzne6ZIxsXFUlg+s8gota3aidSeC5I+ieB9Afvfh6YwAt+2w6+EgkmR4Qx3F522vgkRP58EnZPzxOmhYEWpN6V6Sxu3m0AUB2XPElBSws1DWzx8AOg+gpxrcLAOEqgrCp5xmfOUpVHHbDiJj42fKViMDwYzPmqGhNtmuchInCgTzMOMmxhSaBKPPWyIzkZNou55U0ADnfxe0vCcSIuQ==|920
