@@ -289,7 +289,17 @@
   },
   {
     "ModuleName": "MasterPCPage/品質問題",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-03T12:13:05.7723904+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\品質問題.json",
+      "MasterPages\\品質問題.rd"
+    ]
   },
   {
     "ModuleName": "ServerCommand/メール送信",
