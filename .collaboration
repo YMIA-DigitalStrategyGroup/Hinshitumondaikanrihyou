@@ -373,6 +373,15 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト支払情報",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-27T07:56:12.6814392+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_Fコスト支払情報.json"
+    ]
   }
 ]
