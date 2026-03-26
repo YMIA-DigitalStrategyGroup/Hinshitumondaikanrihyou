@@ -2,21 +2,21 @@
   {
     "ConnectionString": "Data Source=YMIADIGITALSV01;Initial Catalog=品質保証部;Persist Security Info=True;User ID=ymia_reader;Password=ymia_reader!",
     "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
-    "ID": "SqlServer1"
+    "ID": "Sql品質保証部"
   },
   {
     "ConnectionString": "Data Source=A20ZZZPRDB01;Initial Catalog=AQASDB_REPLICA;Persist Security Info=True;User ID=interface_me;Password=s9z892n43zu?",
     "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
-    "ID": "SqlServer2"
+    "ID": "SqlSEAQ"
   },
   {
     "ConnectionString": "Server=170.71.10.75;User ID=USER01;Password=PASSPORT;Database=zdb;Port=3306",
     "DataBaseType": "6f9b2f11-4f6a-43db-9b65-bbd46872e09d",
-    "ID": "MySql1"
+    "ID": "MySQL工事指令システム"
   },
   {
     "ConnectionString": "Data Source=YMIADIGITALSV01;Initial Catalog=経営管理部;Persist Security Info=True;User ID=ymia_reader;Password=ymia_reader!",
     "DataBaseType": "347a1ed5-25f0-4a4b-846c-8d69cedcf33d",
-    "ID": "SqlServer3"
+    "ID": "Sql経営管理部"
   }
 ]

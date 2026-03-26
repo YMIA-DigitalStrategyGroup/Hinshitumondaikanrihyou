@@ -228,7 +228,7 @@
   ],
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
-    "ConnectionId": "SqlServer1",
+    "ConnectionId": "Sql品質保証部",
     "SourceTableName": "品質問題_全体概要",
     "SourceTableSchema": "dbo",
     "CreateViewSql": "select\r\n初報, \r\nステータス, \r\n製造不適合対象, \r\nクレーム認定結果, \r\nS.W番号, \r\n認定日, \r\nSEAQ管理番号, \r\n艇種, \r\n艇番, \r\nW_NBR_HAKKOBI,\r\nHANSHA_TOKUYAKUTEN,\r\nTITLE,\r\nSEIZOBI,\r\nNONYUBI,\r\nHASSEI_DATE,\r\nYOUIN,\r\nBUHIN_OR_BASHOBETU,\r\nGENSHO,\r\nSEKININBUMON,\r\nSHAGAISEKININ_TORIHIKI_CODE,\r\nGENIN,\r\nTAIOUHOUHOU,\r\nHASSEIHINDO,\r\nEIKYOUDO,\r\nKENSHUTUNANIDO,\r\nRPN,\r\nKANRYOBI, \r\nF.支払額S,\r\nF.倉出S, \r\nF.運賃S, \r\nF.求債額S, \r\nF.YMIAクレーム費S \r\nfrom 品質問題＿進捗管理表 S left join tknow K on S.W番号 = K.W_NBR\r\n                          left join \r\n(\r\nselect \r\nW番号, \r\nSUM(支払額) as 支払額S, \r\nSUM(倉出) as 倉出S,\r\nSUM(運賃) as 運賃S,\r\nSUM(メーカー責任額) as メーカー責任額S,\r\nSUM(求債額) as 求債額S,\r\nSUM(YMIAクレーム費) as YMIAクレーム費S\r\nfrom 品質問題_Fコスト\r\ngroup by W番号) F on \r\nS.W番号 = F.W番号",
