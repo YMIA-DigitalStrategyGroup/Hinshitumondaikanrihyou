@@ -392,5 +392,15 @@
     "ToRemoveFiles": [
       "Tables\\品質問題_Fコスト支払情報.json"
     ]
+  },
+  {
+    "ModuleName": "PCPage/Fコスト管理_承認申請",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-27T08:23:45.3698379+09:00",
+    "ModuleType": 1
   }
 ]
