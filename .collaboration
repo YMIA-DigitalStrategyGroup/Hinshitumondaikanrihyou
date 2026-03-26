@@ -1,27 +1,81 @@
 [
   {
     "ModuleName": "Table/品質問題_進捗管理表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141741+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_進捗管理表.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_クレーム費用",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141897+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_クレーム費用.json"
+    ]
   },
   {
     "ModuleName": "Table/tknow",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141761+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tknow.json"
+    ]
   },
   {
     "ModuleName": "Table/mname",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141677+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mname.json"
+    ]
   },
   {
     "ModuleName": "Table/mbumon",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141956+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mbumon.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141704+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mtorihiki.json"
+    ]
   },
   {
     "ModuleName": "Tables/工事指令システム",
@@ -29,11 +83,29 @@
   },
   {
     "ModuleName": "TableView/v_baa38",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5142541+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\工事指令システム\\v_baa38.json"
+    ]
   },
   {
     "ModuleName": "TableView/v_baa23",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5142558+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\工事指令システム\\v_baa23.json"
+    ]
   },
   {
     "ModuleName": "Tables/SEAQ",
@@ -41,31 +113,94 @@
   },
   {
     "ModuleName": "TableView/V_YMRServiceRequestTableEntity",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5142518+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\SEAQ\\V_YMRServiceRequestTableEntity.json"
+    ]
   },
   {
     "ModuleName": "TableView/V_YMRServiceRequestDetailEntity",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5142494+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\SEAQ\\V_YMRServiceRequestDetailEntity.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_品質問題管理表_社内議事",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141856+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_品質問題管理表_社内議事.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_品質問題管理表",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141796+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_品質問題管理表.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_クレーム情報",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.514144+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_クレーム情報.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_Fコスト",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141982+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_Fコスト.json"
+    ]
   },
   {
     "ModuleName": "TableView/品質問題_全体概要",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5141831+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_全体概要.json"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -305,7 +440,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5125239+09:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet.json"
+    ]
   },
   {
     "ModuleName": "Upload",
@@ -329,7 +473,16 @@
   },
   {
     "ModuleName": "TableView/V_期間費用明細_クレーム費用",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-26T09:06:09.5142594+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\統合会計\\V_期間費用明細_クレーム費用.json"
+    ]
   },
   {
     "ModuleName": "PCPage/進捗管理表_編集画面",
