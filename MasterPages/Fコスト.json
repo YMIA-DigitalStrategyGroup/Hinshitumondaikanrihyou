@@ -134,15 +134,44 @@
             "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
-            "CommandList": [
-              {
-                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "Fコスト管理_統合会計版",
-                "DeleteCachedQuery": true
-              }
-            ],
             "CanVisitRoleList": [
               "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "支払情報入力",
+                "Text": "支払情報入力",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_支払情報入力"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "Fコスト管理",
+                "Text": "Fコスト管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_統合会計版"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
             ]
           },
           {
@@ -165,6 +194,14 @@
         ],
         "Orientation": 0,
         "MenuLevelsStyle": [
+          {
+            "FontSize": 21.333333333333332,
+            "Bold": false,
+            "Height": 60.0,
+            "Width": 250.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
           {
             "FontSize": 21.333333333333332,
             "Bold": false,
@@ -504,4 +541,4 @@
       "Size": "3080,100"
     }
   ]
-}//WUNZ7C/23S0PEbpxDEUp7QVDHdqT3tLlcnBOpDu9Z5ffio9gnPcUEoZG2SjcP1zJdn9VsLP+uqwL0MtxZdmFqMj4jHhLNaQz1WpqUSeNePjmHaYZUVAmsoak/HZ98gyH31Z3xvMj7lTEHYjMefmwj2912hGM/inovLniR+lvmHE4TkOuarf8FJLDK0NCX/voLWIX5/BEFDq1XYWn8tbd9Wd7HV+lG5Pyjet6gTJQNEzHJSVk4TQDqqgMrPv/TGXsKh7ncxABQU8gJSBXGb1En4eMtukxH0/VhYx5r4nzIePtd0A3PT2A6eaFq/2tV8lg63RzT6fE8J8mGAN9/oE7g4EMz5erbcXcVFb+kpCf6jyTWT7chVFR35F+vWjjdCZqjd+IFNPKk+KB8iFkS5Pho/B/en3NUPaifhvOE4ZJfu5cU8ZqNUZdgsczMvEay7dVywmb8kTsuRp9Ow0elJjvHo2B01ClsdHY7+G4ZNFvkL/4kdXEv3+Po+uemP1+AGirXPF7B4QU7Ws70Nj6IUs+APd1/JYzvBUlLH4vd1XmPgqkgCnDP/dXC2JWnHiwSNn8bJPI1aNM3wzfsnIG2JVMU4TNPFLxDnbmLp7PMr97An4JABXgoP0l408rd50zfJ2m5VUoVfPnGkaa2bmt/XRLbRHmr1p6PHXmttxJTPYrBrNv+65L63vZcVng0vLdsPvncECrdcImkZaQTj8EAxC9ZhVZLweKngvO5GA4fdf3d/5sIVD1wEtD5dnzii/vig5FU9LMTgziEItj1RaKbHbn20cpfmXokoIri7D+qmvQz18HRL/btSBCcyiUFGVdO0zUmzuqYlg/2fX72qytlxYjldxgIWKGrK8xAlWV2XXhx2Q6zYEeSP2t2sH3pd788mdn+eOwaZYTu5kH++CwVu0rVA==|920
+}//faorURHLK4O3ZM/zeaApKQ2+M34l22u+OlCa/RfC1G2jQLookIo9g6+oKA3ctQk/Dbg9bgsKf68/MhI3/B2XC8B3gfDYrUcZW60/JGM1v8aMxyjmV/exVS3X2up27d7no5W9K2GZrCFMY70Gu+nR/NPqHENJlZTiVD/0njLNifYq5sF72+l+zVcmYlBD/D6aRZMato2+XgBBnVMCAeMVrfHfgFSZHwxofc/y5ouw6+etMVg1k6h6ib0/rHLLws3JUq7vVkTA4kYCzeYjnY8VD2rFLACyii8bu8Ihota5ZeQ7RKYiodjF5t2cbYWyzvnM0BZVfASki9kXb+X+pUc+e1j0MERjOWCLq53SCFGNuvOY7Db7o4gmgc1fCXdByB/BHzznD3FzKpGrKmGoPDP3Bzylds3QgKPBrImbdj8WG3aLxQ4I0BvnBRGg4eyq5dGpjiKfruNKn3GMSP4iBPJKCoavXqIXt4cL/W2U+Qh7nS9bvu2FeKC6BPMp1wvBG5MV4kYTOHcoku0y43KmtX1i3AbO5A7qn9BZhVxOib8gLo7efuSbTr9ywO5JaGuNoUkNp4n/vXBR+XBj+lrCFHAoPThOPAz3y9KIrQsILJHC/8ViqmqsDpgEPBuzAim5g/iMc8qG0xNRvvhUQPaM20h4h51OeiYp+GaElS0iZniOFUeUIhMU8pQFZgrXiBwFKZGXtV1Eu2Ugy7dRQEiB2V1lgg/uHrO94ED1A+5b4iUjPmDPUr4fGzIUHk8Tmk2+YeYgctZFPMIGeisT4Vc1no30J9eYuhYWz8/bitEvOybcHKkBUa6L4DUPoG/W1Oa6a199riSc0aBLeVpWtlr/A+svNTK+JcmXWKeKySYhVp0f+tw2HMkwB3Fw3PskeFzB/yYWvWko/nYX+JsjCg1za/cMbg==|920

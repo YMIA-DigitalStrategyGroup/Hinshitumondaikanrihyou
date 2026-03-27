@@ -1,5 +1,87 @@
 {
   "Name": "品質問題_Fコスト承認情報",
+  "FlowProcess": {
+    "IsEnabled": true,
+    "FlowStates": [
+      {
+        "Id": "6fd51e34-de76-436b-9a51-8c5da49bc8ac",
+        "StateName": "新規"
+      },
+      {
+        "Id": "eaa6973b-fbe7-4017-b4a2-adb75c3ba59b",
+        "StateName": "申請中"
+      },
+      {
+        "Id": "4f82a8fe-d0e8-40a5-8f3d-d4b3bfce3493",
+        "StateName": "承認済み"
+      }
+    ],
+    "FlowPaths": [
+      {
+        "StartState": {
+          "Id": "6fd51e34-de76-436b-9a51-8c5da49bc8ac",
+          "StateName": "新規"
+        },
+        "Action": {
+          "ActionName": "提出",
+          "GUID": "ad189aef-b82e-4149-9ec8-953498b86825"
+        },
+        "ToState": {
+          "Id": "eaa6973b-fbe7-4017-b4a2-adb75c3ba59b",
+          "StateName": "申請中"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "eaa6973b-fbe7-4017-b4a2-adb75c3ba59b",
+          "StateName": "申請中"
+        },
+        "Action": {
+          "ActionName": "承認",
+          "GUID": "22eccf28-6205-48fe-92f3-33e28bb78e23"
+        },
+        "ToState": {
+          "Id": "4f82a8fe-d0e8-40a5-8f3d-d4b3bfce3493",
+          "StateName": "承認済み"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "eaa6973b-fbe7-4017-b4a2-adb75c3ba59b",
+          "StateName": "申請中"
+        },
+        "Action": {
+          "ActionName": "却下",
+          "GUID": "e28c7f77-efa9-41df-bdf6-e7784ddca442"
+        },
+        "ToState": {
+          "Id": "6fd51e34-de76-436b-9a51-8c5da49bc8ac",
+          "StateName": "新規"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      }
+    ]
+  },
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
@@ -45,10 +127,45 @@
       "MaxLength": -1,
       "Name": "工事番号",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "FGC_State",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "FGC_AssignTo",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
     }
   ],
   "ExternalDatabaseInfo": {
     "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "AllowModifySchema": true,
     "ConnectionId": "Sql品質保証部",
     "SourceTableName": "品質問題_Fコスト承認情報",
     "SourceTableSchema": "dbo"

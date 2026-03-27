@@ -1,0 +1,159 @@
+{
+  "Rows": {
+    "Count": 34
+  },
+  "Cols": {
+    "Count": 51
+  },
+  "Values": {
+    "31,1": "詳細内容"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "品質問題_Fコスト承認情報",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 26,
+        "ColumnCount": 43,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "5,1": {
+      "NameUsedInJavaScript": "承認日",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "承認日",
+        "GUID": "6ac857c8-1818-4464-8e0a-68d5133a42a7"
+      }
+    },
+    "5,6": {
+      "NameUsedInJavaScript": "タイトル",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "タイトル",
+        "GUID": "bfbd36a6-e13e-45f2-b5fd-ebfd9272e6aa"
+      }
+    },
+    "5,13": {
+      "NameUsedInJavaScript": "申請内容",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "申請内容",
+        "GUID": "6a8edc9f-5b36-4951-a04d-791a25461ada"
+      }
+    },
+    "5,25": {
+      "NameUsedInJavaScript": "対象年月",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "対象年月",
+        "GUID": "00bde775-fa74-466a-a385-aafc2cd53e34"
+      }
+    },
+    "5,29": {
+      "NameUsedInJavaScript": "状態",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "FGC_State",
+        "GUID": "ef34194a-07f2-4946-8bcf-28159d3a6cd8"
+      }
+    },
+    "5,33": {
+      "NameUsedInJavaScript": "担当者",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト承認情報",
+        "ColumnName": "FGC_AssignTo",
+        "GUID": "59ada2f5-d351-4c82-8f4b-d1d641d305ca"
+      }
+    },
+    "31,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "詳細内容",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "yyyy/m/d",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,1": 0,
+      "5,6": 1,
+      "5,13": 1,
+      "5,25": 1,
+      "5,26": 1,
+      "5,27": 1,
+      "5,28": 1,
+      "5,29": 1,
+      "5,30": 1,
+      "5,31": 1,
+      "5,32": 1,
+      "5,33": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,1,1,5",
+    "5,6,1,7",
+    "5,25,1,4",
+    "5,13,1,12",
+    "5,29,1,4",
+    "5,33,1,8",
+    "6,1,24,43",
+    "4,1,1,5",
+    "4,6,1,7",
+    "4,13,1,12",
+    "4,25,1,4",
+    "4,29,1,4",
+    "4,33,1,8",
+    "31,1,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "Fコスト",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//1x/6MV1irlPSqExmokW2/fSOu3dRBkWQVF+lq3rKLeh1mjGbSIgap01LL/nZEIpz4KfP+EnXksJTh3HWT1djrmBfmMtEQXMT6tmo1Y427QecPHj1t8WDVf3lu1VjXPHmZaeexQppeeCFjje/il+8VgcbiYesZyXAlsFJjBGASU+9vOPw8wktqYRjXG8HeR2R6+j9EchRikJtYsikG5hK9UPIpPZRxv2J8UoTWu0ytuyv02Zi/ysFiRlKwNVrSjOtTsDUZuWH2o87MbkXg10Ep2kYmQQdhijdvXwcXH5wmD/jedFPqLopc4cyCt+eduLaIG7fIKhI7vSQjxM7oGmvIldKK+RXa20D+4TyWE4LnamU+gqKRoH9KnWQctyloKm8KcHUOkkMbQMyDrmobn/Ui/xuO/afphQJ+kbbHOJj5Kq9N6BbdpLnsKFmybGrttdYKJTujMptPYYfCkiiOFZHkqaGLgqIhSoNVscikL1tjEQn57/zx2/wmw5itSOEw55oODvtPmBVYXRUjgbHy2Sn+i4q4fKyvJQb0BhxJQDBMyUXopwle5aNIaptZRR0KMSEs3OnDYNUxNnToJrqI9fqry5k7TcK6OrAUhABiAlfiJ+ALZgmnhkNKz9FG6nMpd8urkyDuX9kKuzJJXvTe9YPtUZPihGifgiPW47L3/0ed8akWv9A6x/7jmA6WvOy8FVIDrxFxfL4t9Ga6nHYLOKA15Vv8hI3rqQQxOVkYrVgFjIPD/OdtkBKPckJb4dzu5lrR4Nv+3xky6H94SzZmHv+9sl/w1o2YYBtK/WLBbgcUqtW67+n04RJRbtmrJgXdNqbvKL+/bhEpdXDMeytx1WxWrBwa8MlweJaKNHQQwsug31h56BzGGEsaj+cMY4z3CXD1bqEqQ0mJWwlxx0BlxpH8g==|920
