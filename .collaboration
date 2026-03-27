@@ -255,7 +255,17 @@
   },
   {
     "ModuleName": "MasterPCPage/Fコスト",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-27T11:10:52.2633554+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\Fコスト.json",
+      "MasterPages\\Fコスト.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/品質問題",
