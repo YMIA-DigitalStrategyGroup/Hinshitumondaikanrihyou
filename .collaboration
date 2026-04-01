@@ -243,7 +243,17 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表 (3)",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:00:56.8377207+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト_管理表 (3).json",
+      "Pages\\クレームリスト_管理表 (3).rd"
+    ]
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
