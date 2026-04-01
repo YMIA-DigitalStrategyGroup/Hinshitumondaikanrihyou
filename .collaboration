@@ -422,5 +422,15 @@
     },
     "LockDateTime": "2026-04-01T14:59:37.7819895+09:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/クレームリスト関連",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:00:19.4686363+09:00",
+    "ModuleType": 6
   }
 ]
