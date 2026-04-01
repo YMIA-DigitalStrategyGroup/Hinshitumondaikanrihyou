@@ -372,5 +372,15 @@
   {
     "ModuleName": "PCPage/Fコスト管理_承認情報一覧",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/進捗管理表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T14:59:37.7819895+09:00",
+    "ModuleType": 6
   }
 ]
