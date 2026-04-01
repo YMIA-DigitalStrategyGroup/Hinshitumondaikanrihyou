@@ -273,19 +273,58 @@
   },
   {
     "ModuleName": "Pages/クレーム処理指令書",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:05.2948555+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\クレーム処理指令書"
+    ]
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:05.2947593+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレーム処理指令書\\クレーム処理指令書.json",
+      "Pages\\クレーム処理指令書\\クレーム処理指令書.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:05.2948377+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
+      "Pages\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ2",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:05.2948475+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレーム処理指令書\\ページ2.json",
+      "Pages\\クレーム処理指令書\\ページ2.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
@@ -451,6 +490,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2026-04-01T15:00:19.4686363+09:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/クレームリスト関連/クレーム処理指令書",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:05.2948586+09:00",
     "ModuleType": 6
   }
 ]
