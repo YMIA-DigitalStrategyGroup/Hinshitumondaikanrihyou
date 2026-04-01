@@ -511,5 +511,15 @@
     },
     "LockDateTime": "2026-04-01T15:01:05.2948586+09:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/Fコスト関連",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:30.4998254+09:00",
+    "ModuleType": 6
   }
 ]
