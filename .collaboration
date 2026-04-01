@@ -269,7 +269,17 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-01T15:01:46.2374191+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト管理.json",
+      "Pages\\Fコスト管理.rd"
+    ]
   },
   {
     "ModuleName": "Pages/クレーム処理指令書",
