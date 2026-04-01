@@ -229,12 +229,12 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-03-26T11:18:07.6647315+09:00",
+    "LockDateTime": "2026-04-01T15:00:44.231943+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\クレームリスト_管理表.json",
