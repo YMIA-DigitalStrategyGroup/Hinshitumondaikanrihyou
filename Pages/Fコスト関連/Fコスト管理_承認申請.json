@@ -231,10 +231,32 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "品質問題_Fコスト承認情報",
-            "UpdateType": "add",
-            "ShowConfirm": false
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "申請しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "品質問題_Fコスト承認情報",
+                    "UpdateType": "add",
+                    "ShowConfirm": false
+                  },
+                  {
+                    "$type": "WorkflowCommand.WorkflowCommand, WorkflowCommand",
+                    "TableName": "品質問題_Fコスト承認情報",
+                    "NextState": "申請中"
+                  }
+                ],
+                "ID": "287a7130-f4cb-4a88-96de-0cb4d791dc08"
+              }
+            ]
           }
         ],
         "Text": "申請",
@@ -739,4 +761,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//mw9A+jmgGA3egpz/ayEw0rK5B1zLLipOgec/qUEWyt60yYY+v5GFp9V96A4sRsnm6ODojB9PD872Kxk0QTzvaMr2yRVBTc1wiVp6dU3NeUaXGGzQmtEYFCL9mvYefMHakjkND1ATiPVS5g5fCiMgNO/WObv8bDfW4PELSh3IhGhn3R8ShGvpGr3dYoblllQ6fL893hYaVIVGzgK/lVfIJHwBSq4PnSt4MVVIFPLJQnhyGOyaR4lIwjbJGqDX6OHsErAB0wwq9/bdirbOJhCF/PoffGP7DfAFzc0SCCMxB6TiB9r6Zg1rlz3i/kru3x3cSc65p36xyFOnfq8G6tXRSafEtsmEcZw1yqFelKs5vxYtg5Fd+I7VFDjlydpXZyNNyt9ZonfwmhCTGiCuNv12jpQuIv1im6wDeonEe/rkzkj/FstSRv0t57AqKdNNTZJl+c7i2/pDArOXuSqwAPnyC4xB2FG82O7vf12Ta8wFYVqS7N5jhpyb1icm/H/UQO46ojmRFsZVcBjoQwzH4HC6fCdUKpwm6LYmp2SER4Ic5Verf4GJrToFquijmSDBWECiVw9isLCqViAWWuX+9e9nb5JSsNqSSU58wqFd5/RY+aF/ecbeJc3NFw3NZl13hMQ4INecqatGwF26RwgSygkXGPpw3TYA4VXswq61EHnRzPHnhmOLSjCmTz7WwalBtSnqZX40uoBfeTusJYK8VOsYoBkC6XWxu4yQ3i7zZfJYhsKsxUclYNyfgHB+6h7rbF1FenwAfD/hwzTY0vPdQt4DSpD9NZ/wOjuV/2PfHJGSdXJFvzn23iqjBWHDCNz2NenEr1/a5YnxsNn6dOeW2/iO7jfHoqXDgH+2GM92O1Itqdiq23FKkHxXSzD4CwJhdZInueI9neUwDLqtFfURlYHKkA==|920
+}//FK8yGtQMIZKylBUL0Werznp7WyvNtyrQgTX4ViQ4O43YYqT4B08VDCSYjURaJqos1YBSsk72DwQi6L9IwZhOXaGpyqNOgP0gw+XTkkeOibJIbLWbvINlPACKhdzbUmbEIfmDrer2g9Js82dziyTEA2SyhaX0pKNM7Aq0EAc+DEdVCRqgsvEhBsnA6O2fHvOt2oc/aZW63gcBpQRSuWDOaz9CEBtLxZYjCOupYeboj1818fYg61QwHlJfHTVnpBvUviQhhIkTYblZiXPQ1wVRkveuFoVcnkEVSRB56Jbh1hNod81AsxsNZOiBSW1RtKoeM1wWVhSPynLroxMvlRILLWAhoH2GzB5TQtPKWZzfeSa4iOQYXTwpeIg/QEWGQDQc6Jiw3meQuTtUTyIel+RksnRzroS+PYifK9dKiFJPVCIztCyHVtz7tt/l0pQc3Ze/leYk1kbwNG0sqIiWnWR0unKaUr4YdJRYeYNpTqdn3le4dW6UV40i7o784PZBTPdK4/8AilDxm3BLYK8xq6RsTSlkAa+YzTzVwtifgOF1IBYXmpo9GZua4bk/3UDcbUuIVf8/KrwX0jAH+a4N1NR0UhlZ9FsIaohzJIzkWjqnc3xVjcnYYZR4dyYWOH9dPf3pXbkUi+Xr6RV/17ghaY6l+fqxhKcbu0ulbktyjrv5TfZDzZ6OfNpQ8Mb7V+WgZ593J7a5NFH8hvCyQHcJ1pG/YLQ1zB32btD5Y24ejlrmatJXDsx90IGGWqdGlfyWey5VYNfN3SnHrZbc6GonUQYlZuNPREjToWJXDBY+iv8p5Fj4pL47fPAkRSus+CQpq48UhVzDpwMK7aa/PFLRNQuz0AU3gC0G15m8NWD9uoWHTfNzLUeC0hcUwBnVJJyWqsUPpY/AJg24785IpOKs3HSaUg==|920

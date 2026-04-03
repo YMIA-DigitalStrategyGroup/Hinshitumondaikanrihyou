@@ -219,17 +219,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T17:12:10.3231965+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
@@ -253,17 +243,7 @@
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T17:10:00.530703+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/ページ2",
@@ -368,19 +348,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T16:53:41.3480862+09:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": [
-      "Plugin\\MySqlWrapper.zip",
-      "Plugin\\SqlServerWrapper.zip",
-      "Plugin\\メニュー／ツリービュー型セル.zip",
-      "Plugin\\リストビューデータの受け渡しコマンド.zip"
-    ]
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -420,31 +388,11 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認申請",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-02T16:19:42.9035752+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\Fコスト管理_承認申請.json",
-      "Pages\\Fコスト関連\\Fコスト管理_承認申請.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認情報一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-02T16:31:50.7060191+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\Fコスト管理_承認情報一覧.json",
-      "Pages\\Fコスト関連\\Fコスト管理_承認情報一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/進捗管理表関連",
