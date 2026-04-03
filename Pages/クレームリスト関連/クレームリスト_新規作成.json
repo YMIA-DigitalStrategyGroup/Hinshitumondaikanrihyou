@@ -1238,7 +1238,7 @@
                     ]
                   }
                 ],
-                "ID": "3922ce38-6eb3-4a3d-b32d-b9e62b5b3db7"
+                "ID": "54cb40aa-53d8-4bd6-899d-7ee9fca4636c"
               },
               {
                 "Condition": {
@@ -1286,7 +1286,7 @@
                     ]
                   }
                 ],
-                "ID": "c55045a5-b5e7-4271-8573-f19645113924"
+                "ID": "f677f45b-6657-4dc9-955c-cfe8ce61542a"
               },
               {
                 "Condition": {
@@ -1334,7 +1334,7 @@
                     ]
                   }
                 ],
-                "ID": "ffdba80a-7d6b-4bf0-b094-803dadb51b65"
+                "ID": "7afd41f9-91e7-41ab-b66e-9888288cbd75"
               },
               {
                 "CommandList": [
@@ -1351,7 +1351,7 @@
                     ]
                   }
                 ],
-                "ID": "d1ebdf38-d108-4ffc-af82-90a870436cb7"
+                "ID": "c3a335ec-7b80-4c90-bdf4-8a4dd8d67864"
               }
             ]
           }
@@ -1616,7 +1616,7 @@
                       "TableValueType": 0,
                       "BindingInfos": [
                         {
-                          "GUID": "ca418c0f-f468-48b6-9b72-2ba023973909",
+                          "GUID": "5edf9f3a-f2dd-4895-9d43-362f622f8f03",
                           "BindingInfo": {
                             "TableName": "tknow",
                             "ColumnName": "W_NBR",
@@ -1639,7 +1639,68 @@
                         ]
                       }
                     },
-                    "ID": "956fd15fc68b4c1aa9d67a2d59ccd71a"
+                    "ID": "6135f04ec73142f5a8332c1b33a3f2b1"
+                  },
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "最新W番号_CHECK用",
+                    "ParameterValue": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=クレームリスト_新規作成!最新W番号+1"
+                    },
+                    "ID": "8e18d15b86904b43a293604047b71892"
+                  },
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "最新W番号の件数",
+                    "TableValue": {
+                      "TableName": "tknow",
+                      "TableValueType": 3,
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "tknow",
+                          "ColumnName": "W_NBR",
+                          "GUID": "3fe187be-0d40-470c-b252-c39d88aaf928"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=クレームリスト_新規作成!最新W番号_CHECK用"
+                        }
+                      }
+                    },
+                    "ID": "e690360d3a6f4bed91ba0c95442f558e"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=クレームリスト_新規作成!最新W番号の件数"
+                              }
+                            ]
+                          },
+                          "value": "0",
+                          "compareType": 2
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                            "MessageFormula": "誰かが登録最中です ！！（残念！！）"
+                          },
+                          {
+                            "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                          }
+                        ],
+                        "ID": "ffa36bdc-f639-4a67-bfc7-7834965ed9fd"
+                      }
+                    ],
+                    "Disabled": true
                   },
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -1651,7 +1712,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHIN_TIMESTAMP",
-                          "GUID": "3e2450a8-3893-43ca-8986-0a48dbe26abe"
+                          "GUID": "a8a43b5e-2a8e-4fd8-ad92-9212c4aac73f"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1662,7 +1723,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHINSHA_CODE",
-                          "GUID": "98231421-2bb8-459f-9662-5bb6d40a31ee"
+                          "GUID": "fd63bc46-8d9c-40dd-bce6-2a5aa4ee14d3"
                         },
                         "Value": "%CurrentUser%"
                       },
@@ -1670,7 +1731,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "W_NBR",
-                          "GUID": "acdffa3f-bb60-498d-9a9b-9d207b91f92c"
+                          "GUID": "fbf35253-84cd-4c89-8364-4588375e7c82"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1761,7 +1822,7 @@
                             ]
                           }
                         ],
-                        "ID": "1e8ccb30-84d4-410c-aa07-2c6a3fb860d8"
+                        "ID": "7fb3fc09-6ea2-4383-b2ef-58370d08a871"
                       }
                     ]
                   },
@@ -1774,7 +1835,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "c963406c-cb37-4f5b-b10b-3e63239b13db"
+                "ID": "9f5d9a0f-3fa2-4e37-841b-471de7485c5e"
               }
             ]
           }
@@ -1836,7 +1897,7 @@
                     ]
                   }
                 ],
-                "ID": "71f2e622-98d1-4eb5-9214-247882750221"
+                "ID": "2e8e79b9-5d40-46f3-8a47-94589d9cc3c7"
               },
               {
                 "Condition": {
@@ -1884,7 +1945,7 @@
                     ]
                   }
                 ],
-                "ID": "cd3edd48-c405-42e7-ad2b-0c2680a4901f"
+                "ID": "a4f875b6-dc56-4d7a-9ea9-25f241063828"
               },
               {
                 "Condition": {
@@ -1932,7 +1993,7 @@
                     ]
                   }
                 ],
-                "ID": "a9c1f129-3849-4d18-927e-810845a1ebda"
+                "ID": "6e34448e-1204-4b4f-8f03-fad44d82d901"
               },
               {
                 "CommandList": [
@@ -1949,7 +2010,7 @@
                     ]
                   }
                 ],
-                "ID": "6c89cc57-93ef-4abd-8288-9323b8932593"
+                "ID": "ae127680-2612-4824-a00a-99f3e442a8bc"
               }
             ]
           }
@@ -4623,7 +4684,7 @@
                 ]
               }
             ],
-            "ID": "9c96747e-1476-4c35-b997-d50515b6f00e"
+            "ID": "2425d608-d172-405b-b3b1-e59e88636740"
           },
           {
             "CommandList": [
@@ -4640,7 +4701,7 @@
                 ]
               }
             ],
-            "ID": "a1a9bec5-2113-4e06-8018-836ca67844c6"
+            "ID": "3282fdd5-eaea-405a-a2f7-4cb5a7bfe323"
           }
         ]
       }
@@ -4666,4 +4727,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//9H61qggnQxG0WdwTr8cQ7kvjP7HlWDKJm3mXJ6O3ZvCcX4S20ujSNqaWQagu2ASX/4v5Mhi5+ejmTQYgEK/UWGnuuwajrV4esXcsov0E3AY7V5Z8ApnS28vC3FDHDEOQ/QWE+UioMx+fi9O2c3Dwan//7e9KwA6i2TM8X9GIFr/MRfPr3BDsQR+x7DJwLGGVO3mRfdxhWUClX72ZudSDMHo+g0mBsLwT4TtIIyvCDUmJq/pi9lXRKsSNIzHK3rXpQG1UG0kbdrNTFck1VaF2+fW+vFV0iWvttSzSDmgEVZuJbYNgAQH0XC2zcqCTQ3vTsl6eRAmZ4pG/mvcoIPEFqYrXvvISHprL1TjF8bjFx45ZDKlkNNW3duTMVChW/Oh5ekby4no58agMszTzO5SygMgYfqnG5TtuKjgjKRTgtOyDkDhYeWA/beILTRg9tsYuHDIbrhv54N8fgxaaL/UYqFvIwoUZUqI4zX7fPK+0K1UHCr97hzZUdzKnL3gnnzrqOhPOxyZQFrh+AIatlt758WVWGEGHkL9Ifuo/Ez+uOPyJ9X167Ix5l6CZoSTEG0PSojFy0HFPUWtMtzRdkoU9U+OHHE/CmftePMUFwQ1G+sa86ep7aSg884XIXbhNSSqUKvKiASvyqWy8atOJSb60LqdxUKfXGz/SAV4qgEe856pgC8do6VcuKAOiM4fQh5MwEXgYk+XEn0iVgxCvRPck1jX9q/nANvg6dtm73Ai9V+j5uURP8n1at/pE/NLl6U264aFsmSqu5mTnYjll3reSUO0fquRff+jtfXmCzFqB4yblsoAjTVOQ2qo8Mq1WFF8pEFNORAl9Fwcwp53trH+Dj9qLoIC+041gpFuEkswQ7briTYnrNYH03IUTj5pQLCXSeVbT/eNKilJ4IrBtfQF95Q==|920
+}//Rzt3s7ml8vGQUx6gipwGbL3L0D3+Y0443mOftgMA+C/UP9sDYbKqk17B2bXv7hGOL7vtBRO5RaVX1wawKuNTbG91Xe6jfU2Ri8wAYvl6A7OsCsXf6EXnq2VM9KgVPoyo6NiFFl9SlDtFFgBpuei1uitnXCwrAMmy1b6aAdSDKTMSfSuir+VxHbX/A5w0n/CYpkXe68U2oiqMYlRYbQkVkymzfgX02qmKtVGSNkv76/91laH+sgXZzKhyjHXPaH/mmGytobGky0LklFBRhBBm2vbn5IR2przOKQUHPlYhrRZ6++rg+mX1acUGf9w0zWxoj6HvOIB3qRrmI6hiTYDTzPZ1OKqyA8QV1D21rbsoRNuwxKpBAqZKMeZiJVLSfowHZXi0iIHIhcuF7fIH9yWVtAsHujyLDzvXpG2dtHXeuRTnEzspIS+qz40dfb3uaAd0AoPB7bZqAlC48IPf9UtXm0XuLWfItFlJMrCsIqFdMsZfWIvAhYWYqWUTIFKvQu3dv+pOBlBhZryzSf3Arcc6Df+7a0O5a5VIncNVXnXhc/94V0hs6+28Iy6cRWMRLr6skCBkGxeabcs8MHuD7ufYnjJ/Q9xfm5RqaRpQjGrCyBKiBSUgCfNqzazHzX59EWgULR5KL5suxXxrFQxXaQlF9VJkqb9SZSJOKppWkd5E/SfYsQV1VoLr7+FK5tn0zYX9cnS8QjfLo+izFdCuUvgRKiXHSk69P93YqJZFvy+ZNAtXH2h87dwUbhnQJQkclIHimrPUlNDEtZoOrGsCw+B9EQul9O5So4WI9fomkETQ0+47XRFEbNiOmAsvZdugQ3iRBdbSwnED5oSXS5wN2YbwSCApvBgPOjIl6k/T6DRjfl6Cg0xBfda3BlinXud2SImAHxQgPD8IZcu53sgBG/dufA==|920
