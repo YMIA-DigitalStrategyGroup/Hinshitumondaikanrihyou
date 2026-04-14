@@ -390,5 +390,15 @@
   {
     "ModuleName": "Pages/Fコスト関連",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/Fコスト承認情報確認ページ",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-14T13:18:30.2253082+09:00",
+    "ModuleType": 1
   }
 ]
