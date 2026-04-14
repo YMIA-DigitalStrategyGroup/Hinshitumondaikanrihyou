@@ -173,17 +173,7 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-10T13:11:53.2418847+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表関連\\進捗管理表.json",
-      "Pages\\進捗管理表関連\\進捗管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成",
@@ -199,17 +189,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-10T13:13:18.7739627+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
@@ -349,17 +329,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-10T14:08:28.2933274+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.json",
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_統合会計版",

@@ -3,7 +3,7 @@
   "ColumnCount": 126,
   "RowCount": 33,
   "Formulas": {
-    "8,34": "RIGHT(DE9,4)",
-    "8,29": "TRIM(LEFT(DE9,11))"
+    "8,38": "RIGHT(DI9,4)",
+    "8,33": "TRIM(LEFT(DI9,11))"
   }
 }
