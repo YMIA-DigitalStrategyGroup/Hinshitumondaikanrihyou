@@ -44,11 +44,49 @@
   },
   "Cols": {
     "InLogicalVisibleIndexes": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
       148,
       149,
       150,
       151,
-      152
+      152,
+      153,
+      154,
+      155
     ],
     "Count": 156
   },
@@ -166,6 +204,23 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "Fコスト管理_統合会計版"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "Fコスト申請中一覧",
+                "Text": "Fコスト申請中一覧",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_承認情報一覧"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -541,4 +596,4 @@
       "Size": "3080,100"
     }
   ]
-}//faorURHLK4O3ZM/zeaApKQ2+M34l22u+OlCa/RfC1G2jQLookIo9g6+oKA3ctQk/Dbg9bgsKf68/MhI3/B2XC8B3gfDYrUcZW60/JGM1v8aMxyjmV/exVS3X2up27d7no5W9K2GZrCFMY70Gu+nR/NPqHENJlZTiVD/0njLNifYq5sF72+l+zVcmYlBD/D6aRZMato2+XgBBnVMCAeMVrfHfgFSZHwxofc/y5ouw6+etMVg1k6h6ib0/rHLLws3JUq7vVkTA4kYCzeYjnY8VD2rFLACyii8bu8Ihota5ZeQ7RKYiodjF5t2cbYWyzvnM0BZVfASki9kXb+X+pUc+e1j0MERjOWCLq53SCFGNuvOY7Db7o4gmgc1fCXdByB/BHzznD3FzKpGrKmGoPDP3Bzylds3QgKPBrImbdj8WG3aLxQ4I0BvnBRGg4eyq5dGpjiKfruNKn3GMSP4iBPJKCoavXqIXt4cL/W2U+Qh7nS9bvu2FeKC6BPMp1wvBG5MV4kYTOHcoku0y43KmtX1i3AbO5A7qn9BZhVxOib8gLo7efuSbTr9ywO5JaGuNoUkNp4n/vXBR+XBj+lrCFHAoPThOPAz3y9KIrQsILJHC/8ViqmqsDpgEPBuzAim5g/iMc8qG0xNRvvhUQPaM20h4h51OeiYp+GaElS0iZniOFUeUIhMU8pQFZgrXiBwFKZGXtV1Eu2Ugy7dRQEiB2V1lgg/uHrO94ED1A+5b4iUjPmDPUr4fGzIUHk8Tmk2+YeYgctZFPMIGeisT4Vc1no30J9eYuhYWz8/bitEvOybcHKkBUa6L4DUPoG/W1Oa6a199riSc0aBLeVpWtlr/A+svNTK+JcmXWKeKySYhVp0f+tw2HMkwB3Fw3PskeFzB/yYWvWko/nYX+JsjCg1za/cMbg==|920
+}//j4XhzGHx5BO3zP2N8CAve47DiA+ZVgxsk5xDhpeJQKaFDNhb6Xb02VgXB//CIYid6LAXYnuLi2trF+iFn7DiFcQo61l+S6dHH7EymdBhw6pzq0ux1XHeWqAk6cyhlQ27WH1VqCID92rssQVmfCmWUG+yhRhO4VkZJOzFFfp+BF1hW1tjjBX+shNDeYY00kcqyrq8iEewtLOgl1u8+91zhqAxqtH7UpYfOI5qTkdSd4VypqZ5ehnDyvm117kVIk7lD7eIGKY8dnrrKbf42YngCT+FXeP9AT/f9xyMsQTy7lcP19uHUu78IcERLDJkRAfsmOgjmIAhHMDZBD5vnE0te0wOYaCkFUOi5ZC94LB4DIf1UEIc+x+ZGxgkPG/EKXLZKaG4iY607lzhukitFah8DCztSRgWsMhayqQPv0F9mapgGLE546eDMFSVOcTVJrs9udT0DNHUehOTPe5WZJf9IDF8ddvvDjxf9a9D/iqoBJdAWwdvhlm+T2e9VJLOfXan1dyS0u7/zeVOasxllsdygAQ73lP2O4/lZG0eJZDjK3wPqg2524RBYaym94FB240sPv8KThBpoZNdtlSxhPrTDpXP0BIRJvMk8r/5R4EiJfroqKozcAIBhN4DZ7Q3q5Bb4K0ziEvnkA8tfh1W81vQZBoqjekV2GeZWOxjTAZxhrJvhq0XucfYX0tR2WaK+dtyOq+l77siamu2LuAFojT7+NgOGqIqlBdtBYwdWOM7sSMnU0q7Nl5Gvg3ivD6uXpVQCBzq5ZQ6gje4cR4gLVR8t3H5b1bhiSZsPnquM234B1CmkxenExNAj59exYxAjQIwvqrrMBSQQs5zqz4T+czKLj6wnN4lTllhY54l2jrtx45Bo0/Nk2aN1TEP6RWJxFVkQV01pNfqbB4lvPHtnHFaEw==|920

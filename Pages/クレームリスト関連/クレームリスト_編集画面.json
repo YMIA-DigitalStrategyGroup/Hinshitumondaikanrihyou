@@ -1003,8 +1003,14 @@
     "32,8": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
-        "DropDownButtonvisibility": 1,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RunJavaScriptCommand, ServerDesignerCommon",
+            "JavaScript": "// セルのエディターが表示されたときに実行\r\nvar datePicker = p.cell.getEditor();\r\nif (datePicker && datePicker.datetimepicker) {\r\n    // 表示形式を 'months' (月選択) に強制変更\r\n    datePicker.datetimepicker('setStartView', 'months');\r\n    // 選択できる最小単位を 'months' に設定する場合（月まで選べればOKな場合）\r\n    datePicker.datetimepicker('setMinView', 'months');\r\n}",
+            "ID": "b4fb385449d44e66bd3badd3198a91a0"
+          }
+        ]
       }
     },
     "36,8": {
@@ -1323,7 +1329,7 @@
                     ]
                   }
                 ],
-                "ID": "c169ab29-0837-4630-9c49-94501b5aa18a"
+                "ID": "6f81d596-9837-40b7-908c-e821bbb3c74e"
               },
               {
                 "Condition": {
@@ -1371,7 +1377,7 @@
                     ]
                   }
                 ],
-                "ID": "11f5e269-106a-47f9-85cb-d9188d0493be"
+                "ID": "ce752c21-29d3-4889-8acf-f7a0e12a4fa8"
               },
               {
                 "Condition": {
@@ -1419,7 +1425,7 @@
                     ]
                   }
                 ],
-                "ID": "71dd64a5-8ab9-4862-a5d8-e55bc3c8f794"
+                "ID": "d266adbd-73f6-4104-b4d2-91509a8a17f9"
               },
               {
                 "CommandList": [
@@ -1436,7 +1442,7 @@
                     ]
                   }
                 ],
-                "ID": "20425050-428b-4d6d-b451-b70ed502edca"
+                "ID": "1fea941c-7391-449b-8991-f7bd526f7d15"
               }
             ]
           }
@@ -1869,7 +1875,7 @@
                             "ReloadData": true
                           }
                         ],
-                        "ID": "f550c4ed-8fdf-40db-bb08-44935509ddb0"
+                        "ID": "b4b271b3-6018-4b6d-b93b-cde6793731d4"
                       },
                       {
                         "CommandList": [
@@ -1878,12 +1884,12 @@
                             "MessageFormula": "このW番号は既に設定されています。"
                           }
                         ],
-                        "ID": "59c721b1-0617-4c21-ae34-fe265a851193"
+                        "ID": "fc2c0d64-5a97-4de4-bfad-3b6f81c658b7"
                       }
                     ]
                   }
                 ],
-                "ID": "e278f532-ba71-4397-a96e-0bb1b5a0b775"
+                "ID": "e0c3abc6-f55b-4d29-a246-122e0a3ef0ec"
               }
             ]
           }
@@ -1945,7 +1951,7 @@
                     ]
                   }
                 ],
-                "ID": "aed2a6f3-6cc7-454c-8979-bb46f689001a"
+                "ID": "ae0927df-8c47-4635-b070-1c1e2d496e5c"
               },
               {
                 "Condition": {
@@ -1993,7 +1999,7 @@
                     ]
                   }
                 ],
-                "ID": "0f4949ed-c668-4585-bcd0-487f807eb900"
+                "ID": "97c277e6-896f-43e6-a8e4-082aec6b6da3"
               },
               {
                 "Condition": {
@@ -2041,7 +2047,7 @@
                     ]
                   }
                 ],
-                "ID": "56c6c147-10cb-4a5c-82d0-804d9c44cbaa"
+                "ID": "c5ac7225-f383-4ddb-9d26-0fcf32ea43f4"
               },
               {
                 "CommandList": [
@@ -2058,7 +2064,7 @@
                     ]
                   }
                 ],
-                "ID": "8dcf52b9-aa77-4be9-92b3-a1b1ee338513"
+                "ID": "89a1d5a2-28ca-4358-a20f-f406cecf109d"
               }
             ]
           }
@@ -5599,7 +5605,7 @@
                 ]
               }
             ],
-            "ID": "b470f3ec-c211-4708-94c8-04c93f475ffe"
+            "ID": "f922f5e9-01d3-414f-b992-2416bfe98f77"
           },
           {
             "CommandList": [
@@ -5616,7 +5622,7 @@
                 ]
               }
             ],
-            "ID": "a30e6570-aa5b-403d-9be1-a2f2c561daf0"
+            "ID": "fc0f7d73-148f-4195-b9c7-781d125e1f94"
           }
         ]
       },
@@ -5677,4 +5683,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//0sduwRXIuZEv6SUzfPRDYchPitcL+sf/cXB+9KZPev+vKmudZyVfrSPQI2MKZeyWSyt/GDrZrbhBbXTtCHwnw4DtLWxWW07KWh/vxp2kWw+m+duSUCc32R7rooMN+ZwTPIz/vU26g0Zq8I+WldsgtAswH3GxwizKmWKd2t9NBD9kPkYeNi0roLUoZwK37nzfmc7kquH6ve5aS5NP8Vxvb3otI7mx3zKbXxqbkKsU7Bd0632r4WaueujyUN4SVDuq3WWJbrfH/YsK5p/TRROlQhxuwxqC9TB89YKVkBnmwJyDNDiJUzTt+jPAo1GutHVbOjrwEPYI4Ka/vW3X1jSIjAtBa1cRdZ0KjdDbs76J1mDOUPySZB4xLxDluyOyvRTxpJtkL2Kl02zJuzfhkk4pcQis25awwx3BDf3R6d+9uYrX9u9fietxydCCtdZhX6itvbBvuYz6go8yNI3aGLhngSQRcdMC4pvvp+RUUrNID1zi/fjtM/+WcDi0C5kktdOLOP8KQziJ5th2IT56fmfZP3VFTG75yOD6sd81HH/4bdKrJjtIyvWw8HeXk4gSP+uy80oCSiNqRC5nVQDrLb88Tw0TomC1pny1EutB30I2I3YS9W+MJ/JZ/3xDeypA4EZwbwme6qi0tvPixFmSVvaywDLRRUqtypCMP20HLLiAQJg14k78ckPryu+j6RyW7rXy4rTSI0fTBtm5A1ItJVPW4/PoBoE85HyJXceLmdHuHmU1t8EhB/FKdgTqbLtIhVGHYndnPgskpbELZN2BvY3j3jYuX+vM/0RtOvlDQAZxPRTqkgTywIGmanlHZjEDjas9yQyhVf4OtM1Eug9GPG4+VcoKEebdysnnfgy0/TG0xtwwKsKidIJ8s67qZiNQKQWwxmijHlzzUhz33dN4gwIf4w==|920
+}//VtR5T7vb40uZDgoesNK7wGY4m4/K584F9FJO+NxsSjKP3HXEJr1+4FgzWj8jtVfjTkFpJ5ghIUUX3GacGTkANygtX0RYZ6DxNytDuZnRGK0pmD6zvapM9XElbOC/T7ThQWpbkSXxs/Ytm+dshn/nD7GYTTatRAyqc3NsZXDIQVU5/eoP18LzzfmxUt9o1utIhf7RANMBEZrMxZ9OEptNF+uCp9obPf5+lWNckmNpTK66QrLtU5vUtRHsYGZXzGstyDP9fNspdP1cGEfvJo7PfZX0ZD59k1GYOg0kslY4X7sV3LtTucQZGoJqUMoBl6z+qmjBo+HzBAwgOMHJbloBH6h/sBH2SrrzNwOQPlZdnpyM2dx0OhA4mFU0OlLqXLmfXc81SQccBssoT9/xPpf+qOKLec1llyxCkPFe6VqsQu8xdF3JtRNMe7yCrhOQYRA02Yd/P6GUM5GGSzRhB9efizM8eITcKSFFB/NyppRqr7L6pCiP8Jc9mQYbuqfdDxGdKwjPqPOBpO+HQfLSh8RX84JOMmJiNOSA/wHHespAJycLk4ocHEyvm+/xPzdGjKSwcwLSvYljZWZTsHVn/akHh4aoZmUejW2+Mn31EJpMGkeFTs5KjLKXNaXX30sJHzhIk5u5AZG6VjL7hjlBFPOnVyofB17FjmF67GFceOjxtBkAP47cg2CZlr0v1cEXgxoCjHI3PXKzqwt5HYFu2ts4v25cGqZlhELE+XmjxrkrxY5UrdatGlKibH6Mu2e6SCUPdRqH6nk66WLG8piF2uPjjjw+GBu3LYsWqipYAYTEN6YveToTjyTQoi9WPp5G/HNxH4bhTmd5Y/3rksDQAxXcGwyRw/SIx6sLOTtmDp7H/1JikdgrpAqen/Ev75Sa6GpUxd9XoK6EV4Idm+IDK5mBcg==|920

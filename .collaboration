@@ -237,17 +237,7 @@
   },
   {
     "ModuleName": "MasterPCPage/Fコスト",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-14T16:27:55.2974909+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\Fコスト.json",
-      "MasterPages\\Fコスト.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/品質問題",
@@ -339,17 +329,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-14T11:20:19.4156452+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.json",
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_統合会計版",
@@ -383,17 +363,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認情報一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-14T13:51:28.4886755+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\Fコスト管理_承認情報一覧.json",
-      "Pages\\Fコスト関連\\Fコスト管理_承認情報一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/進捗管理表関連",
@@ -413,12 +383,6 @@
   },
   {
     "ModuleName": "PCPage/Fコスト承認情報確認ページ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-14T13:18:30.2253082+09:00",
     "ModuleType": 1
   }
 ]
