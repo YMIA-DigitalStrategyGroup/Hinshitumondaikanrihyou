@@ -146,6 +146,59 @@
             ],
             "CanVisitRoleList": [
               "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "Fコスト管理",
+                "Text": "Fコスト管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_統合会計版"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "支払情報入力",
+                "Text": "支払情報入力",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_支払情報入力"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "Fコスト申請中一覧",
+                "Text": "Fコスト申請中一覧",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_承認情報一覧"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
             ]
           },
           {
@@ -169,6 +222,14 @@
         ],
         "Orientation": 0,
         "MenuLevelsStyle": [
+          {
+            "FontSize": 21.333333333333332,
+            "Bold": false,
+            "Height": 60.0,
+            "Width": 250.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
           {
             "FontSize": 21.333333333333332,
             "Bold": false,
@@ -508,4 +569,4 @@
       "Size": "3080,100"
     }
   ]
-}//AKZnjWLQfPYJY2UhU1yax0vlcR3ijUPA6FZD1+J3TKxBaOyfpyuX9hFKXfuiAG6mjtEwDYoHwHfKwnJiwmbsMGMHUuiCg/GO155G3GHQlo6MJNBGMRCDBMlsoI9oMaF2Y9coDBJQ5jn3T2i0f0lY17U/zhWyr6s03UH4llf3KLsjE8rStRKVM+j6MVUoW0ZPEMSzl9iVAc9mjk6B7WZezcUzs6uXKDW3ECMeHV9c0AfNoBZzLXfOFkpa7YDqUU+lDra6bKcpBRlVrVmWHqu6eHNmSR3QsalmjLX6IGZjLnOskXyKLp/Ah+wrwhtgQ4xseliH+aFSinBHt7zhausyEPMENnOUF+vHJVG2Guij/SRfZL33axYI490/H9mStuItnAh/lrQ5w23+9qs8tJ9kb3h8bCkDrhqcVC90UJmKz8PMlPNM6QKEdqm2Dqn+F6+8+diPq3qq/497/Oibe/777YyKB5uC+C0Baw0RxVq1HQK+JQZUIu2bB/0s2xKvJOsvNt/sjhJwIa0qDTIZGWqugV/CQPoSfQkIeaVbt4x9pevHHZPsjQIApBWtZ4OocniaQDueiSqQm4XiT5AhX/mSDVYop1Ko7LvSbXlVT1eT6IKKKLJnJFViAoKHV+U1S4vC0E69ZbWngBUcAMvooZzaxmVYWbBc7eSNFlwwpqyB/fPV0epF3I1J4R0Cs1LLGfLgCmuataImu6KnFKe9to7uuI+PXH4E+vqjw++gfut1eLMXV+zrbMU5V+EAxa+V54F7i7ncKWTDLLEnavtmmNuvv84ttDTM+YWZySaQf79n90QZE2jfum5hmPuT9LG6oQjReeu71HPJouMGH4sicE/1n233C+Li+R7ZCqyLjpycc6ZfuiJdy9qKR/FBBr1Cy/UiS07hJpt1C5uOfiKh4JluQw==|920
+}//rg9hrJ955u5G/leV9PUg7E7IH0c1juoy8WZ6Pw1RWN3kHRxntk/id4Z8x4EP4GY9j6T3HWIeeFerkgK58fVM9FxqfsDih3BF9xVSPtQaBkRs58LyjmFq2cjxORf5jIUTkcFDWdyJZiCPhzZvCB6Ni+uKgFWHiLjsoCnl3LYrUeuPmssA8PtV03ECIEjHRAA81w8YKXKxRk07prEmqACcAU5AgDBloa94g2NPjqa1LY+++t/w/PeJ23YNzzn9vLL34Rk++VY/W2oX7lAeweOSB8btuGbvfy/j/wccH18oFX1GMkbpJqCLY1X17O37JN62dLRRMYKZ44RwVtqEdW5NRG/Ze/mlcX8izO3bZTB6V2Iw70IMASZyawRuxlSA5dnZat7ccTQUEP7izdUTiLEHIAhHeMmkqc5iXCUnc9ahQ5RcSl5tgnMHQJoXsjQNFKbbR0vIk8UbxZezGJCt2MXmMsex1Ff2J2PVEGn3ubxqn9l5kT+ly6YmppgEx/0fYpR7a1CxeYqm4zHPGotlt6TUpa4YcJQGMYs2ADmh3h1EQEKx8JUWxGgWukfC6v8gNNt4Q7MLNPhr91SxH50vaJB9v5k0wOEwSqsLfbRkxIezO6LXQw7nBM51uzeR14/Yr6dRNl3Ny9Srl+N7upawx3RaTF4qByAIrx29ELGnHOoLeLKyXKa9JI51Ipyb6MaHccX3WZmP0YiYmdPgWUUOb6N6S/e//RerNM5Jj1B05kZgMk7n3tGEtgBN49hSN5ubHZ41L+d6rA2SIy39R6dhYMAODMcg7WKJ4VeM7n1mlkCGQdoO7BFC8OJa0OyIn2si+EFGPKa6qUt1h+fXBI0OfDBpswOyUTjbZRIt9pLAViFT5NOw0vSQUB8CfqhlVQYCjENNC1+NWkRIOLJ5f90uhdyhYg==|920

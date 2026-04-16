@@ -518,7 +518,7 @@
     "28,27": "年月日取得",
     "30,1": "クレーム判定",
     "30,18": "製造不適合対象",
-    "32,1": "クレーム判定日",
+    "32,1": "クレーム判定_計上月",
     "36,1": "部品又は場所別　",
     "36,18": "販社特約店　",
     "38,1": "要因　",
@@ -1329,7 +1329,7 @@
                     ]
                   }
                 ],
-                "ID": "6f81d596-9837-40b7-908c-e821bbb3c74e"
+                "ID": "264c9480-4a1c-4df5-9114-769766cc6c68"
               },
               {
                 "Condition": {
@@ -1377,7 +1377,7 @@
                     ]
                   }
                 ],
-                "ID": "ce752c21-29d3-4889-8acf-f7a0e12a4fa8"
+                "ID": "a5d397c6-113c-4b2a-a83a-9d6b12d42a05"
               },
               {
                 "Condition": {
@@ -1425,7 +1425,7 @@
                     ]
                   }
                 ],
-                "ID": "d266adbd-73f6-4104-b4d2-91509a8a17f9"
+                "ID": "f45dadaf-5875-44b7-a72f-3e022c64ecc1"
               },
               {
                 "CommandList": [
@@ -1442,7 +1442,7 @@
                     ]
                   }
                 ],
-                "ID": "1fea941c-7391-449b-8991-f7bd526f7d15"
+                "ID": "6a5f5535-7636-42f5-9fd3-cacb6ded6979"
               }
             ]
           }
@@ -1875,7 +1875,7 @@
                             "ReloadData": true
                           }
                         ],
-                        "ID": "b4b271b3-6018-4b6d-b93b-cde6793731d4"
+                        "ID": "8af77faa-9625-4751-8b3a-f27d7bd780a8"
                       },
                       {
                         "CommandList": [
@@ -1884,12 +1884,12 @@
                             "MessageFormula": "このW番号は既に設定されています。"
                           }
                         ],
-                        "ID": "fc2c0d64-5a97-4de4-bfad-3b6f81c658b7"
+                        "ID": "aead3ce5-caef-4dfa-a477-54f5c514b821"
                       }
                     ]
                   }
                 ],
-                "ID": "e0c3abc6-f55b-4d29-a246-122e0a3ef0ec"
+                "ID": "c98def76-cf8b-44e8-8039-17af4648fb4c"
               }
             ]
           }
@@ -1951,7 +1951,7 @@
                     ]
                   }
                 ],
-                "ID": "ae0927df-8c47-4635-b070-1c1e2d496e5c"
+                "ID": "b979a8c5-876e-4eb3-9040-b6354473741f"
               },
               {
                 "Condition": {
@@ -1999,7 +1999,7 @@
                     ]
                   }
                 ],
-                "ID": "97c277e6-896f-43e6-a8e4-082aec6b6da3"
+                "ID": "909d4aa3-220c-4496-ab71-8c774be9d56e"
               },
               {
                 "Condition": {
@@ -2047,7 +2047,7 @@
                     ]
                   }
                 ],
-                "ID": "c5ac7225-f383-4ddb-9d26-0fcf32ea43f4"
+                "ID": "7ee022e0-f98e-432b-ad5c-8b943e695e28"
               },
               {
                 "CommandList": [
@@ -2064,7 +2064,7 @@
                     ]
                   }
                 ],
-                "ID": "89a1d5a2-28ca-4358-a20f-f406cecf109d"
+                "ID": "0c545607-e30b-47ab-b60a-74cee8c08f26"
               }
             ]
           }
@@ -5605,7 +5605,7 @@
                 ]
               }
             ],
-            "ID": "f922f5e9-01d3-414f-b992-2416bfe98f77"
+            "ID": "3c14002d-3abb-42c2-8bf5-504366f3e048"
           },
           {
             "CommandList": [
@@ -5622,7 +5622,7 @@
                 ]
               }
             ],
-            "ID": "fc0f7d73-148f-4195-b9c7-781d125e1f94"
+            "ID": "56d1b018-50a3-44b7-9511-10710e9ac5df"
           }
         ]
       },
@@ -5683,4 +5683,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//VtR5T7vb40uZDgoesNK7wGY4m4/K584F9FJO+NxsSjKP3HXEJr1+4FgzWj8jtVfjTkFpJ5ghIUUX3GacGTkANygtX0RYZ6DxNytDuZnRGK0pmD6zvapM9XElbOC/T7ThQWpbkSXxs/Ytm+dshn/nD7GYTTatRAyqc3NsZXDIQVU5/eoP18LzzfmxUt9o1utIhf7RANMBEZrMxZ9OEptNF+uCp9obPf5+lWNckmNpTK66QrLtU5vUtRHsYGZXzGstyDP9fNspdP1cGEfvJo7PfZX0ZD59k1GYOg0kslY4X7sV3LtTucQZGoJqUMoBl6z+qmjBo+HzBAwgOMHJbloBH6h/sBH2SrrzNwOQPlZdnpyM2dx0OhA4mFU0OlLqXLmfXc81SQccBssoT9/xPpf+qOKLec1llyxCkPFe6VqsQu8xdF3JtRNMe7yCrhOQYRA02Yd/P6GUM5GGSzRhB9efizM8eITcKSFFB/NyppRqr7L6pCiP8Jc9mQYbuqfdDxGdKwjPqPOBpO+HQfLSh8RX84JOMmJiNOSA/wHHespAJycLk4ocHEyvm+/xPzdGjKSwcwLSvYljZWZTsHVn/akHh4aoZmUejW2+Mn31EJpMGkeFTs5KjLKXNaXX30sJHzhIk5u5AZG6VjL7hjlBFPOnVyofB17FjmF67GFceOjxtBkAP47cg2CZlr0v1cEXgxoCjHI3PXKzqwt5HYFu2ts4v25cGqZlhELE+XmjxrkrxY5UrdatGlKibH6Mu2e6SCUPdRqH6nk66WLG8piF2uPjjjw+GBu3LYsWqipYAYTEN6YveToTjyTQoi9WPp5G/HNxH4bhTmd5Y/3rksDQAxXcGwyRw/SIx6sLOTtmDp7H/1JikdgrpAqen/Ev75Sa6GpUxd9XoK6EV4Idm+IDK5mBcg==|920
+}//0mPneHriWSjA1+7gPjODvrLi0zHp9oleakp1rx2FDn31yHgkmmbxgt0zRLeC54J7h/WeZGYBcKMxldBuSXeDY0ah9yQOJRIgLUxC+QKVWsDbONy7ym+ABRwq3nEd57D5kCNOJIIiNm+DQxdQt0goe16sbElwh0BRFLXJ+vjnf11fD4RIFQCaGvHqeorvsH2ZoK5+F/n6MX+1+nLvxxsMxp99/Gvr7khpAw7CgXVgJ2kvai+kj4jR0dGk+7WEHKmETKkSULAdHJRlfVTaoImp4TTSHpW15nQx4zAqtKHbBNZ7GEqgv26d5QwgZ7rvxa9dURhcoNc6EvJ/Vk204Iotnz0sqTm3l5oqQuy43aKFlEUi544uWST46AUVqABrnH/YkTMDlBOxi80pIHh//fG6zEf4xScNlQEdQ0KFSjCDI0ZaW8LqKrDH86pb2dkzeEslMiLpvYKkH0TFNxq0/E3DbtT3qC7CE9cZL13NIXH7wSTq9SdRWKDkI7koDZedovPTaWyizdSImawwxaFTQ4BROmPqv3IUb+iYatpXQbG4iYBJTfIFEAAIMqL0t7Dh7Iig8eNyYTbnf7yesakYZvxNj29depGmZ0iuf6zghCiL5itZiZb/S6jOXuSGUl2q3v6NkYQ6Sr06EGIcgNFoJU6bCp6Cm40b5v/0y0GSTya7e/CgQVVM899DWvFzOkf9H5W11x3OTPAFbzSINAaR0N6GbW5g7xIw8VJGFS4mmxAkehCQHLAmHZG+OKhqddBkIP077t9WCRWVeAFzLT+LBinF5BCAsrLEJJ2RIjLYWbf3mBCGrMpm3Qr7GNGxqgd5KctyPy8xA87B5LW2ZxR5rTH/CAjcMvlZyGw1fkwLlLGvPgSzrFZexlUMiEJFy8bLP1d8SVjtn05j9Wq0zkPFv/S1eg==|920

@@ -173,5 +173,13 @@
   "PrimaryKey": [
     "承認番号"
   ],
+  "Relations": [
+    {
+      "PrimaryTable": "品質問題_Fコスト支払情報",
+      "PrimaryColumn": "工事番号",
+      "ForeignTable": "品質問題_Fコスト承認情報",
+      "ForeignColumn": "工事番号"
+    }
+  ],
   "Indexes": []
 }

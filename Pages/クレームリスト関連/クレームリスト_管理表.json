@@ -177,6 +177,11 @@
   },
   "Cols": {
     "RowColumnAttachedInfos": {
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0
+        }
+      },
       "62": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 31.0
@@ -205,6 +210,11 @@
       "110": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 23.0
         }
       }
     },
@@ -241,7 +251,7 @@
     "7,9": "W番号\r\n発行日",
     "7,13": "製造\r\n不適合",
     "7,17": "クレーム\r\n判定",
-    "7,22": "クレーム\r\n判定日",
+    "7,22": "クレーム\r\n判定_計上月",
     "7,27": "SEAQ番号",
     "7,33": "艇種",
     "7,38": "艇番",
@@ -825,7 +835,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "W_NBR",
-        "GUID": "17bae3c3-a7c8-4c9b-bec1-924450957fe7",
+        "GUID": "98e7ad2c-3801-4300-b718-b0da66541f39",
         "RelationBinding": {
           "RelatedTable": "品質問題_進捗管理表",
           "RelatedColumn": "W番号",
@@ -893,7 +903,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "974467ca-fd80-4f86-a2d3-e63cf288bbb5"
+        "GUID": "3f2a5848-41a2-42b9-9201-783a0cad800e"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -967,7 +977,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "8ea28355-983b-432d-9a8b-17b7fdd1d38e"
+        "GUID": "45074aa3-41e0-4bab-be29-94e08deb0cec"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1001,7 +1011,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "3e5f96e4-6332-4218-9231-f4dca3643ba9"
+        "GUID": "a5aee5d0-b2b4-4f0f-b65d-4fe3b095c693"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1035,7 +1045,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "f4cc4b56-c2d7-45fb-95f9-653a6bcab683"
+        "GUID": "e93fd372-cb5e-4dfa-8af3-1122339b7e0f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1169,7 +1179,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "7ca1d1f7-6d37-4900-9a68-f0c141af89f7"
+        "GUID": "03b5c7b2-0f63-4120-81ec-317702510d64"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1311,7 +1321,7 @@
                     ]
                   }
                 ],
-                "ID": "c80bc410-06ce-4ae4-a58f-e06a74bc56c6"
+                "ID": "1057642f-1bbb-4fa2-a070-6abbc13918fe"
               }
             ]
           }
@@ -1416,7 +1426,7 @@
                     "UpdateType": 3
                   }
                 ],
-                "ID": "144e39db-d707-4a1e-878a-269fe85d8d46"
+                "ID": "ba396fe4-b27e-4ac8-8304-37cd355e1234"
               }
             ]
           }
@@ -4836,4 +4846,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//lOn9C4Mwa7iE7OP0yA/bCrlkbAvFtuTQu4/nfKDagIOTE70IfNyRRpEqnzSIaR+u0v+iy0yFN1xqsBNVYPO+mqjxF9X29pmosX8Ch7jUBh+9c1X/qKs49Qr/Cdny5tW4GZjQ416eMN1OlNatQaI6Hoh/bLEQQdA3Y1f/ZCdy9TBrOlAFRooI1R1IaKb9dq4PntNomUBG0ApsrdQihuruTEE200i/NxojuKzv/2ZPFDi+gQGZNRCXBh8x3nlYhJRF6Xn+758LpfSq0n8Mzp71OhXjYU6n0KUs/5EWsXuJPOrqkSlryCbt1vd9xW2Wt0LKQq+zRIIXEXg7kQBGR6NWfKqQZkS1pzarq0iqA85I0c3uM7qVhPDCcheDYwu3dBwy1dpoN+E7qrJOHOeA1Az7HR1LYl7fqC1YmqsWlyvQrJhGkB5cXVeTcm+Rt7j+JMqAoCAQ8nYIITZzC8PAOcmItXS7fh3OIXKdE9EhjsKxMP4qp1tNIQu/VdNbH4C32vRpGoG429F9j7rSzvxK7fGypYVdhfRPMpEStezAxZPjcfwX4hiGHRtTsNerp1F6MJ2UR10rs9DHqtBkm/q8JMBazWHymLvuePgOAmt8+4WZw3qUGBkQ+3pB0c/VZXQCtrHY56jME1vpch523tNxYQokwDL/RapzXfcH5VumC+TuOpBqHe9QNZiSnjgmXwediH0jpK62I4JVAzhA/0H0/7nKE0qI9Xj9yCcQo7H/HU4jBPeLJ84GDu+ZxbSOxJDBf8gWADRz9OksTajUtytJRmVxw0vJQHbyolTdgsLUyL7rprLwvnzx+CHInN7gizipeM4hTEApxrWz1Xxr+IZvbGzrwAFTfIBrSggxzUKXkOu5flwaaAQcPuE/FGqWIHSxKtkDdTg/YENK60R24lIYU0ge+Q==|920
+}//JJEnAH6Ijn2DPh4R1eJmuPZsRDCzfIbVW8WqlZI//w+BkrdrbC7U1PLQWoRyB/5TSPysfgm4RNzGjdwh9/vdBAN0z1vLAiJoNZ2xlIr2/s26Kg1V0jSmjttExYCImqiQmaCpsmRs7TRRnOOXz7W/ay1fNUImaIkH061KGRAph+OFnaMJM2WnzHtNK4L8abykspv8ESaEkBXYnApN5MJnt3qpWr71clhuxXJyZuKTi9jlbefG72Rr1t8aMITVV119KKaSd9cH4e/MZjIlkg/JqDunPgRSIywHNsWOc7dEuIFNIXc90e7Gma53L5NDxdzdR3t9e1bdP+NN/3EOzWCYOsf+PwYTllmZZ+czuo/hkE0iQYzaZUTjBWfxsaawk0BrR8OGVeCcT2GPeEx7Imaj1MR1zVDMxFNDCi140MZlYiKLH8KTm5atgpVr7nR6AFQ9QJZm6adobt0zpaKVYb4ex4MU3x0PzowfkjwA+JvJUbaS7utUsaPhTaETyqAX9fwjHWhhHSJXnKsBLR63AZHUobA9I1Mqi2Ck1i2QoJBKnVQX9L748wozBVSZhS9zgLAQmovWIHO7WYCm1xJqzkG815ozhw9fXP3n/3376vzjjol2+GIRfdpWg9JUdGIOxVb8OnrxrGSZ8zHNMjIu42o/CpUsmE+aP1w3Q6dWXWTFpvZtQtdcbSIG23k7y87WPlFwXckjDlWSyH/BmQuWznwzOwD1NIpRLGKDSMXc6BfxctUkRivTSt7cfo6XqWh64xg10Z3EYH6t8d9IzuatCAmNnWc10ySzVnQtSwURRXCkp/iF3QnY6w1PY7KU3K6JSWywYy+muCUgiJ/F2rdVeXOl0i0edgFkbFgAId+4dtzIdJWHsfISJrUXjTTTtyrSzXLv8bF+JvUfp/2pLQVvMcn5bw==|920

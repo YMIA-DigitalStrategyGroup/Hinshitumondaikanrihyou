@@ -39,7 +39,7 @@
     "Count": 55
   },
   "Cols": {
-    "Count": 119
+    "Count": 122
   },
   "AttachInfos": {
     "1,3": {
@@ -135,6 +135,59 @@
             ],
             "CanVisitRoleList": [
               "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "Fコスト管理",
+                "Text": "Fコスト管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_統合会計版"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "支払情報入力",
+                "Text": "支払情報入力",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_支払情報入力"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "Fコスト申請中一覧",
+                "Text": "Fコスト申請中一覧",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_承認情報一覧"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
             ]
           },
           {
@@ -160,8 +213,17 @@
         "MenuLevelsStyle": [
           {
             "FontSize": 21.333333333333332,
+            "Bold": false,
             "Height": 60.0,
-            "Width": 200.0,
+            "Width": 250.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 21.333333333333332,
+            "Bold": false,
+            "Height": 60.0,
+            "Width": 250.0,
             "IconHeight": 24.0,
             "IconWidth": 24.0
           }
@@ -204,9 +266,9 @@
   },
   "Spans": [
     "1,3,5,10",
-    "2,92,3,27",
-    "9,2,46,117",
-    "7,4,2,115"
+    "9,2,46,120",
+    "7,4,2,118",
+    "2,92,3,17"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
@@ -240,7 +302,7 @@
       },
       "IsAutomaticFill": false,
       "Location": "40,0",
-      "Size": "2340,100"
+      "Size": "2400,100"
     }
   ]
-}//LO73YIrwcQlIEmTaKKiKKkoUabc+qvi8BxDW+ZSdX+08WaQrpoTcTr9Q5V7ISQjMOExh0uuIeX76ih0vaxTw7infzaMkMaaDmNJICdOga2cFFwy1M+0irJA98ZgHuWoRnI9Vufigz+ax6cIC094zKHg7YmruGJhFCrMz5gfEmgYu1givWwJqkyxQ8YlpsDMXz/rIfUxvpXFoEWcA2kNzETQdctZEvSY+/zUIXnXIbzPpuQvw5U4/d23BiLjS289Gsuro9Yeo4GyHa+LNKUU0FZiNzqqlYiZAl8WTX5z8pvLcUWkMqMduq5UEoxYPxhHutzNPmoedIG1iAf/MjWa+QIETg87BiFCQrTfh+WE/Tsp5jLTKyDc7YX3pF0Cqz8VeFB+AmXXidVX8RE6sPuYWzn+uN+U5mZSQpFlgLVB/KTEv9oLc8AMQcs3fg4znvEeg4XOaRSxQLj6eAdU669rx4NDuY9pylKyt9ZjebEEH58jAbIbao4dve8GtYybeuFHgidxNgTinv3DQCeKuJD6apdT/VXaD7FmUh2f39gcw+PkYdJLXnwXrNREUVnx0hbCRctIcW2BOvboWchv1nKNwrwbvhYeSq1JDEBBgC2+kkJoLyhmfg1V1RDHDWDRxrU43vwKkHTbqK68qt7TyV40PY7ictQABnxfNIwpq3kx/MVS7VicHkBuPyA7xIkmyFK1yy8bHIA/Bdu1F0pIXkZ8ezeiEIIh7VOmwXEQPQsr5APtEkMBXZdmW4wNb5f5n51tfkpj6FIMX/YBKxOZ6fQn1a9awy3LUsZGi1iVcIsdv8jPM90agXncbmO+2+pRyBFqWy5Nf6537cthWZAjpaO3QrKYaxhYKPH9QLjtEkmYydBJBWVp/Xz+gWakfC70MeoamyMo3HJreR+h/oO8pGtl00A==|920
+}//IBFXp37rh3qz/t6Qq9UjYaPrlFYffd1VyCtR9rxgy7JJxqdKf9YNWA3hpb631llXNyV5oABGtgi49d7h0o5gFKH+iquwKxkUcarxdAHPwPwQ9vHBdoA6XFiCjzQtLQO8HO4yzk18rTXuKY84VaKHTQ7cNfJ6ff+3nEoMx8pjNxq5PZwwicX5MA9xYYOY6GM+wSu/WehNw54eir+TmxeMMOaVDu+4YX+NmN3f4bMNp1FAboz2AANX52sTbKg1op3n5H1F6YyvwRyCbv81ZydOMacNvCV7+PKps9y0Gmlk7RymOIRN1AUq5hdBuHiV/gMauP4BPeLtN1zwcph/WAGIJnl11md69ot0Co2iOjKtK3qauYAuLlESRLgD1Be0f7MIYgdSe2m7bYvEJoJ4YztuBznIy6t6gJQLPDCh0UXkjjB6kRmoGuhhm150ouFkVAWBhVITeCpoc8rzYpH83XrbXznB5fCQThyqt+VEzngm0J6ATT/lfnA5PhOU9PZhYDTkXCOGA8L345pNhFz6n9Uw1y4/DbPmyKHsh/jO+bRthzJoqnzBoKVS9U+x/MwifZDiWmfCJXGo1SPxRi5H8DawtbAkDncfj+Rv73kkSf9X0k+B4YSkxr3EjhPQow+f8/nN3cvNSL7BovLvIgdPHpckVvGynDDOAdebXyUlO0bTsU7gZpEqCG6FatK1U4zbg10omB7O3GP5U490zUR+VSWEB3hnBj6sWuRwI7igFPRchrfbbgjssrjcmsO1U1EFjsKgio7W8ukdtOL0IqMifqnm0idAMVf2RFo0qnlCpecCro4c+WiiCIwFu+RbhA3GSJJpR8TClBQwqIxax98gHo59CRn4Tg3ltJeHrzvWvWr+xbFAVBRaJuYG57IBBvuGl9A1WUTcSFXCkhLfyOdlMikO3Q==|920
