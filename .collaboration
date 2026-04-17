@@ -349,7 +349,17 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認申請",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-17T14:20:02.4446699+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\Fコスト管理_承認申請.json",
+      "Pages\\Fコスト関連\\Fコスト管理_承認申請.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認情報一覧",
