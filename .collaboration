@@ -384,5 +384,15 @@
   {
     "ModuleName": "PCPage/Fコスト承認情報確認ページ",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Fコスト申請詳細情報",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-17T14:53:51.9865224+09:00",
+    "ModuleType": 1
   }
 ]
