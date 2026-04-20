@@ -414,5 +414,15 @@
     },
     "LockDateTime": "2026-04-17T14:53:51.9865224+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/品質問題_Fコスト最終承認情報",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-20T16:19:15.5881693+09:00",
+    "ModuleType": 7
   }
 ]
