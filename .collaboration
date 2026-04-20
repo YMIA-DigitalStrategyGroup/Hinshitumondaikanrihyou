@@ -424,5 +424,15 @@
     },
     "LockDateTime": "2026-04-20T16:19:15.5881693+09:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/Fコスト承認情報詳細",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-20T17:18:33.3160415+09:00",
+    "ModuleType": 1
   }
 ]
