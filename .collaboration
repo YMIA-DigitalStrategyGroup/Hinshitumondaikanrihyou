@@ -526,5 +526,15 @@
     },
     "LockDateTime": "2026-04-23T13:25:53.6353766+09:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/Fコスト詳細情報_統合会計",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-23T13:31:45.5316667+09:00",
+    "ModuleType": 1
   }
 ]
