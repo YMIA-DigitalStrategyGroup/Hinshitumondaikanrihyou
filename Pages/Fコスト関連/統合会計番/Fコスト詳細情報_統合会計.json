@@ -1,0 +1,292 @@
+{
+  "Rows": {
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      4,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "Count": 45
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "Count": 60
+  },
+  "Values": {
+    "3,3": "承認番号"
+  },
+  "AttachInfos": {
+    "8,2": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "品質問題_Fコスト",
+        "RowIndex": 8,
+        "ColumnIndex": 2,
+        "RowCount": 23,
+        "ColumnCount": 42,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "品質問題_Fコスト",
+            "ColumnName": "承認番号",
+            "GUID": "b45cd960-c20f-4dc5-9a75-fbfb573315b8"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Fコスト詳細情報_統合会計!H4"
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium11",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,2": {
+      "NameUsedInJavaScript": "W番号",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "W番号",
+        "GUID": "9dc8527a-44b0-4f14-b465-331539b47280"
+      }
+    },
+    "9,6": {
+      "NameUsedInJavaScript": "発生日",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "発生日",
+        "GUID": "c04b4001-2af6-43e5-bf82-eb1da67ab931"
+      }
+    },
+    "9,12": {
+      "NameUsedInJavaScript": "支払額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "支払額",
+        "GUID": "c3c1498e-b499-4595-b4b8-67f8d9be8201"
+      }
+    },
+    "9,16": {
+      "NameUsedInJavaScript": "倉出",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "倉出",
+        "GUID": "c080ab5c-7d19-4273-99cb-ca9728f9e360"
+      }
+    },
+    "9,20": {
+      "NameUsedInJavaScript": "運賃",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "運賃",
+        "GUID": "2e206bca-43f7-44a4-a47e-a8914fdd2bd2"
+      }
+    },
+    "9,24": {
+      "NameUsedInJavaScript": "メーカー責任額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "メーカー責任額",
+        "GUID": "9ea2dd80-28db-47b2-854c-df4189522b8b"
+      }
+    },
+    "9,28": {
+      "NameUsedInJavaScript": "求債額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "求債額",
+        "GUID": "532d9882-e790-40f6-b4a9-e58c9738096c"
+      }
+    },
+    "9,32": {
+      "NameUsedInJavaScript": "YMIAクレーム費",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "YMIAクレーム費",
+        "GUID": "74727098-0b49-42c9-a9f0-6871fd1a23f2"
+      }
+    },
+    "9,36": {
+      "NameUsedInJavaScript": "明細摘要",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "明細摘要",
+        "GUID": "c3b1ac63-d1b5-4881-8a2d-fc3cdb2d6259"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 1,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 1
+      },
+      {
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 4 40",
+        "Text 1 0",
+        "Body",
+        "#,##0_);[Red](#,##0)",
+        "Right",
+        "yyyy/MM/dd"
+      ]
+    },
+    "CellStyles": {
+      "3,3": 0,
+      "8,2": 1,
+      "8,6": 1,
+      "8,12": 2,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 2,
+      "8,17": 3,
+      "8,18": 3,
+      "8,19": 3,
+      "8,20": 2,
+      "8,21": 3,
+      "8,22": 3,
+      "8,23": 3,
+      "8,24": 2,
+      "8,25": 3,
+      "8,26": 3,
+      "8,27": 3,
+      "8,28": 2,
+      "8,29": 3,
+      "8,30": 3,
+      "8,31": 3,
+      "8,32": 2,
+      "8,33": 3,
+      "8,34": 3,
+      "8,35": 3,
+      "8,36": 4,
+      "9,6": 5,
+      "9,12": 6,
+      "9,13": 3,
+      "9,14": 3,
+      "9,15": 3,
+      "9,16": 6,
+      "9,17": 3,
+      "9,18": 3,
+      "9,19": 3,
+      "9,20": 6,
+      "9,21": 3,
+      "9,22": 3,
+      "9,23": 3,
+      "9,24": 6,
+      "9,25": 3,
+      "9,26": 3,
+      "9,27": 3,
+      "9,28": 6,
+      "9,29": 3,
+      "9,30": 3,
+      "9,31": 3,
+      "9,32": 6,
+      "9,33": 3,
+      "9,34": 3,
+      "9,35": 3,
+      "9,36": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "10,2,21,42",
+    "9,2,1,4",
+    "9,6,1,6",
+    "9,12,1,4",
+    "9,16,1,4",
+    "9,20,1,4",
+    "9,24,1,4",
+    "9,28,1,4",
+    "9,32,1,4",
+    "9,36,1,8",
+    "3,3,1,4",
+    "3,7,1,6",
+    "8,2,1,4",
+    "8,6,1,6",
+    "8,12,1,4",
+    "8,16,1,4",
+    "8,20,1,4",
+    "8,24,1,4",
+    "8,28,1,4",
+    "8,32,1,4",
+    "8,36,1,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//uG7pm2dxY4mazMqy0N0ReXgrvDEpwkJ32azTuyIHteRsvro0pnQt2B3sXdgCESmm33c4Mx5MH4FXWRSU+fULC/3R84lvaQtafi4wmdLM5baZ8qNiHbSaY4Qu+FgcWRlIcXYLyKsrSy0gWCSD1VmzYtJIB5NvNJhJasepiJJjrWccNLHbTNaaWzG+cFae65r5UcOWWVQaCUwo4QhIBGkhtHwiOrm2ifF4539u4z2TatzkIeFZ3iJo6XOOfFIMBFTiUgKaHqvNKvKg6qCKkjjwsfOM8I7jDM4O+m3eXrKrGspeFg+cG9Sl8S4wqVnwWqvFXKEcYPvoQ4wPB7CLCJUihnhkP525+Q7YLbm3yDXq6k4legG55rbuIkVg9Tg7OGl/aBqv277k82XlpNDcLtIPPr5cXcy/4o1/BUn56EFJvtaCEBSQcC9Xp8CRhg6nhOzQbPudN9tfdwEs06ag0eHsAoUBiEmBIgofF60RVVDEcR7rPhmwYhiADAlkt/5OptSe8U9n2wiGGOjmQimjofC14ROGd/uLZjeiLkJT+Uvs9+SLf7Q+CbTFHFa+whIpx95aNJ05mhMRaHr+qqloBjz25dhpWVrK/Mze/bFgy1hVyMx1ZUy3qWIRkYp6DCDpk0CKkw67g/x/AL8KZwZ/tcrTcQSAOF37+7bOPBfotWSMYyXAxtyInyByDD6krYT+SbsIls7QkbR02SHeOcwBZSaj3VDxoyDMCfLFwCBdCbCxkig7YcpJe7RU4eKK3jzzyEs0c8HZN0wjkhK3mSYGJrpj1vivQg0HK3MUJ+FaJCg9lLmdwD651zytdFIaLAiGoNRZZ444HHGdow6GMAsUyA/gR8Ad693/BJOHE5xeqLwh/tjWgCysPCx50yCzu+WAYDqhXHlxYJFZglkPn+zqgv7LAw==|920

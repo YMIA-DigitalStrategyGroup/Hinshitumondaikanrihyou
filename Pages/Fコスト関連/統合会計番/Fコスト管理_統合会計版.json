@@ -1,0 +1,3028 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 31.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      0,
+      1
+    ],
+    "Count": 38
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 19.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      45,
+      46,
+      47,
+      96,
+      97,
+      98
+    ],
+    "Count": 115
+  },
+  "Values": {
+    "0,1": "発生日",
+    "3,2": "W番号",
+    "3,8": "発生日FROM",
+    "3,14": "～",
+    "3,16": "発生日TO",
+    "3,23": "検索",
+    "3,31": "承認申請",
+    "3,55": "統合会計　クレーム費用",
+    "3,65": "記帳日FROM",
+    "3,71": "～",
+    "3,73": "記帳日TO",
+    "3,80": "検索",
+    "6,49": "倉出",
+    "6,65": "金額",
+    "10,49": "運賃",
+    "14,49": "クレーム費",
+    "25,49": ">>",
+    "33,12": "支払額",
+    "33,16": "倉出",
+    "33,20": "運賃",
+    "33,24": "メーカー\r\n責任額",
+    "33,28": "求債額",
+    "33,32": "YMIAクレーム費",
+    "35,1": "更新",
+    "35,8": "閉じる"
+  },
+  "Formulas": {
+    "0,5": "TODAY()",
+    "7,98": "IF(LEFT(CI8,1)=\"W\",MID(CI8,2,6),\"-\")",
+    "7,46": "IF(AU8=\"\",0,AU8)"
+  },
+  "AttachInfos": {
+    "0,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "品質問題_Fコスト",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "品質問題_Fコスト",
+                "ColumnName": "発生日",
+                "GUID": "e94a4d75-ab2b-4eb8-914b-39bf64bf9603"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=#REF!"
+              }
+            },
+            "ID": "e6619667a2b14256abdc02c762204d79",
+            "Disabled": true
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,23": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "品質問題_Fコスト",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_Fコスト",
+                    "ColumnName": "W番号",
+                    "GUID": "7d2a303c-9df1-44d7-b310-e5a37e031fe1"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Fコスト管理_統合会計版!C5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 3,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_Fコスト",
+                    "ColumnName": "発生日",
+                    "GUID": "db56e9b4-1d0b-4377-b238-a6df1e92f62d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Fコスト管理_統合会計版!I5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 5,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_Fコスト",
+                    "ColumnName": "発生日",
+                    "GUID": "457bb408-c338-4faf-a896-0f7b7aceaae7"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Fコスト管理_統合会計版!Q5"
+                  }
+                }
+              ]
+            },
+            "ID": "ce2a368d855f4470b45b698872c92ca9"
+          }
+        ],
+        "Text": "検索",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "3,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "Fコスト最終承認申請"
+          }
+        ],
+        "Text": "承認申請",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/029_edit_9.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "3,40": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TEXT(Fコスト管理_統合会計版!F1,\"yyyy年MM月度\")"
+        },
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "3,80": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "V_期間費用明細_クレーム費用",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 3,
+                  "ColumnBindingInfo": {
+                    "TableName": "V_期間費用明細_クレーム費用",
+                    "ColumnName": "記帳日",
+                    "GUID": "adb430b2-d46c-4015-a6d0-a220900555e1"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Fコスト管理_統合会計版!BN5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 5,
+                  "ColumnBindingInfo": {
+                    "TableName": "V_期間費用明細_クレーム費用",
+                    "ColumnName": "記帳日",
+                    "GUID": "29412463-8bf5-456c-8205-3f50efdd933e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Fコスト管理_統合会計版!BV5"
+                  }
+                }
+              ]
+            },
+            "ID": "0155a2f94fad405191ce223cdc96d100"
+          }
+        ],
+        "Text": "検索",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,8": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=EDATE(Fコスト管理_統合会計版!F1,-1)"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,16": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=Fコスト管理_統合会計版!F1"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,65": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=EDATE(Fコスト管理_統合会計版!F1,-1)"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,73": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=Fコスト管理_統合会計版!F1"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "6,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "品質問題_Fコスト",
+        "RowIndex": 6,
+        "ColumnIndex": 1,
+        "RowCount": 8,
+        "ColumnCount": 47,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium4",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "IsTotalRowVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "RowHeaderContextMenu": {
+          "ContextMenuItems": [
+            {
+              "Text": "挿入",
+              "Visible": true,
+              "OperationType": 2
+            },
+            {
+              "Text": "削除",
+              "Visible": true,
+              "OperationType": 3
+            },
+            {
+              "Text": "複製",
+              "OperationType": 4
+            }
+          ]
+        },
+        "ColumnOperation": 2,
+        "CommitType": 1,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "6,49": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "PassListviewDataCommand.PassListviewDataCommand, PassListviewDataCommand",
+            "PassRowMode": 1,
+            "PassValueItems": [
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CU8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!C8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BJ8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!H8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BO8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!Q8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CI8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
+                }
+              }
+            ],
+            "Source": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!BD9"
+            },
+            "Target": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!B9"
+            }
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AV8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AO4"
+                }
+              }
+            ],
+            "UpdateRowType": 2
+          }
+        ],
+        "Text": "倉出",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Arrow/322_import_3.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "6,55": {
+      "ListViewInfo": {
+        "Name": "リストビュー2",
+        "TableName": "V_期間費用明細_クレーム費用",
+        "RowIndex": 6,
+        "ColumnIndex": 55,
+        "RowCount": 27,
+        "ColumnCount": 46,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium10",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "7,2": {
+      "NameUsedInJavaScript": "W番号",
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "W番号",
+        "GUID": "b53b640a-c799-4e9c-bf3c-cef3462f6335"
+      }
+    },
+    "7,7": {
+      "NameUsedInJavaScript": "発生日",
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "発生日",
+        "GUID": "93f7d060-913d-468f-b601-e888f676f907"
+      }
+    },
+    "7,12": {
+      "NameUsedInJavaScript": "支払額",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StaticText": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=Fコスト管理!O13"
+        },
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "支払額",
+        "GUID": "f2d840ec-eb24-4d67-b4b8-9664067912f3"
+      }
+    },
+    "7,16": {
+      "NameUsedInJavaScript": "倉出",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "倉出",
+        "GUID": "b1bd99c5-3f7e-4d61-a9b2-f9dafd407fce"
+      }
+    },
+    "7,20": {
+      "NameUsedInJavaScript": "運賃",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "運賃",
+        "GUID": "bea2e9a3-ae3b-4b41-b644-bddb55759f36"
+      }
+    },
+    "7,24": {
+      "NameUsedInJavaScript": "メーカー責任額",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "メーカー責任額",
+        "GUID": "1da07538-e6f8-424c-b921-345151648272"
+      }
+    },
+    "7,28": {
+      "NameUsedInJavaScript": "求債額",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "求債額",
+        "GUID": "bc840059-2928-4e19-a2ba-0596ff2056f8"
+      }
+    },
+    "7,32": {
+      "NameUsedInJavaScript": "YMIAクレーム費",
+      "TotalRowSetting": {
+        "FormulaType": 5,
+        "StyleInfo": {
+          "Formatter": "#,##0_);[Red](#,##0)"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "YMIAクレーム費",
+        "GUID": "d9848cd4-524f-4e2b-a222-21db18cbbc93"
+      }
+    },
+    "7,37": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "明細摘要",
+        "GUID": "e98ec405-55ed-44bf-a18b-b2162d23de04"
+      }
+    },
+    "7,45": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "管理番号",
+        "GUID": "5e9dee77-27c9-48a0-8047-3ea5dac17b14"
+      }
+    },
+    "7,46": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "申請フラグ",
+        "GUID": "b2e14966-987c-4120-a874-507acda93794"
+      }
+    },
+    "7,47": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト",
+        "ColumnName": "対象年月",
+        "GUID": "242b3edc-c652-452f-af86-001b1b11aa36"
+      }
+    },
+    "7,56": {
+      "NameUsedInJavaScript": "会計期間",
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "会計期間",
+        "GUID": "2757103c-5566-48f5-affe-7395247e946b"
+      }
+    },
+    "7,61": {
+      "NameUsedInJavaScript": "記帳日",
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "記帳日",
+        "GUID": "c407de80-f958-4a09-8c43-34b5961b1d8d"
+      }
+    },
+    "7,66": {
+      "NameUsedInJavaScript": "金額",
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "残高",
+        "GUID": "466eb00b-9a47-41ad-bcce-568dd898ee4a"
+      }
+    },
+    "7,71": {
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "取引先名称",
+        "GUID": "d315c342-663e-47ed-9db6-450f9d4ad223"
+      }
+    },
+    "7,79": {
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "補助科目名称",
+        "GUID": "ea9eea98-5bcd-418e-bf14-10a16d9d17d9"
+      }
+    },
+    "7,86": {
+      "BindingInfo": {
+        "TableName": "V_期間費用明細_クレーム費用",
+        "ColumnName": "明細摘要",
+        "GUID": "f96615ee-8a96-48a3-aa43-62cb6c24f47f"
+      }
+    },
+    "10,49": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "PassListviewDataCommand.PassListviewDataCommand, PassListviewDataCommand",
+            "PassRowMode": 1,
+            "PassValueItems": [
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CU8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!C8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BJ8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!H8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BO8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!U8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CI8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
+                }
+              }
+            ],
+            "Source": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!BD9"
+            },
+            "Target": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!B9"
+            }
+          }
+        ],
+        "Text": "運賃",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Arrow/322_import_3.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "14,49": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "PassListviewDataCommand.PassListviewDataCommand, PassListviewDataCommand",
+            "PassRowMode": 1,
+            "PassValueItems": [
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CU8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!C8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BJ8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!H8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!BO8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AG8"
+                }
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!CI8"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
+                }
+              }
+            ],
+            "Source": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!BD9"
+            },
+            "Target": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Fコスト管理_統合会計版!B9"
+            }
+          }
+        ],
+        "Text": "クレーム費",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Arrow/322_import_3.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "Forguncy.PivotTableCellType, ServerDesignerCommon",
+        "PivotTableSetting": {
+          "SelectedListViewName": "リストビュー1",
+          "Rows": [
+            {
+              "DatabaseColumnName": "W番号",
+              "DisplayName": "W番号",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!C8"
+              },
+              "BackgroundValue": {}
+            }
+          ],
+          "Values": [
+            {
+              "DatabaseColumnName": "支払額",
+              "DisplayName": "支払額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!M8"
+              },
+              "Aggregator": 0,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            },
+            {
+              "DatabaseColumnName": "運賃",
+              "DisplayName": "運賃",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!U8"
+              },
+              "Aggregator": 0,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            },
+            {
+              "DatabaseColumnName": "倉出",
+              "DisplayName": "倉出",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!Q8"
+              },
+              "Aggregator": 0,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            },
+            {
+              "DatabaseColumnName": "求債額",
+              "DisplayName": "求債額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AC8"
+              },
+              "Aggregator": 0,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            },
+            {
+              "DatabaseColumnName": "明細摘要",
+              "DisplayName": "明細摘要",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
+              },
+              "BackgroundValue": {}
+            },
+            {
+              "DatabaseColumnName": "メーカー責任額",
+              "DisplayName": "メーカー責任額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!Y8"
+              },
+              "BackgroundValue": {}
+            }
+          ],
+          "DatabaseColumns": [
+            {
+              "DatabaseColumnName": "W番号",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!C8"
+              }
+            },
+            {
+              "DatabaseColumnName": "発生日",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!H8"
+              }
+            },
+            {
+              "DatabaseColumnName": "支払額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!M8"
+              }
+            },
+            {
+              "DatabaseColumnName": "倉出",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!Q8"
+              }
+            },
+            {
+              "DatabaseColumnName": "運賃",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!U8"
+              }
+            },
+            {
+              "DatabaseColumnName": "メーカー責任額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!Y8"
+              }
+            },
+            {
+              "DatabaseColumnName": "求債額",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AC8"
+              }
+            },
+            {
+              "DatabaseColumnName": "YMIAクレーム費",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AG8"
+              }
+            },
+            {
+              "DatabaseColumnName": "明細摘要",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
+              }
+            },
+            {
+              "DatabaseColumnName": "管理番号",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AT8"
+              }
+            },
+            {
+              "DatabaseColumnName": "申請フラグ",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Fコスト管理_統合会計版!AU8"
+              }
+            }
+          ],
+          "ForceFrozenRowHeader": true
+        },
+        "ShowRowsTotal": false,
+        "ShowColsTotal": false,
+        "PivotTableStyle": {
+          "DataColumnWidth": "40",
+          "IsDataColumnAutoFitWidth": true,
+          "IsRowHeaderAutoFitWidth": true,
+          "UseSimpleBar": true
+        },
+        "PivotTableID": "342abc28-b5b3-4a61-9f10-f06d0711a707",
+        "TemplateKey": "Accent_1_3"
+      }
+    },
+    "25,49": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateType": 2
+          }
+        ],
+        "Text": ">>",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "35,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateType": 3
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "Ｆコスト情報を更新しました！！"
+          }
+        ],
+        "Text": "更新",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "35,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "閉じる",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "Background": 3,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 4
+      },
+      {
+        "Background": 3,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Foreground": 0,
+        "Formatter": 2,
+        "HorizontalAlignment": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "FontFamily": 1
+      },
+      {
+        "Background": 6,
+        "FontFamily": 1
+      },
+      {
+        "Formatter": 7,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 8,
+        "FontFamily": 1,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 8,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 8,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Foreground": 0,
+        "Formatter": 2,
+        "HorizontalAlignment": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 9,
+        "FontFamily": 1
+      },
+      {
+        "Formatter": 7,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "Background": 3,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "Formatter": 10,
+        "HorizontalAlignment": 11,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "Formatter": 12,
+        "HorizontalAlignment": 13,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "Formatter": 12,
+        "HorizontalAlignment": 13,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "Formatter": 12,
+        "HorizontalAlignment": 13,
+        "BorderBottom": 0,
+        "BorderLeft": 0,
+        "ShrinkToFit": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 10,
+        "HorizontalAlignment": 13,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 12,
+        "HorizontalAlignment": 13,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "Background": 5,
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "Background": 14,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 14,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "WordWrap": true,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 14,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "HorizontalAlignment": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 0,
+        "HorizontalAlignment": 4
+      },
+      {
+        "Background": 14,
+        "Foreground": 0
+      },
+      {
+        "Background": 14,
+        "FontFamily": 1,
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "black",
+        "Body",
+        "[AUTO]General",
+        "Accent 3 80",
+        "Center",
+        "Accent 3 -25",
+        "Accent 6 40",
+        "@",
+        "Accent 2 80",
+        "Accent 2 -50",
+        "yyyy/m/d",
+        "Left",
+        "#,##0_);[Red](#,##0)",
+        "Right",
+        "Accent 3 40"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 1,
+      "0,6": 2,
+      "0,7": 2,
+      "0,8": 2,
+      "0,9": 2,
+      "0,10": 2,
+      "0,24": 3,
+      "0,25": 3,
+      "0,26": 3,
+      "3,2": 4,
+      "3,3": 5,
+      "3,4": 5,
+      "3,5": 5,
+      "3,6": 5,
+      "3,8": 6,
+      "3,9": 7,
+      "3,10": 7,
+      "3,11": 7,
+      "3,12": 7,
+      "3,13": 8,
+      "3,14": 9,
+      "3,15": 3,
+      "3,16": 10,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "3,21": 2,
+      "3,23": 11,
+      "3,24": 3,
+      "3,25": 3,
+      "3,26": 3,
+      "3,27": 3,
+      "3,31": 12,
+      "3,32": 3,
+      "3,33": 3,
+      "3,34": 3,
+      "3,35": 3,
+      "3,36": 3,
+      "3,37": 3,
+      "3,40": 13,
+      "3,41": 14,
+      "3,42": 14,
+      "3,43": 14,
+      "3,44": 14,
+      "3,45": 14,
+      "3,46": 15,
+      "3,55": 16,
+      "3,56": 7,
+      "3,57": 7,
+      "3,58": 7,
+      "3,59": 7,
+      "3,60": 7,
+      "3,61": 7,
+      "3,62": 7,
+      "3,63": 8,
+      "3,64": 3,
+      "3,65": 17,
+      "3,66": 7,
+      "3,67": 7,
+      "3,68": 7,
+      "3,69": 7,
+      "3,70": 8,
+      "3,71": 9,
+      "3,72": 3,
+      "3,73": 18,
+      "3,74": 2,
+      "3,75": 2,
+      "3,76": 2,
+      "3,77": 2,
+      "3,78": 2,
+      "3,79": 3,
+      "3,80": 19,
+      "3,81": 3,
+      "3,82": 3,
+      "3,83": 3,
+      "3,84": 3,
+      "4,2": 20,
+      "4,3": 21,
+      "4,4": 21,
+      "4,5": 21,
+      "4,6": 22,
+      "4,8": 23,
+      "4,9": 24,
+      "4,10": 24,
+      "4,11": 24,
+      "4,12": 24,
+      "4,13": 25,
+      "4,14": 3,
+      "4,15": 3,
+      "4,16": 2,
+      "4,17": 2,
+      "4,18": 2,
+      "4,19": 2,
+      "4,20": 2,
+      "4,21": 2,
+      "4,23": 3,
+      "4,24": 3,
+      "4,25": 3,
+      "4,26": 3,
+      "4,27": 3,
+      "4,31": 3,
+      "4,32": 3,
+      "4,33": 3,
+      "4,34": 3,
+      "4,35": 3,
+      "4,36": 3,
+      "4,37": 3,
+      "4,40": 26,
+      "4,41": 27,
+      "4,42": 27,
+      "4,43": 27,
+      "4,44": 27,
+      "4,45": 27,
+      "4,46": 28,
+      "4,55": 29,
+      "4,56": 30,
+      "4,57": 30,
+      "4,58": 30,
+      "4,59": 30,
+      "4,60": 30,
+      "4,61": 30,
+      "4,62": 30,
+      "4,63": 31,
+      "4,64": 3,
+      "4,65": 23,
+      "4,66": 24,
+      "4,67": 24,
+      "4,68": 24,
+      "4,69": 24,
+      "4,70": 25,
+      "4,71": 3,
+      "4,72": 3,
+      "4,73": 2,
+      "4,74": 2,
+      "4,75": 2,
+      "4,76": 2,
+      "4,77": 2,
+      "4,78": 2,
+      "4,79": 3,
+      "4,80": 3,
+      "4,81": 3,
+      "4,82": 3,
+      "4,83": 3,
+      "4,84": 3,
+      "6,1": 32,
+      "6,2": 33,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 33,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 33,
+      "6,13": 0,
+      "6,14": 0,
+      "6,15": 0,
+      "6,16": 33,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "6,20": 33,
+      "6,21": 0,
+      "6,22": 0,
+      "6,23": 0,
+      "6,24": 33,
+      "6,25": 0,
+      "6,26": 0,
+      "6,27": 0,
+      "6,28": 33,
+      "6,29": 0,
+      "6,30": 0,
+      "6,31": 0,
+      "6,32": 34,
+      "6,33": 21,
+      "6,34": 21,
+      "6,35": 21,
+      "6,36": 21,
+      "6,37": 35,
+      "6,49": 11,
+      "6,55": 36,
+      "6,56": 36,
+      "6,57": 2,
+      "6,58": 2,
+      "6,59": 2,
+      "6,60": 2,
+      "6,61": 36,
+      "6,62": 2,
+      "6,63": 2,
+      "6,64": 2,
+      "6,65": 2,
+      "6,66": 36,
+      "6,67": 2,
+      "6,68": 2,
+      "6,69": 2,
+      "6,70": 2,
+      "6,71": 37,
+      "6,72": 24,
+      "6,73": 24,
+      "6,74": 24,
+      "6,75": 24,
+      "6,76": 24,
+      "6,77": 24,
+      "6,78": 25,
+      "6,79": 36,
+      "6,80": 36,
+      "6,81": 2,
+      "6,82": 2,
+      "6,83": 2,
+      "6,84": 2,
+      "6,85": 2,
+      "6,86": 36,
+      "6,87": 36,
+      "6,88": 2,
+      "6,89": 2,
+      "6,90": 2,
+      "6,91": 2,
+      "6,92": 2,
+      "6,93": 2,
+      "6,94": 2,
+      "6,95": 2,
+      "6,96": 2,
+      "6,97": 2,
+      "6,98": 36,
+      "6,99": 2,
+      "6,100": 2,
+      "7,1": 38,
+      "7,2": 38,
+      "7,3": 39,
+      "7,4": 39,
+      "7,5": 39,
+      "7,6": 39,
+      "7,7": 40,
+      "7,8": 39,
+      "7,9": 39,
+      "7,10": 39,
+      "7,11": 39,
+      "7,12": 41,
+      "7,13": 39,
+      "7,14": 39,
+      "7,15": 39,
+      "7,16": 42,
+      "7,17": 39,
+      "7,18": 39,
+      "7,19": 39,
+      "7,20": 42,
+      "7,21": 39,
+      "7,22": 39,
+      "7,23": 39,
+      "7,24": 42,
+      "7,25": 39,
+      "7,26": 39,
+      "7,27": 39,
+      "7,28": 42,
+      "7,29": 39,
+      "7,30": 39,
+      "7,31": 39,
+      "7,32": 43,
+      "7,33": 27,
+      "7,34": 27,
+      "7,35": 27,
+      "7,36": 27,
+      "7,37": 44,
+      "7,38": 0,
+      "7,39": 0,
+      "7,40": 0,
+      "7,41": 0,
+      "7,42": 0,
+      "7,43": 0,
+      "7,44": 45,
+      "7,55": 36,
+      "7,56": 36,
+      "7,57": 2,
+      "7,58": 2,
+      "7,59": 2,
+      "7,60": 2,
+      "7,61": 46,
+      "7,62": 2,
+      "7,63": 2,
+      "7,64": 2,
+      "7,65": 2,
+      "7,66": 47,
+      "7,67": 2,
+      "7,68": 2,
+      "7,69": 2,
+      "7,70": 2,
+      "7,71": 37,
+      "7,72": 24,
+      "7,73": 24,
+      "7,74": 24,
+      "7,75": 24,
+      "7,76": 24,
+      "7,77": 24,
+      "7,78": 25,
+      "7,79": 36,
+      "7,80": 2,
+      "7,81": 2,
+      "7,82": 2,
+      "7,83": 2,
+      "7,84": 2,
+      "7,85": 2,
+      "7,86": 36,
+      "7,87": 2,
+      "7,88": 2,
+      "7,89": 2,
+      "7,90": 2,
+      "7,91": 2,
+      "7,92": 2,
+      "7,93": 2,
+      "7,94": 2,
+      "7,95": 2,
+      "7,96": 2,
+      "7,97": 2,
+      "7,98": 36,
+      "7,99": 2,
+      "7,100": 2,
+      "8,1": 48,
+      "8,36": 49,
+      "8,55": 2,
+      "8,56": 2,
+      "8,57": 2,
+      "8,58": 2,
+      "8,59": 2,
+      "8,60": 2,
+      "8,61": 2,
+      "8,62": 2,
+      "8,63": 2,
+      "8,64": 2,
+      "8,65": 2,
+      "8,66": 2,
+      "8,67": 2,
+      "8,68": 2,
+      "8,69": 2,
+      "8,70": 2,
+      "8,71": 2,
+      "8,72": 2,
+      "8,73": 2,
+      "8,74": 2,
+      "8,75": 2,
+      "8,76": 2,
+      "8,77": 2,
+      "8,78": 2,
+      "8,79": 2,
+      "8,80": 2,
+      "8,81": 2,
+      "8,82": 2,
+      "8,83": 2,
+      "8,84": 2,
+      "8,85": 2,
+      "8,86": 2,
+      "8,87": 2,
+      "8,88": 2,
+      "8,89": 2,
+      "8,90": 2,
+      "8,91": 2,
+      "8,92": 2,
+      "8,93": 2,
+      "8,94": 2,
+      "8,95": 2,
+      "8,96": 2,
+      "8,97": 2,
+      "8,98": 2,
+      "8,99": 2,
+      "8,100": 2,
+      "9,1": 48,
+      "9,36": 49,
+      "9,55": 2,
+      "9,56": 2,
+      "9,57": 2,
+      "9,58": 2,
+      "9,59": 2,
+      "9,60": 2,
+      "9,61": 2,
+      "9,62": 2,
+      "9,63": 2,
+      "9,64": 2,
+      "9,65": 2,
+      "9,66": 2,
+      "9,67": 2,
+      "9,68": 2,
+      "9,69": 2,
+      "9,70": 2,
+      "9,71": 2,
+      "9,72": 2,
+      "9,73": 2,
+      "9,74": 2,
+      "9,75": 2,
+      "9,76": 2,
+      "9,77": 2,
+      "9,78": 2,
+      "9,79": 2,
+      "9,80": 2,
+      "9,81": 2,
+      "9,82": 2,
+      "9,83": 2,
+      "9,84": 2,
+      "9,85": 2,
+      "9,86": 2,
+      "9,87": 2,
+      "9,88": 2,
+      "9,89": 2,
+      "9,90": 2,
+      "9,91": 2,
+      "9,92": 2,
+      "9,93": 2,
+      "9,94": 2,
+      "9,95": 2,
+      "9,96": 2,
+      "9,97": 2,
+      "9,98": 2,
+      "9,99": 2,
+      "9,100": 2,
+      "10,1": 48,
+      "10,36": 49,
+      "10,49": 50,
+      "10,55": 2,
+      "10,56": 2,
+      "10,57": 2,
+      "10,58": 2,
+      "10,59": 2,
+      "10,60": 2,
+      "10,61": 2,
+      "10,62": 2,
+      "10,63": 2,
+      "10,64": 2,
+      "10,65": 2,
+      "10,66": 2,
+      "10,67": 2,
+      "10,68": 2,
+      "10,69": 2,
+      "10,70": 2,
+      "10,71": 2,
+      "10,72": 2,
+      "10,73": 2,
+      "10,74": 2,
+      "10,75": 2,
+      "10,76": 2,
+      "10,77": 2,
+      "10,78": 2,
+      "10,79": 2,
+      "10,80": 2,
+      "10,81": 2,
+      "10,82": 2,
+      "10,83": 2,
+      "10,84": 2,
+      "10,85": 2,
+      "10,86": 2,
+      "10,87": 2,
+      "10,88": 2,
+      "10,89": 2,
+      "10,90": 2,
+      "10,91": 2,
+      "10,92": 2,
+      "10,93": 2,
+      "10,94": 2,
+      "10,95": 2,
+      "10,96": 2,
+      "10,97": 2,
+      "10,98": 2,
+      "10,99": 2,
+      "10,100": 2,
+      "11,1": 48,
+      "11,36": 49,
+      "11,55": 2,
+      "11,56": 2,
+      "11,57": 2,
+      "11,58": 2,
+      "11,59": 2,
+      "11,60": 2,
+      "11,61": 2,
+      "11,62": 2,
+      "11,63": 2,
+      "11,64": 2,
+      "11,65": 2,
+      "11,66": 2,
+      "11,67": 2,
+      "11,68": 2,
+      "11,69": 2,
+      "11,70": 2,
+      "11,71": 2,
+      "11,72": 2,
+      "11,73": 2,
+      "11,74": 2,
+      "11,75": 2,
+      "11,76": 2,
+      "11,77": 2,
+      "11,78": 2,
+      "11,79": 2,
+      "11,80": 2,
+      "11,81": 2,
+      "11,82": 2,
+      "11,83": 2,
+      "11,84": 2,
+      "11,85": 2,
+      "11,86": 2,
+      "11,87": 2,
+      "11,88": 2,
+      "11,89": 2,
+      "11,90": 2,
+      "11,91": 2,
+      "11,92": 2,
+      "11,93": 2,
+      "11,94": 2,
+      "11,95": 2,
+      "11,96": 2,
+      "11,97": 2,
+      "11,98": 2,
+      "11,99": 2,
+      "11,100": 2,
+      "12,1": 48,
+      "12,36": 49,
+      "12,55": 2,
+      "12,56": 2,
+      "12,57": 2,
+      "12,58": 2,
+      "12,59": 2,
+      "12,60": 2,
+      "12,61": 2,
+      "12,62": 2,
+      "12,63": 2,
+      "12,64": 2,
+      "12,65": 2,
+      "12,66": 2,
+      "12,67": 2,
+      "12,68": 2,
+      "12,69": 2,
+      "12,70": 2,
+      "12,71": 2,
+      "12,72": 2,
+      "12,73": 2,
+      "12,74": 2,
+      "12,75": 2,
+      "12,76": 2,
+      "12,77": 2,
+      "12,78": 2,
+      "12,79": 2,
+      "12,80": 2,
+      "12,81": 2,
+      "12,82": 2,
+      "12,83": 2,
+      "12,84": 2,
+      "12,85": 2,
+      "12,86": 2,
+      "12,87": 2,
+      "12,88": 2,
+      "12,89": 2,
+      "12,90": 2,
+      "12,91": 2,
+      "12,92": 2,
+      "12,93": 2,
+      "12,94": 2,
+      "12,95": 2,
+      "12,96": 2,
+      "12,97": 2,
+      "12,98": 2,
+      "12,99": 2,
+      "12,100": 2,
+      "13,1": 48,
+      "13,36": 49,
+      "13,55": 2,
+      "13,56": 2,
+      "13,57": 2,
+      "13,58": 2,
+      "13,59": 2,
+      "13,60": 2,
+      "13,61": 2,
+      "13,62": 2,
+      "13,63": 2,
+      "13,64": 2,
+      "13,65": 2,
+      "13,66": 2,
+      "13,67": 2,
+      "13,68": 2,
+      "13,69": 2,
+      "13,70": 2,
+      "13,71": 2,
+      "13,72": 2,
+      "13,73": 2,
+      "13,74": 2,
+      "13,75": 2,
+      "13,76": 2,
+      "13,77": 2,
+      "13,78": 2,
+      "13,79": 2,
+      "13,80": 2,
+      "13,81": 2,
+      "13,82": 2,
+      "13,83": 2,
+      "13,84": 2,
+      "13,85": 2,
+      "13,86": 2,
+      "13,87": 2,
+      "13,88": 2,
+      "13,89": 2,
+      "13,90": 2,
+      "13,91": 2,
+      "13,92": 2,
+      "13,93": 2,
+      "13,94": 2,
+      "13,95": 2,
+      "13,96": 2,
+      "13,97": 2,
+      "13,98": 2,
+      "13,99": 2,
+      "13,100": 2,
+      "14,49": 50,
+      "14,55": 2,
+      "14,56": 2,
+      "14,57": 2,
+      "14,58": 2,
+      "14,59": 2,
+      "14,60": 2,
+      "14,61": 2,
+      "14,62": 2,
+      "14,63": 2,
+      "14,64": 2,
+      "14,65": 2,
+      "14,66": 2,
+      "14,67": 2,
+      "14,68": 2,
+      "14,69": 2,
+      "14,70": 2,
+      "14,71": 2,
+      "14,72": 2,
+      "14,73": 2,
+      "14,74": 2,
+      "14,75": 2,
+      "14,76": 2,
+      "14,77": 2,
+      "14,78": 2,
+      "14,79": 2,
+      "14,80": 2,
+      "14,81": 2,
+      "14,82": 2,
+      "14,83": 2,
+      "14,84": 2,
+      "14,85": 2,
+      "14,86": 2,
+      "14,87": 2,
+      "14,88": 2,
+      "14,89": 2,
+      "14,90": 2,
+      "14,91": 2,
+      "14,92": 2,
+      "14,93": 2,
+      "14,94": 2,
+      "14,95": 2,
+      "14,96": 2,
+      "14,97": 2,
+      "14,98": 2,
+      "14,99": 2,
+      "14,100": 2,
+      "15,55": 2,
+      "15,56": 2,
+      "15,57": 2,
+      "15,58": 2,
+      "15,59": 2,
+      "15,60": 2,
+      "15,61": 2,
+      "15,62": 2,
+      "15,63": 2,
+      "15,64": 2,
+      "15,65": 2,
+      "15,66": 2,
+      "15,67": 2,
+      "15,68": 2,
+      "15,69": 2,
+      "15,70": 2,
+      "15,71": 2,
+      "15,72": 2,
+      "15,73": 2,
+      "15,74": 2,
+      "15,75": 2,
+      "15,76": 2,
+      "15,77": 2,
+      "15,78": 2,
+      "15,79": 2,
+      "15,80": 2,
+      "15,81": 2,
+      "15,82": 2,
+      "15,83": 2,
+      "15,84": 2,
+      "15,85": 2,
+      "15,86": 2,
+      "15,87": 2,
+      "15,88": 2,
+      "15,89": 2,
+      "15,90": 2,
+      "15,91": 2,
+      "15,92": 2,
+      "15,93": 2,
+      "15,94": 2,
+      "15,95": 2,
+      "15,96": 2,
+      "15,97": 2,
+      "15,98": 2,
+      "15,99": 2,
+      "15,100": 2,
+      "16,55": 2,
+      "16,56": 2,
+      "16,57": 2,
+      "16,58": 2,
+      "16,59": 2,
+      "16,60": 2,
+      "16,61": 2,
+      "16,62": 2,
+      "16,63": 2,
+      "16,64": 2,
+      "16,65": 2,
+      "16,66": 2,
+      "16,67": 2,
+      "16,68": 2,
+      "16,69": 2,
+      "16,70": 2,
+      "16,71": 2,
+      "16,72": 2,
+      "16,73": 2,
+      "16,74": 2,
+      "16,75": 2,
+      "16,76": 2,
+      "16,77": 2,
+      "16,78": 2,
+      "16,79": 2,
+      "16,80": 2,
+      "16,81": 2,
+      "16,82": 2,
+      "16,83": 2,
+      "16,84": 2,
+      "16,85": 2,
+      "16,86": 2,
+      "16,87": 2,
+      "16,88": 2,
+      "16,89": 2,
+      "16,90": 2,
+      "16,91": 2,
+      "16,92": 2,
+      "16,93": 2,
+      "16,94": 2,
+      "16,95": 2,
+      "16,96": 2,
+      "16,97": 2,
+      "16,98": 2,
+      "16,99": 2,
+      "16,100": 2,
+      "17,55": 2,
+      "17,56": 2,
+      "17,57": 2,
+      "17,58": 2,
+      "17,59": 2,
+      "17,60": 2,
+      "17,61": 2,
+      "17,62": 2,
+      "17,63": 2,
+      "17,64": 2,
+      "17,65": 2,
+      "17,66": 2,
+      "17,67": 2,
+      "17,68": 2,
+      "17,69": 2,
+      "17,70": 2,
+      "17,71": 2,
+      "17,72": 2,
+      "17,73": 2,
+      "17,74": 2,
+      "17,75": 2,
+      "17,76": 2,
+      "17,77": 2,
+      "17,78": 2,
+      "17,79": 2,
+      "17,80": 2,
+      "17,81": 2,
+      "17,82": 2,
+      "17,83": 2,
+      "17,84": 2,
+      "17,85": 2,
+      "17,86": 2,
+      "17,87": 2,
+      "17,88": 2,
+      "17,89": 2,
+      "17,90": 2,
+      "17,91": 2,
+      "17,92": 2,
+      "17,93": 2,
+      "17,94": 2,
+      "17,95": 2,
+      "17,96": 2,
+      "17,97": 2,
+      "17,98": 2,
+      "17,99": 2,
+      "17,100": 2,
+      "18,55": 2,
+      "18,56": 2,
+      "18,57": 2,
+      "18,58": 2,
+      "18,59": 2,
+      "18,60": 2,
+      "18,61": 2,
+      "18,62": 2,
+      "18,63": 2,
+      "18,64": 2,
+      "18,65": 2,
+      "18,66": 2,
+      "18,67": 2,
+      "18,68": 2,
+      "18,69": 2,
+      "18,70": 2,
+      "18,71": 2,
+      "18,72": 2,
+      "18,73": 2,
+      "18,74": 2,
+      "18,75": 2,
+      "18,76": 2,
+      "18,77": 2,
+      "18,78": 2,
+      "18,79": 2,
+      "18,80": 2,
+      "18,81": 2,
+      "18,82": 2,
+      "18,83": 2,
+      "18,84": 2,
+      "18,85": 2,
+      "18,86": 2,
+      "18,87": 2,
+      "18,88": 2,
+      "18,89": 2,
+      "18,90": 2,
+      "18,91": 2,
+      "18,92": 2,
+      "18,93": 2,
+      "18,94": 2,
+      "18,95": 2,
+      "18,96": 2,
+      "18,97": 2,
+      "18,98": 2,
+      "18,99": 2,
+      "18,100": 2,
+      "19,55": 2,
+      "19,56": 2,
+      "19,57": 2,
+      "19,58": 2,
+      "19,59": 2,
+      "19,60": 2,
+      "19,61": 2,
+      "19,62": 2,
+      "19,63": 2,
+      "19,64": 2,
+      "19,65": 2,
+      "19,66": 2,
+      "19,67": 2,
+      "19,68": 2,
+      "19,69": 2,
+      "19,70": 2,
+      "19,71": 2,
+      "19,72": 2,
+      "19,73": 2,
+      "19,74": 2,
+      "19,75": 2,
+      "19,76": 2,
+      "19,77": 2,
+      "19,78": 2,
+      "19,79": 2,
+      "19,80": 2,
+      "19,81": 2,
+      "19,82": 2,
+      "19,83": 2,
+      "19,84": 2,
+      "19,85": 2,
+      "19,86": 2,
+      "19,87": 2,
+      "19,88": 2,
+      "19,89": 2,
+      "19,90": 2,
+      "19,91": 2,
+      "19,92": 2,
+      "19,93": 2,
+      "19,94": 2,
+      "19,95": 2,
+      "19,96": 2,
+      "19,97": 2,
+      "19,98": 2,
+      "19,99": 2,
+      "19,100": 2,
+      "20,55": 2,
+      "20,56": 2,
+      "20,57": 2,
+      "20,58": 2,
+      "20,59": 2,
+      "20,60": 2,
+      "20,61": 2,
+      "20,62": 2,
+      "20,63": 2,
+      "20,64": 2,
+      "20,65": 2,
+      "20,66": 2,
+      "20,67": 2,
+      "20,68": 2,
+      "20,69": 2,
+      "20,70": 2,
+      "20,71": 2,
+      "20,72": 2,
+      "20,73": 2,
+      "20,74": 2,
+      "20,75": 2,
+      "20,76": 2,
+      "20,77": 2,
+      "20,78": 2,
+      "20,79": 2,
+      "20,80": 2,
+      "20,81": 2,
+      "20,82": 2,
+      "20,83": 2,
+      "20,84": 2,
+      "20,85": 2,
+      "20,86": 2,
+      "20,87": 2,
+      "20,88": 2,
+      "20,89": 2,
+      "20,90": 2,
+      "20,91": 2,
+      "20,92": 2,
+      "20,93": 2,
+      "20,94": 2,
+      "20,95": 2,
+      "20,96": 2,
+      "20,97": 2,
+      "20,98": 2,
+      "20,99": 2,
+      "20,100": 2,
+      "21,55": 2,
+      "21,56": 2,
+      "21,57": 2,
+      "21,58": 2,
+      "21,59": 2,
+      "21,60": 2,
+      "21,61": 2,
+      "21,62": 2,
+      "21,63": 2,
+      "21,64": 2,
+      "21,65": 2,
+      "21,66": 2,
+      "21,67": 2,
+      "21,68": 2,
+      "21,69": 2,
+      "21,70": 2,
+      "21,71": 2,
+      "21,72": 2,
+      "21,73": 2,
+      "21,74": 2,
+      "21,75": 2,
+      "21,76": 2,
+      "21,77": 2,
+      "21,78": 2,
+      "21,79": 2,
+      "21,80": 2,
+      "21,81": 2,
+      "21,82": 2,
+      "21,83": 2,
+      "21,84": 2,
+      "21,85": 2,
+      "21,86": 2,
+      "21,87": 2,
+      "21,88": 2,
+      "21,89": 2,
+      "21,90": 2,
+      "21,91": 2,
+      "21,92": 2,
+      "21,93": 2,
+      "21,94": 2,
+      "21,95": 2,
+      "21,96": 2,
+      "21,97": 2,
+      "21,98": 2,
+      "21,99": 2,
+      "21,100": 2,
+      "22,55": 2,
+      "22,56": 2,
+      "22,57": 2,
+      "22,58": 2,
+      "22,59": 2,
+      "22,60": 2,
+      "22,61": 2,
+      "22,62": 2,
+      "22,63": 2,
+      "22,64": 2,
+      "22,65": 2,
+      "22,66": 2,
+      "22,67": 2,
+      "22,68": 2,
+      "22,69": 2,
+      "22,70": 2,
+      "22,71": 2,
+      "22,72": 2,
+      "22,73": 2,
+      "22,74": 2,
+      "22,75": 2,
+      "22,76": 2,
+      "22,77": 2,
+      "22,78": 2,
+      "22,79": 2,
+      "22,80": 2,
+      "22,81": 2,
+      "22,82": 2,
+      "22,83": 2,
+      "22,84": 2,
+      "22,85": 2,
+      "22,86": 2,
+      "22,87": 2,
+      "22,88": 2,
+      "22,89": 2,
+      "22,90": 2,
+      "22,91": 2,
+      "22,92": 2,
+      "22,93": 2,
+      "22,94": 2,
+      "22,95": 2,
+      "22,96": 2,
+      "22,97": 2,
+      "22,98": 2,
+      "22,99": 2,
+      "22,100": 2,
+      "23,55": 2,
+      "23,56": 2,
+      "23,57": 2,
+      "23,58": 2,
+      "23,59": 2,
+      "23,60": 2,
+      "23,61": 2,
+      "23,62": 2,
+      "23,63": 2,
+      "23,64": 2,
+      "23,65": 2,
+      "23,66": 2,
+      "23,67": 2,
+      "23,68": 2,
+      "23,69": 2,
+      "23,70": 2,
+      "23,71": 2,
+      "23,72": 2,
+      "23,73": 2,
+      "23,74": 2,
+      "23,75": 2,
+      "23,76": 2,
+      "23,77": 2,
+      "23,78": 2,
+      "23,79": 2,
+      "23,80": 2,
+      "23,81": 2,
+      "23,82": 2,
+      "23,83": 2,
+      "23,84": 2,
+      "23,85": 2,
+      "23,86": 2,
+      "23,87": 2,
+      "23,88": 2,
+      "23,89": 2,
+      "23,90": 2,
+      "23,91": 2,
+      "23,92": 2,
+      "23,93": 2,
+      "23,94": 2,
+      "23,95": 2,
+      "23,96": 2,
+      "23,97": 2,
+      "23,98": 2,
+      "23,99": 2,
+      "23,100": 2,
+      "24,55": 2,
+      "24,56": 2,
+      "24,57": 2,
+      "24,58": 2,
+      "24,59": 2,
+      "24,60": 2,
+      "24,61": 2,
+      "24,62": 2,
+      "24,63": 2,
+      "24,64": 2,
+      "24,65": 2,
+      "24,66": 2,
+      "24,67": 2,
+      "24,68": 2,
+      "24,69": 2,
+      "24,70": 2,
+      "24,71": 2,
+      "24,72": 2,
+      "24,73": 2,
+      "24,74": 2,
+      "24,75": 2,
+      "24,76": 2,
+      "24,77": 2,
+      "24,78": 2,
+      "24,79": 2,
+      "24,80": 2,
+      "24,81": 2,
+      "24,82": 2,
+      "24,83": 2,
+      "24,84": 2,
+      "24,85": 2,
+      "24,86": 2,
+      "24,87": 2,
+      "24,88": 2,
+      "24,89": 2,
+      "24,90": 2,
+      "24,91": 2,
+      "24,92": 2,
+      "24,93": 2,
+      "24,94": 2,
+      "24,95": 2,
+      "24,96": 2,
+      "24,97": 2,
+      "24,98": 2,
+      "24,99": 2,
+      "24,100": 2,
+      "25,49": 50,
+      "25,50": 3,
+      "25,51": 3,
+      "25,52": 3,
+      "25,53": 3,
+      "25,55": 2,
+      "25,56": 2,
+      "25,57": 2,
+      "25,58": 2,
+      "25,59": 2,
+      "25,60": 2,
+      "25,61": 2,
+      "25,62": 2,
+      "25,63": 2,
+      "25,64": 2,
+      "25,65": 2,
+      "25,66": 2,
+      "25,67": 2,
+      "25,68": 2,
+      "25,69": 2,
+      "25,70": 2,
+      "25,71": 2,
+      "25,72": 2,
+      "25,73": 2,
+      "25,74": 2,
+      "25,75": 2,
+      "25,76": 2,
+      "25,77": 2,
+      "25,78": 2,
+      "25,79": 2,
+      "25,80": 2,
+      "25,81": 2,
+      "25,82": 2,
+      "25,83": 2,
+      "25,84": 2,
+      "25,85": 2,
+      "25,86": 2,
+      "25,87": 2,
+      "25,88": 2,
+      "25,89": 2,
+      "25,90": 2,
+      "25,91": 2,
+      "25,92": 2,
+      "25,93": 2,
+      "25,94": 2,
+      "25,95": 2,
+      "25,96": 2,
+      "25,97": 2,
+      "25,98": 2,
+      "25,99": 2,
+      "25,100": 2,
+      "26,49": 3,
+      "26,50": 3,
+      "26,51": 3,
+      "26,52": 3,
+      "26,53": 3,
+      "26,55": 2,
+      "26,56": 2,
+      "26,57": 2,
+      "26,58": 2,
+      "26,59": 2,
+      "26,60": 2,
+      "26,61": 2,
+      "26,62": 2,
+      "26,63": 2,
+      "26,64": 2,
+      "26,65": 2,
+      "26,66": 2,
+      "26,67": 2,
+      "26,68": 2,
+      "26,69": 2,
+      "26,70": 2,
+      "26,71": 2,
+      "26,72": 2,
+      "26,73": 2,
+      "26,74": 2,
+      "26,75": 2,
+      "26,76": 2,
+      "26,77": 2,
+      "26,78": 2,
+      "26,79": 2,
+      "26,80": 2,
+      "26,81": 2,
+      "26,82": 2,
+      "26,83": 2,
+      "26,84": 2,
+      "26,85": 2,
+      "26,86": 2,
+      "26,87": 2,
+      "26,88": 2,
+      "26,89": 2,
+      "26,90": 2,
+      "26,91": 2,
+      "26,92": 2,
+      "26,93": 2,
+      "26,94": 2,
+      "26,95": 2,
+      "26,96": 2,
+      "26,97": 2,
+      "26,98": 2,
+      "26,99": 2,
+      "26,100": 2,
+      "27,55": 2,
+      "27,56": 2,
+      "27,57": 2,
+      "27,58": 2,
+      "27,59": 2,
+      "27,60": 2,
+      "27,61": 2,
+      "27,62": 2,
+      "27,63": 2,
+      "27,64": 2,
+      "27,65": 2,
+      "27,66": 2,
+      "27,67": 2,
+      "27,68": 2,
+      "27,69": 2,
+      "27,70": 2,
+      "27,71": 2,
+      "27,72": 2,
+      "27,73": 2,
+      "27,74": 2,
+      "27,75": 2,
+      "27,76": 2,
+      "27,77": 2,
+      "27,78": 2,
+      "27,79": 2,
+      "27,80": 2,
+      "27,81": 2,
+      "27,82": 2,
+      "27,83": 2,
+      "27,84": 2,
+      "27,85": 2,
+      "27,86": 2,
+      "27,87": 2,
+      "27,88": 2,
+      "27,89": 2,
+      "27,90": 2,
+      "27,91": 2,
+      "27,92": 2,
+      "27,93": 2,
+      "27,94": 2,
+      "27,95": 2,
+      "27,96": 2,
+      "27,97": 2,
+      "27,98": 2,
+      "27,99": 2,
+      "27,100": 2,
+      "28,55": 2,
+      "28,56": 2,
+      "28,57": 2,
+      "28,58": 2,
+      "28,59": 2,
+      "28,60": 2,
+      "28,61": 2,
+      "28,62": 2,
+      "28,63": 2,
+      "28,64": 2,
+      "28,65": 2,
+      "28,66": 2,
+      "28,67": 2,
+      "28,68": 2,
+      "28,69": 2,
+      "28,70": 2,
+      "28,71": 2,
+      "28,72": 2,
+      "28,73": 2,
+      "28,74": 2,
+      "28,75": 2,
+      "28,76": 2,
+      "28,77": 2,
+      "28,78": 2,
+      "28,79": 2,
+      "28,80": 2,
+      "28,81": 2,
+      "28,82": 2,
+      "28,83": 2,
+      "28,84": 2,
+      "28,85": 2,
+      "28,86": 2,
+      "28,87": 2,
+      "28,88": 2,
+      "28,89": 2,
+      "28,90": 2,
+      "28,91": 2,
+      "28,92": 2,
+      "28,93": 2,
+      "28,94": 2,
+      "28,95": 2,
+      "28,96": 2,
+      "28,97": 2,
+      "28,98": 2,
+      "28,99": 2,
+      "28,100": 2,
+      "29,55": 2,
+      "29,56": 2,
+      "29,57": 2,
+      "29,58": 2,
+      "29,59": 2,
+      "29,60": 2,
+      "29,61": 2,
+      "29,62": 2,
+      "29,63": 2,
+      "29,64": 2,
+      "29,65": 2,
+      "29,66": 2,
+      "29,67": 2,
+      "29,68": 2,
+      "29,69": 2,
+      "29,70": 2,
+      "29,71": 2,
+      "29,72": 2,
+      "29,73": 2,
+      "29,74": 2,
+      "29,75": 2,
+      "29,76": 2,
+      "29,77": 2,
+      "29,78": 2,
+      "29,79": 2,
+      "29,80": 2,
+      "29,81": 2,
+      "29,82": 2,
+      "29,83": 2,
+      "29,84": 2,
+      "29,85": 2,
+      "29,86": 2,
+      "29,87": 2,
+      "29,88": 2,
+      "29,89": 2,
+      "29,90": 2,
+      "29,91": 2,
+      "29,92": 2,
+      "29,93": 2,
+      "29,94": 2,
+      "29,95": 2,
+      "29,96": 2,
+      "29,97": 2,
+      "29,98": 2,
+      "29,99": 2,
+      "29,100": 2,
+      "30,55": 2,
+      "30,56": 2,
+      "30,57": 2,
+      "30,58": 2,
+      "30,59": 2,
+      "30,60": 2,
+      "30,61": 2,
+      "30,62": 2,
+      "30,63": 2,
+      "30,64": 2,
+      "30,65": 2,
+      "30,66": 2,
+      "30,67": 2,
+      "30,68": 2,
+      "30,69": 2,
+      "30,70": 2,
+      "30,71": 2,
+      "30,72": 2,
+      "30,73": 2,
+      "30,74": 2,
+      "30,75": 2,
+      "30,76": 2,
+      "30,77": 2,
+      "30,78": 2,
+      "30,79": 2,
+      "30,80": 2,
+      "30,81": 2,
+      "30,82": 2,
+      "30,83": 2,
+      "30,84": 2,
+      "30,85": 2,
+      "30,86": 2,
+      "30,87": 2,
+      "30,88": 2,
+      "30,89": 2,
+      "30,90": 2,
+      "30,91": 2,
+      "30,92": 2,
+      "30,93": 2,
+      "30,94": 2,
+      "30,95": 2,
+      "30,96": 2,
+      "30,97": 2,
+      "30,98": 2,
+      "30,99": 2,
+      "30,100": 2,
+      "31,55": 2,
+      "31,56": 2,
+      "31,57": 2,
+      "31,58": 2,
+      "31,59": 2,
+      "31,60": 2,
+      "31,61": 2,
+      "31,62": 2,
+      "31,63": 2,
+      "31,64": 2,
+      "31,65": 2,
+      "31,66": 2,
+      "31,67": 2,
+      "31,68": 2,
+      "31,69": 2,
+      "31,70": 2,
+      "31,71": 2,
+      "31,72": 2,
+      "31,73": 2,
+      "31,74": 2,
+      "31,75": 2,
+      "31,76": 2,
+      "31,77": 2,
+      "31,78": 2,
+      "31,79": 2,
+      "31,80": 2,
+      "31,81": 2,
+      "31,82": 2,
+      "31,83": 2,
+      "31,84": 2,
+      "31,85": 2,
+      "31,86": 2,
+      "31,87": 2,
+      "31,88": 2,
+      "31,89": 2,
+      "31,90": 2,
+      "31,91": 2,
+      "31,92": 2,
+      "31,93": 2,
+      "31,94": 2,
+      "31,95": 2,
+      "31,96": 2,
+      "31,97": 2,
+      "31,98": 2,
+      "31,99": 2,
+      "31,100": 2,
+      "32,55": 2,
+      "32,56": 2,
+      "32,57": 2,
+      "32,58": 2,
+      "32,59": 2,
+      "32,60": 2,
+      "32,61": 2,
+      "32,62": 2,
+      "32,63": 2,
+      "32,64": 2,
+      "32,65": 2,
+      "32,66": 2,
+      "32,67": 2,
+      "32,68": 2,
+      "32,69": 2,
+      "32,70": 2,
+      "32,71": 2,
+      "32,72": 2,
+      "32,73": 2,
+      "32,74": 2,
+      "32,75": 2,
+      "32,76": 2,
+      "32,77": 2,
+      "32,78": 2,
+      "32,79": 2,
+      "32,80": 2,
+      "32,81": 2,
+      "32,82": 2,
+      "32,83": 2,
+      "32,84": 2,
+      "32,85": 2,
+      "32,86": 2,
+      "32,87": 2,
+      "32,88": 2,
+      "32,89": 2,
+      "32,90": 2,
+      "32,91": 2,
+      "32,92": 2,
+      "32,93": 2,
+      "32,94": 2,
+      "32,95": 2,
+      "32,96": 2,
+      "32,97": 2,
+      "32,98": 2,
+      "32,99": 2,
+      "32,100": 2,
+      "33,12": 51,
+      "33,13": 2,
+      "33,14": 2,
+      "33,15": 2,
+      "33,16": 51,
+      "33,17": 2,
+      "33,18": 2,
+      "33,19": 2,
+      "33,20": 51,
+      "33,21": 2,
+      "33,22": 2,
+      "33,23": 2,
+      "33,24": 52,
+      "33,25": 2,
+      "33,26": 2,
+      "33,27": 2,
+      "33,28": 51,
+      "33,29": 2,
+      "33,30": 2,
+      "33,31": 2,
+      "33,32": 53,
+      "33,33": 21,
+      "33,34": 21,
+      "33,35": 21,
+      "33,36": 22,
+      "33,37": 54,
+      "33,38": 54,
+      "33,39": 54,
+      "33,40": 54,
+      "33,41": 54,
+      "33,42": 54,
+      "33,43": 54,
+      "33,44": 54,
+      "33,45": 54,
+      "33,46": 54,
+      "33,47": 54,
+      "35,1": 55,
+      "35,8": 56,
+      "35,9": 3,
+      "35,10": 3,
+      "35,11": 3,
+      "35,12": 3,
+      "36,8": 3,
+      "36,9": 3,
+      "36,10": 3,
+      "36,11": 3,
+      "36,12": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "35,1,2,5",
+    "0,1,1,4",
+    "0,5,1,6",
+    "33,12,1,4",
+    "33,16,1,4",
+    "33,20,1,4",
+    "33,24,1,4",
+    "33,28,1,4",
+    "7,2,1,5",
+    "7,7,1,5",
+    "7,12,1,4",
+    "7,16,1,4",
+    "7,20,1,4",
+    "7,24,1,4",
+    "7,28,1,4",
+    "7,32,1,5",
+    "0,24,1,3",
+    "3,2,1,5",
+    "4,2,1,5",
+    "33,32,1,5",
+    "7,37,1,8",
+    "3,8,1,6",
+    "4,8,1,6",
+    "3,16,1,6",
+    "4,16,1,6",
+    "3,14,2,2",
+    "3,23,2,5",
+    "8,55,25,46",
+    "7,56,1,5",
+    "7,61,1,5",
+    "7,66,1,5",
+    "7,71,1,8",
+    "7,79,1,7",
+    "7,86,1,12",
+    "7,98,1,3",
+    "3,55,2,9",
+    "3,65,1,6",
+    "4,65,1,6",
+    "3,73,1,6",
+    "4,73,1,6",
+    "3,71,2,2",
+    "3,80,2,5",
+    "6,49,2,5",
+    "10,49,2,5",
+    "14,49,2,5",
+    "25,49,2,5",
+    "15,1,17,46",
+    "35,8,2,5",
+    "8,1,6,47",
+    "3,31,2,7",
+    "6,2,1,5",
+    "6,7,1,5",
+    "6,12,1,4",
+    "6,16,1,4",
+    "6,20,1,4",
+    "6,24,1,4",
+    "6,28,1,4",
+    "6,32,1,5",
+    "6,37,1,8",
+    "6,56,1,5",
+    "6,61,1,5",
+    "6,66,1,5",
+    "6,71,1,8",
+    "6,79,1,7",
+    "6,86,1,12",
+    "6,98,1,3",
+    "3,40,2,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "Fコスト",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "品質問題_Fコスト"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//ed5tsmUgFCW31QD6KENR4EnnZJrFCumzgRQoI0tw1SdupH6z0UGXX1sN81RaGpxmo//2+M+/unMydCbtTZUmwdT4py/Pt6xz3Uc7eKJYeDk1wWJbTU3JZSneB/1A1BOeOnm/2lfePT0T30b4YWaHXe2FRjzE49WmPiJS+LLtSYs0343Q+UG8hWSNsyBoAPbljDvTD2DRecMzvggP0lr3m7J5nOQDOgGro3CrMeetglFT6yNCgu2E7EVcUjLYHTQtG+CbGOQCaGGLLCImyBvg1iaQsCmWuqWs6CbfzMNWKQno0a5RSwvRdwo5qItxyLq8gN1CxDJGooUOn2/qz3tEv+IoEsWncDRdyPlJVeB+VG8CY4Tod9+KsMi44Ubjlo+t5fJfuyvs10Qy+q3qt/4xvDiP2yRNacA6AHSfxDto6aPsyeHQD9h6eaBFzDAeZPgUhnrjLn01X+341GMQSsikMHgVHfE4jGYUcZNwHT0jfqxbfwbY1N89P9YJv7ka+OOmS0d3+nDY7XWmSqq6VcDyOe+z6NbYjW6p3giv41V0AqG6MzYACwmpMUidv+1wLZGRlxZP1hjTNWTsx/vEhh4xmM83Bbsi8U2uYgssHj+hImDotTnrUXGwRl89DHtgQ6YOVAYugPMHvbHBytH1XPEPghycmsmSKQZ4t3oKVwdojPF4prTyKm25FxZT3LgOl8ipL8TqQZ9mQu2OdAyfy1LmPQxacmE2TuzftvXhrz84uK+IBvOk95ZqeipLq5yIkG0nDIQx0ooLqOSze9xWUndodPMyhQ9bjS/pcVXpIWN+6i8+LvjCvixudYC2th655PPtJL5qTBiGASoVz4UlHUr3q9LmvHCe9H3GdZLwYT+UXVjFjGl0ZjzKt4GSOLboD5IPahcggt9ngAnbqfFaLrdsHA==|920

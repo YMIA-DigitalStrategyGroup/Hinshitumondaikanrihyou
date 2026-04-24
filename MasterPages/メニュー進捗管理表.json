@@ -181,7 +181,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_承認情報一覧"
+                    "PageName": "Fコスト承認画面_支払情報"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -305,4 +305,4 @@
       "Size": "2400,100"
     }
   ]
-}//IBFXp37rh3qz/t6Qq9UjYaPrlFYffd1VyCtR9rxgy7JJxqdKf9YNWA3hpb631llXNyV5oABGtgi49d7h0o5gFKH+iquwKxkUcarxdAHPwPwQ9vHBdoA6XFiCjzQtLQO8HO4yzk18rTXuKY84VaKHTQ7cNfJ6ff+3nEoMx8pjNxq5PZwwicX5MA9xYYOY6GM+wSu/WehNw54eir+TmxeMMOaVDu+4YX+NmN3f4bMNp1FAboz2AANX52sTbKg1op3n5H1F6YyvwRyCbv81ZydOMacNvCV7+PKps9y0Gmlk7RymOIRN1AUq5hdBuHiV/gMauP4BPeLtN1zwcph/WAGIJnl11md69ot0Co2iOjKtK3qauYAuLlESRLgD1Be0f7MIYgdSe2m7bYvEJoJ4YztuBznIy6t6gJQLPDCh0UXkjjB6kRmoGuhhm150ouFkVAWBhVITeCpoc8rzYpH83XrbXznB5fCQThyqt+VEzngm0J6ATT/lfnA5PhOU9PZhYDTkXCOGA8L345pNhFz6n9Uw1y4/DbPmyKHsh/jO+bRthzJoqnzBoKVS9U+x/MwifZDiWmfCJXGo1SPxRi5H8DawtbAkDncfj+Rv73kkSf9X0k+B4YSkxr3EjhPQow+f8/nN3cvNSL7BovLvIgdPHpckVvGynDDOAdebXyUlO0bTsU7gZpEqCG6FatK1U4zbg10omB7O3GP5U490zUR+VSWEB3hnBj6sWuRwI7igFPRchrfbbgjssrjcmsO1U1EFjsKgio7W8ukdtOL0IqMifqnm0idAMVf2RFo0qnlCpecCro4c+WiiCIwFu+RbhA3GSJJpR8TClBQwqIxax98gHo59CRn4Tg3ltJeHrzvWvWr+xbFAVBRaJuYG57IBBvuGl9A1WUTcSFXCkhLfyOdlMikO3Q==|920
+}//dkeHmJ6T4wOKIjFDn5wcJ8qjYiIvqmN3AucMwWQxMsiW3hyDCeQnJz6/IyKZqUQWcZ1oK5UmoxikZHHH7KEtZGz7mci0XtWZgNvcyH82hWHabqEh/Dst5ZMppz/5umG6MDcJVizv6aFF3pRzpBFcBDOX+vL6BW2lkhB58NXs9IIxkbJMhV8TODRBXf1Ib7w04FORrras+KW2Zxdu8m3NKQC2aYYBGugwsK/AwLg5YrUQV8nfuqh9EbtTM2uC1U7oOfTs1+48ienf7il1Q0B+3b4ARdQs8Wdg7Ix0LLqAp74bHrHb6uPYNRay0uQ5r6kqYMDKXZEGZxSUv2L/WoNfm9BU5Srm1wWCqEhAdKetzOYjcLjBs8oXJ/1XbzgR6bLda4C7XyYh/NcGiHY0IGBCUVNASANACVOLWVZA75pcbL18ck8sOQqpCxFeoG264EXlY+QVZAQNuXberGjhVLhjdeLHe7EqMmAxya2qNo8nvLcllUWSKlGt27uY3o4mYmlo9VDv69116NcBE43qiN16oSVK54F6Ip8/3YNMlWkIDrLSnnlfqZnduzh2ZyUyfJtsq3YsQnPHAyJLjuHVM7bqwuTeNvWZ7B2RJRxNEe/BuUq5G+3ZsYsCGQNkHhCkq0NEwD1VRsghFGyFama8/RFlKqDj52N5v2epSqWbunSI5BeFaGtYFBSgYtyw15Itdtmz5ZOACe20Num4n06GgweZGzltJcTPBkCFb3fxQjJ17h8UR2gpTHXOplwvXxQ4EOBXuk78+m16CKvZxO/2hcbkfRKCSGCuc1iVFA+XoLj2xlI/N0bEzUklLGvwjTMV1mBPyMGzTuq6JPRSPNHHgKaWM9zs5xiEMlqJRVFCNssjHWhCJ3pCpWX/jfIw+UczxqdDOc8GfVqOFf2PgaCrsCATQQ==|920

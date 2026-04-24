@@ -92,9 +92,9 @@
     },
     "3,21": {
       "BindingInfo": {
-        "TableName": "品質問題_Fコスト承認情報",
-        "ColumnName": "承認日",
-        "GUID": "e99c3466-5df8-4042-b100-bbd1def9ea1f"
+        "TableName": "品質問題_Fコスト最終承認情報",
+        "ColumnName": "FGC_CreateDate",
+        "GUID": "d3bf49dc-4756-4e7e-9320-e8256143d8d7"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
@@ -176,6 +176,7 @@
           }
         ],
         "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
         "ColumnOperation": 2
@@ -278,58 +279,61 @@
                     "ShowConfirm": false
                   },
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "品質問題_Fコスト支払情報",
-                    "ShowConfirm": false,
-                    "RowsToUpdate": 1,
-                    "RowsToUpdateCondition": {
-                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                      "ColumnBindingInfo": {
-                        "TableName": "品質問題_Fコスト支払情報",
-                        "ColumnName": "工事番号",
-                        "GUID": "2ee373a0-7331-49c6-a47b-844338bfd2bf"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                        "SerializeProperty": "=Fコスト管理_承認申請!U6"
-                      }
-                    },
-                    "UpdateBindingValues": [
-                      {
-                        "BindingInfo": {
-                          "TableName": "品質問題_Fコスト支払情報",
-                          "ColumnName": "承認番号",
-                          "GUID": "ece3b935-1aaf-4411-9d89-a5a501c198b1"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=Fコスト管理_承認申請!H6"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "品質問題_Fコスト支払情報",
-                          "ColumnName": "申請フラグ",
-                          "GUID": "d135f911-decf-4213-9eb6-4595726d23e0"
-                        },
-                        "Value": "1"
-                      }
-                    ]
-                  },
-                  {
                     "$type": "WorkflowCommand.WorkflowCommand, WorkflowCommand",
                     "TableName": "品質問題_Fコスト承認情報",
                     "NextState": "申請中",
                     "ActionName": "提出"
+                  },
+                  {
+                    "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                    "LoopInfo": {
+                      "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+                      "ListviewName": "リストビュー1",
+                      "ListViewLoopMode": 1
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                        "TableName": "品質問題_Fコスト支払情報",
+                        "ShowConfirm": false,
+                        "UpdateBindingValues": [
+                          {
+                            "BindingInfo": {
+                              "TableName": "品質問題_Fコスト支払情報",
+                              "ColumnName": "承認番号",
+                              "GUID": "0041a5c2-c009-447a-b3d1-6c9a7c424e8b"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=Fコスト管理_承認申請!H6"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "品質問題_Fコスト支払情報",
+                              "ColumnName": "申請フラグ",
+                              "GUID": "60c390d5-27f2-4801-a942-a95ca560af7c"
+                            },
+                            "Value": "1"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
-                "ID": "59424759-a8b5-4512-8e2e-9b9d5088ecd8"
+                "ID": "62946f06-6a43-4f74-babf-19200f6a4003"
               }
             ]
           }
         ],
         "Text": "申請",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/123_send_3.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
       }
     }
   },
@@ -587,11 +591,6 @@
       "3,19": 2,
       "3,20": 2,
       "3,21": 10,
-      "3,22": 2,
-      "3,23": 2,
-      "3,24": 2,
-      "3,25": 2,
-      "3,26": 2,
       "3,39": 11,
       "3,40": 12,
       "3,41": 12,
@@ -886,7 +885,6 @@
     "5,7,2,7",
     "5,20,2,7",
     "22,1,2,6",
-    "3,21,1,6",
     "13,1,8,26",
     "0,15,1,12",
     "2,39,1,6",
@@ -901,14 +899,15 @@
     "6,49,1,4",
     "6,53,1,5",
     "7,7,2,20",
+    "7,29,14,30",
+    "9,1,2,6",
+    "9,7,2,20",
+    "3,21,1,6",
     "5,30,1,5",
     "5,35,1,5",
     "5,40,1,9",
     "5,49,1,4",
-    "5,53,1,5",
-    "7,29,14,30",
-    "9,1,2,6",
-    "9,7,2,20"
+    "5,53,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -933,4 +932,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//VayO//3rHX2IFkwaHxTI8Zfehv+boFlPqxOSVavhD08HxYE1Cf6iMAhHF5I2WHBnJLna8Gh6uy2ACaYUwi7SiU/0dEyqveHnwD283vajUJYRCelfqXIOemx8WuvVi53SnQj+MAXV6nJtIBNb9Z3C5XwDZuVsXYF9faOjjdjKiYhKzDptMS8kM+hRrgJcIGsWTnTvBLmALiigJXrTGW7xXC4UlaTO42zNrObF/YBtzbouHTKxXg/cDY/JFxeEn51nA1IFFeJpeilHr6nxmZBOPPKKXH+bHrbbMEthi1akNXzBpr88Lqg9yffcj2CMXM8M2LV6qVDiiBhC4GUQohOsgcLt2jBHFAnS02BdMTrkhVSFMUD40UmqcWOovqkvwMBt5bWuVKZdZxGbisOtmiiWxksDZvFeoaSZ6RrlZ30/n++NriPPGosDHLkAXOiRb5ULhol+wP0mSK/4bkNwmzV3D6diOks+KHg04P3YkNM/ero/nZjApGrAFRVq1H9YarsYtisEcman0G1cMpT5S8wi8AbjzIXV4Wbyr4Dqyn3uX5+fDILn8sKEaXV2k/miIFYwu5S6l94cfYOk0ia56fSsMuu9xGUmljNAXoC1h5RFHAaDADEAzjbQpfzMtp19rj81kc784CIyrKZ3A5EuMSsXlPUIkCBBxw/yF9b0VYwDENWNclXJ/5ZUDuqh0rOsYKtIFG1hm/ol+V9x/PAZWieaO/mWd6hHUV6cvJsPzZgOjNZM2DbjB3vM/I90llTQ780NvMpCqkVxCAzyVwTpPpQI2oJHdNKgiPnYkqRD/Wlp0Jdv5qb6mgi4S60uU8mdWC5fPMhYr42FRE1oeskfFJhykZD3He75ptMTc2mqR0ngY2RzGm4qeT/ct3wJ5957PK6NjFOFzzfLR7h9XmE1gw5VbA==|920
+}//YMRpTu6tTO24qIbAHqIeBlfeNCkB1yU9aApwlXJRDzphIzq8qW5NzXv9MuOoW4iV+55CEQJynwETDrhHnj2vUbd33yGEHMFZ1iR+RJNgl+J++uYjB50KA2ZccuA8M49kc05GkofkNN+7kfzqjNId7BXj1yslI/cyA6ocEjNSyw1FBE+NPoghcX5V7thlhjKw/BEK4STEa2AD90KiruyRDT/rqSiXWLc+p8jlXuUCHJvF0Gp3bmATkQL5I3fqv6AhFuovACBA37OxCBkD4y1byAG7INDC+ZVuKfI+sC/WuaC4hTeeHCCe93trAZ+1FfwbMN7cG3HDyEwxgvpvyldYszTNSos64goNGPVXobIQ+CJIZQu/EoO/PcwXfKs4j9/HuQUyp8tpc97NQ4ENlqENDn9zz0YuOql7Ltghl8/YHthU9yY2iV8JPWYqnl7uXJsd2gIEsslkzOO3x+Uz03artIWvRgV55tMfRa5/fAJ+mu1ItVOe/xAV/RIIgpVSC+lDcCpq/IdwGm2l4Q5TGb5X0O/pYFsCR4S1+PKzApvnpzb/vF3GVFuz/yWhrtB8OCoZdZ2N5by5HD/tjvW0gvX/HZhsAW79jubS4CH7/jTpPgCrgZqTaQeVQ9EjBE9upGw8wOQzj2QHn4WBRHjkKzOlTwMeQVIrdoeO95PLXqM1BeuACXzCBYM3K9iY3tnqfkm3xJbaDSzFKRMvcuiK0Zpmg6JK3Sxh+4g8BhQElci/a0DWJQmS0HeJirO8dGNuzM1eh05bIxYICM4b/V+o9v5YORzcbPFauZvhTFIklcvOQEtjbJC0JSP/1FuZpnjZHoE7m3YgpiIe85jVuieU/qemMYTaFLAeek8KR2BLmXFLSORyIovxHZ+JtKshNsTSOPJbHmBYRXQFLzBI8Pg9BjflGg==|920

@@ -12,9 +12,6 @@
         }
       }
     },
-    "InLogicalVisibleIndexes": [
-      0
-    ],
     "Count": 37
   },
   "Cols": {
@@ -333,7 +330,7 @@
       "BindingInfo": {
         "TableName": "品質問題_Fコスト支払情報",
         "ColumnName": "W番号",
-        "GUID": "8bc9641b-aefb-48bf-a880-9fd1891f24f5"
+        "GUID": "64f166ec-379f-4a8c-a8b6-537d1a865b6f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -3090,4 +3087,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//v+SywQXVCUyNMYZ9yGpxk1m+dli+kmb3G89I07x9std7DVw8UNG6cFiRklnY1YEbUMdahrkcEAL3r3NQCyunJEJBbIdbBFIC7ndyYekIujm3lUPtXHffeu+zeGxtDljPRwma3teUS91lKgrSWQ3fuqEl93RIL2H4ckNosCojULjsmcL7HclFU9TMbRhQqC1HFeXm5PEC51qD25+qOjxiPn7XBh+TiDLAGvM4M3MlRO8wJ50GaW+dHVDO6Sjj4FqdFYOUg6szhsyqE1gR+QjcNRMHZ2U1vdaKOykNqJ5EN2MWyKFCd9iytt5iylErEd6oIV7A63LOo8uylVqqJGZdO7JI3Pt5G31eoolJaETvOaf/+XUGg6zVl3WCmK7L16Gt8XC5FC6F/ZLavsOhTYw7AVqF/GF1GhgCMWMvZHNZPcQSJirVWUwSbSYAHHg27uZIrltWNL1/m7rGAvgFHe3JAU9aQ/Qb02P354EsgdfyAEdNEcrZCR/m1lVGzAU41iKPFoIayPvJs3brqlooeNQpoA8pkDlhknYUOTUEYcIeMbi4UXh6YBm6zUcOrFX9spPMuZp+XVx2BoAJ5kO1DHvwfuTffHzjikaL9KEyf0SWG7DHDnXblLqeFkCT/ooe14QRAowuIo3lSEcGGATbzurjlYuuWasYg4VC1qYoCZbXrn7ynKm/NHSp9Kv9iMtMjLZzo4rulIMVZhHA/0LAWv1Os+bOmV9Zjv7Bc2vThwTA0uumPa7cEW56AltN9adPNfPTco4hwXpLwynejL59lM1fOLrov8OZxNzrsyn1c10ms4qwPJeEkdTw8MnJvYgIP+sAYh8lyeNMKqu+bRSkxNOcwUWc+jgT+KLVYDZRRhqikc4gL6mbmQBy3gUY9FF+NRbUmpfiAuY8DLq8jsJyg/ruwQ==|920
+}//2EcaPsO+RR1xFC+4jiDNSXVpyR2kd4Uh6hMJvkufA+fEhF4qHJrLI2+D3o2heYvrv60+3TLZkbNtwHPRLfgQmEzEXgVIMUaU+WLY66wL33QpYdABAgwDbX7366d3sH57cJVr2bERy0lfLlGJu7Z1W5CqX+vTgoHd786PSqwrZ8RGEc0ett5fb7qXRzUHOBOeO0yi+bnxZsaSluI8iQCQnX9YLDYsinSnVYXq5BGKzZyFTy6GCZ59kL8Qtanyum+gIXcTgar7gJJLE65onB/ve+euODrFIGQWfLnTUNxzy1E2JQfmrMCMae3pEcuoZp7QHiHobRPn0IOgolywdBq04BqzS+cVOKQPas9WnIot9CXSMaWQ2eGYei8QydCE/0jstSI1lkCTuBhJsOg6/s1zFC9Pa5GGmDwaePmMpVnkOMTZZDaiFPVre/PHPwpfVxJ/kpVxHAxgGqSanok77wkqcA7d4rXn5DwPsNkTQHDEWMw6AmpGCLDQhcXkRdE93U9WCNRQ8oQA4gCM/3ziN94GrssQBFKjVgFqhGwxAfR7mNxLSqsKrkxlCz65mzscq5bsV/ou0QCEbMiwM1hOUPM6M15VULJZ7anXFvHYgC16NUuNVsRMTctstvXDMBHWErju72veEGYWucOt3fXTcTC1Q3doYHKCE0dPVVhhrrRTkXrvIyzSwoLAoTecUuCBDs04PV964Qz3bfbVU6KNUu5QddN1Uj+R9n0slHqYOoxg+f8CrHc4XxTq9y40JtKDTo0HpxSZrFXaNNDUTRNp6a3L/J+xfRay4IOxMWgZyef2MPKW+wrJbzKVpHfYiC8rz3wjViAh634w0tYKU+00q0WVUs/4QfBJKLAg94Q5jVH4liBGBQUCEH0Iw5n9jx5HxH8Ydd+jNMouGVnf3C5h8TpdYA==|920
