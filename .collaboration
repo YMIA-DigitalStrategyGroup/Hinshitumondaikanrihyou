@@ -426,5 +426,15 @@
     },
     "LockDateTime": "2026-05-08T13:06:45.5866913+09:00",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "PCPage/クレームリスト_Excel出力画面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-08T13:37:02.2834081+09:00",
+    "ModuleType": 1
   }
 ]
