@@ -456,5 +456,15 @@
     },
     "LockDateTime": "2026-05-08T14:07:09.1872431+09:00",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/サーバーサイドコマンド2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-08T14:39:18.9817264+09:00",
+    "ModuleType": 15
   }
 ]
