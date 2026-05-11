@@ -9,16 +9,7 @@
   },
   {
     "ModuleName": "Table/tknow",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-08T14:45:59.9635792+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tknow.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mname",
@@ -234,17 +225,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-08T13:50:46.3893291+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
@@ -304,17 +285,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_統合会計版",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-29T11:21:54.1144008+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\統合会計番\\Fコスト管理_統合会計版.json",
-      "Pages\\Fコスト関連\\統合会計番\\Fコスト管理_統合会計版.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト最終承認申請",
@@ -438,42 +409,18 @@
   },
   {
     "ModuleName": "ServerCommand/test",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-08T13:06:45.5866913+09:00",
     "ModuleType": 15
   },
   {
     "ModuleName": "PCPage/クレームリスト_Excel出力",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-08T13:38:37.72688+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommand/サーバーサイドコマンド1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-08T14:07:09.1872431+09:00",
     "ModuleType": 15
   },
   {
     "ModuleName": "ServerCommand/クレームリスト_Excel出力",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-11T13:03:46.6492915+09:00",
     "ModuleType": 15
   }
 ]

@@ -686,6 +686,22 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=Fコスト管理_統合会計版!B9"
             }
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AV8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AO4"
+                }
+              }
+            ]
           }
         ],
         "Text": "運賃",
@@ -755,6 +771,22 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=Fコスト管理_統合会計版!B9"
             }
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AV8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Fコスト管理_統合会計版!AO4"
+                }
+              }
+            ]
           }
         ],
         "Text": "クレーム費",
@@ -3025,4 +3057,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//ed5tsmUgFCW31QD6KENR4EnnZJrFCumzgRQoI0tw1SdupH6z0UGXX1sN81RaGpxmo//2+M+/unMydCbtTZUmwdT4py/Pt6xz3Uc7eKJYeDk1wWJbTU3JZSneB/1A1BOeOnm/2lfePT0T30b4YWaHXe2FRjzE49WmPiJS+LLtSYs0343Q+UG8hWSNsyBoAPbljDvTD2DRecMzvggP0lr3m7J5nOQDOgGro3CrMeetglFT6yNCgu2E7EVcUjLYHTQtG+CbGOQCaGGLLCImyBvg1iaQsCmWuqWs6CbfzMNWKQno0a5RSwvRdwo5qItxyLq8gN1CxDJGooUOn2/qz3tEv+IoEsWncDRdyPlJVeB+VG8CY4Tod9+KsMi44Ubjlo+t5fJfuyvs10Qy+q3qt/4xvDiP2yRNacA6AHSfxDto6aPsyeHQD9h6eaBFzDAeZPgUhnrjLn01X+341GMQSsikMHgVHfE4jGYUcZNwHT0jfqxbfwbY1N89P9YJv7ka+OOmS0d3+nDY7XWmSqq6VcDyOe+z6NbYjW6p3giv41V0AqG6MzYACwmpMUidv+1wLZGRlxZP1hjTNWTsx/vEhh4xmM83Bbsi8U2uYgssHj+hImDotTnrUXGwRl89DHtgQ6YOVAYugPMHvbHBytH1XPEPghycmsmSKQZ4t3oKVwdojPF4prTyKm25FxZT3LgOl8ipL8TqQZ9mQu2OdAyfy1LmPQxacmE2TuzftvXhrz84uK+IBvOk95ZqeipLq5yIkG0nDIQx0ooLqOSze9xWUndodPMyhQ9bjS/pcVXpIWN+6i8+LvjCvixudYC2th655PPtJL5qTBiGASoVz4UlHUr3q9LmvHCe9H3GdZLwYT+UXVjFjGl0ZjzKt4GSOLboD5IPahcggt9ngAnbqfFaLrdsHA==|920
+}//HZBWw6thF02vTYDe6NRVJ15jck3wq283bztB+5XvCTS07kk6szxm/jUdyP1XHQWhfW5zIiXsnDCicwj3SkaB9mxsdssi4upsvlEW2FEC+ZMkv/LdqYBpK5I0Fn1zSYpAvtbmEVku8Y05F/+kg1HYCSSm0MWJXTbxEEFO462KEi63ZNrgrEtT8+VdOM5GdYgtmoxAbAuPgTQE2GKM+HR639oAAq2wcLBNfjJWC+jlEd/A5UK94dRgl2f0nC8cWQ0k700pqCl3P+/nA6xUQp52BdD4X6RFn/VJeBm+NoI/k+UZzD57s4gog8M7vLyNtwpfHg+dPr1YTDskO/2JYKl0V/InbHRrWJkmNFQFlidOlfgOmjneedFMVVwJlGNaMfZnvKUTvyxchXI7q7h9gqPa69UThdekBtw44ZtJdcIRAnbzqQEb6GCGYwphiDVZyi2nlABLsZQXEYc5Se2Qt98JV2ByzryRObERWkaTAV4raRBplOYPQAzomY/UUrkO7NAyT0HjmNTuR74ou/XHQts4+nehYSpI8Hr5VRu2nV4INcAR/savQb+8WzAScDbXT8r3+0yIXnYSBnFYFn0V+NzMY3moKWfZtb2XxkjwqN/rmsXJeQTTF2c/quEk2YgrhXBcfoqVtV/p0cpBhwh6a032urMccoaN8LgaYkLhR/L1sCkVsTtRO9jgL7vhILKVnvGWDB+7+vuDBKW0C4tCeU6Dcj4woGedXlr4DCDJjinGVkmRtn/jJxDSM2qkh61jS3N676LmhYv9uUuTVmSHHgXzDIyKwUKw97hEMbFisWysiSQvOu9CKQnpCF3UdT8mZHIUBJDV69pyQgIGi60GUYjpkqnTZFezfgW5lwZRpuwCKWd+WVg1IdmjV9Ns9p9CI7wt/a6o0xbMaB10aG3st5+acg==|920
