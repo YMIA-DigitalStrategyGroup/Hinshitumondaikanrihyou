@@ -421,6 +421,15 @@
   },
   {
     "ModuleName": "ServerCommand/クレームリスト_Excel出力",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-13T13:53:36.2883654+09:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\クレームリスト_Excel出力.json"
+    ]
   }
 ]
