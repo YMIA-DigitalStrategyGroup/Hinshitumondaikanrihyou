@@ -21,7 +21,8 @@
         }
       },
       "InvokeTriggerTestData": {
-        "UserName": "Administrator"
+        "UserName": "Administrator",
+        "RequestTimeout": 0
       }
     }
   ],
@@ -29,7 +30,7 @@
     {
       "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
       "TargetPageName": "クレームリスト_Excel出力",
-      "ServerExportFileName": "c:\\temp\\bbb.xlsx"
+      "ServerExportFileName": "S:\\e_経理\\x_原価企画G\\吉富_デジ戦\\00クレームリスト.xlsx"
     }
   ]
 }
