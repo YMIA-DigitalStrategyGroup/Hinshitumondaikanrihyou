@@ -451,5 +451,15 @@
     "ToRemoveFiles": [
       "ServerCommands\\クレームリスト_Excel出力.json"
     ]
+  },
+  {
+    "ModuleName": "TaskScheduler/00クレームリスト出力",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-15T11:48:05.0142765+09:00",
+    "ModuleType": 16
   }
 ]
