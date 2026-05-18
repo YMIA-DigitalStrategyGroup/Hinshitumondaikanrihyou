@@ -16,7 +16,7 @@
     {
       "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
       "TargetPageName": "クレームリスト_Excel出力",
-      "ServerExportFileName": "\\\\170.71.10.105\\yz_common\\f_品管\\a_共用\\02_品証Ｇ公開\\てすと00クレームリスト.xlsx"
+      "ServerExportFileName": "f:\\temp\\テスト_00クレームリスト.xlsx"
     }
   ]
 }
