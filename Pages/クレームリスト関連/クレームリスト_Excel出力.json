@@ -299,7 +299,7 @@
                 "ColumnName": "W_NBR",
                 "GUID": "1464e994-2beb-453e-ad76-650178ddee5f"
               },
-              "Order": 1
+              "Order": 0
             }
           ]
         },
@@ -572,7 +572,7 @@
         "BorderTop": 1
       },
       {
-        "Formatter": 7,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": 2,
@@ -580,14 +580,14 @@
       },
       {
         "FontFamily": 1,
-        "Formatter": 7,
-        "HorizontalAlignment": 10,
+        "Formatter": 10,
+        "HorizontalAlignment": 11,
         "BorderBottom": 1,
         "BorderTop": 1
       },
       {
         "FontFamily": 1,
-        "Formatter": 7,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": 2,
@@ -595,7 +595,7 @@
       },
       {
         "FontFamily": 1,
-        "Formatter": 7,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderRight": 2
@@ -622,7 +622,7 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 6,
-        "Formatter": 7,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderRight": 2
@@ -635,7 +635,7 @@
         "BorderRight": 2
       },
       {
-        "Formatter": 7,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderRight": 2
@@ -644,7 +644,7 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 6,
-        "Formatter": 7,
+        "Formatter": 10,
         "HorizontalAlignment": 9,
         "BorderBottom": 1,
         "BorderTop": 1,
@@ -666,9 +666,10 @@
         "yyyy/mm",
         "black",
         "Text 1 0",
-        "General",
+        "0_);[Red](0)",
         "yyyy/MM/dd",
         "Right",
+        "General",
         "Center"
       ],
       "Borders": [
@@ -1203,4 +1204,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//9h9Rrl1ASw34/ZhP4zx2dDqxVql81lQAYcGP3AfdzjSeLgE8ZaTo8hkihEFgdDNdRSZ/RyPmQ1bpTY2i+eGpx5s0L2VQ2Q9M+l5PNNR+zRH2oRbxJxkEujn9KLeSSPB14stBTKeqp4qz0wDB36QyM2qA2X+RQ1hwuIg8KFtIsg8Xvi7rQlrIVMXk29dEyzpL9eFXfqqNf1Gh16OjIp1f3n9NB404YtOM+V2eldSMgQhLxsjVAXNZqYAS6irJdsy0xbkkgQ6iptcefJ+/JmySvTXxsBTi+mQeNTXPhEQt9QhJz/JDjs3FGGN/svx3TNhzgIXMkG1g6xjzEbRVhtt2omZrJCuqfUE9tvexK0pqbBUzu70tYNm4FheDV1u6yPcspMHYpuz9h6aDHcb75HRVekJEnWXWuDWB069gjBWY9yhkaFHN/Sx4gylN94xeoy6ZQlgVT0DrixLMMtRXLYv5azuo3BZLZy6qWaBigAQRx/elNxGgWjaNcvdlL3BC6FBB1GXsK29gNnPKMfOlLYn/eSPW6ud9uBsJmZDwdmeoMunLoKwuPRyb9rAHxYpxrrlAbJxVqXs9lT1QWeU8467gWlCbJkqifJHBitPaX9WEshrO7PWHb8W/cX13o5qPVuREvCd56bEZnzCt/cHngh0iyI8CuFRedTTaFL32MAeyS6yCf01Tbjw+tVNMqJFa64iqVntW6m1pNO50YFvW1uOZfyr32TsMr7UYSKRQqHpoS9TcJuBN1E4JGx0WUmTiCkn8xGDNIoBXHBVqaMMrcYaCPI9LkmgJKNvDnlBj91KMiRCSLrQVZevGcxeFS/eawjJTX7rWKAgLQI5sYzlFCz0ug/zzUCxs2x2cE6sUjMka/ctw6CJ3PQ9dmSd1IT/YNUuFapp6dctIjMRN93qeCwg39Q==|920
+}//FM8hR+QCyQtQPD3KlV8VlTGJMi/hD2oUBbfwU1wDoly+Io39LBz4q7QwUm1b0zJf8F7Yvet8mHlb8/kEjIEhOKXifzCIot/mu7H0SvQ+RjQyqDU9/ESNdNUcd6qXf70a+XXg7uuTwhE/fCjlpokal0FFkl6eangCh3u9B7jmYIDbGevD0iGfZPmXcQAes7m0Rc6RQ4bSag3PcrtwOoh/K5znSLZvUtbp4uTdsz+V6E55Lk5A/K2OVZWB1U+tuKbc8guIlf3d2/fPbpQnW5qg6v/OQ3jt0wzTjmbPEwDaYlBWkHeYnKBc4iWnrpWq5QHUiy+p41iVTv30MnqcIycD1Nr2H3gKgaEJywHV7UjLWv2wTy0h4dTqSrBBjZmHd1qx1XyyYAaILQ2Y/IpKEMA4lPKq6r5Wge/2qmelHBxQFKemG/oxmkZo/7pY3ns8dCHzzOOseATmq52xDMPQrlo+lmqGIZ5XzW3YUB/juajSOzb8V/NBsrHtYX9KgCDAks8MQy3P8RdqBfXW10j6DEKXxgowvyQk49v8wcq/8VLkwD2egVdymrArOPcrqgICIENMdG3patxskVmZNjBAOLDhHdtKgU9h1czB5HRNCIMpXhtx3E7l9IpczabvCR3sAZBhUDXNeQwtWf0kQ2OHlXjZUADUCqHSpSt7uKySB/pJswv2/Ax9/i+XK27cbvSAX69wnqLIajWA4uudZ3E2HGUjHLz2MxthNaOWuHjyvPpdmMc2/nzJceJFt0X2EnHZiq63Crqhpa5vkIK0hpFFEbB2XFYNg/rLHn+erR72BgUg0sYnjdAZBXUPoFFDQm6LSTVTVwkEBXJww+cIuKKVrYenpztRSrsPt+Iv2NSTsIfO/+wWH0yCjqCZOTfuNKo2nCn3jHx9eo1CFGVm3pvOSfuOFw==|920

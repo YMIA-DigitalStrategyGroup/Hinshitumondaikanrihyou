@@ -30,7 +30,7 @@
     {
       "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
       "TargetPageName": "クレームリスト_Excel出力",
-      "ServerExportFileName": "S:\\e_経理\\x_原価企画G\\吉富_デジ戦\\00クレームリスト.xlsx"
+      "ServerExportFileName": "\\\\170.71.10.105\\yz_common\\f_品管\\a_共用\\02_品証Ｇ公開\\てすと00クレームリスト.xlsx"
     }
   ]
 }

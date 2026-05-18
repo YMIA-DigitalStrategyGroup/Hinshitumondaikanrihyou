@@ -306,7 +306,7 @@
         "TableName": "品質問題_Fコスト",
         "RowIndex": 6,
         "ColumnIndex": 1,
-        "RowCount": 8,
+        "RowCount": 11,
         "ColumnCount": 47,
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium4",
@@ -799,177 +799,108 @@
         }
       }
     },
-    "15,1": {
-      "CellType": {
-        "$type": "Forguncy.PivotTableCellType, ServerDesignerCommon",
-        "PivotTableSetting": {
-          "SelectedListViewName": "リストビュー1",
-          "Rows": [
-            {
-              "DatabaseColumnName": "W番号",
-              "DisplayName": "W番号",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!C8"
-              },
-              "BackgroundValue": {}
-            }
-          ],
-          "Values": [
-            {
-              "DatabaseColumnName": "支払額",
-              "DisplayName": "支払額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!M8"
-              },
-              "Aggregator": 0,
-              "TotalAggregator": 0,
-              "BackgroundValue": {}
-            },
-            {
-              "DatabaseColumnName": "運賃",
-              "DisplayName": "運賃",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!U8"
-              },
-              "Aggregator": 0,
-              "TotalAggregator": 0,
-              "BackgroundValue": {}
-            },
-            {
-              "DatabaseColumnName": "倉出",
-              "DisplayName": "倉出",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!Q8"
-              },
-              "Aggregator": 0,
-              "TotalAggregator": 0,
-              "BackgroundValue": {}
-            },
-            {
-              "DatabaseColumnName": "求債額",
-              "DisplayName": "求債額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AC8"
-              },
-              "Aggregator": 0,
-              "TotalAggregator": 0,
-              "BackgroundValue": {}
-            },
-            {
-              "DatabaseColumnName": "明細摘要",
-              "DisplayName": "明細摘要",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
-              },
-              "BackgroundValue": {}
-            },
-            {
-              "DatabaseColumnName": "メーカー責任額",
-              "DisplayName": "メーカー責任額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!Y8"
-              },
-              "BackgroundValue": {}
-            }
-          ],
-          "DatabaseColumns": [
-            {
-              "DatabaseColumnName": "W番号",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!C8"
-              }
-            },
-            {
-              "DatabaseColumnName": "発生日",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!H8"
-              }
-            },
-            {
-              "DatabaseColumnName": "支払額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!M8"
-              }
-            },
-            {
-              "DatabaseColumnName": "倉出",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!Q8"
-              }
-            },
-            {
-              "DatabaseColumnName": "運賃",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!U8"
-              }
-            },
-            {
-              "DatabaseColumnName": "メーカー責任額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!Y8"
-              }
-            },
-            {
-              "DatabaseColumnName": "求債額",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AC8"
-              }
-            },
-            {
-              "DatabaseColumnName": "YMIAクレーム費",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AG8"
-              }
-            },
-            {
-              "DatabaseColumnName": "明細摘要",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AL8"
-              }
-            },
-            {
-              "DatabaseColumnName": "管理番号",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AT8"
-              }
-            },
-            {
-              "DatabaseColumnName": "申請フラグ",
-              "ColumnCell": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Fコスト管理_統合会計版!AU8"
-              }
-            }
-          ],
-          "ForceFrozenRowHeader": true
-        },
-        "ShowRowsTotal": false,
-        "ShowColsTotal": false,
-        "PivotTableStyle": {
-          "DataColumnWidth": "40",
-          "IsDataColumnAutoFitWidth": true,
-          "IsRowHeaderAutoFitWidth": true,
-          "UseSimpleBar": true
-        },
-        "PivotTableID": "342abc28-b5b3-4a61-9f10-f06d0711a707",
-        "TemplateKey": "Accent_1_3"
+    "20,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー3",
+        "TableName": "品質問題_Fコスト集計版",
+        "RowIndex": 20,
+        "ColumnIndex": 1,
+        "RowCount": 13,
+        "ColumnCount": 47,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "21,2": {
+      "NameUsedInJavaScript": "W番号",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "W番号",
+        "GUID": "5e252dd9-4470-4e8a-9734-e217867823b7"
+      }
+    },
+    "21,6": {
+      "NameUsedInJavaScript": "対象年月",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "対象年月",
+        "GUID": "e7cca7db-eb76-4bc1-b516-ded40bf9ccd5"
+      }
+    },
+    "21,10": {
+      "NameUsedInJavaScript": "支払額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "支払額",
+        "GUID": "d6da0bb2-2293-449b-b8be-d41eec5f0b85"
+      }
+    },
+    "21,14": {
+      "NameUsedInJavaScript": "倉出",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "倉出",
+        "GUID": "a0e45bd1-d612-4523-9619-63cdf1221956"
+      }
+    },
+    "21,18": {
+      "NameUsedInJavaScript": "運賃",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "運賃",
+        "GUID": "d38a06ac-a2e6-4fe9-8b7a-a5e897fe8d73"
+      }
+    },
+    "21,22": {
+      "NameUsedInJavaScript": "総クレーム費",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "総クレーム費",
+        "GUID": "e8feff9f-deb1-44a0-8846-4efe88bbe82a"
+      }
+    },
+    "21,26": {
+      "NameUsedInJavaScript": "メーカー責任額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "メーカー責任額",
+        "GUID": "c9ca0da1-b4dd-4e40-83e3-66a8ff585373"
+      }
+    },
+    "21,30": {
+      "NameUsedInJavaScript": "求債額",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "求債額",
+        "GUID": "dd66c62c-6d51-4718-ae40-fb313b5ee144"
+      }
+    },
+    "21,34": {
+      "NameUsedInJavaScript": "YMIAクレーム費",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "YMIAクレーム費",
+        "GUID": "3f9773de-40f8-4787-bf61-db4732ca7887"
+      }
+    },
+    "21,38": {
+      "NameUsedInJavaScript": "承認番号",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "承認番号",
+        "GUID": "d010f6fb-1f3a-49c6-b81c-1668a0353300"
+      }
+    },
+    "21,46": {
+      "NameUsedInJavaScript": "申請フラグ",
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "申請フラグ",
+        "GUID": "9d4f0317-0bf8-41c7-a6ed-35df0e6095f0"
       }
     },
     "25,49": {
@@ -2303,6 +2234,50 @@
       "19,98": 2,
       "19,99": 2,
       "19,100": 2,
+      "20,2": 3,
+      "20,3": 3,
+      "20,4": 3,
+      "20,5": 3,
+      "20,6": 3,
+      "20,7": 3,
+      "20,8": 3,
+      "20,9": 3,
+      "20,10": 3,
+      "20,11": 3,
+      "20,12": 3,
+      "20,13": 3,
+      "20,14": 3,
+      "20,15": 3,
+      "20,16": 3,
+      "20,17": 3,
+      "20,18": 3,
+      "20,19": 3,
+      "20,20": 3,
+      "20,21": 3,
+      "20,22": 3,
+      "20,23": 3,
+      "20,24": 3,
+      "20,25": 3,
+      "20,26": 3,
+      "20,27": 3,
+      "20,28": 3,
+      "20,29": 3,
+      "20,30": 3,
+      "20,31": 3,
+      "20,32": 3,
+      "20,33": 3,
+      "20,34": 3,
+      "20,35": 3,
+      "20,36": 3,
+      "20,37": 3,
+      "20,38": 3,
+      "20,39": 3,
+      "20,40": 3,
+      "20,41": 3,
+      "20,43": 3,
+      "20,44": 3,
+      "20,45": 3,
+      "20,46": 3,
       "20,55": 2,
       "20,56": 2,
       "20,57": 2,
@@ -2349,6 +2324,50 @@
       "20,98": 2,
       "20,99": 2,
       "20,100": 2,
+      "21,2": 3,
+      "21,3": 3,
+      "21,4": 3,
+      "21,5": 3,
+      "21,6": 3,
+      "21,7": 3,
+      "21,8": 3,
+      "21,9": 3,
+      "21,10": 3,
+      "21,11": 3,
+      "21,12": 3,
+      "21,13": 3,
+      "21,14": 3,
+      "21,15": 3,
+      "21,16": 3,
+      "21,17": 3,
+      "21,18": 3,
+      "21,19": 3,
+      "21,20": 3,
+      "21,21": 3,
+      "21,22": 3,
+      "21,23": 3,
+      "21,24": 3,
+      "21,25": 3,
+      "21,26": 3,
+      "21,27": 3,
+      "21,28": 3,
+      "21,29": 3,
+      "21,30": 3,
+      "21,31": 3,
+      "21,32": 3,
+      "21,33": 3,
+      "21,34": 3,
+      "21,35": 3,
+      "21,36": 3,
+      "21,37": 3,
+      "21,38": 3,
+      "21,39": 3,
+      "21,40": 3,
+      "21,41": 3,
+      "21,43": 3,
+      "21,44": 3,
+      "21,45": 3,
+      "21,46": 3,
       "21,55": 2,
       "21,56": 2,
       "21,57": 2,
@@ -3010,9 +3029,7 @@
     "10,49,2,5",
     "14,49,2,5",
     "25,49,2,5",
-    "15,1,17,46",
     "35,8,2,5",
-    "8,1,6,47",
     "3,31,2,7",
     "6,2,1,5",
     "6,7,1,5",
@@ -3030,7 +3047,29 @@
     "6,79,1,7",
     "6,86,1,12",
     "6,98,1,3",
-    "3,40,2,7"
+    "3,40,2,7",
+    "8,1,9,47",
+    "22,1,11,47",
+    "20,2,1,4",
+    "21,2,1,4",
+    "20,6,1,4",
+    "21,6,1,4",
+    "20,10,1,4",
+    "21,10,1,4",
+    "20,14,1,4",
+    "21,14,1,4",
+    "20,18,1,4",
+    "21,18,1,4",
+    "20,22,1,4",
+    "21,22,1,4",
+    "20,26,1,4",
+    "21,26,1,4",
+    "20,30,1,4",
+    "21,30,1,4",
+    "20,34,1,4",
+    "21,34,1,4",
+    "20,38,1,4",
+    "21,38,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3057,4 +3096,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//HZBWw6thF02vTYDe6NRVJ15jck3wq283bztB+5XvCTS07kk6szxm/jUdyP1XHQWhfW5zIiXsnDCicwj3SkaB9mxsdssi4upsvlEW2FEC+ZMkv/LdqYBpK5I0Fn1zSYpAvtbmEVku8Y05F/+kg1HYCSSm0MWJXTbxEEFO462KEi63ZNrgrEtT8+VdOM5GdYgtmoxAbAuPgTQE2GKM+HR639oAAq2wcLBNfjJWC+jlEd/A5UK94dRgl2f0nC8cWQ0k700pqCl3P+/nA6xUQp52BdD4X6RFn/VJeBm+NoI/k+UZzD57s4gog8M7vLyNtwpfHg+dPr1YTDskO/2JYKl0V/InbHRrWJkmNFQFlidOlfgOmjneedFMVVwJlGNaMfZnvKUTvyxchXI7q7h9gqPa69UThdekBtw44ZtJdcIRAnbzqQEb6GCGYwphiDVZyi2nlABLsZQXEYc5Se2Qt98JV2ByzryRObERWkaTAV4raRBplOYPQAzomY/UUrkO7NAyT0HjmNTuR74ou/XHQts4+nehYSpI8Hr5VRu2nV4INcAR/savQb+8WzAScDbXT8r3+0yIXnYSBnFYFn0V+NzMY3moKWfZtb2XxkjwqN/rmsXJeQTTF2c/quEk2YgrhXBcfoqVtV/p0cpBhwh6a032urMccoaN8LgaYkLhR/L1sCkVsTtRO9jgL7vhILKVnvGWDB+7+vuDBKW0C4tCeU6Dcj4woGedXlr4DCDJjinGVkmRtn/jJxDSM2qkh61jS3N676LmhYv9uUuTVmSHHgXzDIyKwUKw97hEMbFisWysiSQvOu9CKQnpCF3UdT8mZHIUBJDV69pyQgIGi60GUYjpkqnTZFezfgW5lwZRpuwCKWd+WVg1IdmjV9Ns9p9CI7wt/a6o0xbMaB10aG3st5+acg==|920
+}//WPn000bXHGv4NB1yRK7IColAiVTMK7FT5EBN+FvmHZXTz7qA8OvR+yyT6IqN3YiIo1N9vZaavl9qXndmNIO21250Q2YXy1PblLLANpxfoX/vAAgjrUzBNAdQu0s0JnZOnEhChZnDXpz4A8GV1oARJb+j4GtcFsKRXcEu06LjYwjgIclNhQ0pUtpAmeEEXRZxgZKrPoe9KBk45UhF+rAH6AquJULF2/ls5/SAtAQEp1ELIoQe2KufgVGu3qI5hURJs6YMeos+Zv5+0RiN+IXjoq5Yi54+8UnI2RedG5mIcelaRe49+R1DLPiMjliYQvSZCRh7gIfMwlTRnysusgmWFK8J31EoitvJcbS8tpc4MefB08KlHklo9i2r/1N/N+ATIj0YBl2YQr8rGR1ctdcimFJwHbaPthI4wjWhsWtjueUTtPTYsph6c0XirkZTtgCNQDh97Xk3DlvwM/BQ/kp2FHi0C5vQqwsP18eSIOdXNgjYyhzerfQyZr4SSeU2BiMcdN6xt55nCnX3I1gTq1TedoI+MbkPuyx1k6o7skYltzz8+8GoIjtx1vaQsvVxrKaBZ/U/JTkhqOLItkJL8O6YU0/jS+/PY7YyIZo6O6kuNYW0thc41D9XQlC8vIN0RysWJTaA8uK/nw6ooBFGdHj53kIeJxGsC1nSTc+7KRP2JAUO2DQJ6V6VEtFx2fXg1OqH2JmGrNIP5SVjOB3gDxNQxhtmrrtp+W4r5AXNQSVf6C/292l+Npb6yaubLIusqwHw7oWcq7gFxg7CxmAkl63cXQ2h6TZ/zjXATM0pxgAvFDp5TODmBrfhZyDWCPDVzC1JeVPecamv9MTZTGpZV9mQ5AEAMREatkkg78cxTqaxQCS0F2XEZUpvYBEB6vQRyEmpO4pTrEAuSfRCq2y+Vue5Hg==|920
