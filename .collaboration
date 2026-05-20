@@ -397,20 +397,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-21T08:55:55.2428667+09:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": [
-      "Plugin\\MySqlWrapper.zip",
-      "Plugin\\SqlServerWrapper.zip",
-      "Plugin\\メニュー／ツリービュー型セル.zip",
-      "Plugin\\リストビューデータの受け渡しコマンド.zip",
-      "Plugin\\ワークフローコマンド-10_0_10_0.zip"
-    ]
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -430,16 +417,7 @@
   },
   {
     "ModuleName": "ServerCommand/クレームリスト_Excel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-05-21T08:52:07.1324607+09:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\クレームリスト_Excel出力.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "TaskScheduler/00クレームリスト出力",
