@@ -36,13 +36,14 @@
     {
       "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
       "TargetPageName": "クレームリスト_Excel出力",
-      "ServerExportFileName": "f:\\temp\\00クレームリスト.xlsx"
+      "ServerExportFileName": "S:\\f_品管\\a_共用\\02_品証Ｇ公開\\てすと00クレームリスト.xlsx"
     },
     {
       "$type": "OperateFilesCommand.MoveFileCommand, OperateFilesCommand",
       "FilePath": "f:\\temp\\00クレームリスト.xlsx",
       "TargetFolderPath": "\\\\170.71.10.105\\yz_common\\f_品管\\a_共用\\02_品証Ｇ公開\\てすと00クレームリスト.xlsx",
-      "MoveFileName": "テスト_00クレームリスト"
+      "MoveFileName": "テスト_00クレームリスト",
+      "Disabled": true
     }
   ]
 }
