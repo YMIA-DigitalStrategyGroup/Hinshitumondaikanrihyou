@@ -470,5 +470,15 @@
     },
     "LockDateTime": "2026-05-27T17:09:04.2688796+09:00",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "PCPage/ページ1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-29T10:22:08.4987317+09:00",
+    "ModuleType": 1
   }
 ]
