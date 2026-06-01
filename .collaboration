@@ -251,7 +251,17 @@
   },
   {
     "ModuleName": "PCPage/ページ2",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-01T17:07:50.7945891+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\ページ2.json",
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\ページ2.rd"
+    ]
   },
   {
     "ModuleName": "Pages/Fコスト関連",
