@@ -1,0 +1,37 @@
+{
+  "Name": "Fコスト集計",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
+      "ConnStrId": "Sql品質保証部",
+      "Params": {},
+      "SqlStatement": "insert into 品質問題_Fコスト集計版(W番号, 対象年月, 支払額, 倉出, 運賃, 総クレーム費, メーカー責任額, 求債額, YMIAクレーム費, 承認番号 , 申請フラグ)\r\nselect W番号, 対象年月, sum(支払額), sum(倉出), sum(運賃), sum(支払額)+sum(倉出)+sum(運賃), \r\n              sum(メーカー責任額), sum(求債額), sum(メーカー責任額) + sum(求債額), '', ''\r\nfrom 品質問題_Fコスト\r\ngroup by W番号,対象年月",
+      "ID": "c4bb025d20ff4fa4bc52401f2098e608"
+    }
+  ]
+}

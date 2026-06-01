@@ -1,10 +1,10 @@
 {
   "PageType": 0,
-  "ColumnCount": 115,
-  "RowCount": 38,
+  "ColumnCount": 118,
+  "RowCount": 47,
   "Formulas": {
     "0,5": "TODAY()",
-    "7,98": "IF(LEFT(CI8,1)=\"W\",MID(CI8,2,6),\"-\")",
-    "7,46": "IF(AU8=\"\",0,AU8)"
+    "7,38": "IF(AM8=\"\",0,AM8)",
+    "7,101": "IF(LEFT(CL8,1)=\"W\",MID(CL8,2,6),\"-\")"
   }
 }

@@ -168,6 +168,14 @@
       "MaxLength": -1,
       "Name": "明細摘要",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "移行フラグ",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
   "ExternalDatabaseInfo": {
@@ -175,7 +183,7 @@
     "ConnectionId": "Sql経営管理部",
     "SourceTableName": "V_期間費用明細_クレーム費用",
     "SourceTableSchema": "dbo",
-    "CreateViewSql": "(\r\nselect * from 期間費用明細 where 勘定科目コード='6570'\r\n)",
+    "CreateViewSql": "(\r\n    select \r\n        *, \r\n        0 as 移行フラグ \r\n    from 期間費用明細 \r\n    where 勘定科目コード='6570'\r\n)",
     "ViewInfo": {
       "ViewName": "V_期間費用明細_クレーム費用",
       "IsUpdatable": true,
