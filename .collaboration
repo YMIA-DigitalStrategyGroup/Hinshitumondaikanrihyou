@@ -433,7 +433,17 @@
   },
   {
     "ModuleName": "PCPage/ページ1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-03T08:34:42.2530493+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\統合会計番\\ページ1.json",
+      "Pages\\Fコスト関連\\統合会計番\\ページ1.rd"
+    ]
   },
   {
     "ModuleName": "TableView/v_クレーム_件数集計表",
