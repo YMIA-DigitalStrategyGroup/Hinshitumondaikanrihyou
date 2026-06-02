@@ -18,7 +18,7 @@
       },
       "3": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 21.0
+          "DesignLengthInPixel": 5.0
         }
       },
       "4": {
@@ -33,7 +33,7 @@
       },
       "6": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0
+          "DesignLengthInPixel": 10.0
         }
       },
       "7": {
@@ -168,6 +168,7 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      0,
       26,
       31,
       32
@@ -232,7 +233,7 @@
     "Count": 126
   },
   "Values": {
-    "1,2": "クレームリスト管理表",
+    "1,2": "クレームリスト",
     "4,2": "艇種",
     "4,6": "艇番",
     "4,10": "検索",
@@ -358,7 +359,7 @@
                     "NewOtherName": "00クレームリスト"
                   }
                 ],
-                "ID": "b40759ad-e366-45b1-8dac-64265b40cc95"
+                "ID": "2c7d45f7-6458-40d8-9fc0-138b4b77f774"
               }
             ]
           }
@@ -784,7 +785,7 @@
           "IsEnabled": true,
           "DemandedRowCount": 50
         },
-        "ListViewStyleName": "_RS_Light14",
+        "ListViewStyleName": "_RS_Light10",
         "CurrentRowChangedCommandList": [
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1110,7 +1111,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "2e9734dd-f550-4d27-9e7f-45db16c54ee1"
+        "GUID": "b576af37-f281-4646-b17c-244439e5db3f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1146,7 +1147,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "728ab665-1bd8-40b9-bb6b-175b0ce3801b"
+        "GUID": "b640079d-c3d0-42c1-8228-175a5bea76a3"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1182,7 +1183,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "30472c42-859f-4992-b916-3ede4ecf68c3"
+        "GUID": "7de11f55-1d94-41de-b9e0-f14c6171936a"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1338,7 +1339,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "e120b89d-4ced-4b02-a9f9-eeffecd32fb6"
+        "GUID": "44c4a603-32dd-4ace-ab76-1458caf51fe8"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1386,7 +1387,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "5196eab0-a033-4029-b21b-7aaa283cd951"
+        "GUID": "ede4f84a-82ae-495d-bc72-c127cc696f7a"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1521,7 +1522,7 @@
                     ]
                   }
                 ],
-                "ID": "6b2c76a3-94fa-432a-a2f7-3084e3b76955"
+                "ID": "ffbb6de9-7654-4837-b062-e0644a4a66c6"
               }
             ]
           }
@@ -1626,7 +1627,7 @@
                     "UpdateType": 3
                   }
                 ],
-                "ID": "0b7310b2-be94-4625-9895-0d9122af4029"
+                "ID": "70a57a31-edd6-4219-820d-876f85392e69"
               }
             ]
           }
@@ -1664,7 +1665,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "d768da11-4c50-4c6d-9d7b-6b1af71aca25"
+                "ID": "74593a6f-e471-4b4c-9b3c-b6e0cdeb17d4"
               }
             ]
           }
@@ -4983,53 +4984,6 @@
     "31,23,2,9",
     "31,34,2,6",
     "28,12,2,6",
-    "8,6,1,3",
-    "8,9,1,4",
-    "8,13,1,4",
-    "8,17,1,5",
-    "8,22,1,5",
-    "8,27,1,6",
-    "8,33,1,5",
-    "8,38,1,4",
-    "8,50,1,11",
-    "8,61,1,5",
-    "8,66,1,5",
-    "8,71,1,5",
-    "8,76,1,4",
-    "8,80,1,3",
-    "8,83,1,3",
-    "8,86,1,9",
-    "8,95,1,3",
-    "8,98,1,3",
-    "8,101,1,4",
-    "8,105,1,3",
-    "8,108,1,3",
-    "8,2,1,4",
-    "9,2,17,116",
-    "8,42,1,8",
-    "7,2,1,4",
-    "7,6,1,3",
-    "7,9,1,4",
-    "7,13,1,4",
-    "7,17,1,5",
-    "7,22,1,5",
-    "7,27,1,6",
-    "7,33,1,5",
-    "7,38,1,4",
-    "7,42,1,8",
-    "7,50,1,11",
-    "7,61,1,5",
-    "7,66,1,5",
-    "7,71,1,5",
-    "7,76,1,4",
-    "7,80,1,3",
-    "7,83,1,3",
-    "7,86,1,9",
-    "7,95,1,3",
-    "7,98,1,3",
-    "7,101,1,4",
-    "7,105,1,3",
-    "7,108,1,3",
     "31,60,2,9",
     "32,71,1,6",
     "32,77,1,6",
@@ -5070,7 +5024,54 @@
     "4,76,1,3",
     "5,76,1,3",
     "4,79,1,3",
-    "5,79,1,3"
+    "5,79,1,3",
+    "7,2,1,4",
+    "8,2,1,4",
+    "7,6,1,3",
+    "8,6,1,3",
+    "7,9,1,4",
+    "8,9,1,4",
+    "7,13,1,4",
+    "8,13,1,4",
+    "7,17,1,5",
+    "8,17,1,5",
+    "7,22,1,5",
+    "8,22,1,5",
+    "7,27,1,6",
+    "8,27,1,6",
+    "7,33,1,5",
+    "8,33,1,5",
+    "7,38,1,4",
+    "8,38,1,4",
+    "7,42,1,8",
+    "8,42,1,8",
+    "7,50,1,11",
+    "8,50,1,11",
+    "7,61,1,5",
+    "8,61,1,5",
+    "7,66,1,5",
+    "8,66,1,5",
+    "7,71,1,5",
+    "8,71,1,5",
+    "7,76,1,4",
+    "8,76,1,4",
+    "7,80,1,3",
+    "8,80,1,3",
+    "7,83,1,3",
+    "8,83,1,3",
+    "7,86,1,9",
+    "8,86,1,9",
+    "7,95,1,3",
+    "8,95,1,3",
+    "7,98,1,3",
+    "8,98,1,3",
+    "7,101,1,4",
+    "8,101,1,4",
+    "7,105,1,3",
+    "8,105,1,3",
+    "7,108,1,3",
+    "8,108,1,3",
+    "9,2,17,116"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -5145,4 +5146,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}///YDSmKyhZr43nqT9Y8G3PjRtxvw2MkVV3FceR0dJrjaU9RwD2q8r55BXe6khrx5/V4aBjzsTfsml8vnVCtPVXhn7xeGMmi/NQmelhHA3xWRG3B5oAXbWJiLIBaH6JJdS/FOqCjp/iyd2Dowx1vGQzxC4KYQxWb0wz/QZ1KAYCm4IN4qAb5P/Uz2pa03rqgFo0EG8Jy0XWVQWYB86AbyIn6auXEF1MVR1IZce7vlC4hkF5FWiVW6xXR8eK21/TsWRxfZ4rqRr8h6ehePmzHWDIBXH3YKY8w8CLPKx+RWga6IDHSBpnyDrnR4pQHrJuYEpJPaAAV2aeHzlXelrwf0JQn4kgDaRzcy65uhV702fgjutxuaXSF/vs1Z00WwTZQaBS0pxjl9Euly4y9cwzO9S5FMm43PpN/ONiXkWspR5Isl7wvIFvumF6Y5SDqDDTL/Dbcny4Ur2IYT64TFi6kkJ5EWFPzKcnndj/WW2/KYAq4dTUpQGPKiek1gHiS8HlhbYqUm/5j7t00/7GQA/5ohnjIPx23souTjaknftPGNe0RHHo82rYQh3LmmCf3kX82pjjZev/tHr8Y0GXanYDNhCO6PkkXCG0nzRvTY+btOm5gccjE5f/NJHBtkEOvYx64dlDOtskBeKb3vbDaCmiKZ+WUVqNV5/Eu016dSWGhYSitW7T9Cq8i1uLKEPzPM1CRjNZdreNTTfjMSflOxY91fM4TvX3n/quFxrvNvLrO1SvMB1fm5G6QA2UyRqhFOpCbItNBkoe0OjVo+ZLphXA+mhswyL45Cl4OAzN5eT6c0arz2t2D/HG+tAZnweauKoPAGFIvoHeick5ZasKynFM5eiKcFPCcjreANKRgxOdwAB0s6sqIJ3/UkSEmcwihUqvv/yt5b1zp159ESo03rTiHhVyg==|920
+}//lu8EthGqT5EdzmOQjYVuZMy9D8URKHtDRnQqyaHNlmKT5iiXYkISbxBSvnW2XcrZUdPI6rDUJdYURqGkUNe6Y6cr5mJ2zQtkvupJtf3+bbUxVfdPQ2FlIObmD8uBigoqHME7bbmnPEs6CwpGiwUhS9jv77G9wmhGA3LpRGppChWtj/nQYfenDSm9O/A9oBjJQhr9nr0KgrrQqHyUpNFvKPOPQeEM72cY0aKYh5Z0fp3iZmpXGlqdtuSpBWAwZX+0+BQPi68L77FBixurKQwHCm5BuSzlOozp/L0vkgGjLQlVNM5Jrv7vAaBe8p+C8LBLtfWVAv9Ckq6esff1Lq2PkTaDphuA+2OL9oOH9dV3avR+T/fm3/Pmr/8QdyYaSmyX0wwJrLFQ2W3rn65fmasvHZPqnrsOIXTxKzmeEP9zev/z1wghKXoIqOnANvLk61f3xHZNHkO+qfITBb/T6CE3XU8e33tQuLLQi6BwwuarnATWrbhSapebbMzNd+1uhONFz1mfxnf3qNi/tbHolY7qdsX25DXnaDhR+MV1sEK/9TOay+YqZfrd+4sYgG5iD+o6fQ8mCS1MKJj5qfpcLWWun6n879Zo60MYaiGN9sInfV6ZanlA+aznROYvdAxMfMC2sxQfwugBl/1m7fi/4zMBB93Bf37r1SK9+0u+XnVqS53UwXRh4AeECld0tVagx5myin2PBvkDW/9GbnTxPvLKey8WmyZslJrJy1jnF2P6EhqycEo6qKMeqt0r3PomwYbuXWhxyYMtDw4S06FtXj008P2JpZFuJixEzgq2Cz27Dsa5FS8bJa+4ztJlwlNWF0yDs7Bjg2krNrOKzN9F1XbExkNMUQbncbmsiuN243VKaj6kp6ukCCIIMMXQmrZ8DvGHg5jRGh9iZ5aZaCBKcwzr8A==|920
