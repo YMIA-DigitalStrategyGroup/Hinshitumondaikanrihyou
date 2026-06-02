@@ -225,17 +225,7 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-01T16:22:50.0079399+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
@@ -251,17 +241,7 @@
   },
   {
     "ModuleName": "PCPage/ページ2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-01T17:07:50.7945891+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\ページ2.json",
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\ページ2.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/Fコスト関連",
@@ -361,20 +341,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-01T16:39:36.6652981+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "image/組み込み画像",
@@ -470,12 +437,6 @@
   },
   {
     "ModuleName": "TableView/v_クレーム_件数集計表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-01T16:21:59.1882881+09:00",
     "ModuleType": 23
   }
 ]

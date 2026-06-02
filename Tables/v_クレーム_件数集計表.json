@@ -1,0 +1,115 @@
+{
+  "Name": "v_クレーム_件数集計表",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": -1,
+      "Name": "年度",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "4月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "5月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "6月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "7月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "8月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "9月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "10月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "11月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "12月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "1月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "2月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "3月",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "年度合計",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "Sql品質保証部",
+    "SourceTableName": "v_クレーム_件数集計表",
+    "SourceTableSchema": "dbo",
+    "CreateViewSql": "SELECT \r\n    CAST(\r\n        CASE \r\n            WHEN MONTH(認定日) IN (1, 2, 3) THEN YEAR(認定日) - 1\r\n            ELSE YEAR(認定日)\r\n        END AS varchar(4)\r\n    ) + '年度' as 年度,\r\n    \r\n    COUNT(CASE WHEN MONTH(認定日) = 4  THEN 1 END) AS [4月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 5  THEN 1 END) AS [5月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 6  THEN 1 END) AS [6月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 7  THEN 1 END) AS [7月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 8  THEN 1 END) AS [8月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 9  THEN 1 END) AS [9月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 10 THEN 1 END) AS [10月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 11 THEN 1 END) AS [11月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 12 THEN 1 END) AS [12月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 1  THEN 1 END) AS [1月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 2  THEN 1 END) AS [2月],\r\n    COUNT(CASE WHEN MONTH(認定日) = 3  THEN 1 END) AS [3月],\r\n    \r\n    COUNT(*) AS [年度合計]\r\nFROM \r\n    品質問題_進捗管理表\r\nWHERE \r\n    クレーム認定結果 = 'クレーム'\r\nGROUP BY \r\n    CASE \r\n        WHEN MONTH(認定日) IN (1, 2, 3) THEN YEAR(認定日) - 1\r\n        ELSE YEAR(認定日)\r\n    END",
+    "ViewInfo": {
+      "IsUpdatable": true,
+      "QueryColumns": []
+    }
+  },
+  "Indexes": []
+}
