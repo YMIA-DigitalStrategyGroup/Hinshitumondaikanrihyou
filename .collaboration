@@ -97,7 +97,17 @@
   },
   {
     "ModuleName": "PCPage/FGC_ログイン",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-17T15:49:16.2507943+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_ログイン.json",
+      "Pages\\ビルトイン ページ\\FGC_ログイン.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_401ページ",
