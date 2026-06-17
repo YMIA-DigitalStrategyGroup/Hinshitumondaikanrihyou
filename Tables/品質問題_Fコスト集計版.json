@@ -98,5 +98,13 @@
   "PrimaryKey": [
     "管理番号"
   ],
+  "Relations": [
+    {
+      "PrimaryTable": "tknow",
+      "PrimaryColumn": "W_NBR",
+      "ForeignTable": "品質問題_Fコスト集計版",
+      "ForeignColumn": "W番号"
+    }
+  ],
   "Indexes": []
 }

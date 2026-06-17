@@ -57,7 +57,7 @@
     "6,68": "金額",
     "10,52": "倉出",
     "14,52": "運賃",
-    "34,52": ">>",
+    "19,52": ">>",
     "42,12": "支払額",
     "42,16": "倉出",
     "42,20": "運賃",
@@ -71,7 +71,9 @@
   "Formulas": {
     "0,5": "TODAY()",
     "7,38": "IF(AM8=\"\",0,AM8)",
-    "7,101": "IF(LEFT(CL8,1)=\"W\",MID(CL8,2,6),\"-\")"
+    "7,101": "IF(LEFT(CL8,1)=\"W\",MID(CL8,2,6),\"-\")",
+    "26,24": "M27+Q27+U27",
+    "26,40": "Y27-AD27"
   },
   "AttachInfos": {
     "0,24": {
@@ -317,6 +319,7 @@
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
         "ShowDeleteButton": true,
+        "SelectionMode": 1,
         "RowHeaderContextMenu": {
           "ContextMenuItems": [
             {
@@ -455,6 +458,8 @@
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
         "AllowEditInListview": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
         "ColumnOperation": 2,
         "CommitType": 1,
         "DoNotLoadDataWhenLoadPage": true
@@ -822,6 +827,25 @@
         }
       }
     },
+    "19,52": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateType": 2
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー2",
+            "UpdateType": 4
+          }
+        ],
+        "Text": ">>",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "25,1": {
       "ListViewInfo": {
         "Name": "リストビュー3",
@@ -847,7 +871,8 @@
         "ShowColumnHeaderInDesigner": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "ColumnOperation": 2
+        "ColumnOperation": 2,
+        "CommitType": 1
       }
     },
     "26,2": {
@@ -898,7 +923,7 @@
         "GUID": "e8feff9f-deb1-44a0-8846-4efe88bbe82a"
       }
     },
-    "26,28": {
+    "26,29": {
       "NameUsedInJavaScript": "メーカー責任額",
       "BindingInfo": {
         "TableName": "品質問題_Fコスト集計版",
@@ -906,7 +931,7 @@
         "GUID": "c9ca0da1-b4dd-4e40-83e3-66a8ff585373"
       }
     },
-    "26,32": {
+    "26,34": {
       "NameUsedInJavaScript": "求債額",
       "BindingInfo": {
         "TableName": "品質問題_Fコスト集計版",
@@ -936,25 +961,6 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "YMIAクレーム費",
         "GUID": "3f9773de-40f8-4787-bf61-db4732ca7887"
-      }
-    },
-    "34,52": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-            "ListviewName": "リストビュー1",
-            "UpdateType": 2
-          },
-          {
-            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-            "ListviewName": "リストビュー2",
-            "UpdateType": 4
-          }
-        ],
-        "Text": ">>",
-        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "44,1": {
@@ -1015,7 +1021,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "a567a413-bcd7-4592-bfc4-6e477d9102da"
+                "ID": "1cdf2ee8-f14f-45b6-a743-9eb1a3ac0715"
               }
             ]
           }
@@ -2213,8 +2219,18 @@
       "17,103": 49,
       "18,58": 48,
       "18,103": 49,
+      "19,52": 36,
+      "19,53": 3,
+      "19,54": 3,
+      "19,55": 3,
+      "19,56": 3,
       "19,58": 48,
       "19,103": 49,
+      "20,52": 3,
+      "20,53": 3,
+      "20,54": 3,
+      "20,55": 3,
+      "20,56": 3,
       "20,58": 48,
       "20,103": 49,
       "21,58": 48,
@@ -2227,6 +2243,10 @@
       "24,103": 49,
       "25,2": 50,
       "25,7": 50,
+      "25,8": 3,
+      "25,9": 3,
+      "25,10": 3,
+      "25,11": 3,
       "25,12": 50,
       "25,13": 3,
       "25,14": 3,
@@ -2240,17 +2260,11 @@
       "25,22": 3,
       "25,23": 3,
       "25,24": 3,
-      "25,25": 3,
-      "25,26": 3,
-      "25,27": 3,
-      "25,28": 50,
-      "25,29": 3,
-      "25,30": 3,
-      "25,31": 3,
-      "25,32": 50,
-      "25,33": 3,
-      "25,34": 3,
+      "25,29": 50,
+      "25,34": 50,
       "25,35": 3,
+      "25,36": 3,
+      "25,37": 3,
       "25,38": 3,
       "25,39": 3,
       "25,40": 3,
@@ -2263,6 +2277,10 @@
       "25,103": 49,
       "26,2": 50,
       "26,7": 50,
+      "26,8": 3,
+      "26,9": 3,
+      "26,10": 3,
+      "26,11": 3,
       "26,12": 50,
       "26,13": 3,
       "26,14": 3,
@@ -2276,17 +2294,11 @@
       "26,22": 3,
       "26,23": 3,
       "26,24": 3,
-      "26,25": 3,
-      "26,26": 3,
-      "26,27": 3,
-      "26,28": 50,
-      "26,29": 3,
-      "26,30": 3,
-      "26,31": 3,
-      "26,32": 50,
-      "26,33": 3,
-      "26,34": 3,
+      "26,29": 50,
+      "26,34": 50,
       "26,35": 3,
+      "26,36": 3,
+      "26,37": 3,
       "26,38": 3,
       "26,39": 3,
       "26,40": 3,
@@ -2663,11 +2675,6 @@
       "33,101": 2,
       "33,102": 2,
       "33,103": 2,
-      "34,52": 36,
-      "34,53": 3,
-      "34,54": 3,
-      "34,55": 3,
-      "34,56": 3,
       "34,58": 2,
       "34,59": 2,
       "34,60": 2,
@@ -2714,11 +2721,6 @@
       "34,101": 2,
       "34,102": 2,
       "34,103": 2,
-      "35,52": 3,
-      "35,53": 3,
-      "35,54": 3,
-      "35,55": 3,
-      "35,56": 3,
       "35,58": 2,
       "35,59": 2,
       "35,60": 2,
@@ -3152,7 +3154,6 @@
     "4,76,1,6",
     "3,74,2,2",
     "3,83,2,5",
-    "34,52,2,5",
     "44,8,2,5",
     "6,2,1,5",
     "6,7,1,5",
@@ -3183,6 +3184,11 @@
     "6,102,1,2",
     "26,2,1,5",
     "25,2,1,5",
+    "26,40,1,6",
+    "25,40,1,6",
+    "19,52,2,5",
+    "26,34,1,4",
+    "25,34,1,4",
     "26,7,1,5",
     "25,7,1,5",
     "26,12,1,4",
@@ -3191,14 +3197,10 @@
     "25,16,1,4",
     "26,20,1,4",
     "25,20,1,4",
-    "26,24,1,4",
-    "25,24,1,4",
-    "26,40,1,6",
-    "25,40,1,6",
-    "26,28,1,4",
-    "25,28,1,4",
-    "26,32,1,4",
-    "25,32,1,4"
+    "26,24,1,5",
+    "25,24,1,5",
+    "26,29,1,5",
+    "25,29,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3225,4 +3227,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//4fzrkSMRidN+W7TOtLIPKMbcjxO+7W40C2Kgt9L8vdJul3im2FLgKHI/cC7CN5TaJbFvDIcjtIcqAGG29GKE3nsdW1MI3wEW8Jkni4fQvspLJu4DO7qL7AGJGppZyZiLFnJCvcQkuFmJBqnaQrmou6qogScdNr5uCbkCi3q1YlwIzZmA3FbYcEeHncZHOncAEAVUyilMvpw/lltunrR5RL6cmcMncPnl3PDyvclfBOST9CkJXG+NmGuIkoamaZgD+Y09pWRtja8O+Fbhw2eWVcdnRsWubQP6AhipB1UrU/YIwhvYBh+Tzqj5Q07cBvk45MoLbSMgQ1U8svCN2XWSB2BwNhmjXn3c7VVdNmG9rLwvXn4D3TCfCl1ri09Gx102WnZCdcfDfa/y7VH7IKueVTB8vLd+3HuAYz4JbnkWUhExNLJJmnJEpeckygJ+UH/ye8iJetXFsh+m9JogZDokaTGfH5BXsaZ0UAS0WLmPwrwrlDM1G+JJIDqbnO/bpxfZVmAtN01R8rDKuW5/I4kXWHuLRr4Ec6bhd4j9dxERodR89YyeEhca7ATMBG/qk5GAuHOfQguBlyF48H0fYFc0U/GaTl+AqAMVjNwnDpSYzK/Gv1lcY1RHZMqsd+aUiVwkMc/ljSl0oEMADPyPgLJVJrn8toMEWG+ycLDHQtXuy1x5eOs3YpOBCyFzA/hMmcwRNJUvqbsSKj8yaW7j0eonPWeIV7T30pY8TCN5POMLKfewm/CaPwyo1f8RxGN+rA3QmpRhjr4CgYaEhUkO5CFWWHWXDKl9kwlP3CXBCuU7qSxjI8BKPJfMmuLKgcHuTeRlbxu199YWmoWY0xW6y26PjWt/vcaMUu9QjfI1bYMV57MohnYMejCxyqZfMK46EOXMbBiEKQ1SjQ8TxilFmGPWfw==|920
+}//CQcsWKsHagmL+uR7bOWlbm3AF+QZfW12CRilxJzxD57kax0Rh/wfzdWWJD8OHK0zuQBB6VbsBC8Z440pTHY0xTnwfr5EhJGwIdMHyRu5Lj4Ih9s53bf2SHe3JfzUOvveUzbzOgG71t5zNlU5QrtLcxgz8c4LKCoOzdp0lPlr/rN/APFv27TQkA5QaU+mYnt9nb/CPislhsf5/DUnBdk4XXcNxoIxzsvS8Mg8BqcOK2scsj9pMjN1GFA3VTzhwITj6Yb9qM8QxTIwh2vBIO1g5XhzDmHTQaRpxXDrHMgLWNvbg0AJqArzN1Ko7ydmJmoBLwjCrqGCuYRWMTS4GXgiKWNpy79LUZaI8DBwU8gwOQSrP0Soh8suDovNWWswSe6sLb3lwH6a/O7CQnVApm9+hzvCvzqUHeuclSEpIKdj+/gR+HZuDfQBNucrEefkkG6P8Fhn9sG8IS5YyPAckbW17KwEJr9o7pjTCAGrpbxphQk+O/NfUSDqp608Kzz3+Q83DZNUj0rt1LxXdH9+gRmwGmaRaDhBTFSQZsglm4O+5nf+Ll7McgXY0A5UDr4BF5FA12R+OuqFLDaL2gRvBrHRIG1isD4fXWiTcxStMdb6TaGqq+jplDv8gmm5qjEYRid8IyseYhrfni0VB8+NbL+1nn4EWHViibx9fPLarZmLiqN1DiMZoFwejZy1tY9HOS3EG5RwSVQHsxk3UFD2xILAv/wA113in9MepYVqQzWEjBo19FGZv+dL+5tenx9hCVsSSsCQ4FZ0/iIqdI6XcQlgqobEyuUQ8L6YnnT6fzkl9OrkPac4mnsboYQ98MyCrlStgC53Ppock2WM04Chv0VpnK3oXlUScWPhkPkMNn0ftTXQvhMyD0jMN+M6/ODCcZju60EhywafGHG/c/M0j9OuHw==|920

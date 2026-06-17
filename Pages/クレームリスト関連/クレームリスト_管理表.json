@@ -217,6 +217,11 @@
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
         }
+      },
+      "118": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 95.0
+        }
       }
     },
     "InLogicalVisibleIndexes": [
@@ -282,7 +287,8 @@
     "8,38": "RIGHT(DI9,4)",
     "8,33": "TRIM(LEFT(DI9,11))",
     "8,42": "IFERROR(ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 91 and MEISHO_CODE eq \"&IF(ISBLANK(DN9),\"null\",DN9)),\"\")",
-    "32,43": "TODAY()"
+    "32,43": "TODAY()",
+    "8,118": "IF(BO9=\"\",\"確認中\",DO9)"
   },
   "AttachInfos": {
     "4,10": {
@@ -359,7 +365,7 @@
                     "NewOtherName": "00クレームリスト"
                   }
                 ],
-                "ID": "2679a156-2a7b-404e-b1f0-e48ee86f6bb0"
+                "ID": "962ddc4a-93d6-4139-9ed7-0ec0ae0ab9b2"
               }
             ]
           }
@@ -764,7 +770,7 @@
         "RowIndex": 7,
         "ColumnIndex": 2,
         "RowCount": 19,
-        "ColumnCount": 116,
+        "ColumnCount": 117,
         "OrderByCondition": {
           "OrderByColumns": [
             {
@@ -1092,7 +1098,8 @@
       "RulesGuidList": [
         "a56c687f-ae2b-4191-bef6-32e50199fd8f",
         "db69fbea-4981-4dda-8c27-aa7f7e6d71a4",
-        "dd8717da-b2f1-47b7-82d5-ff9921f8eb0e"
+        "dd8717da-b2f1-47b7-82d5-ff9921f8eb0e",
+        "c6edc1cc-849e-442a-a7d2-a486b71815a7"
       ]
     },
     "8,71": {
@@ -1111,7 +1118,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "122f035a-76ec-48ce-bbc9-25ec18c7f495"
+        "GUID": "6b821a51-24ae-4a3b-ae1b-d42d164614f0"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1147,7 +1154,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "e29e5943-9f77-4512-821c-8222970d47d8"
+        "GUID": "ba0e2f8d-c660-4be2-a35a-542777e55941"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1183,7 +1190,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "4593ad5a-2651-4d93-aa3d-416c05dc34ff"
+        "GUID": "365a1e90-240e-4fe2-8a15-804843abb789"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1339,7 +1346,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "808504b2-bae3-4dbc-a07b-fe2411529b87"
+        "GUID": "2bd17ef8-bde6-47f5-8c07-a9765ac6ac08"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1387,7 +1394,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "970e82c2-4f17-4e79-bc2f-3c1d86b09f5f"
+        "GUID": "5afaebef-61d9-44fa-8dd9-04bc1f567f28"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1522,7 +1529,7 @@
                     ]
                   }
                 ],
-                "ID": "229bedeb-ec59-49b9-8150-d2f602f08d52"
+                "ID": "182cabf2-7600-4031-8f90-aa5630059ced"
               }
             ]
           }
@@ -1627,7 +1634,7 @@
                     "UpdateType": 3
                   }
                 ],
-                "ID": "d527aa66-c21e-4680-a9f5-46c2791cfa9e"
+                "ID": "1a85dd98-a471-4d59-9ac2-24a046ef2592"
               }
             ]
           }
@@ -1665,7 +1672,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "cdfef703-eba7-4406-ae01-045f02fcd309"
+                "ID": "20c4c04d-3ff6-4c48-81fe-10fef129eb8f"
               }
             ]
           }
@@ -5047,10 +5054,6 @@
     "8,42,1,8",
     "7,50,1,11",
     "8,50,1,11",
-    "7,61,1,5",
-    "8,61,1,5",
-    "7,66,1,5",
-    "8,66,1,5",
     "7,71,1,5",
     "8,71,1,5",
     "7,76,1,4",
@@ -5071,7 +5074,11 @@
     "8,105,1,3",
     "7,108,1,3",
     "8,108,1,3",
-    "9,2,17,116"
+    "8,61,1,5",
+    "7,61,1,5",
+    "9,2,17,117",
+    "7,66,1,5",
+    "8,66,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -5092,9 +5099,23 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "v_クレーム_件数集計表",
+    "RelatedDataTableName": "tknow",
     "ConditionFormatRulesCollection": {
       "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ISBLANK(クレームリスト_管理表!BO9)"
+          },
+          "Priority": 3,
+          "GUID": "c6edc1cc-849e-442a-a7d2-a486b71815a7",
+          "StyleInfo": {
+            "Formatter": "\"確認中\"",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
         {
           "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
           "Formula": {
@@ -5146,4 +5167,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//WvfxY8gIPGDZ35BwGuqS3qlHqPqgv23O3KA6edka3CAXYjAZ3aVIecBNV6bDenRf+5pfkVdRhC8EZYKkLYBFpmfoui75oF3odbe+D3kkR5Arvv7ajg0iZVnx28x/t4UWP9hY5lq3GyjQaZPXLVXjX14V1rFa0UlKT5+trJFCh34n8ZQTEgj+Fvd/fhaRRkhzLr/rmRzdl+z8S9jrofNbjWF3bFL/qFOeeGuazIU1/vfEa6fyhozYme4SIoJ5VI/JaGadroJPkwVHy0m1bufiEyTRVYoJUX5x1ijufw0nAYssuLp49ysSQBzhrtGm0SI3bbtt8iHZ+aYadSSTOWvrG3wzmczNK7uyW4kPN5lZul526yx0Qb5oDlGnJKp/pblGuQP0kiEaO6tvbc1uRGoGun1FDfoBQYfeYZM03gScgDtCGMfjkdL+eGqFHY4nsci2gCQ1pZLkhMEuH2R1UlFZYkNPL0ejjg/8JUtJ/cfqNTFVShYbu18PWtTyO4M0EmO0S5mZNxHI3TYp/ZaMkGSwVjPtUplZLrTiZXIb8t+pfyerjPGlaznxM4dPJ2vJHl0t0UIuJAM9koxuMEAmbaoxMBWhWjC3tR+0+VO59tJRQRkRtKB4wy4pzpXil3IqP1hkmxlQRe2k5xXMbSvz2+p/BNNnJ12Grk5azo88fa1fOPxWy8KUYuOkXIVm7s8KDl13gBtO40mtrWBf5seXPyzmp+xZhrLORLfMkQd3Y3eSLHqGdLAfot69a2rULswHff9/6IqhcKmnufbvNS7yMfFQUuQbqM2adKxdWyb7pK9TYwEIsUH7AIDMct269QAcpDoTS46QK3j9yZ0TZ5bK0JP/07s9NoDxqmG/tdkcBVTNs0rj10WLsvyKnSTtfLnSlxXwrcRykAMv6TJ8AJMlwqvvPA==|920
+}//6i7+bxAhC/zN/QXC6IIO82CbDknGWROxONVV+jU2wZf5xuQ5HZ3rMVQCWZ6jxZz1hcpcPS1Ii7xSxez4Lm7wBtCQJoi4a2Al+w2VY4swBPHlRML7/hWlH9CKFCHH5Qf68Ap1TJjcVlXIwcX7A8VkbJA+x1PLoYbgMWXgvJ4KmoB9dHd23uIO8yw78ny/yDgME8R/fwoUyqCmrYF170hVmKXm7Rcga58lkmGkjwTgcaKVy5wfVMJN/XUp4bTEwKhGIW8gLysI1RaeYL/UGAabgZ8X8ZEiYtYUGeWgrsxYAYiYLabdZEwUgiRPhlPdATcLH1BoUYuy8n5nISN1Fg9uxEoXipaEqma0e7hFOGNseSt/sQuIJsPJHmbcBrIU+nLqGzyVVaEZsC2WaIjZzxpxzlOuyanBGWf9OVREUeWqSxAnRnkvW34YmRfLG5lfaMLMwQPN4A3VFoC4322j8KW9guwgjY3F5Z/ocj9V7kFQ45t+YVL3NcaFj2GEdCL9f2bVUZE/Irf6eptVmMSwYO+KhTyRyKpL8iM/HBy5fJ5yWNG9y8188ibuBk7rXeopRFzX3X1o1hckAvpUAm22ba8Ig4BjfUr8IcjzZBkwQjhBnZLFc8PSJ6w+/zro9wRfrBfLqm7KSOoEkx0XAMc42Et/hUBGEoV1w4RAjcYQOULzfdhchiWRBMEzHsCpbPFI2DM7JXd/sVnpcjT4UDL4Er7T9KCQWFPjSUkzrlp/PM85YrGZqYU77jsaY40Kg547kTyEP1G0jTW/HGK8ZDpvBtWU0mNUAul9x1waPx6TUg99IM6p23aJZ+fcTdIq+ftBVp+VWsHadOXvDJBpYwdRvM8ALBdTgtp0NWj75GT8/jUVcrmy8md408arm+fY95qU1ACyaQVFV2Y2rnXWc6akllvg7Q==|920
