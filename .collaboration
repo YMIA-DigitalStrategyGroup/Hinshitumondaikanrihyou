@@ -221,31 +221,11 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_新規作成",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-17T10:46:09.3112821+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_新規作成.json",
-      "Pages\\クレームリスト関連\\クレームリスト_新規作成.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-06-17T10:45:53.3372159+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
