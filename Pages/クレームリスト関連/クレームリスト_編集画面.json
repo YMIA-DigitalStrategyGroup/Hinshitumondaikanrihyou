@@ -990,11 +990,11 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "Items": [
           {
-            "Value": "1",
+            "Value": "-",
             "DisplayValue": "-"
           },
           {
-            "Value": "2",
+            "Value": "○",
             "DisplayValue": "○"
           }
         ]
@@ -1329,7 +1329,7 @@
                     ]
                   }
                 ],
-                "ID": "6180d73f-001f-4ad3-91d5-09be0b5064d5"
+                "ID": "ff2964c1-1ac4-4a97-a1ed-40599ed36277"
               },
               {
                 "Condition": {
@@ -1377,7 +1377,7 @@
                     ]
                   }
                 ],
-                "ID": "d0f9f381-0565-471b-8cac-b42be6dc0cb2"
+                "ID": "b4d42231-1c69-44e3-9f7a-b326cdcc00e9"
               },
               {
                 "Condition": {
@@ -1425,7 +1425,7 @@
                     ]
                   }
                 ],
-                "ID": "1cb9c72e-e30a-49a6-a5f2-90f58fd33322"
+                "ID": "d28605d4-7fa0-460a-86eb-7c884bf8d21d"
               },
               {
                 "CommandList": [
@@ -1442,7 +1442,7 @@
                     ]
                   }
                 ],
-                "ID": "cfe9fda6-1177-4885-803e-6d18afd963ab"
+                "ID": "d7599932-7c3e-4a2f-b30d-cf610b8b42b3"
               }
             ]
           }
@@ -1875,7 +1875,7 @@
                             "ReloadData": true
                           }
                         ],
-                        "ID": "b64f93be-44fd-4b54-84fa-aaa6dece8209"
+                        "ID": "4fccd936-77d8-4800-81a4-b77ee712fcb4"
                       },
                       {
                         "CommandList": [
@@ -1884,12 +1884,12 @@
                             "MessageFormula": "このW番号は既に設定されています。"
                           }
                         ],
-                        "ID": "fcb5ddb0-dc4d-4d00-aa40-ed7f9f4ed750"
+                        "ID": "0e7904ae-f10f-460a-96fa-a3be59fa52f9"
                       }
                     ]
                   }
                 ],
-                "ID": "8ecd89c8-cae0-40c6-9651-b7fa78e21f83"
+                "ID": "bcf2815d-99e3-490a-bbfc-2561e53609e3"
               }
             ]
           }
@@ -1951,7 +1951,7 @@
                     ]
                   }
                 ],
-                "ID": "1e627690-e745-438e-b657-f05127dc8601"
+                "ID": "700f28e7-ac2f-4de8-9ced-fe7f21f975fb"
               },
               {
                 "Condition": {
@@ -1999,7 +1999,7 @@
                     ]
                   }
                 ],
-                "ID": "0c0c126b-c396-4e05-b27e-28a5715c3d7d"
+                "ID": "125ab446-18c1-48d2-a941-294ac5493a47"
               },
               {
                 "Condition": {
@@ -2047,7 +2047,7 @@
                     ]
                   }
                 ],
-                "ID": "dda799e2-321a-4c75-95d0-ba08e8aac671"
+                "ID": "fe402eea-ddc1-4b1b-afd1-f5cd100ae9bb"
               },
               {
                 "CommandList": [
@@ -2064,7 +2064,7 @@
                     ]
                   }
                 ],
-                "ID": "28e0b7ad-f8b0-4fbd-98d2-a65204df1187"
+                "ID": "8eb88977-a7e8-44a5-ae22-6f7714c9516d"
               }
             ]
           }
@@ -5605,7 +5605,7 @@
                 ]
               }
             ],
-            "ID": "fc2a7431-1cc4-4511-8721-0147209878c1"
+            "ID": "68e20a4f-727e-49e4-aff8-1f8f1cfc8a70"
           },
           {
             "CommandList": [
@@ -5622,7 +5622,7 @@
                 ]
               }
             ],
-            "ID": "a6f7fff9-1116-4668-8df8-416eff121f8a"
+            "ID": "3459e03a-b989-4e22-a18c-11c9f99ac312"
           }
         ]
       },
@@ -5683,4 +5683,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//OBrISzBE23po4Pi4FXUpaKupJJ/tN9lKR6CGLenGMSZlKB5qcV7DPC0IwJ3dYGDMTO+rYqiD2Dm4rEHjHJmFYXsn8M2NoDx7riSlgpCezvv6Wn9/kAmE5th6ay0oaGuTfRyrNghAeDNkmju5fKTn3mBrnnX2Hr2UdoEydlLJp4iOp8+jDXhgTzrfN89rPRX42GFaUWhsO3L8kOHm48G+QNHgpsizhmB6xXiO7grXNiwakNuzZMUj7DVnlPO8dlp3krKpmzGjpcRMsz488ocjHT9hS/Ah0qdhvSRAAB/285zAE6vQn3VZ3UF7GuiP+sB4zqyZFsoFoZHSIrNnJem7+UlkuZFTP9DRrlKNKBDCBussTzYHXAWpUu4Y7e2neIeQ2iGaH7AAk8mPv4iOqMmtoedDSlZVLRR4u1VaibOD9D5syaC2p0calxBTnnW5PATCGy4vzBGYMrVU1hONOXBatH2USKy5noKtfO9NAGQMh/f3rKW01PgBnp1bp1flXwoBdShVvrHD3PASHVWvgrssvjJq4ARBOKYin9K0WOwjhKNl2IqC7JKpOGFWlClJVoRu3+xn79+lEkfHdaEqCh9toHzpmg4uCtxjB5e2dNLmFpkyxrwZwVUid1MLLNNuii8KhluAF+I8lngd7y4lC3NjRDf1+zISV2bE9+KlW38ZJWoD1H920zBpEsK2XWsrVlsM7jAVdILJoWrnOupb2QuepB0rcA0YvzVkUekOvRoQZ3E8y29Hq5xN3XrbMnkSVOCh+KR2PxHYPAqQyVI8osFBq5WJ1A2VZ5jd/HlSsaQfb5hs4QTe/+nvZ+awqjF2cNwjwM/Kh9pN+IO0b/KhKGB5iy7HQnUqckiGOpfUnRrzd1GDJIzDtE2Yd4XNVsQaMaLIXqgjvelw1TgyWOIMHllbpA==|920
+}//C295Bp3RGO9UOSeUykc7f/0SybD2UJbwtHSGf5c/xLWV6AOVIyGIxd0YTlUniSPgQVEpoKL/HPHqaItpcdWR6+qMTQuUD8gJ48AB+BzBNwQwPjr8XzEuGx98AdMMfA/6y5k0DC1wXUM3NK0lvY3doVKSX3v/Cj9KDigHv+9FUXlgE/+uPsIMSb0bgJFOdqIa4YT2Gi6hO2RxhfdGOTwGbGqTfAgg5pTdcxxnkfScKQgDYSl6vB1A3OofJMQ3K+vS8jSrsy5M848tWDQ6Ca/C8YQ7L4IcOeISokcLTDzv4mNN1rQYp3LB4txM7zuI5axwdrqG3OUK+D5rTwRnPqg4qW+PxMjjnGVLPMIdGhCipDyJOE7zo+qG5zuK5mOOqTwXT/IhD2qX5codQt4S4mGtf8TrKoxiqhGV6dKFSz2+Uh/a960SMWkMDaC2JsDNxrrEAZ5egnclJSP1Sq8mkHuSIy5BmHuLqu+m+AUgD/f31Aw2Sr8I7c39J8PTD6+ZKkDYP3gbAOHX4LLS5t6RdpHTmZZ0leNMnRLakFXlGrzTtI7Wl3GONlhq1oylhTpAQEJrrsA1l3irGRDWZpnmZXohn/QNg8QSQzn4ejBQNXIdecVK0e1KPIcJtZ+1QSBAzCh2bimVTRLvKPJHIWr7BwzeYEPdtHeLwcV03db2DYL8/ZU8JEpcbRyzWrF6iBI8S3/EIC+QfjZSjeYX447ct+kkJoDCM7QfV3vVZu6E5GHlSZJFZkZ6ej/C74W5WB4C8fg57mMRiQXtLcBW7itoEbZACW4byZQXFEHzP26kspnfojzR5ydBNRMaZxbDXE4GF72s7xJzWanX40JbdX56lI/HHUTXBX3i46EFBvr7FHkYCf9ezEYxmp8OA4DNvwagNT4wtuiqnGH7QnYNiiK7NlQ57g==|920
