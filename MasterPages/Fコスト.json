@@ -179,23 +179,6 @@
             ],
             "SubItems": [
               {
-                "Value": "Fコスト管理",
-                "Text": "Fコスト管理",
-                "SelectedIconColor": "Background 1",
-                "SelectedIconColorUseItemColor": true,
-                "IconColorUseItemColor": true,
-                "IsOldMenuPath": false,
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_統合会計版"
-                  }
-                ],
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
                 "Value": "支払情報入力",
                 "Text": "支払情報入力",
                 "SelectedIconColor": "Background 1",
@@ -240,6 +223,40 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "Fコスト承認画面_統合会計"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "クレーム費集計表",
+                "Text": "クレーム費集計表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "年月度クレーム費集計表"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "Fコスト管理",
+                "Text": "Fコスト管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "Fコスト管理_統合会計版"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -616,4 +633,4 @@
       "Size": "3080,100"
     }
   ]
-}//I6U5R7cFsadNXeELv2K6cOQk8ItOuJt+Ghq204bAZ+faBtZ8CUlnKkwngSwYM6ate1Gcd6pdBcWEsaB1KGswkWB1LtypuVKrVWKhVpuSbiQFBgjQhEMRsSOqfKs0t9Fj6osQyPoZF4ttGC4xX5wH5dayYUJ/ujzlbKYQGlY/S/asOu216cocysbtOgxFVHMLKaeDFEDJXkBtJwGeFUMMrt/yy0DLmYoYWlZRDJYbNvHUMslKcO6sEhe6s5mbH6lKqn3HlGX/aLYijRaDBO7c3S5DEa5dN/btjKe5lUD2fJwsX4VJn44Wo31n1lbmdy15AfE8XKY6WyFO2ZudzkwR/6kpF3bk+qV/+UxH7iMtwtN1AszUGaRh8A5vyak5SCbA8j6OUMS2UZ166YIoZDxDo9PldppMgPNetxVPT1fMnDSy8O+bXXj6qGoD2lqnSmLaLbdgQANvLRdWUnENn8pLTzkYFkAkx7scyoktQMx4uqJCI5luU+htNMuZ1SH31VpZ+gj6pefXGCau1LbFuNlnyT+4FtVQ81+jafsN845LybZ7CIlkOvN9QNJtORYbIJW4kodbPrcXMMRRuj7wD/rICHduxVzgQPTzjuY4iC97FsnecT1WpiixiRsut9JZoqsQIeD9YVwl8SiZa649L5OWVkPlCaUsgdiV72DHl4T7+qJfgjPZjRv2LwWjxocp5PYW1Nq1FgciWuEteGVTj7C8j0ub8bZtbUjF0yoV7ZWtLmH0nizrzSvc/+HS3SN6s6IlumKZoEtSqK/i9yImAJWXiY6/aLRx6DspHChJ+snvqZ1v2jLDIXkeT/YfkoKkhMYlXnGTrgqqR3wCTGZyS6Jb2L/etFXM6GIpTNhQCpi+MRtE1ODofe4wAyWQSbiBVVx390NynBL3/Yrok/UCII8n6w==|920
+}//V1Qg7A7w1la08Efns1HpXciRGsjCauEPcCUlVfp9tKwOrD3LZK3sUx+zGRmaI0lXZFhapinHqbbs10TS9g45hlfFZYeambf61vatnqcMAl+jRC0dZAuewFjMGneqrxEtCRWXZhjTZPN1kwbLXnxbQSK8srmoLDs9u36U4hwhFD6V9jpEwRTRfJnmSSrkBGEnB0Pxyhw6S+DdcFKxT1kUaUNhXk83w+cdeC0ht+ziss4AJvvLbBan8NEfCLsD7gLYKUWl2Q4sbhKFx3pRt43vsYXoisiVzyeAEYnzdwd5UuNI6J1t4+MM0l/JixP8RkQyMGJLs6JTDFyON+ResxFR6twUsSaE1kaSfpMc+s7ZuyLIhTuuGc+CidwPdC3GLZunkUPNSpXHWGa5Z4g4cIcX1RMyTDfmzSZ7Bwb3YZICuwP5YmMKV3TzLzGuJp3mtlB3DZzmG3WeuhaJg8bDfb0c3pr7ZXjgfcEZWxeEeLIqp+N++ehyVDjpi9w8qqD+1NgIfRTn4qYqwFf5d/u6W5rRr4SHW9c4BzUhWC8DAegbJ77//Q3xA9jtmFMBdAi8JMzuKjWcuHof/WDJ8uuSPW3Xjb7TpBVA50MeJdQvm7W27oKAeVM+ln6cgpLkxyaL2gYXmyjyKJlHP5Mt3VHihb8mBbk+KqVaJhtsa4lcQOGbCM94ltOgpjM9O5mU04NYsQrn14JyIL0WOKMq81jKnl1q4cMvtHMGi2ov2qNsxJ2GmV6wQQJLaMlGYNUrnwETXPepuGh91wZkiI/wakLToAT2h8zfQ6x6GlJQCgv5FTYzRxO9Ur0XDLI20EFFlFGowfBSNANpkigtjhxvLxu3WhYWM81XXPLxj014Kq88T+r/Eqxpi92CjpjXQidLdUQRIGrnF4VBuX1E+t0pPEtH6mdqnQ==|920

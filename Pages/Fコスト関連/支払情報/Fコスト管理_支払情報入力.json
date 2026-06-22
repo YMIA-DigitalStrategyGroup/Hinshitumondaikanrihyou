@@ -12,6 +12,9 @@
         }
       }
     },
+    "InLogicalVisibleIndexes": [
+      0
+    ],
     "Count": 37
   },
   "Cols": {
@@ -330,7 +333,7 @@
       "BindingInfo": {
         "TableName": "品質問題_Fコスト支払情報",
         "ColumnName": "W番号",
-        "GUID": "41de6e83-72f1-485c-8834-8a53af06abc7"
+        "GUID": "a402aa38-f50a-4d7f-af28-904f1c4cac0c"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -3087,4 +3090,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//6u6fQ+k8P10KjTIPrv5M8g5cVfOQpFKMYqwrjX7cMfra/cPXdaEzgje9bE3SRt+hxeipbe4N2Tvp8yOZSFFpVoUU6UN96R4dscvobGf6P7K8KkBNNqqiTM9VqFCPIXH6pkNx181syDKN5aPi7EGU/hY8lh+HjfjelLTrbTqNjjwfGbnFvCzzw7kWQM8qKqkzuHXKPHR42lci5yLQeUmDSF7a9e7Mn4OnQ3sJi2+6fyMAUPhLIRDONpt1dto1YqCSnPHqgygzy/7ft8xwoUI1IdvWvuImBn6fULqoc3Jnf6gq5neYpaRyEAETkXLuzAiwdyVmFxqi9uNg79Wr2SqCGuCsL54aWsm6oPSkmaGy/w64W92x8MBa6ZnglWA+h2Fek0yvkW8JSReReQE5qSqxB0uOTBfvrJ9FhNXAs9ZOU5Yw4f6fBAT0gquoQKATdsVn3cLr2SGa3ZiW4oVVuBG6LEKpLiHfdUimzzOe0OWKYhyzqwjizqPcskGoxVdB8hg/TViOqlHAEOOfk45u+9gD3NNKOetzz2BlW50eI/7UcvnLznyEiHuld/0JR1ZI8yUXKfF3irb70pSQLJ5g+aMBjVS6ieSc5l/rAEHVULwx0jzL+1hiWwEaL2K/RSSUrRlTELtqmN/K4Jf8FSzFMcDvgU19gSdMIcbv1ZG0oRlwm9a/3Nv5+AXZSViUcCXbsKhBilNZLoZQImp+V00MGmThjJj5qNdA6WtxtUdchmbyGFbOe4t0n6pbvTSEIRnTZoqFusBgmFOtQfM49G/9005EhIKvgxOu9HoKuW1Fpk7NasEThudDp53s1vQyAKKqK9RJoFyPzMfnHozk/a4vlDLzSf5mjOGOx27Iv4IhDn3df5iy8IWJKEKetsqlYSsShxOoXXLlU+Y2/88/SKC8QT4tuQ==|920
+}//dLa2NxSRxKWxa7DUHFMNE+DHqUp0w3Yj4HnpxclVJGrfAZutaKx+Wa2Se+ej09dgFVEUrsZKAdA1O9rqC14BcbjDgi2p3KMet+BBY3agZEP04qOVLJZ+Fb0LQXtSYx3hcZWu5lOPlB6vDMOVABIK7dtMrT1xz6imDXiED+/MbN/mDtlP9A/6eKmS6jduVbtMUUOPo6iD1eOlB5txibbBC3ex7TB5F19uA98Uz9vIq93AxD2zb0Mh48kCjqYALmkCC8SCSBiKGjv1Sx8nV0oo24Fy3jlfEJOMw0CLmfeyvt5cB7Ng4u+2TaPVS6HNZXo8rr+8u8wNJxmHRHXWVsobQn20YHJP/chFTg3R8S9bDBMsTzyTudTRxhJ1Q9cRFXUgG/gmcZhktJBecrSWI2U0o9q4SX1Ovw5ovkIJ5HUWzyr7MJ81lU3MUOBl+TSUyk52OqRscmio0lyZIQmj29VgARJA0GBD4E0Gclgh4O+aahTFx2a3OSmuG80IN63Bpu6uXafXPIN0z9Zo8uZJZg6NBmbIg3XXqyI/6Qq86sPYZ50lO/z/LNmVJjsMl9CEMuFOiEw85G0uVfYukI/Smu/MUZfdk8rQd0UQ4ICnMKY+JFsCfx9o7rAhAC0dWMDaEvk+s66xZ91MVRWXqR0TDuGcGYLGKX1jsvfS5KVAgKxSHchHFAo2ZJZ4LJwyBZGBhym0vAa1TQJJyNWXLwIvbztQAFZMvDLPqqDx3plJKWL2BVmstP6xotk6P6JvJdYmkURzKHSK/YL5z7wVg9+EKHcHto44lByNfuFrRKHVuSQO8hY3qtu1yoKxsnmleYoQ0vSyHnB/1VwUEcXgE3XnyMbo5nZlfU+HY4VHkBZ2EEZSwkRFzl9dxjMEkSbGg2+1XhSeVIkOEtjHBdSQyqp5FO5pfw==|920

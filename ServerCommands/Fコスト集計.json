@@ -30,7 +30,7 @@
       "$type": "ServerDesignerCommon.Command.ExecuteSqlCommand, ServerDesignerCommon",
       "ConnStrId": "Sql品質保証部",
       "Params": {},
-      "SqlStatement": "insert into 品質問題_Fコスト集計版(W番号, 対象年月, 支払額, 倉出, 運賃, 総クレーム費, メーカー責任額, 求債額, YMIAクレーム費, 承認番号 , 申請フラグ)\r\nselect W番号, 対象年月, sum(支払額), sum(倉出), sum(運賃), sum(支払額)+sum(倉出)+sum(運賃), \r\n              sum(メーカー責任額), sum(求債額), sum(メーカー責任額) + sum(求債額), '', ''\r\nfrom 品質問題_Fコスト\r\ngroup by W番号,対象年月",
+      "SqlStatement": "INSERT INTO 品質問題_Fコスト集計版(W番号, 対象年月, 支払額, 倉出, 運賃, 総クレーム費, メーカー責任額, 求債額, YMIAクレーム費, 承認番号 , 申請フラグ)\r\nSELECT \r\n    W番号, \r\n    対象年月, \r\n    SUM(支払額), \r\n    SUM(倉出), \r\n    SUM(運賃), \r\n    ISNULL(SUM(支払額), 0) + ISNULL(SUM(倉出), 0) + ISNULL(SUM(運賃), 0), \r\n    SUM(メーカー責任額), \r\n    SUM(求債額), \r\n    ISNULL(SUM(メーカー責任額), 0) + ISNULL(SUM(求債額), 0), \r\n    '', \r\n    ''\r\nFROM \r\n    品質問題_Fコスト\r\nGROUP BY \r\n    W番号,\r\n    対象年月",
       "ID": "c4bb025d20ff4fa4bc52401f2098e608"
     }
   ]
