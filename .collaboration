@@ -81,7 +81,16 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト承認情報",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-22T13:02:43.0241478+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_Fコスト承認情報.json"
+    ]
   },
   {
     "ModuleName": "Table/品質問題_Fコスト最終承認情報",
