@@ -336,11 +336,31 @@
   },
   {
     "ModuleName": "PCPage/Fコスト承認画面_統合会計",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-30T17:34:42.73873+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\統合会計番\\Fコスト承認画面_統合会計.json",
+      "Pages\\Fコスト関連\\統合会計番\\Fコスト承認画面_統合会計.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/Fコスト詳細情報_統合会計",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-30T17:34:42.7386006+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\統合会計番\\Fコスト詳細情報_統合会計.json",
+      "Pages\\Fコスト関連\\統合会計番\\Fコスト詳細情報_統合会計.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/SEAQ番号_検索画面",
