@@ -433,7 +433,17 @@
   },
   {
     "ModuleName": "PCPage/年月度クレーム費集計表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-01T08:37:43.0168904+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表.json",
+      "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレーム費集計表承認画面",
