@@ -179,8 +179,8 @@
             ],
             "SubItems": [
               {
-                "Value": "支払情報入力",
-                "Text": "支払情報入力",
+                "Value": "Fコスト管理",
+                "Text": "Fコスト管理",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
                 "IconColorUseItemColor": true,
@@ -188,24 +188,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_支払情報入力"
-                  }
-                ],
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
-                "Value": "支払情報申請中一覧",
-                "Text": "支払情報申請中一覧",
-                "SelectedIconColor": "Background 1",
-                "SelectedIconColorUseItemColor": true,
-                "IconColorUseItemColor": true,
-                "IsOldMenuPath": false,
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト承認画面_支払情報"
+                    "PageName": "Fコスト管理_統合会計版"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -240,23 +223,6 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "年月度クレーム費集計表"
-                  }
-                ],
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
-                "Value": "Fコスト管理",
-                "Text": "Fコスト管理",
-                "SelectedIconColor": "Background 1",
-                "SelectedIconColorUseItemColor": true,
-                "IconColorUseItemColor": true,
-                "IsOldMenuPath": false,
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_統合会計版"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -633,4 +599,4 @@
       "Size": "3080,100"
     }
   ]
-}//V1Qg7A7w1la08Efns1HpXciRGsjCauEPcCUlVfp9tKwOrD3LZK3sUx+zGRmaI0lXZFhapinHqbbs10TS9g45hlfFZYeambf61vatnqcMAl+jRC0dZAuewFjMGneqrxEtCRWXZhjTZPN1kwbLXnxbQSK8srmoLDs9u36U4hwhFD6V9jpEwRTRfJnmSSrkBGEnB0Pxyhw6S+DdcFKxT1kUaUNhXk83w+cdeC0ht+ziss4AJvvLbBan8NEfCLsD7gLYKUWl2Q4sbhKFx3pRt43vsYXoisiVzyeAEYnzdwd5UuNI6J1t4+MM0l/JixP8RkQyMGJLs6JTDFyON+ResxFR6twUsSaE1kaSfpMc+s7ZuyLIhTuuGc+CidwPdC3GLZunkUPNSpXHWGa5Z4g4cIcX1RMyTDfmzSZ7Bwb3YZICuwP5YmMKV3TzLzGuJp3mtlB3DZzmG3WeuhaJg8bDfb0c3pr7ZXjgfcEZWxeEeLIqp+N++ehyVDjpi9w8qqD+1NgIfRTn4qYqwFf5d/u6W5rRr4SHW9c4BzUhWC8DAegbJ77//Q3xA9jtmFMBdAi8JMzuKjWcuHof/WDJ8uuSPW3Xjb7TpBVA50MeJdQvm7W27oKAeVM+ln6cgpLkxyaL2gYXmyjyKJlHP5Mt3VHihb8mBbk+KqVaJhtsa4lcQOGbCM94ltOgpjM9O5mU04NYsQrn14JyIL0WOKMq81jKnl1q4cMvtHMGi2ov2qNsxJ2GmV6wQQJLaMlGYNUrnwETXPepuGh91wZkiI/wakLToAT2h8zfQ6x6GlJQCgv5FTYzRxO9Ur0XDLI20EFFlFGowfBSNANpkigtjhxvLxu3WhYWM81XXPLxj014Kq88T+r/Eqxpi92CjpjXQidLdUQRIGrnF4VBuX1E+t0pPEtH6mdqnQ==|920
+}//IK+wNFVBP9HTwkBXxLBLI2gMtEvRNosXmsUc1UDHhhwZR2o0tnPEY6dxZ1O1IOLSvrCI0hQimyYhzCKquk0MkiLGRxRwQsTO3VHVVQJQ2LZttNuBoQVoYsAG/c+gVSoKSj9r7YR07NI/2JPv48fSVOx1Ul93Z5tvAfvxBvXEOAG70D3KVPHyzeP5CQaTiyC6wk2TBLS4f3jNEYJDmq5bzcozQhHMtg5Fd8YsjilpnZSkf9MJwhpHC4dQYXsCDWys4fHqhOoRAnHPSCYlBxMfPtOOJb4TUa7tr00EVnelBFgAC2xHy8cPoADsuPNwAjGdWbk9Y32WbQjGWkW7l9kiJTx7+S9DFaabFzx46FZ7Li+zOcGbK61fwyNvw5XMI0u6wHA8lW8NTiXDUiYTg6fXEVMVUvZVd9IzIWyJZZVxzeHVix3JoVfEutxRa3X9JmNr3q04+vNYn1555uIGiz1FWBwBblPkCGLzGQTU0hA6n7CO9iqyBloShWKw0lGwyUbEm2F+699l065NajPGBLbAppP7CFDMc4PIBCD+wJtKaMo05tQ7Jj9Suf/TueI4iY0XUb21K2xkjkTQ/+Pt2zXDJK53yyGobCqtxmVjMhNxH196vaC9mGBqTwK558dDiy9c7DF6utRAmQ93XyFlNGb2J5QkMWkDDw2mq7ISBSM9omY+YJ5F7DstL+98QRp1Owd0Kyd/k6r+Ptf337rlZJAc7Y3hI9W/B346LviR8/oRBfbSFH+czJ6ozV1CBYS/4aM7u5Xm2XH/AhS3onXsH+l3JP3xI1QAtug3zLWUdCxwFICpAqBvZZVz4DrO2mCdgXC/ZOkAnDkk/WXG+p6+rpHZe/3gz0mXs8VpGCtEe2r5/Ie/0oMXXhOow4d6BdJUCF/LV9akA7zuGi/uupfYCqkVhA==|920

@@ -9,7 +9,15 @@
       },
       {
         "Id": "7836c51a-832f-4d15-a98e-793773dfbc32",
-        "StateName": "申請中"
+        "StateName": "課長承認待ち"
+      },
+      {
+        "Id": "2bb02132-7caa-435c-8695-4f17ee3f1974",
+        "StateName": "部長承認待ち"
+      },
+      {
+        "Id": "901a98f5-4b30-4009-a502-d1aa743fbfea",
+        "StateName": "差し戻し"
       },
       {
         "Id": "f0936a8b-9dfb-4bd2-b2cf-2cd0698ffee6",
@@ -28,7 +36,7 @@
         },
         "ToState": {
           "Id": "7836c51a-832f-4d15-a98e-793773dfbc32",
-          "StateName": "申請中"
+          "StateName": "課長承認待ち"
         },
         "Assignees": [
           {
@@ -41,11 +49,53 @@
       {
         "StartState": {
           "Id": "7836c51a-832f-4d15-a98e-793773dfbc32",
-          "StateName": "申請中"
+          "StateName": "課長承認待ち"
         },
         "Action": {
           "ActionName": "承認",
           "GUID": "0e825535-66dd-45ae-9beb-16c49e12171a"
+        },
+        "ToState": {
+          "Id": "2bb02132-7caa-435c-8695-4f17ee3f1974",
+          "StateName": "部長承認待ち"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 1,
+            "Name": "品証部承認者"
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "7836c51a-832f-4d15-a98e-793773dfbc32",
+          "StateName": "課長承認待ち"
+        },
+        "Action": {
+          "ActionName": "却下",
+          "GUID": "637b0e38-4348-443e-8d8e-b925009be8d0"
+        },
+        "ToState": {
+          "Id": "901a98f5-4b30-4009-a502-d1aa743fbfea",
+          "StateName": "差し戻し"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 1,
+            "Name": "品証部承認者"
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "2bb02132-7caa-435c-8695-4f17ee3f1974",
+          "StateName": "部長承認待ち"
+        },
+        "Action": {
+          "ActionName": "最終承認",
+          "GUID": "143213a9-0f63-4db1-bbe8-7a05139fcf85"
         },
         "ToState": {
           "Id": "f0936a8b-9dfb-4bd2-b2cf-2cd0698ffee6",
@@ -53,29 +103,29 @@
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 5,
-            "Name": ""
+            "FlowProcessRoleType": 1,
+            "Name": "品証部承認者"
           }
         ],
         "Errors": []
       },
       {
         "StartState": {
-          "Id": "7836c51a-832f-4d15-a98e-793773dfbc32",
-          "StateName": "申請中"
+          "Id": "2bb02132-7caa-435c-8695-4f17ee3f1974",
+          "StateName": "部長承認待ち"
         },
         "Action": {
           "ActionName": "却下",
-          "GUID": "637b0e38-4348-443e-8d8e-b925009be8d0"
+          "GUID": "016cb131-5085-43dc-b83e-7173f85fbafb"
         },
         "ToState": {
-          "Id": "59b62e98-48f4-4b7f-844a-0e746aba58ba",
-          "StateName": "新規"
+          "Id": "901a98f5-4b30-4009-a502-d1aa743fbfea",
+          "StateName": "差し戻し"
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 5,
-            "Name": ""
+            "FlowProcessRoleType": 1,
+            "Name": "品証部承認者"
           }
         ],
         "Errors": []
@@ -120,13 +170,6 @@
       "MaxLength": -1,
       "Name": "対象年月",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": -1,
-      "Name": "工事番号",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",

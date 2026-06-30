@@ -12,6 +12,10 @@
         "StateName": "申請中"
       },
       {
+        "Id": "771b5291-1766-4f47-b3e9-59f34f9fa132",
+        "StateName": "差し戻し"
+      },
+      {
         "Id": "4f82a8fe-d0e8-40a5-8f3d-d4b3bfce3493",
         "StateName": "承認済み"
       }
@@ -69,8 +73,8 @@
           "GUID": "e28c7f77-efa9-41df-bdf6-e7784ddca442"
         },
         "ToState": {
-          "Id": "6fd51e34-de76-436b-9a51-8c5da49bc8ac",
-          "StateName": "新規"
+          "Id": "771b5291-1766-4f47-b3e9-59f34f9fa132",
+          "StateName": "差し戻し"
         },
         "Assignees": [
           {
