@@ -559,5 +559,15 @@
       "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表.json",
       "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表.rd"
     ]
+  },
+  {
+    "ModuleName": "PCPage/年月度クレーム費集計表 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-06-30T17:34:56.9379821+09:00",
+    "ModuleType": 1
   }
 ]
