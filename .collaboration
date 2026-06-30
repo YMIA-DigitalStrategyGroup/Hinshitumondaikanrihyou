@@ -561,13 +561,13 @@
     ]
   },
   {
-    "ModuleName": "PCPage/年月度クレーム費集計表 (2)",
+    "ModuleName": "PCPage/クレーム費集計表承認画面",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-06-30T17:34:56.9379821+09:00",
+    "LockDateTime": "2026-06-30T17:59:12.4446856+09:00",
     "ModuleType": 1
   },
   {
