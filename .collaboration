@@ -446,5 +446,15 @@
   {
     "ModuleName": "TableView/v_Fコストワークフロー",
     "ModuleType": 23
+  },
+  {
+    "ModuleName": "PCPage/Fコスト管理_支払情報出力用",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-01T15:27:53.9739892+09:00",
+    "ModuleType": 1
   }
 ]
