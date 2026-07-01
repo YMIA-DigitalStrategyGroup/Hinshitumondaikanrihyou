@@ -257,17 +257,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報入力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:29:19.1504855+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.json",
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認申請",
@@ -280,20 +270,6 @@
   {
     "ModuleName": "PCPage/Fコスト承認情報確認ページ",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Fコスト承認画面_支払情報",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:28:05.6708106+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\支払情報\\Fコスト承認画面_支払情報.json",
-      "Pages\\Fコスト関連\\支払情報\\Fコスト承認画面_支払情報.rd"
-    ]
   },
   {
     "ModuleName": "Pages/Fコスト関連/統合会計番",
@@ -345,17 +321,7 @@
   },
   {
     "ModuleName": "MasterPCPage/品質問題",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:28:05.6708919+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\品質問題.json",
-      "MasterPages\\品質問題.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "ServerCommand/メール送信",
@@ -479,12 +445,6 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報出力用",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:27:53.9739892+09:00",
     "ModuleType": 1
   }
 ]
