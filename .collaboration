@@ -437,7 +437,17 @@
   },
   {
     "ModuleName": "PCPage/クレーム費集計表承認画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-01T09:44:34.0341106+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\統合会計番\\クレーム費集計表承認画面.json",
+      "Pages\\Fコスト関連\\統合会計番\\クレーム費集計表承認画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/承認状況一覧",
