@@ -121,7 +121,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "Fコスト管理_支払情報入力",
+                "PageName": "Fコスト管理_統合会計版",
                 "DeleteCachedQuery": true
               }
             ],
@@ -139,7 +139,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_統合会計版"
+                    "PageName": "Fコスト管理_統合会計版",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -147,8 +148,8 @@
                 ]
               },
               {
-                "Value": "支払情報入力",
-                "Text": "支払情報入力",
+                "Value": "クレーム費集計表",
+                "Text": "クレーム費集計表",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
                 "IconColorUseItemColor": true,
@@ -156,7 +157,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_支払情報入力"
+                    "PageName": "年月度クレーム費集計表",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -173,7 +175,26 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト承認画面_支払情報"
+                    "PageName": "クレーム費集計表承認画面",
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "承認状況一覧",
+                "Text": "承認状況一覧",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "承認状況一覧",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -297,4 +318,4 @@
       "Size": "2160,100"
     }
   ]
-}//c/CvGa/brPshXjh4ZsKRJmGoFJlySMyaJ6xBJ+K+OS/2lxCxaMsQVzgyq0su35yKgb24nks7+AXD4A1cKs94BBREE+LxOQjRjnQUONdH7hiaDp7UZt+/KJjD8PfN117af+SZBXJIWcUo9vRtE0NKoOLb3H4HDXeWaz6yPDWfUKB9yhGP3lBSbDog2fi9VSyqeflLQFxpGZLoVS/NhH3eO5Lpj+OuNf9stZMmutGNDMNIpaiVmmtaQgBSCKTHoSlie7cI3PRTEMOCFHxpbNbEGjDj2oGEnH4VPXyzV56BCxk3FU6/SAurljLtL/Qwz0yjKyHcgWZg3G51FAArBwg7onzp9AkP/hZMF5hh5XvKpowbfhk3Nx8EOMk6Zg56vM2LC039teqUpv74XvPkWcRtCZKWfTTmSDtpzp0c3jsS9TMiZ6m0h7i1Q6brCMjpzTkM8kaJuKScCQN7TtoOGh0JXLGaMIgh4kpyz2MZmUNMFn4Q1gIMZimPyUUnyF2LMrXtczDj4v/M0Sfzsw4hL3jnTuDRynHBGciv56N7DJsNP1/t1Har1FjE139xr9zvDkFSBO+CnPC7OrmVGgMsZwFTWXLVim0WXQyQ8iA/iRoIDUwZDP+yRv4E1AfhEMFgBYLaa9CaeImSH0me5mkWn0sgIiH3SjatDcjhDFxjIGN9YCjjF92/7LCdbLIPIcaauQD/DQBiQzguO3QAlz01z0s+XewTZ2FcBEKPqkrBoE24tAYY0qoCaPSse9wyD2uSG/RmUQ+ESddFhAWJC2fvOPCfQ5pM8zUtCZwa5AfGTV93o3+MBdMtTQ+JmdHGHmU1g7I/4Rf8BzJ2oysfD4wh7JZnS10Qc6du8oxdauES0DuDBLSoya4vXxf4xP7BXy+VEWgbvhYt3Jw9tlCjirybd5GLcw==|920
+}//AE69Es6AbmO8HGhDredBdwZNQYDyqFc3UyWbXKdUEXZqnpETQbk0B2fIcNdWe14LfR4K6fislxUw6ZwDvFFMkImdMsEaIB3N69akOW0aOxPvpZopq0PPTmeT0ATp9zqSTGDZQfmxbkx1pSEcNG86KRIW3o0bMlN2rRe1qq4ZQC0C0ytRDWzjT8LANPyI09VnQwaIxrmsMm250InuKaxgooz113FLr9rZ4r3WRoszob7nQKktHUGClFi4B6OD5rTg8f4nV7C+ziBImvTPC6t/l3sgY8b0f+M/2FkoKaYbMAO2bZRoivuBumsiAIrkY19ASYYT8tydBU/JPjECLztIfJHPFKQ7ujVsG2b80JAfg8HAqy55OmW0stTWPZbx95TCHy/awdmIALxqFbzd+c2942bbqtkrGxZsngnlnOXQoMdW3ufulDq4RostMR67LjbaW0WYJaO308cQqDV+RtmTkwLKNFYAeQuh/wsmKGkVqzS4zcnkznYuZsHJ7GJGKgcA18aePtVSQdzKNrgmpf76Ie1ZDE3RE4W5Qo+44iqIljwvwVncxjfK5V5PslABR3rns0gKAvN6jy1RTtUxYIrUa2tjR6e7FCCxiQHI44VTv3hzZcy743Qx6VWhbQOrT4HC/b0Pj6t0vPP2LX7O+rOE84o/K/pFn4gFSDzUR9TXaNX6Hkq4Na6+Ztwkb/iPu0jizEq5ZT2O7vDcbm66pe0HCyE+MwwKi2SGNEkQ2KkhB3rZVL7RnSn7jYhWWAuG9MB7clm4GKVkQMqhxjwCgYPsAWrPA18cNKdoprekMwP8gj2tbpZI27e9hRmnnX+5rdRl+dzlU2iD38IiA2QzrQUagLb3yfPNgFJwRg6tqCL8n11Iy9oBTPIjkk8J2Rdf7q6fAIC9mkZzOwcOILrjfF23dQ==|920

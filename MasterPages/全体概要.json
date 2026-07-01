@@ -160,7 +160,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_統合会計版"
+                    "PageName": "Fコスト管理_統合会計版",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -168,8 +169,8 @@
                 ]
               },
               {
-                "Value": "支払情報入力",
-                "Text": "支払情報入力",
+                "Value": "クレーム費集計表",
+                "Text": "クレーム費集計表",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
                 "IconColorUseItemColor": true,
@@ -177,7 +178,8 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト管理_支払情報入力"
+                    "PageName": "年月度クレーム費集計表",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -194,7 +196,26 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "Fコスト承認画面_支払情報"
+                    "PageName": "クレーム費集計表承認画面",
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "承認状況一覧",
+                "Text": "承認状況一覧",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "承認状況一覧",
+                    "DeleteCachedQuery": true
                   }
                 ],
                 "CanVisitRoleList": [
@@ -572,4 +593,4 @@
       "Size": "3080,100"
     }
   ]
-}//6ZhwKcu3F9WiAe4LOq4Tuem2KgVw6eNZJwQau2bSXZ9LfCHwj8yuziZbqSgc1rnvh9r+TYLALuHQzft1AmU4JniVxGM45wRFOmgJqYtATZ1tUL7hNWTGVj/yUWpTh4xs1hglv0Zd2ie6zZC+WCzR2mrSiEjCMuo3Pjx2kWq5r3FSQUkHgzU6+/nCh4OuF/JHkdF1Hn0H9THQ9YqUFdduG3+axHCKM6zG8DXb2Kr4xeWozA0Xylfldwnun3fq9ZJc2odRhR9a15EST62RaZ0aHG2V+GAw3S8FV/mEbmI57tL5VhzQrmDF7Lxg5g98qAQ4GlsGSW2eDhzVsNOE2ik7OciCjVFTmDy5JqNRtiWA+qio3n75DsBV4fFSqUQjOuVXT+CMD1T63CBJxcaw7w4V04glXNEDPSLGxyS482TIV5exo2pBvd0fpl6DX94zN3yADBfE30Ih2/io1GfH3n9ivJyVNULrPa8p/SihqePnxStmimRUWlL6V2gNv0W5Flz6ZBv34ngXYW6npJ/KqehlD766Lh9y6QNZdsgh8SY4GR3GUYRl3ZZsp/fhNVXI5MMB6yxTxXh32xm93xeHbgK1NBePLglmH4E4mRM58en/aqmvymUfpWM6cMStWrV8tm+iPDXe2go4M8WNPBz0Dt5ifPfSmxV48qwbutyF0C+J+ClSjO27pTN74RidY7WRh004pn+AHK9LX9k8jCe9J/wGr78vbXRkaWtt4/lUVfjruSLc1PV+dl+YYMfOW21vmOCtmobs+hIka75hUj44EcRg75gcHzsG1Qh3r2LYCcs/oZPvLompfmKT3ivNzCEzihvg8xWP0JcXVMUaTDAU/sRENRuzch06JvsEs0FsdbrfIkj15CmwoIuBvLYj/gtIESec4VABfiiCLCGdOsDAve6ikQ==|920
+}//p3NpyrOxyQP47XVCgmjKII81TJbUdnH9GdQ/7QdPq7A9/XBSqVuBr4NX+AiVIjlYWe/wcfhxEtUONS03Rj1mHAxLFkzheXRXgKYHn1s3NyrSdQDBzugAcw4ApUJhz8BR/m7gVW4e1WgDviOb2d70lX0zJaXea+zkfbHuiucn477UT7eCv8PLhNcdrRPEhMotU3PwmeulJbWTpqrZ007GrwhIafw6UO0l/cnfXpxHfGQFE1heKhLrld5V4ERcs5TWtXGdedpOf2Lk8cRcwZCB/IFU4raxXa+cRSjOUKSriUxlNDUw5008R0tUQdUa7RrsDNBGvf2TzWr4hbHlkY9SezBTwHRCRLJFo4vYNGfMmUAp8bdz1PI7yiRRFyo21JZ5KtG9/gdLaK8H3IBluLILQ0Hhqf8wiHmDKvLaDLsvvB6/0OZcXgE9yTMmKvgxs2rNlZ35jZ8OhuEc50IhS2QhL2DaOUkOgELqC/k7cXj+wT0m5NThjARuWDjiQrnsvBLl6qfWVw1e5jQQSXc30Wxvm94Oaj4JansomdYbIRP3jcTaEpCBvm1jccTZYTK6LI0vI79mdTtSCtgNnDA46dy28/Uo36fTDYosu0Oun/tD72e0LJPehoeCz3kOaK73z8EuuLsJ6neECk0qzTJ73KxZBzBUcbd9+9M5Zy09DI0A0Fu5MpXOA67jkbk02nh5E8ImolAtUg29OAuYjpMCjJ8s554DPMe6y2HJgRLFkLiERgFnmmor55ojp62NizdQjrPJihXSSp3RdcHe2QmHwHb/RFyrcq+7lqy/8G30XV4siwbnTPDm9hcazlTBDA65RoLiTm3RktTOcH7HggIS7pZOtNywi2F/9QbS+XP23RWUdZqcTc4pXVsPOFqAqg+8iWJveq3oX+fDOFF1DcqVMIdOYQ==|920

@@ -174,6 +174,13 @@
             "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Fコスト管理_統合会計版",
+                "DeleteCachedQuery": true
+              }
+            ],
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -620,4 +627,4 @@
       "Size": "3080,100"
     }
   ]
-}//KYQOrrNFIvDL6d2lIhOHDTl53tz6ViEzxQMNqGF4tbR1lml9dx8QFzPc+Ik9ZFFLaHHURfwsNqWFfCt0WwtmiPPjjjKayRrVjT2I6Yv0SCu7c9BRdejB07zvgejCclDGWeQj5PjbEY2JjIm+hkZXIFl6Fh6a6pVYLNetb70trcnw/tdOB89z8kIpQGDj6Jc2gpytPu8cQcjEGTlTyu6k3VoxXO5beHKyOSbWoDVZlNzobT7qyr9BxnQvf9pgk6Y94OvvIrTeyPaQyg9j6nadMganrCSKkYB0SaTYv/G4Qffa+o8nMX45Oi9KiFARUJb/o+AdQ3i7rLdr6qhgg9aPFTCoQLz7Tdg5TycvlC+5K0HvvM5A3wplTwdPX7961O+kTMgRxrdLwQ7rzBa0xsbJzeBLKTaa+xeCuP4eJfYjNbqkK8S2qMTJWFaEPRRyRt5EO+B957jEaMZicquB50Rf6rjK/P8hPhaVDEsMVGMWM+sxU3gO2OedvrFM75OQQCR+NjSwgZhCPj1/D90FUnBRMss99bShLhfNtM6c6BM1cMVS/O/rOe2yeWLHiGdckH0KxWIQY9dDPBde3VNunKKeoIRvbpId4WiuYmhzW9jVQY/nCWgC0a5Pa9FlTi+3F6Ktc3qQuQGVTs/j8QdB1z3jxCWuK6nEPsskLy8gxjL823ZovZfh8ptKoc6ov8/7kVgV5U1SyNos10FW2XXtqjCeTtU/TEwQaQuV44C6xHwwvqFbV+ep+rF18pYp+UOF+qSI2K/FncnK7ipJGqwX1uICDyLPFdiNWFxm8oOmhKpdpA+mNCVtJbhw/8Tas7dxKZ7pJFJ7kDIwz93gvZ+BUVaTxL1IO5NXNFGhfHC15DtLQNzPfApBotxHTyd6wF2aYcind3qTnD7e+tnJrHYW/S+Jug==|920
+}//vxO1qpoP9+WvwSfZprBiYaricNlsyKvEJtSVTphpCha9NDWc+cSkmNMAjTTIFSK0Wbxp1psny4K+Hi0nkABtnWkq6PVhif6ob4UhRHtaUfj4joySUNI4guF+Re4KIVd7rvJlSHbW8oKuY2aog9u6vH1z94ZEMwoSuW8hCyOwsBSwGmkyYwgQI4tqhN7TdgrMHntB5eHVisRHLJAQtW+lM3buWMDXcYFiOSjgnxWVcmGCNwh7dR8TSC0HgSaoQXiInxgU9ICMraHRlL/IewdY//xonihq82mURZ6FLMj8/oiBFmU5sc2ML6GzjL3emcgVdn3nrpnrDTPwC5AZLfDJAI9xkrH7iMl0BhO/uwBQSccshYusJje8OKCMoP9uw2ayrovCwHf+ueKG9pPAq4u14JW8u7Wtx6cmjw25m458jv23OCKwo9ZR2BPU772sBKb76EIkOdF4ak5ro7yPXmSXYKOZo1EU2Seqz+IIUw5FHP0TslajvePbwDS+f7rkhnoqZTgK3P+gs4v/nzrIqUM4Dyv7gru1tDTyFVA5J+cKbFVZqxwaV0yRQwcIgT+TRNeO8D6FCPldws9MoreW4YmBEh9qh0ksYnKq8/eQKHgf9s+GaS0/Vdi7W2EvNDKZ7CvnBSFvZ0/Hn2C+mJCIWstGwR+nIBag5h0I3LBt2M10LL1Relfom+RK4Adr1QZW4SniR3W+uDjVb+C8Bv8b+nVRV7HM7VkjZJ4nzI0hYRZzcxzu3jJ/8Q+qp2cYHWzhMvADiytErXa9FN1paRs33GR8ZMwh09kJnsMyBmUSQVtKLJEu9JBfgzfJiqZZf7QcxIls0CEDQXTZ7q0SbMCDmyPuDog+xNuAW1tU7rZiPtM4KZF+oP8qw8AFpoONRRxlQKs4Xxi9CgXIwlNpv27ONhrI/w==|920
