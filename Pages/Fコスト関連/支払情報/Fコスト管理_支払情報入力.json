@@ -284,7 +284,7 @@
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "1baf4164-e029-4d06-9227-3a91d875b3cc"
+                "ID": "9144522a-0f43-4dea-89aa-bcad008671b1"
               }
             ]
           }
@@ -370,7 +370,7 @@
       "BindingInfo": {
         "TableName": "品質問題_Fコスト支払情報",
         "ColumnName": "W番号",
-        "GUID": "1ae7fb0b-d2ff-4445-b9f6-2160b780d209"
+        "GUID": "6118b8d3-7fd2-4a8f-8b01-2c2d9170253f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -389,6 +389,18 @@
           "TableName": "tknow",
           "ColumnName": "W_NBR",
           "GUID": "ba1e3959-bed4-4e65-a3d4-3afa7fd431d4"
+        },
+        "ItemsSort": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "tknow",
+                "ColumnName": "W_NBR",
+                "GUID": "d04eee47-32ef-40f5-b0d7-557ca9a5b579"
+              },
+              "Order": 1
+            }
+          ]
         }
       }
     },
@@ -3181,4 +3193,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//QNpZ3kky7fQ0qMi/EHBTIcTbDKiU3HM08kKuXIJC1vctTWKCrGKAFGL2GZ2cFWG38fvKSOFVtbSDdKRDZvF2AjazedLRcGTIfk8QDhmxAFxOGOx4IkA6XW7PPyX+5Uareb+3ko0bRTZ0MkSOW0Robnv/hIYYYabg7uZWgY2OVf0a5um191dirVmQKfY5ECP+XStN3SR+C36xyy8Tc94sri1rvfMfj4cZKU457vCARsIkocGwqd/OcGEYST3YebP2d7OVVMz3B7nslx0VrOAznAENLSBluAYnHgngE37QB/zSkO5WQLKxKGQ/CjmufV9880zT6QOtXKW4nW1mOdO5CCuK41A6kUBr4yLQj1cXfEp3Y3DPkXftENEVvlQlcHoLuSh9NUzPQ3MfHKyhWrtGGpe6RlUwYLdox3SNQLUXDptWCqSa35XcHAF70gzWnhC+HHrfTpGI4+NlwV3vhh1nJhEtG+bWxJTOEDr6G7Ir8dkWpSUtyrY6L0fy1ZLjbvQcelCD/852WzdkRWoXsin9Sjdus4ny8g2ufrVZP6SaPQTw+mWcBHpDkFhIurS99UNA+sv3qSk5BTz/hEAant4EzaR8gEvLXpm/hnA+cvo1LqZiugmg7aHlX8ezdR4D6lhBqL6hxI6+v1hRDFGsP5I5sYgxL46gqiTzML18RaWfO2g3fDka39i2awTbQ/YQPQFEZRPdgBLvfgEgnqX8gUHTfHj668K1xnpTMukAp1ASyPTNgr5G9Lo8A+5bpLh7ASv7IUOGw5DozJ0MGfjNcUIGY9pqSIS86cdkaO69FCgrhkHOZFvoIQKb3EL/+FTJ2WV2PHqJkTY7sxrT/U3CvBBRFVfe64k5vPQxXjYU0DftXAYAuThVXL0j8Pc2AgoLV+8GWAlmOf5NwrvGU3bk6GArRA==|920
+}//Kl4d5o3HSKUsu+KdUo906j4bMILrTGUOAnMz3Al3hWAtUp6wUJAJrmWZEu24/+duPSGNqvgAo6MDxOaPrmqmQrWMbLqg4Nnol8RcyicL/JlivjCkbRX7pwDMMkSloL3kBA75DH/PqsqT7Us9wOCFTkTMQ799o0xbzqgCNJc1Z2sPBZeoWffOMU5eKLQvHTqZeRdt+GbfedSHJNAwtSTJRYrgKCT/CaTLsFJDV/DjGk2673/qIzjFapke46C76yTZmXqVbUTgxPpLTJa3wfXLoV9+86EfuuPc/MQiUulci/PEXdCfcbUq29/0dMh7R92HrFt52Uq+xg8OD10ZwG6m2BmqzMse7MYAB8eGl8fcKm48CN7/o1W1IrbTh+yfz4UxHEEAPrj6cyXUjsACMtShgZzvY7r1RnYMMkjhpltGg8jaChfUcYTvNoHnPIuRo81xt56ZR/5WuRubQJvDIev+qtbFhTN+kd8OWAY3QJvJxjuZqMXqyDn5H5haQyjsvZ5yIp0j1+mCu/0nafgYYWI3C4Bwsktv1Bqb3SgR0aXAE0Q8E70s3uYadvbAXSZPoYfMXRi9rVC0XQOYPh/V4lyKhY3thHlkhoEWsGkptbIcOtTqv5kR1Y/sRrHFOkY181y4VDHuVFt1eWlJj//gB6VzENimNCvUKwEMGyvCanrl/vUQnqTpdTYXR9lhPwlWgCXkVwtOBbV+UgFTvPatmG0zArEURG0y7S1fIC0hz0uGlfUQXRMCKfvXKCs8xGY6FmlsbMi3JSLLcL+1p/+k5OgkYNgzNENy2ixuwS13vIkxQE7U5SowGFc3WSMiSYIP56MQkRkLs78QLmhKkP+FiCSpOWvfI+2UWRbvISYomI3JtJwLhdReDpgwVl5e5TnYZ9FAuIjObiZOPSk6HLir3k8hJQ==|920

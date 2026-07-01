@@ -257,17 +257,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報入力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:43:45.0541586+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.json",
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認申請",
