@@ -257,17 +257,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報入力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T10:08:25.4138949+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.json",
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報入力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト管理_承認申請",
@@ -319,31 +309,11 @@
   },
   {
     "ModuleName": "MasterPCPage/メニュー進捗管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T14:35:34.5489728+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\メニュー進捗管理表.json",
-      "MasterPages\\メニュー進捗管理表.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/クレームリスト管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T15:09:07.3781167+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\クレームリスト管理表.json",
-      "MasterPages\\クレームリスト管理表.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/全体概要",
@@ -351,17 +321,7 @@
   },
   {
     "ModuleName": "MasterPCPage/Fコスト",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T10:12:17.9228501+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\Fコスト.json",
-      "MasterPages\\Fコスト.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/品質問題",
@@ -477,17 +437,7 @@
   },
   {
     "ModuleName": "PCPage/クレーム費集計表承認画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-01T09:44:34.0341106+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\統合会計番\\クレーム費集計表承認画面.json",
-      "Pages\\Fコスト関連\\統合会計番\\クレーム費集計表承認画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/承認状況一覧",
