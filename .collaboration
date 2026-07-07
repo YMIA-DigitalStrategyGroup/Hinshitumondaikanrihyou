@@ -475,6 +475,16 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報出力用",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-07T16:37:17.2577263+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.json",
+      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.rd"
+    ]
   }
 ]
