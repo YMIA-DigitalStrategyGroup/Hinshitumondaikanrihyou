@@ -486,5 +486,15 @@
       "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.json",
       "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.rd"
     ]
+  },
+  {
+    "ModuleName": "TableView/v_製造不適合_件数集計表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-07T16:50:56.955511+09:00",
+    "ModuleType": 23
   }
 ]
