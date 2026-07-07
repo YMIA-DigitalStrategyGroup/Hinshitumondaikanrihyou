@@ -990,11 +990,11 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "Items": [
           {
-            "Value": "-",
+            "Value": "0",
             "DisplayValue": "-"
           },
           {
-            "Value": "○",
+            "Value": "1",
             "DisplayValue": "○"
           }
         ]
@@ -1329,7 +1329,7 @@
                     ]
                   }
                 ],
-                "ID": "ff2964c1-1ac4-4a97-a1ed-40599ed36277"
+                "ID": "c5d933b2-9d9d-47f0-bc08-b59e34e4a02c"
               },
               {
                 "Condition": {
@@ -1377,7 +1377,7 @@
                     ]
                   }
                 ],
-                "ID": "b4d42231-1c69-44e3-9f7a-b326cdcc00e9"
+                "ID": "d8ae2f8f-6c45-4550-9bd0-9c28b2c02ff9"
               },
               {
                 "Condition": {
@@ -1425,7 +1425,7 @@
                     ]
                   }
                 ],
-                "ID": "d28605d4-7fa0-460a-86eb-7c884bf8d21d"
+                "ID": "f9139c4c-05d0-4af2-83f9-3bcff351e890"
               },
               {
                 "CommandList": [
@@ -1442,7 +1442,7 @@
                     ]
                   }
                 ],
-                "ID": "d7599932-7c3e-4a2f-b30d-cf610b8b42b3"
+                "ID": "9aeb3848-fa10-48d4-9fb1-506459f9783a"
               }
             ]
           }
@@ -1690,35 +1690,19 @@
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
             "ConditionAndCommandPairList": [
               {
-                "ConfirmDialogSettings": {
-                  "Title": "確認",
-                  "FormulaText": "本当に実行してもよろしいですか？",
-                  "YesButtonText": "はい",
-                  "NoButtonText": "いいえ",
-                  "ConfirmIcon": 1
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=クレームリスト_編集画面!I33"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
                 },
                 "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-                    "ParameterName": "W番有無",
-                    "TableValue": {
-                      "TableName": "tknow",
-                      "TableValueType": 3,
-                      "SqlCondition": {
-                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                        "ColumnBindingInfo": {
-                          "TableName": "tknow",
-                          "ColumnName": "W_NBR",
-                          "GUID": "a5dc1a10-3c73-44de-bed7-bf45ab04cde2"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=クレームリスト_編集画面!I25"
-                        }
-                      }
-                    },
-                    "ID": "f0cc024e76674e6eab45a4c4aa925558"
-                  },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
                     "ConditionAndCommandPairList": [
@@ -1732,11 +1716,11 @@
                                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                                 "cellLocations": [
                                   {
-                                    "SerializeProperty": "=クレームリスト_編集画面!W番有無"
+                                    "SerializeProperty": "=クレームリスト_編集画面!I31"
                                   }
                                 ]
                               },
-                              "value": "0"
+                              "value": "空白"
                             },
                             {
                               "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1744,152 +1728,239 @@
                                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                                 "cellLocations": [
                                   {
-                                    "SerializeProperty": "=クレームリスト_編集画面!I25"
+                                    "SerializeProperty": "=クレームリスト_編集画面!I31"
                                   }
                                 ]
                               },
-                              "value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                "SerializeProperty": "=クレームリスト_編集画面!AM8"
-                              }
+                              "value": "調査中"
                             }
                           ],
                           "RelationType": 1
                         },
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                            "TableName": "tknow",
-                            "ShowConfirm": false
-                          },
-                          {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                            "TableName": "品質問題_進捗管理表",
-                            "ShowConfirm": false,
-                            "RowsToUpdate": 1,
-                            "RowsToUpdateCondition": {
-                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                              "ColumnBindingInfo": {
-                                "TableName": "品質問題_進捗管理表",
-                                "ColumnName": "W番号",
-                                "GUID": "0691e2c9-fb6f-47c9-8ed3-3322e7501337"
-                              },
-                              "Value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                "SerializeProperty": "=クレームリスト_編集画面!AM8"
-                              }
-                            },
-                            "UpdateBindingValues": [
+                            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                            "ConditionAndCommandPairList": [
                               {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "艇種",
-                                  "GUID": "c367c4d0-3c12-486e-ad58-9d68d006f10b"
+                                "ConfirmDialogSettings": {
+                                  "Title": "確認",
+                                  "FormulaText": "本当に実行してもよろしいですか？",
+                                  "YesButtonText": "はい",
+                                  "NoButtonText": "いいえ",
+                                  "ConfirmIcon": 1
                                 },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I14"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "艇番",
-                                  "GUID": "8a652b21-778a-4494-b1cd-3ae2ef271220"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!Y14"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "不具合内容",
-                                  "GUID": "981b1df0-023e-42fc-9547-0e33e37714aa"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I17"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "W番号",
-                                  "GUID": "561da31d-7f73-4c24-90b6-47b5ca20422b"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I25"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "SEAQ管理番号",
-                                  "GUID": "84dd79c3-99fd-4f80-8235-62b9e37e595a"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I27"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "製造不適合対象",
-                                  "GUID": "7ed6f26e-0115-4927-87db-3111895efab8"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!Z31"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "クレーム認定結果",
-                                  "GUID": "61278373-619c-4532-9822-e8f36273ec64"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I31"
-                                }
-                              },
-                              {
-                                "BindingInfo": {
-                                  "TableName": "品質問題_進捗管理表",
-                                  "ColumnName": "認定日",
-                                  "GUID": "46a76fde-86d4-478a-87e7-a57988649a10"
-                                },
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                                  "SerializeProperty": "=クレームリスト_編集画面!I33"
-                                }
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                    "ParameterName": "W番有無",
+                                    "TableValue": {
+                                      "TableName": "tknow",
+                                      "TableValueType": 3,
+                                      "SqlCondition": {
+                                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                        "ColumnBindingInfo": {
+                                          "TableName": "tknow",
+                                          "ColumnName": "W_NBR",
+                                          "GUID": "a5dc1a10-3c73-44de-bed7-bf45ab04cde2"
+                                        },
+                                        "Value": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=クレームリスト_編集画面!I25"
+                                        }
+                                      }
+                                    },
+                                    "ID": "c58f23a768fb4aacabcc20c71fccbb17"
+                                  },
+                                  {
+                                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                    "ConditionAndCommandPairList": [
+                                      {
+                                        "Condition": {
+                                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                          "SubConditions": [
+                                            {
+                                              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                              "param": {
+                                                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                                "cellLocations": [
+                                                  {
+                                                    "SerializeProperty": "=クレームリスト_編集画面!W番有無"
+                                                  }
+                                                ]
+                                              },
+                                              "value": "0"
+                                            },
+                                            {
+                                              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                              "param": {
+                                                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                                "cellLocations": [
+                                                  {
+                                                    "SerializeProperty": "=クレームリスト_編集画面!I25"
+                                                  }
+                                                ]
+                                              },
+                                              "value": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=クレームリスト_編集画面!AM8"
+                                              }
+                                            }
+                                          ],
+                                          "RelationType": 1
+                                        },
+                                        "CommandList": [
+                                          {
+                                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                            "TableName": "tknow",
+                                            "ShowConfirm": false
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                            "TableName": "品質問題_進捗管理表",
+                                            "ShowConfirm": false,
+                                            "RowsToUpdate": 1,
+                                            "RowsToUpdateCondition": {
+                                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                              "ColumnBindingInfo": {
+                                                "TableName": "品質問題_進捗管理表",
+                                                "ColumnName": "W番号",
+                                                "GUID": "0691e2c9-fb6f-47c9-8ed3-3322e7501337"
+                                              },
+                                              "Value": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=クレームリスト_編集画面!AM8"
+                                              }
+                                            },
+                                            "UpdateBindingValues": [
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "艇種",
+                                                  "GUID": "c367c4d0-3c12-486e-ad58-9d68d006f10b"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I14"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "艇番",
+                                                  "GUID": "8a652b21-778a-4494-b1cd-3ae2ef271220"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!Y14"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "不具合内容",
+                                                  "GUID": "981b1df0-023e-42fc-9547-0e33e37714aa"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I17"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "W番号",
+                                                  "GUID": "561da31d-7f73-4c24-90b6-47b5ca20422b"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I25"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "SEAQ管理番号",
+                                                  "GUID": "84dd79c3-99fd-4f80-8235-62b9e37e595a"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I27"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "製造不適合対象",
+                                                  "GUID": "7ed6f26e-0115-4927-87db-3111895efab8"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!Z31"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "クレーム認定結果",
+                                                  "GUID": "61278373-619c-4532-9822-e8f36273ec64"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I31"
+                                                }
+                                              },
+                                              {
+                                                "BindingInfo": {
+                                                  "TableName": "品質問題_進捗管理表",
+                                                  "ColumnName": "認定日",
+                                                  "GUID": "46a76fde-86d4-478a-87e7-a57988649a10"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=クレームリスト_編集画面!I33"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                                            "ReloadData": true
+                                          }
+                                        ],
+                                        "ID": "203cb399-acb0-4933-9829-249899fd2b4d"
+                                      },
+                                      {
+                                        "CommandList": [
+                                          {
+                                            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                                            "MessageFormula": "このW番号は既に設定されています。"
+                                          }
+                                        ],
+                                        "ID": "9725588a-dfcb-4c31-9772-7fe2dfaeaceb"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "ID": "b1cff624-e917-468f-b4bb-74ca9e57e055"
                               }
                             ]
-                          },
-                          {
-                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-                            "ReloadData": true
                           }
                         ],
-                        "ID": "4fccd936-77d8-4800-81a4-b77ee712fcb4"
+                        "ID": "15adc1b0-0661-4844-91ad-f53a2f57e9d0"
                       },
                       {
                         "CommandList": [
                           {
                             "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
-                            "MessageFormula": "このW番号は既に設定されています。"
+                            "MessageFormula": "判定計上月を入力してください。"
                           }
                         ],
-                        "ID": "0e7904ae-f10f-460a-96fa-a3be59fa52f9"
+                        "ID": "a9b2cc10-2ba2-474b-955c-8ddc859f7582"
                       }
                     ]
                   }
                 ],
-                "ID": "bcf2815d-99e3-490a-bbfc-2561e53609e3"
+                "ID": "d40b843e-069a-456b-b5ea-39b85a53062b"
               }
             ]
           }
@@ -1951,7 +2022,7 @@
                     ]
                   }
                 ],
-                "ID": "700f28e7-ac2f-4de8-9ced-fe7f21f975fb"
+                "ID": "d1322ea3-d57e-48e6-a51c-0e6660d1d0bf"
               },
               {
                 "Condition": {
@@ -1999,7 +2070,7 @@
                     ]
                   }
                 ],
-                "ID": "125ab446-18c1-48d2-a941-294ac5493a47"
+                "ID": "d173df32-d61c-4d66-bd5d-984efc2c53b8"
               },
               {
                 "Condition": {
@@ -2047,7 +2118,7 @@
                     ]
                   }
                 ],
-                "ID": "fe402eea-ddc1-4b1b-afd1-f5cd100ae9bb"
+                "ID": "5725d3a2-6c3f-4e07-9336-8d0ec97131f7"
               },
               {
                 "CommandList": [
@@ -2064,7 +2135,7 @@
                     ]
                   }
                 ],
-                "ID": "8eb88977-a7e8-44a5-ae22-6f7714c9516d"
+                "ID": "ad639fb7-501c-4c6d-9745-b8643eac97f9"
               }
             ]
           }
@@ -5605,7 +5676,7 @@
                 ]
               }
             ],
-            "ID": "68e20a4f-727e-49e4-aff8-1f8f1cfc8a70"
+            "ID": "e51b1e84-43c0-4282-b25d-3468f2397730"
           },
           {
             "CommandList": [
@@ -5622,7 +5693,7 @@
                 ]
               }
             ],
-            "ID": "3459e03a-b989-4e22-a18c-11c9f99ac312"
+            "ID": "be7a0a20-24b7-450f-be0d-334984cfbdc6"
           }
         ]
       },
@@ -5683,4 +5754,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//C295Bp3RGO9UOSeUykc7f/0SybD2UJbwtHSGf5c/xLWV6AOVIyGIxd0YTlUniSPgQVEpoKL/HPHqaItpcdWR6+qMTQuUD8gJ48AB+BzBNwQwPjr8XzEuGx98AdMMfA/6y5k0DC1wXUM3NK0lvY3doVKSX3v/Cj9KDigHv+9FUXlgE/+uPsIMSb0bgJFOdqIa4YT2Gi6hO2RxhfdGOTwGbGqTfAgg5pTdcxxnkfScKQgDYSl6vB1A3OofJMQ3K+vS8jSrsy5M848tWDQ6Ca/C8YQ7L4IcOeISokcLTDzv4mNN1rQYp3LB4txM7zuI5axwdrqG3OUK+D5rTwRnPqg4qW+PxMjjnGVLPMIdGhCipDyJOE7zo+qG5zuK5mOOqTwXT/IhD2qX5codQt4S4mGtf8TrKoxiqhGV6dKFSz2+Uh/a960SMWkMDaC2JsDNxrrEAZ5egnclJSP1Sq8mkHuSIy5BmHuLqu+m+AUgD/f31Aw2Sr8I7c39J8PTD6+ZKkDYP3gbAOHX4LLS5t6RdpHTmZZ0leNMnRLakFXlGrzTtI7Wl3GONlhq1oylhTpAQEJrrsA1l3irGRDWZpnmZXohn/QNg8QSQzn4ejBQNXIdecVK0e1KPIcJtZ+1QSBAzCh2bimVTRLvKPJHIWr7BwzeYEPdtHeLwcV03db2DYL8/ZU8JEpcbRyzWrF6iBI8S3/EIC+QfjZSjeYX447ct+kkJoDCM7QfV3vVZu6E5GHlSZJFZkZ6ej/C74W5WB4C8fg57mMRiQXtLcBW7itoEbZACW4byZQXFEHzP26kspnfojzR5ydBNRMaZxbDXE4GF72s7xJzWanX40JbdX56lI/HHUTXBX3i46EFBvr7FHkYCf9ezEYxmp8OA4DNvwagNT4wtuiqnGH7QnYNiiK7NlQ57g==|920
+}//dW6Wmkw48qHNfd1kJGmCUDUsPYfx0czz479IebsCDGJtWfRCMjnXk5+IwZIHAy7pzngxMY18qSE0bGVtZHC8Dq6jgoHQCKnKnf6Q12hJQ62vCWhsbjEHajSJ8VIrRfFi172qQ7TzP4ePuSw64VtQYRkOqocDtC/yG8JpaZcmbDRohJivFe7YTC7IB+TqfXzUHKuoLxMTe0lk4jbBg2aLwyi4C+p+e8NTBWg8jX3PI+WMa7JfUiaOUBeiOuAzq+CNVGGW9elro9KQsFp3P6U03htbInEPv8709BXi5oOotr+GUEh5fqTPswwmxoaPSzaGIvTtgymmBq+hpgBajjaNhSAUBg7L6jlZf4P7Bj7C+jAU3Ifi3BYbJGr5jP17cKMIx4zMxWxUZSJBdC9yxWVTK6mQ5qoGOqHVi6gFdWspN+J8VCIO/whm7QIEjc/ISXsp9s5O1gCt3+hdYCIPVKOEhlfdkw0AzhAdLawJ5sBLdEt4LIViSke++G+H1uj9CG9RbAQUB0JOXPLmfQ1rVXLkUyAYWABmyrCvElFI+DQ8q54nEIYmQgGSsIateUvztSck2cIU9YoQWFG9VLKNUJ24XD71H8J653kzAD1lANaq8CcR28Iotg/2sqdG5K9a0hWUtYeE++2zre786xr6ZAWMLY659Isgn7A4lRbgTSyZGO4FpthBimQvChC8vEW++GnKb7vPZd53jXvNFeEDzxUi0M9mpVKMhprw0SEjDLOSZR8a/tLHcgs/cGQc3BjyH43KKBkzjfuWoGyiwgtsoZ2b4dFYkw6AQ6N1S2KjWTQABDq5bm4qqLU5Q9KqRMZp/+ACkOJsewHrXPb5gl15+Q/Q9NMwO32nS8iZU2ZRvFjwlmKQ5j0Fk6JpquCNuHx6Mk1jOJfP1PYcS0Y2gI1QUTmH7g==|920

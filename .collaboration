@@ -201,17 +201,7 @@
   },
   {
     "ModuleName": "PCPage/進捗管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-07T16:28:19.0717789+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\進捗管理表関連\\進捗管理表.json",
-      "Pages\\進捗管理表関連\\進捗管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/進捗管理表_新規作成",
@@ -235,31 +225,11 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-07T16:29:26.6658434+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-07T16:30:44.8099242+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.json",
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/クレームリスト関連/クレーム処理指令書",
@@ -475,26 +445,10 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_支払情報出力用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-07T16:37:17.2577263+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.json",
-      "Pages\\Fコスト関連\\支払情報\\Fコスト管理_支払情報出力用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/v_製造不適合_件数集計表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-07-07T16:50:56.955511+09:00",
     "ModuleType": 23
   }
 ]
