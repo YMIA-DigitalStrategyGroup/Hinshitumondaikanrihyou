@@ -230,7 +230,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-07-09T17:53:48.4589666+09:00",
+    "LockDateTime": "2026-07-09T18:06:44.2975418+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
@@ -353,7 +353,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-07-09T18:06:44.2970647+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "image/組み込み画像",
