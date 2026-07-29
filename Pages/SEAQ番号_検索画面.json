@@ -113,7 +113,8 @@
     "5,90": "出荷日",
     "5,93": "出荷日",
     "29,1": "適用",
-    "29,9": "キャンセル"
+    "29,9": "キャンセル",
+    "29,19": "詳細情報"
   },
   "AttachInfos": {
     "3,2": {
@@ -258,7 +259,7 @@
               "ColumnBindingInfo": {
                 "TableName": "V_YMRServiceRequestTableEntity",
                 "ColumnName": "FAILUREDATE",
-                "GUID": "0617c60c-534b-404d-9d00-f5c83c0f10f7"
+                "GUID": "6ca713e9-9beb-40e8-a949-7f9f88aefb42"
               },
               "Order": 1
             }
@@ -272,6 +273,24 @@
           "IsEnabled": true
         },
         "ListViewStyleName": "_RS_Medium2",
+        "DoubleClickCommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "SEAQ情報_詳細",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=SEAQ番号_検索画面!C7"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=SEAQ情報_詳細!H2"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
         "CurrentRowChangedCommandList": [
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -429,7 +448,7 @@
                     "PassValueBack": true
                   }
                 ],
-                "ID": "e5e51ddf-f222-49e7-9f57-7a9a465fed23"
+                "ID": "6183d751-ad38-4918-b9fc-76abf96e98e9"
               }
             ]
           },
@@ -472,7 +491,7 @@
                   "value": "0"
                 },
                 "CommandList": [],
-                "ID": "d9f80e38-1552-46a6-bff6-4c46639c8c99"
+                "ID": "c6de5c9e-d8a2-4aef-85e9-bd7107134cce"
               },
               {
                 "CommandList": [
@@ -481,7 +500,7 @@
                     "MessageFormula": "SEAQ番号は既に設定されています。"
                   }
                 ],
-                "ID": "c8d7dd29-b674-484f-92a9-ef7da783efcc"
+                "ID": "9dec97ca-1278-47a2-8554-23ef6e172763"
               }
             ],
             "Disabled": true
@@ -502,6 +521,31 @@
           }
         ],
         "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "29,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "SEAQ情報_詳細",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=SEAQ番号_検索画面!C7"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=SEAQ情報_詳細!H2"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "詳細情報",
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -821,12 +865,24 @@
       "29,12": 2,
       "29,13": 2,
       "29,14": 2,
+      "29,19": 1,
+      "29,20": 2,
+      "29,21": 2,
+      "29,22": 2,
+      "29,23": 2,
+      "29,24": 2,
       "30,9": 2,
       "30,10": 2,
       "30,11": 2,
       "30,12": 2,
       "30,13": 2,
-      "30,14": 2
+      "30,14": 2,
+      "30,19": 2,
+      "30,20": 2,
+      "30,21": 2,
+      "30,22": 2,
+      "30,23": 2,
+      "30,24": 2
     },
     "SheetStyle": {
       "FontFamily": 1,
@@ -873,7 +929,8 @@
     "5,79,1,4",
     "5,83,1,5",
     "5,88,1,5",
-    "5,93,1,4"
+    "5,93,1,4",
+    "29,19,2,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -936,4 +993,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//nc+8kmZfRLSoopHEmP2wuEeSPj7Ehe/0XPaPAyIA/MJhnq2PYP2JDz8N/RXp4AVyk0BjZ4e5n28sdC7Zw0J20jE3UgkK7CswDNRqBPNptyd8GCCwNCWicCtl+DgrdH1MoL4dI0cXla7X8X1woBhVcji5nRb/KeM2BpK3ppDxkSvRCSy6f96cUDvHh5RvOtb/Yoik7r/IagqBeT5lsMxijhkDpZrWZ+RKpbkkLcQXTs5QJAZiiXXfDstS7SjZZJq0jf47l+HWwLUHmMWkbAIDtxo+PiWj9L/fW/vrlK1Xt5hSz2AAloBPKVqj1iUbldSje4B3bC/DIo04SBisquPzYGXvWwDx8aByaXyt3O0Y7UQORTxE12kPtNNsJ/TPXKwa0z15KG9swymTf1ue4KqdeLhB8KxPLcHm7uQrhoP71J/D4J/DO4DtVthKx0JGAj3vA/g3n5o0x8iKcUJgUajHRxT5eailP+YBcPnw3YoBhrigl6GzQuyeLQja+is9w2x9m3ektTc/XdTrLiz9spg4tpy3o0UBxKgNprouwOFCTVhvHhbNK1Gz4+fgD+RV4amAJe0vwye7nv0EvrrqDAdC1RB4KIljWHQL7Gc69MkilPgtxP9c4sbW0KAneaBthQs35dJZu75JF9qrrZXEBdwkc4H5IpwqbbVtiHpPa0E+KQzaAEvem7gR4QpdpqyrFk1sBKBZ/Y+QcWW7zKFfHLo1oa7NVDKS3edxi+POgFymU+vugdAkELD1xHO7o2ikZGEiWgJlsK6KKMeje0lBfQ4OjR8NVorqQc8RLoiPG3i9urZCcOwVtlCwTHVVilDdrRZ4d3nB3oWGSw7C5jSr0v0up6+/ra/S0IAl+7rIOVmwG96gngBJ0lE6ydCYbkh4WFZtqT0QGH/v7xsecpISsZPLMA==|920
+}//dylG2J/QU17irIcFstaEIfLiRK96tSeJ5RrPDUbVfkdfGUICTxCPz+CaBYYvTWYI2DThjMXOqBjMA1130CqvuhLs4TvqhrVIzOi86F40fgJceaj4s/c7dTgKKab4pEbQpzKKIvKNqsXtDVrjd1Gxj8TV4r0BOiMgF/L1vZe5dxqSwoHY0kZmPnnWk1CEON9zfwvsq0rJ+lHRq9zMwi2SV76qU0zA8ONWrt21SaBNZOZTHHzNcsYsD5DuhsB5baQV9WN3kbKN4OEYxfWAvDHrL/asUrOJHLiMfy/DNJhd1W3tWIGhtXz3rucIq9nibUKy1O4Ngz3CAHWfmVbO2xUaemxL/LzZazARdkhWfz7E6M3IM5lif1ImBP8koATjwLP2AUQiEVqKMazhk0PI/9VSe2dSofgiGhkFL4M2wdtdq5sjp+x5NLENp1lbO/6/JA3lKJkY7pLv7VjS5RtY517Zbv5yw+d8vhtLrLbYRG/GudTrF7ppRSqdAxW6oaczdjplcKJrZOikNCGKy+/qpW4DVAmTW4J1rJtHHRr6ZYibK6SX9iiVe0SfQPxpPxyDvov6n1EHKUEjx+ixVUAS4tgRhF7DdCCu69xH1kPKSAYUBAHxaIre/97+WOv01HNHB3cG0CgxI9xetSNhDIZjCBXCa4UsUBhodJHeVgUVhhkDnoH+/hzelwMIryh6sK4RGsJbf6UyYstGR2TDw8oCfgUpCMSO4WwX6s/69z4hoSk04eRob0TApoTU0y79nqbS3Ho7yRdvXIQvbvLRWiGTCL/agYesN671LqgO9ID5WdOVdAjtZJcNcyMg9n2Y4TD34jueN7jTbNqKudxtDGnWvUadKrK2JObpTM/xSTVovEm11nR4+Zvu1qspa0PsiQZ8lsYztUGqCGDhn5+MqJ9oSWK2Iw==|920
