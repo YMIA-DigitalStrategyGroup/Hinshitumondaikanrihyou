@@ -535,13 +535,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/積極対策管理",
+    "ModuleName": "PCPage/積極対策管理画面",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-08-03T09:45:22.5833044+09:00",
+    "LockDateTime": "2026-08-03T13:09:08.5136913+09:00",
     "ModuleType": 1
   }
 ]
