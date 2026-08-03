@@ -543,15 +543,5 @@
     },
     "LockDateTime": "2026-08-03T09:45:22.5833044+09:00",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "Table/積極対策管理1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-03T13:07:29.2484681+09:00",
-    "ModuleType": 7
   }
 ]
