@@ -258,7 +258,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-07-10T11:45:58.9810571+09:00",
+    "LockDateTime": "2026-08-18T09:26:12.3162933+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
@@ -285,7 +285,17 @@
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-18T09:26:12.3156201+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ2",
