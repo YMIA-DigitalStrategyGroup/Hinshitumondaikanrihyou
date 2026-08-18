@@ -171,11 +171,10 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
-      "DatabaseColumnType": "int",
+      "DatabaseColumnType": "varchar",
       "MaxLength": -1,
-      "Name": "移行フラグ",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "Name": "抽出番号",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
   "ExternalDatabaseInfo": {
@@ -183,7 +182,7 @@
     "ConnectionId": "Sql経営管理部",
     "SourceTableName": "V_期間費用明細_クレーム費用",
     "SourceTableSchema": "dbo",
-    "CreateViewSql": "(\r\n    select \r\n        *, \r\n        0 as 移行フラグ \r\n    from 期間費用明細 \r\n    where 勘定科目コード='6570'\r\n)",
+    "CreateViewSql": "(\r\n    select \r\n        *,\r\n        CASE \r\n        WHEN LEFT(LTRIM(RTRIM(REPLACE(REPLACE(明細摘要, CHAR(160), ''), CHAR(9), ''))), 1) in ('W','ｗ','Ｗ' )\r\n        THEN SUBSTRING(LTRIM(RTRIM(REPLACE(REPLACE(明細摘要, CHAR(160), ''), CHAR(9), ''))), 2, 6)\r\n        ELSE '-'\r\n    END AS 抽出番号\r\n    from 期間費用明細 \r\n    where 勘定科目コード='6570' \r\n)",
     "ViewInfo": {
       "ViewName": "V_期間費用明細_クレーム費用",
       "IsUpdatable": true,

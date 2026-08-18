@@ -505,6 +505,7 @@
     "30,1": "部品又は場所別　※",
     "30,18": "販社特約店　※",
     "32,1": "要因　※",
+    "32,18": "社内担当部門",
     "34,1": "現象　※",
     "38,1": "発生頻度　※",
     "38,18": "RPN",
@@ -516,13 +517,13 @@
     "53,1": "依頼事項・備考欄",
     "57,1": "社外責任会社名",
     "59,1": "対応方法",
-    "65,1": "社内責任部門",
     "69,1": "作成",
     "69,26": "キャンセル",
     "74,0": "重要度計算",
     "76,8": "処理月度",
     "79,0": "対策（対応方法）",
-    "83,0": "W番号"
+    "83,0": "W番号",
+    "83,21": "舟艇・海洋商品 ※"
   },
   "Formulas": {
     "38,25": "I39*I41*I43",
@@ -694,15 +695,9 @@
         "GUID": "1f69da46-79d0-41a1-9d4c-7dd73c895e57"
       },
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "DataValidationInfo": {}
+      }
     },
     "24,8": {
       "BindingInfo": {
@@ -769,12 +764,7 @@
         "GUID": "88301d9b-f165-4a9c-b065-671a2246fb06"
       },
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
@@ -1080,6 +1070,42 @@
         "IgnoreBlank": false
       }
     },
+    "32,25": {
+      "BindingInfo": {
+        "TableName": "tknow",
+        "ColumnName": "SEKININBUMON",
+        "GUID": "3fd2617a-2fdb-4d54-897a-2f5a675e3719"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "SelectOnly": false,
+        "AllowMultiSelect": true,
+        "MaxDropDownItemCount": 10,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "mname",
+        "ValueColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO_CODE",
+          "GUID": "923e63cb-c69d-4598-9dd2-906c74011b52"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO",
+          "GUID": "56f5add8-dcf1-4746-8c40-4947ca81c247"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "mname",
+            "ColumnName": "KUBUN_MEISHO",
+            "GUID": "6fd047bf-64fe-4fcd-b579-1104fc45c9e4"
+          },
+          "Value": "責任部門"
+        },
+        "AddNullItemWhenBinding": true
+      }
+    },
     "34,8": {
       "BindingInfo": {
         "TableName": "tknow",
@@ -1242,7 +1268,7 @@
                     ]
                   }
                 ],
-                "ID": "f98ca975-57f4-4260-8a61-df69b190ae7e"
+                "ID": "07c43365-59ae-48f9-b37e-bdbabdf4e4a3"
               },
               {
                 "Condition": {
@@ -1290,7 +1316,7 @@
                     ]
                   }
                 ],
-                "ID": "579e3007-1bcc-4c44-bbf9-d85d8e22a836"
+                "ID": "0e1b4a7e-19b1-436a-a600-ebdc1cbfd72d"
               },
               {
                 "Condition": {
@@ -1338,7 +1364,7 @@
                     ]
                   }
                 ],
-                "ID": "a9ad4013-0a80-4d9a-9c6e-458a9545cb93"
+                "ID": "22f809e8-aa72-4d63-aee0-cff55985dd32"
               },
               {
                 "CommandList": [
@@ -1355,7 +1381,7 @@
                     ]
                   }
                 ],
-                "ID": "bbd3c384-d23f-4241-8f9c-0bd72cd8e602"
+                "ID": "c7084ddb-3667-4ad5-823b-1ed58a41a08b"
               }
             ]
           }
@@ -1559,42 +1585,6 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
-    "65,8": {
-      "BindingInfo": {
-        "TableName": "tknow",
-        "ColumnName": "SEKININBUMON",
-        "GUID": "3fd2617a-2fdb-4d54-897a-2f5a675e3719"
-      },
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "SelectOnly": false,
-        "AllowMultiSelect": true,
-        "MaxDropDownItemCount": 10,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "IsBounding": true,
-        "DataSource": "mname",
-        "ValueColumnBindingInfo": {
-          "TableName": "mname",
-          "ColumnName": "MEISHO_CODE",
-          "GUID": "923e63cb-c69d-4598-9dd2-906c74011b52"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "mname",
-          "ColumnName": "MEISHO",
-          "GUID": "56f5add8-dcf1-4746-8c40-4947ca81c247"
-        },
-        "ItemsQuery": {
-          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-          "ColumnBindingInfo": {
-            "TableName": "mname",
-            "ColumnName": "KUBUN_MEISHO",
-            "GUID": "6fd047bf-64fe-4fcd-b579-1104fc45c9e4"
-          },
-          "Value": "責任部門"
-        },
-        "AddNullItemWhenBinding": true
-      }
-    },
     "69,1": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -1701,7 +1691,7 @@
                             "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                           }
                         ],
-                        "ID": "5e3b0919-45c5-44ac-b4e7-a30303cfc88d"
+                        "ID": "c387be0c-3616-4939-a61c-73b2a3abdf5d"
                       }
                     ],
                     "Disabled": true
@@ -1716,7 +1706,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHIN_TIMESTAMP",
-                          "GUID": "a8a43b5e-2a8e-4fd8-ad92-9212c4aac73f"
+                          "GUID": "21294cdf-6c66-4efb-b42f-a00563f783c7"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1727,7 +1717,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "KOSHINSHA_CODE",
-                          "GUID": "fd63bc46-8d9c-40dd-bce6-2a5aa4ee14d3"
+                          "GUID": "66bfb6bc-bf3b-4fa0-90e8-346907cb055d"
                         },
                         "Value": "%CurrentUser%"
                       },
@@ -1735,7 +1725,7 @@
                         "BindingInfo": {
                           "TableName": "tknow",
                           "ColumnName": "W_NBR",
-                          "GUID": "fbf35253-84cd-4c89-8364-4588375e7c82"
+                          "GUID": "c15fabab-ae49-4123-83f4-cfe7757333d0"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1783,7 +1773,7 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "W番号",
-                                  "GUID": "af971b3b-07da-410e-96e1-5d3ccc77d0f5"
+                                  "GUID": "2088ebdb-7fc8-4ab1-8d0f-08fd4c5af377"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1794,7 +1784,7 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "W番号発行日",
-                                  "GUID": "969351ed-f92d-4325-82dc-78491a5c272c"
+                                  "GUID": "6fc4a5b7-bcd1-4b2b-a242-2a2e675386a0"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1805,7 +1795,7 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "艇番",
-                                  "GUID": "0d41b244-3f1f-4561-80b3-9d8196eb324b"
+                                  "GUID": "b014c9ac-49db-4954-8bc2-d06180080f5d"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1816,17 +1806,28 @@
                                 "BindingInfo": {
                                   "TableName": "品質問題_進捗管理表",
                                   "ColumnName": "艇種",
-                                  "GUID": "9698f9b9-c76d-4a57-bc03-0e87d48fc754"
+                                  "GUID": "2aa37fd4-d9d4-4ed2-a596-fbc5e6a6c693"
                                 },
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                   "SerializeProperty": "=クレームリスト_新規作成!I14"
                                 }
+                              },
+                              {
+                                "BindingInfo": {
+                                  "TableName": "品質問題_進捗管理表",
+                                  "ColumnName": "商品分類",
+                                  "GUID": "dec3358b-a993-4f0f-9c30-bf9196de9af6"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=クレームリスト_新規作成!AC84"
+                                }
                               }
                             ]
                           }
                         ],
-                        "ID": "17320af3-0a93-441b-83fb-d60fd273cae4"
+                        "ID": "c785a2b8-c0cb-4309-8293-b5e225079232"
                       }
                     ]
                   },
@@ -1839,7 +1840,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "7ca59972-f05e-4106-83c8-2436b07aa023"
+                "ID": "07b6a538-5972-4f1f-a4c3-43a04fe287a8"
               }
             ]
           }
@@ -1901,7 +1902,7 @@
                     ]
                   }
                 ],
-                "ID": "ad057c99-5736-40fb-96cb-f90506392770"
+                "ID": "a863b4a7-4cef-429f-aeaf-43bde72c6d28"
               },
               {
                 "Condition": {
@@ -1949,7 +1950,7 @@
                     ]
                   }
                 ],
-                "ID": "3a00d861-0044-4939-8d92-c950fac39877"
+                "ID": "ed079766-6fae-4440-9c74-1a17832a1664"
               },
               {
                 "Condition": {
@@ -1997,7 +1998,7 @@
                     ]
                   }
                 ],
-                "ID": "6f4db014-2aba-4a68-9736-b5cfa9480ad5"
+                "ID": "70681618-84dd-4796-8e5d-dd75073a115b"
               },
               {
                 "CommandList": [
@@ -2014,7 +2015,7 @@
                     ]
                   }
                 ],
-                "ID": "b0f07658-58f0-4106-b432-6f82402b0e27"
+                "ID": "23468108-8061-4b46-9484-cfe0267e6f94"
               }
             ]
           }
@@ -2048,6 +2049,30 @@
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "83,28": {
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "商品分類",
+        "GUID": "e8c6a269-3d01-47fc-8411-80995068e9b4"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "舟艇",
+            "DisplayValue": "舟艇"
+          },
+          {
+            "Value": "海洋商品",
+            "DisplayValue": "海洋商品"
+          }
+        ]
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
       }
     }
   },
@@ -2280,15 +2305,39 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 12,
         "HorizontalAlignment": 5,
         "BorderTop": 0,
         "BorderLeft": 0
       },
       {
-        "Background": 13,
         "FontFamily": 0,
-        "BorderTop": 0
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 12,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
       },
       {
         "Background": 11,
@@ -2301,9 +2350,9 @@
         "BorderRight": 0
       },
       {
-        "Background": 14,
+        "Background": 13,
         "FontFamily": 0,
-        "Formatter": 15,
+        "Formatter": 14,
         "BorderTop": 0,
         "BorderLeft": 0
       },
@@ -2334,7 +2383,16 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Formatter": 16,
+        "Formatter": 15,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 11,
+        "FontFamily": 0,
+        "Formatter": 6,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -2344,7 +2402,7 @@
         "Background": null,
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Formatter": 17,
+        "Formatter": 16,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -2381,7 +2439,7 @@
       {
         "FontFamily": 0,
         "Formatter": 4,
-        "VerticalAlignment": 18,
+        "VerticalAlignment": 17,
         "WordWrap": true,
         "BorderBottom": 0,
         "BorderTop": 0,
@@ -2401,27 +2459,10 @@
       {
         "FontFamily": 0,
         "Formatter": 4,
-        "VerticalAlignment": 18,
+        "VerticalAlignment": 17,
         "WordWrap": true,
         "BorderTop": 0,
         "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderRight": 0
-      },
-      {
-        "Background": 11,
-        "FontFamily": 0,
-        "Formatter": 6,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": 0
       },
       {
         "FontFamily": 0,
@@ -2430,12 +2471,6 @@
         "BorderLeft": 0
       },
       {
-        "FontFamily": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": 0
-      },
-      {
         "Background": 11,
         "FontFamily": 0,
         "Formatter": 6,
@@ -2450,27 +2485,18 @@
         "BorderRight": 0
       },
       {
-        "Background": 19,
-        "FontFamily": 0,
-        "Formatter": 6,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": 0
-      },
-      {
-        "Background": 20,
+        "Background": 18,
         "FontFamily": 0,
         "Foreground": 2
       },
       {
-        "Background": 20,
+        "Background": 18,
         "FontFamily": 0,
         "Foreground": 2,
         "Formatter": 6
       },
       {
-        "Background": 13,
+        "Background": 12,
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
         "Formatter": 4
@@ -2478,6 +2504,15 @@
       {
         "Background": 9,
         "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 11,
+        "FontFamily": 0,
+        "Foreground": 7,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -2518,14 +2553,12 @@
         "Background 1 -15",
         "Text 1 0",
         "Accent 6 80",
-        "yyyy/MM/dd",
         "Accent 6 -25",
         "Background 1 0",
         "yyyy/mm/dd",
         "0000",
         "000",
         "Top",
-        "Accent 4 80",
         "Accent 6 60"
       ],
       "Borders": [
@@ -3116,22 +3149,22 @@
       "22,31": 33,
       "22,32": 33,
       "22,33": 35,
-      "23,1": 2,
-      "23,2": 2,
-      "23,3": 2,
-      "23,4": 2,
-      "23,5": 2,
-      "23,6": 2,
-      "23,7": 2,
-      "23,8": 25,
-      "23,9": 26,
-      "23,10": 26,
-      "23,11": 26,
-      "23,12": 26,
-      "23,13": 26,
-      "23,14": 26,
-      "23,15": 26,
-      "23,16": 27,
+      "23,1": 40,
+      "23,2": 40,
+      "23,3": 40,
+      "23,4": 40,
+      "23,5": 40,
+      "23,6": 40,
+      "23,7": 40,
+      "23,8": 41,
+      "23,9": 0,
+      "23,10": 0,
+      "23,11": 0,
+      "23,12": 0,
+      "23,13": 0,
+      "23,14": 0,
+      "23,15": 0,
+      "23,16": 42,
       "23,18": 2,
       "23,19": 2,
       "23,20": 2,
@@ -3155,15 +3188,15 @@
       "24,5": 2,
       "24,6": 2,
       "24,7": 2,
-      "24,8": 20,
-      "24,9": 21,
-      "24,10": 21,
-      "24,11": 21,
-      "24,12": 21,
-      "24,13": 21,
-      "24,14": 21,
-      "24,15": 40,
-      "24,16": 22,
+      "24,8": 43,
+      "24,9": 2,
+      "24,10": 2,
+      "24,11": 2,
+      "24,12": 2,
+      "24,13": 2,
+      "24,14": 2,
+      "24,15": 44,
+      "24,16": 2,
       "24,18": 38,
       "24,19": 2,
       "24,20": 2,
@@ -3187,15 +3220,15 @@
       "25,5": 2,
       "25,6": 2,
       "25,7": 2,
-      "25,8": 25,
-      "25,9": 26,
-      "25,10": 26,
-      "25,11": 26,
-      "25,12": 26,
-      "25,13": 26,
-      "25,14": 26,
-      "25,15": 26,
-      "25,16": 27,
+      "25,8": 2,
+      "25,9": 2,
+      "25,10": 2,
+      "25,11": 2,
+      "25,12": 2,
+      "25,13": 2,
+      "25,14": 2,
+      "25,15": 2,
+      "25,16": 2,
       "25,18": 2,
       "25,19": 2,
       "25,20": 2,
@@ -3212,14 +3245,14 @@
       "25,31": 16,
       "25,32": 16,
       "25,33": 17,
-      "26,18": 41,
+      "26,18": 45,
       "26,19": 2,
       "26,20": 2,
       "26,21": 2,
       "26,22": 2,
       "26,23": 2,
       "26,24": 2,
-      "26,25": 42,
+      "26,25": 46,
       "26,26": 33,
       "26,27": 33,
       "26,28": 33,
@@ -3244,14 +3277,14 @@
       "27,31": 16,
       "27,32": 16,
       "27,33": 17,
-      "30,1": 41,
+      "30,1": 45,
       "30,2": 2,
       "30,3": 2,
       "30,4": 2,
       "30,5": 2,
       "30,6": 2,
       "30,7": 19,
-      "30,8": 43,
+      "30,8": 47,
       "30,9": 2,
       "30,10": 2,
       "30,11": 2,
@@ -3261,7 +3294,7 @@
       "30,15": 2,
       "30,16": 2,
       "30,17": 0,
-      "30,18": 41,
+      "30,18": 45,
       "30,19": 2,
       "30,20": 2,
       "30,21": 2,
@@ -3277,47 +3310,47 @@
       "30,31": 21,
       "30,32": 21,
       "30,33": 22,
-      "31,1": 44,
-      "31,2": 44,
-      "31,3": 44,
-      "31,4": 44,
-      "31,5": 44,
-      "31,6": 44,
-      "31,7": 45,
-      "31,8": 44,
-      "31,9": 44,
-      "31,10": 44,
-      "31,11": 44,
-      "31,12": 44,
-      "31,13": 44,
-      "31,14": 44,
-      "31,15": 44,
-      "31,16": 44,
+      "31,1": 48,
+      "31,2": 48,
+      "31,3": 48,
+      "31,4": 48,
+      "31,5": 48,
+      "31,6": 48,
+      "31,7": 49,
+      "31,8": 48,
+      "31,9": 48,
+      "31,10": 48,
+      "31,11": 48,
+      "31,12": 48,
+      "31,13": 48,
+      "31,14": 48,
+      "31,15": 48,
+      "31,16": 48,
       "31,17": 30,
-      "31,18": 2,
-      "31,19": 2,
-      "31,20": 2,
-      "31,21": 2,
-      "31,22": 2,
-      "31,23": 2,
-      "31,24": 2,
-      "31,25": 25,
-      "31,26": 26,
-      "31,27": 26,
-      "31,28": 26,
-      "31,29": 26,
-      "31,30": 26,
-      "31,31": 26,
-      "31,32": 26,
-      "31,33": 27,
-      "32,1": 41,
+      "31,18": 40,
+      "31,19": 40,
+      "31,20": 40,
+      "31,21": 40,
+      "31,22": 40,
+      "31,23": 40,
+      "31,24": 40,
+      "31,25": 41,
+      "31,26": 0,
+      "31,27": 0,
+      "31,28": 0,
+      "31,29": 0,
+      "31,30": 0,
+      "31,31": 0,
+      "31,32": 0,
+      "31,33": 42,
+      "32,1": 45,
       "32,2": 2,
       "32,3": 2,
       "32,4": 2,
       "32,5": 2,
       "32,6": 2,
       "32,7": 2,
-      "32,8": 46,
+      "32,8": 50,
       "32,9": 2,
       "32,10": 2,
       "32,11": 2,
@@ -3327,55 +3360,55 @@
       "32,15": 2,
       "32,16": 2,
       "32,17": 30,
-      "32,18": 0,
-      "32,19": 0,
-      "32,20": 0,
-      "32,21": 0,
-      "32,22": 0,
-      "32,23": 0,
-      "32,24": 0,
-      "32,25": 0,
-      "32,26": 0,
-      "32,27": 0,
-      "32,28": 0,
-      "32,29": 0,
-      "32,30": 0,
-      "32,31": 0,
-      "32,32": 0,
-      "32,33": 0,
-      "33,1": 44,
-      "33,2": 44,
-      "33,3": 44,
-      "33,4": 44,
-      "33,5": 44,
-      "33,6": 44,
-      "33,7": 44,
-      "33,8": 44,
-      "33,9": 44,
-      "33,10": 44,
-      "33,11": 44,
-      "33,12": 44,
-      "33,13": 44,
-      "33,14": 44,
-      "33,15": 44,
-      "33,16": 44,
+      "32,18": 51,
+      "32,19": 2,
+      "32,20": 2,
+      "32,21": 2,
+      "32,22": 2,
+      "32,23": 2,
+      "32,24": 2,
+      "32,25": 43,
+      "32,26": 2,
+      "32,27": 2,
+      "32,28": 2,
+      "32,29": 2,
+      "32,30": 2,
+      "32,31": 2,
+      "32,32": 2,
+      "32,33": 2,
+      "33,1": 48,
+      "33,2": 48,
+      "33,3": 48,
+      "33,4": 48,
+      "33,5": 48,
+      "33,6": 48,
+      "33,7": 48,
+      "33,8": 48,
+      "33,9": 48,
+      "33,10": 48,
+      "33,11": 48,
+      "33,12": 48,
+      "33,13": 48,
+      "33,14": 48,
+      "33,15": 48,
+      "33,16": 48,
       "33,17": 30,
-      "33,18": 30,
-      "33,19": 30,
-      "33,20": 30,
-      "33,21": 30,
-      "33,22": 30,
-      "33,23": 30,
-      "33,24": 30,
-      "33,25": 30,
-      "33,26": 30,
-      "33,27": 30,
-      "33,28": 30,
-      "33,29": 30,
-      "33,30": 30,
-      "33,31": 30,
-      "33,32": 30,
-      "33,33": 30,
+      "33,18": 2,
+      "33,19": 2,
+      "33,20": 2,
+      "33,21": 2,
+      "33,22": 2,
+      "33,23": 2,
+      "33,24": 2,
+      "33,25": 2,
+      "33,26": 2,
+      "33,27": 2,
+      "33,28": 2,
+      "33,29": 2,
+      "33,30": 2,
+      "33,31": 2,
+      "33,32": 2,
+      "33,33": 2,
       "33,34": 0,
       "33,35": 0,
       "33,36": 0,
@@ -3383,22 +3416,22 @@
       "33,38": 0,
       "33,39": 0,
       "33,40": 0,
-      "34,1": 41,
-      "34,2": 44,
-      "34,3": 44,
-      "34,4": 44,
-      "34,5": 44,
-      "34,6": 44,
-      "34,7": 45,
-      "34,8": 47,
-      "34,9": 44,
-      "34,10": 44,
-      "34,11": 44,
-      "34,12": 44,
-      "34,13": 44,
-      "34,14": 44,
-      "34,15": 44,
-      "34,16": 44,
+      "34,1": 45,
+      "34,2": 48,
+      "34,3": 48,
+      "34,4": 48,
+      "34,5": 48,
+      "34,6": 48,
+      "34,7": 49,
+      "34,8": 52,
+      "34,9": 48,
+      "34,10": 48,
+      "34,11": 48,
+      "34,12": 48,
+      "34,13": 48,
+      "34,14": 48,
+      "34,15": 48,
+      "34,16": 48,
       "34,17": 30,
       "34,18": 30,
       "34,19": 30,
@@ -3470,14 +3503,14 @@
       "36,38": 0,
       "36,39": 0,
       "36,40": 0,
-      "38,1": 41,
+      "38,1": 45,
       "38,2": 2,
       "38,3": 2,
       "38,4": 2,
       "38,5": 2,
       "38,6": 2,
       "38,7": 2,
-      "38,8": 48,
+      "38,8": 53,
       "38,9": 21,
       "38,10": 21,
       "38,11": 21,
@@ -3536,14 +3569,14 @@
       "39,31": 26,
       "39,32": 26,
       "39,33": 27,
-      "40,1": 41,
+      "40,1": 45,
       "40,2": 2,
       "40,3": 2,
       "40,4": 2,
       "40,5": 2,
       "40,6": 2,
       "40,7": 2,
-      "40,8": 48,
+      "40,8": 53,
       "40,9": 21,
       "40,10": 21,
       "40,11": 21,
@@ -3560,7 +3593,7 @@
       "40,22": 2,
       "40,23": 2,
       "40,24": 19,
-      "40,25": 49,
+      "40,25": 54,
       "40,26": 21,
       "40,27": 21,
       "40,28": 21,
@@ -3602,14 +3635,14 @@
       "41,31": 26,
       "41,32": 26,
       "41,33": 27,
-      "42,1": 41,
+      "42,1": 45,
       "42,2": 2,
       "42,3": 2,
       "42,4": 2,
       "42,5": 2,
       "42,6": 2,
       "42,7": 19,
-      "42,8": 50,
+      "42,8": 55,
       "42,9": 21,
       "42,10": 21,
       "42,11": 21,
@@ -3636,7 +3669,7 @@
       "43,15": 26,
       "43,16": 27,
       "43,17": 0,
-      "44,1": 51,
+      "44,1": 56,
       "44,2": 0,
       "44,3": 0,
       "44,4": 0,
@@ -3684,14 +3717,14 @@
       "45,22": 0,
       "45,23": 0,
       "45,24": 0,
-      "46,1": 41,
+      "46,1": 45,
       "46,2": 2,
       "46,3": 2,
       "46,4": 2,
       "46,5": 2,
       "46,6": 2,
       "46,7": 19,
-      "46,8": 52,
+      "46,8": 57,
       "46,9": 2,
       "46,10": 2,
       "46,11": 2,
@@ -3816,14 +3849,14 @@
       "49,31": 2,
       "49,32": 2,
       "49,33": 0,
-      "50,1": 53,
+      "50,1": 58,
       "50,2": 2,
       "50,3": 2,
       "50,4": 2,
       "50,5": 2,
       "50,6": 2,
       "50,7": 2,
-      "50,8": 54,
+      "50,8": 59,
       "50,9": 21,
       "50,10": 21,
       "50,11": 21,
@@ -3856,7 +3889,7 @@
       "51,5": 2,
       "51,6": 2,
       "51,7": 2,
-      "51,8": 55,
+      "51,8": 41,
       "51,9": 0,
       "51,10": 0,
       "51,11": 0,
@@ -3880,7 +3913,7 @@
       "51,29": 0,
       "51,30": 0,
       "51,31": 0,
-      "51,32": 56,
+      "51,32": 42,
       "51,33": 0,
       "52,1": 2,
       "52,2": 2,
@@ -3915,14 +3948,14 @@
       "52,31": 26,
       "52,32": 27,
       "52,33": 0,
-      "53,1": 53,
+      "53,1": 58,
       "53,2": 2,
       "53,3": 2,
       "53,4": 2,
       "53,5": 2,
       "53,6": 2,
       "53,7": 2,
-      "53,8": 54,
+      "53,8": 59,
       "53,9": 21,
       "53,10": 21,
       "53,11": 21,
@@ -3955,7 +3988,7 @@
       "54,5": 2,
       "54,6": 2,
       "54,7": 2,
-      "54,8": 55,
+      "54,8": 41,
       "54,9": 0,
       "54,10": 0,
       "54,11": 0,
@@ -3979,7 +4012,7 @@
       "54,29": 0,
       "54,30": 0,
       "54,31": 0,
-      "54,32": 56,
+      "54,32": 42,
       "54,33": 0,
       "55,1": 2,
       "55,2": 2,
@@ -4015,14 +4048,14 @@
       "55,32": 27,
       "55,33": 0,
       "56,33": 0,
-      "57,1": 57,
+      "57,1": 51,
       "57,2": 2,
       "57,3": 2,
       "57,4": 2,
       "57,5": 2,
       "57,6": 2,
       "57,7": 2,
-      "57,8": 58,
+      "57,8": 60,
       "57,9": 21,
       "57,10": 21,
       "57,11": 21,
@@ -4032,14 +4065,14 @@
       "57,15": 21,
       "57,16": 22,
       "57,33": 0,
-      "58,1": 59,
-      "58,2": 59,
-      "58,3": 59,
-      "58,4": 59,
-      "58,5": 59,
-      "58,6": 59,
-      "58,7": 59,
-      "58,8": 55,
+      "58,1": 40,
+      "58,2": 40,
+      "58,3": 40,
+      "58,4": 40,
+      "58,5": 40,
+      "58,6": 40,
+      "58,7": 40,
+      "58,8": 41,
       "58,9": 0,
       "58,10": 0,
       "58,11": 0,
@@ -4047,16 +4080,16 @@
       "58,13": 0,
       "58,14": 0,
       "58,15": 0,
-      "58,16": 56,
+      "58,16": 42,
       "58,33": 0,
-      "59,1": 60,
+      "59,1": 61,
       "59,2": 33,
       "59,3": 33,
       "59,4": 33,
       "59,5": 33,
       "59,6": 33,
       "59,7": 33,
-      "59,8": 54,
+      "59,8": 59,
       "59,9": 33,
       "59,10": 33,
       "59,11": 33,
@@ -4115,13 +4148,13 @@
       "60,31": 16,
       "60,32": 17,
       "60,33": 0,
-      "61,1": 61,
-      "61,2": 61,
-      "61,3": 61,
-      "61,4": 61,
-      "61,5": 61,
-      "61,6": 61,
-      "61,7": 61,
+      "61,1": 62,
+      "61,2": 62,
+      "61,3": 62,
+      "61,4": 62,
+      "61,5": 62,
+      "61,6": 62,
+      "61,7": 62,
       "61,8": 25,
       "61,9": 26,
       "61,10": 26,
@@ -4183,39 +4216,7 @@
       "64,31": 0,
       "64,32": 0,
       "64,33": 0,
-      "65,1": 62,
-      "65,2": 2,
-      "65,3": 2,
-      "65,4": 2,
-      "65,5": 2,
-      "65,6": 2,
-      "65,7": 2,
-      "65,8": 20,
-      "65,9": 21,
-      "65,10": 21,
-      "65,11": 21,
-      "65,12": 21,
-      "65,13": 21,
-      "65,14": 21,
-      "65,15": 21,
-      "65,16": 22,
       "65,33": 0,
-      "66,1": 59,
-      "66,2": 59,
-      "66,3": 59,
-      "66,4": 59,
-      "66,5": 59,
-      "66,6": 59,
-      "66,7": 59,
-      "66,8": 55,
-      "66,9": 0,
-      "66,10": 0,
-      "66,11": 0,
-      "66,12": 0,
-      "66,13": 0,
-      "66,14": 0,
-      "66,15": 0,
-      "66,16": 56,
       "66,33": 0,
       "67,1": 23,
       "67,2": 23,
@@ -4402,7 +4403,7 @@
       "75,40": 0,
       "75,41": 0,
       "75,42": 0,
-      "76,8": 57,
+      "76,8": 51,
       "76,9": 2,
       "76,10": 2,
       "76,11": 2,
@@ -4434,14 +4435,14 @@
       "77,21": 26,
       "77,22": 26,
       "77,23": 27,
-      "79,0": 53,
+      "79,0": 58,
       "79,1": 2,
       "79,2": 2,
       "79,3": 2,
       "79,4": 2,
       "79,5": 2,
       "79,6": 2,
-      "79,7": 54,
+      "79,7": 59,
       "79,8": 21,
       "79,9": 21,
       "79,10": 21,
@@ -4473,7 +4474,7 @@
       "80,4": 2,
       "80,5": 2,
       "80,6": 2,
-      "80,7": 55,
+      "80,7": 41,
       "80,8": 0,
       "80,9": 0,
       "80,10": 0,
@@ -4497,7 +4498,7 @@
       "80,28": 0,
       "80,29": 0,
       "80,30": 0,
-      "80,31": 56,
+      "80,31": 42,
       "81,0": 2,
       "81,1": 2,
       "81,2": 2,
@@ -4546,27 +4547,59 @@
       "83,13": 21,
       "83,14": 21,
       "83,15": 22,
-      "84,0": 44,
-      "84,1": 44,
-      "84,2": 44,
-      "84,3": 44,
-      "84,4": 44,
-      "84,5": 44,
-      "84,6": 44,
-      "84,7": 67,
-      "84,8": 68,
-      "84,9": 68,
-      "84,10": 68,
-      "84,11": 68,
-      "84,12": 68,
-      "84,13": 68,
-      "84,14": 68,
-      "84,15": 69
+      "83,21": 67,
+      "83,22": 2,
+      "83,23": 2,
+      "83,24": 2,
+      "83,25": 2,
+      "83,26": 2,
+      "83,27": 2,
+      "83,28": 37,
+      "83,29": 21,
+      "83,30": 21,
+      "83,31": 21,
+      "83,32": 21,
+      "83,33": 21,
+      "83,34": 21,
+      "83,35": 21,
+      "83,36": 22,
+      "84,0": 48,
+      "84,1": 48,
+      "84,2": 48,
+      "84,3": 48,
+      "84,4": 48,
+      "84,5": 48,
+      "84,6": 48,
+      "84,7": 68,
+      "84,8": 69,
+      "84,9": 69,
+      "84,10": 69,
+      "84,11": 69,
+      "84,12": 69,
+      "84,13": 69,
+      "84,14": 69,
+      "84,15": 70,
+      "84,21": 2,
+      "84,22": 2,
+      "84,23": 2,
+      "84,24": 2,
+      "84,25": 2,
+      "84,26": 2,
+      "84,27": 2,
+      "84,28": 25,
+      "84,29": 26,
+      "84,30": 26,
+      "84,31": 26,
+      "84,32": 26,
+      "84,33": 26,
+      "84,34": 26,
+      "84,35": 26,
+      "84,36": 27
     },
     "RowStyles": {
-      "12": 70,
-      "15": 70,
-      "35": 70
+      "12": 71,
+      "15": 71,
+      "35": 71
     },
     "SheetStyle": {
       "FontFamily": 0
@@ -4647,8 +4680,6 @@
     "26,25,2,9",
     "57,1,2,7",
     "57,8,2,9",
-    "65,1,2,7",
-    "65,8,2,9",
     "30,25,2,9",
     "8,1,1,3",
     "40,25,2,9",
@@ -4660,10 +4691,14 @@
     "24,1,2,7",
     "24,15,2,2",
     "24,8,2,7",
-    "22,25,2,9",
-    "24,25,2,9",
     "13,8,2,9",
-    "13,24,2,9"
+    "13,24,2,9",
+    "24,25,2,9",
+    "22,25,2,9",
+    "32,18,2,7",
+    "32,25,2,9",
+    "83,21,2,7",
+    "83,28,2,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4698,7 +4733,7 @@
                 ]
               }
             ],
-            "ID": "eeea41df-1204-4a8b-8bc8-9ca99c1c201a"
+            "ID": "0cabb829-ad1e-4a37-b29c-5e87938f437b"
           },
           {
             "CommandList": [
@@ -4715,7 +4750,7 @@
                 ]
               }
             ],
-            "ID": "3ba308b6-57e2-42d1-aed1-d622801ee167"
+            "ID": "9b695ce4-6184-4072-abc1-2bbb03287f07"
           }
         ]
       }
@@ -4735,10 +4770,11 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "品質問題_進捗管理表"
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//cJ1HYdnpgDpmgZTEo/gtCGvFmAL9GynkYa4hENxD67YF+0qX5imzRLcQ/iSZyQdoxUC0kK2tqATvOeFL6+b+GpW3xQXjFwBZZyoLmgtNEo5E2eekHausGalTvy5tBgBawy7CWRYLi3//Djhiz7p6Gtcw/42Q+ZN+lFr/LhvJSSdC1Znbb+qxS75zGWw3SBFw00nst2QRuBCylFbXrjx4kHayPFFePHyNAuahs+w4HgeAtRGP4yB9Mldocy1SC5eB3BVnVkau2NRZWx0TFW7jACJZj1MA0s26+MPvU683AfG1QKTC4gnK4O585WcxBzq6EqgX/VSmdRY/Q/cafAqrXSVruZ7gqiC0BFkPvxcdqe2vsfj9u+WA5YWBsQ4nAC2hEU3M9gH242gBKRf1HBRdXiScid+ujleI3yEYmRC8bFLMBGDGuGrXPoc6T5mZHYEWxAyA7XWWOlvDWzMepSkFUOPMEFO8pNaneQ+Jsw2KIbDOPuAAHtB1bQqp13IsczZYpy9VueIgE868QUjbb+Ou7ny4rwWzY3wwT4jhHvv4hvJrhQXHYyap9QWc+w9ZcfRl3v7qXdAx8LqXJdrK+XtUDVVQSvK/ux9sqy/vwHR44WpTDXB8aTcBqabkZoDcR+Wk3TUu08XoxEQLD5q4qf5sXXGPXvl90Vcwn0gjdXPGpxChhneQgkpA3gFxUbfClhDgpnL/+6CiCGFnnYqIq2pDKrkmT5rIOxqsVqUkTcRmx6oo+ATGP0kyl5GtwLKGbQkFPBhcS+4nwmMNaUdJbgOd0XZRDm7ZMnM32YybmNW8xnly22xP76Fvu0T6EloEw5VP4ct8WC5mgSVJ0HLcJWLpaOKuCsv4aBM7G0W4na/TI6OMG7jeFOHFXzvsxPvyGG56lX80olyJZ29+BqVlKZ49Gg==|920
+}//VdmTI3LeRVpq0djvW13XqdaBWpgsszyxHTJKWUfxyIstPW3f3ZyvsXwl2bnWoXnA01vhyOv9J7C8u4BDFBCWCk4EY7MW00FU0ZS4oe7CSAFyS9WkUwhryI7RvwCgpEOrm3oO1u8oLHirwgp+f1G/goVgx96QVOFL+AqEut6RGaX45VuJVa1C+DaFtyTyoFK+EilIsrwoY7LTbDgU0J+k75tG4ZqdHv6rIIE6Pvb7qHZ+xmMl932PGLCysWQKVMEadbPJu0WsGef/lYeJximLJ9aOrW9elhef+CAYULSwuhu1JtWgrTXisuNkfJVk0W4qoKAGsR6e5q/0rZvkGqZuvPMxLjsbAWxTF3ak26c2z51rTTJ0XpCqBRFNMT9d2r2MOCkq4BEQjjFYZqeJqUSekfL4lToa8cjXDEXEqNzdpNiTL3zTucNl2G8WCYrbzzmhEn+gwm91W/cUz2TM2YyNiVKCOn1fofB5MFg03EZyZTkH4R7RU1/K71Am8msa7sws9fBOVCudg6EoOGfjgmnromjOLi9EK9i0cNgl51JCCIAIDqV4VDsZuZ/LziXRe472z/ZIokYvVjmx7OwvW5fLRzpJ+UfKvklrjwUWOlQPiuys7d9LQO3iVVB6rkGaGVoSjjUTGG3n0N041RatB43ziEHeRE68n8LUqzPugUfWs9JlUCPB/6gJ6k8Y4iZucleNBdqy+zr9DhPSpbtPJnYSMbI1AVE/RcmjRKXHgnVm/s1DJ0ggCVtTQJfU4dxoyorwcPvo5vLGMe2vmHQp7f1Yx5mJQkCGCdRTgk9CY7WMyOU7OXHg7tbYViBMfauE5JUyZNXzetn3TiEemEuNQ9UJ/tBf5SP4y+sGd0JyMHbtXogHCp+7/UxEKvUE5EWRd9Y8+kLYU8V79S041pwAaXfj3g==|920

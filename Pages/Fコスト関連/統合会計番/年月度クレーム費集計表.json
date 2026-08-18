@@ -8,7 +8,7 @@
       },
       "8": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 34.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "33": {
@@ -402,6 +402,11 @@
         }
       }
     },
+    "InLogicalVisibleIndexes": [
+      43,
+      44,
+      45
+    ],
     "Count": 86
   },
   "Values": {
@@ -581,16 +586,14 @@
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
         "AllowEditInListview": true,
+        "ShowDeleteButton": true,
         "ColumnOperation": 2,
         "CommitType": 1
       }
     },
     "8,4": {
       "TotalRowSetting": {},
-      "IsAutoMergeInListview": true,
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      "IsAutoMergeInListview": true
     },
     "8,10": {
       "NameUsedInJavaScript": "W番号",
@@ -599,27 +602,16 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "W番号",
         "GUID": "419e4b8c-6771-4552-bf38-199347cb4886"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,14": {
-      "TotalRowSetting": {},
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      "TotalRowSetting": {}
     },
     "8,20": {
-      "TotalRowSetting": {},
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      "TotalRowSetting": {}
     },
     "8,25": {
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      "TotalRowSetting": {}
     },
     "8,29": {
       "TotalRowSetting": {},
@@ -632,10 +624,7 @@
           "RelatedColumn": "W_NBR",
           "DisplayColumn": "TITLE"
         }
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,43": {
       "TotalRowSetting": {},
@@ -648,10 +637,7 @@
           "RelatedColumn": "W_NBR",
           "DisplayColumn": "HASSEI_DATE"
         }
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,44": {
       "BindingInfo": {
@@ -663,10 +649,7 @@
           "RelatedColumn": "W_NBR",
           "DisplayColumn": "SEIBAN"
         }
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,45": {
       "TotalRowSetting": {},
@@ -679,10 +662,7 @@
           "RelatedColumn": "W_NBR",
           "DisplayColumn": "HANSHA_TOKUYAKUTEN"
         }
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,46": {
       "TotalRowSetting": {},
@@ -707,10 +687,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "支払額",
         "GUID": "40f07e67-7100-4dd9-a8e2-09fb091645ce"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,55": {
       "NameUsedInJavaScript": "倉出",
@@ -724,10 +701,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "倉出",
         "GUID": "575ef132-3448-49e0-a773-652c38529dbe"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,59": {
       "NameUsedInJavaScript": "運賃",
@@ -741,10 +715,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "運賃",
         "GUID": "d5da7e20-8834-4d88-9759-d862c1650024"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,63": {
       "NameUsedInJavaScript": "総クレーム費",
@@ -758,10 +729,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "総クレーム費",
         "GUID": "5adffc36-91b4-4ff0-bc9d-67f832affb82"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,67": {
       "NameUsedInJavaScript": "メーカー責任額",
@@ -775,10 +743,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "メーカー責任額",
         "GUID": "576e2885-a88c-49c4-87a7-75d5b96ac45e"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,71": {
       "NameUsedInJavaScript": "求債額",
@@ -792,10 +757,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "求債額",
         "GUID": "d0844e1a-810a-48f5-981c-3ac344e944b7"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "8,75": {
       "NameUsedInJavaScript": "YMIAクレーム費",
@@ -809,10 +771,7 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "YMIAクレーム費",
         "GUID": "1b526964-4954-433a-9c8d-a733ea03e375"
-      },
-      "RulesGuidList": [
-        "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2"
-      ]
+      }
     },
     "36,4": {
       "CellType": {
@@ -1377,40 +1336,11 @@
     }
   },
   "Spans": [
-    "7,10,1,4",
-    "8,10,1,4",
-    "8,4,1,6",
-    "7,4,1,6",
-    "7,14,1,6",
-    "8,14,1,6",
-    "7,20,1,5",
-    "8,20,1,5",
-    "7,25,1,4",
-    "7,29,1,14",
-    "8,25,1,4",
-    "8,29,1,14",
     "3,4,2,10",
     "3,14,2,4",
     "3,21,2,4",
     "3,25,2,8",
     "3,35,2,7",
-    "7,51,1,4",
-    "7,55,1,4",
-    "7,59,1,4",
-    "7,63,1,4",
-    "7,67,1,4",
-    "7,71,1,4",
-    "7,75,1,4",
-    "8,51,1,4",
-    "8,55,1,4",
-    "8,59,1,4",
-    "8,63,1,4",
-    "8,67,1,4",
-    "8,71,1,4",
-    "8,75,1,4",
-    "8,46,1,5",
-    "7,46,1,5",
-    "9,4,24,75",
     "33,29,1,22",
     "34,29,1,22",
     "35,29,1,22",
@@ -1435,7 +1365,36 @@
     "35,67,1,4",
     "35,71,1,4",
     "35,75,1,4",
-    "36,4,2,6"
+    "36,4,2,6",
+    "7,4,1,6",
+    "8,4,1,6",
+    "7,10,1,4",
+    "8,10,1,4",
+    "7,14,1,6",
+    "8,14,1,6",
+    "7,20,1,5",
+    "8,20,1,5",
+    "7,25,1,4",
+    "8,25,1,4",
+    "7,29,1,14",
+    "8,29,1,14",
+    "7,46,1,5",
+    "8,46,1,5",
+    "7,51,1,4",
+    "8,51,1,4",
+    "7,55,1,4",
+    "8,55,1,4",
+    "7,59,1,4",
+    "8,59,1,4",
+    "7,63,1,4",
+    "8,63,1,4",
+    "7,67,1,4",
+    "8,67,1,4",
+    "7,71,1,4",
+    "8,71,1,4",
+    "7,75,1,4",
+    "8,75,1,4",
+    "9,4,24,75"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1458,23 +1417,11 @@
     "RepeatRangeSettings": [],
     "RelatedDataTableName": "品質問題_Fコスト集計版",
     "ConditionFormatRulesCollection": {
-      "Rules": [
-        {
-          "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
-          "Operator": 7,
-          "Value1": "=100000",
-          "GUID": "c05eeb7a-7715-4d6f-b156-db2d9b48a6c2",
-          "StyleInfo": {
-            "Background": "#FFFF93F3",
-            "Underline": null,
-            "Strikethrough": null
-          }
-        }
-      ]
+      "Rules": []
     }
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//P4DyxQBfJ+KFiTgp2wkgJdpVUrMS/NGGcHTHhBdno4B8F5Bwi0M9jZhMgjpNPqgh3FPCIHSFj0FkVqPxqhzOAIKyIYBMDABvXa0uWVvtb3v3eIfvijGmPRPyuctZJ7PYN4iry8B+yvv1lxpqVZc0ZxgmeWNYNC+QhGgwMYLdBDYLkIjnqQj5RdPng/dfcvsjxQ76nYVxtYTBO9K7Uf2DOReEr9zOTrxAfoI/75gVDWfPcDJu1YRinEQRhusCndPPv4N2YFEhgx9bz2Q04L5hwSBwxiEAqBcDooumvAQRp6dUbH9D5h5NHyUs9JBujTGXKthCm1uMtKpAHPkbcSGODczALNmvAg6/RnDzU28UBuNE/OGdLkyqdHrvtnm/tdf8SsLDJbVepHyb/mu8uiU43P+UyyeRnnHQDvPp28NDcfzkCnGH2JmcTpSnXeeiNRREWNOANzz64vlHDEIEvvMpdjrtcZvM8fOGFywIPyPdcN/puKEfFY0iD7WQlptFIuEMYa3fl8i1EzCTjIGNIXk6CrB6XtRvYZAzOy1jkvweNCrkHQGKIvQVp6bLSSQQN0uTmYcXtO+TCFqFHPKPLjVOaWHu6dNISUbF689kgytonBDs4HgMX+RYqu3FcOTSGhw6VXlBrDOmBwg57NmMaKGwdEU+WSKxCAhv7xJ1D9kL6d0Tw2KIHE8+9SnPjiGjdOzgywqN0ZPWWDBHm9wlCCH/8UF/piBdsVd+W7KaoDb2HSQHaxC3VeYdJ5kuGsgsjxBGv+z/pH0o7miaUnYQ3ogDoklZzXSuYLajDTZ31MxggfHSxIReIbuMrDjzhETHe4aybAyMmEhJY5QlqvxI0aNrnavjbn7GsW4z4A+P5VQ0dIsfMn5g9PdyYdfxn7+3DlbclC+WrmIncWI5VQClXmlPDg==|920
+}//k2pK8rwC0ziIKK/h1qY/NFOK9NbJtwUHDNK/H30MMmtsjDviXFWrPGWowUgRqD0/pPmf86P0wh0UAxu2ECBALzds8cuKM1UwvOj0Vi3PfhR+KuHMN0OQ9eh1mxfg+uRIHOLTsSy4XR10ydHSSgMba213rbeKaHV+/d1axlOQpMDeMxulMgllm5iNmCw3Dgh8/3rnhcXtR1p6v2ybRVpawLhw8tfo+Igoc0z4xBdXgcJ/yFtKWwUG/p2j2lGJctSVNj8bnm1Gvah0ZLvCwUX1Vd91ZDC3IyIC9TzISu5bD9HClHflKiZRKaw4gwKZsItu4+zJfACkfGnvO02sLhREtBIPiykyURtDIjomIj39kYIYohqsfVxHhRC4cOtWoSvQo7Wi+EiVf//j30TF0j5XVLlTNILhganJ3F8yxakFgQvpetuh5VTiKuSbDyWE/aKeZ5cm+rWES9B/LCoDkm88MeCvjt8YnK0QVMQwj5TwEFDuyHQH0mWpkz+WeDpIBM/B2vs7Q08UOuLFHT7zAQt/4WRaknWkxL/nu73iByI01OV3iZKgY7OY2/Gy98XWRuIYtAvOiFM5qp4B7Zyi4N+7spHvxO3kblDs0H5mWo3eYzrTpdhtk5Xdmq1l0Am5J8ko/Kfl7HfiDn76B6c6RCwMFWN0+a1zULNsOdSWoUx0rRIR36zXDm5c4vL0wcJFvUiJNAJvkh9DM8fuSYQ/6hOYSx+ZLWkDbrB5UnM3GcPhZnFKIRVNQ7I4kVcHUdj95SXNBtCWPpYRnNPeHYP4Sdkp6sTr8ezmpLNpd/H+aY/VGva496xxZl+kW3Arqvrc05mtea3KpqplE9xe/cyDbr+Y+CvCc7W+Y0Yon/bVfWmZqJTjOuk+/D6f2J6CyhxML7dUaseCNxYg5+CxsE4RQQ9mGg==|920
