@@ -235,7 +235,17 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-24T09:05:35.4702246+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
+      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
@@ -257,7 +267,17 @@
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-24T09:05:35.4698231+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
+      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ2",
