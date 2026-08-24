@@ -9,7 +9,16 @@
   },
   {
     "ModuleName": "Table/tknow",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-25T08:19:59.4373768+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tknow.json"
+    ]
   },
   {
     "ModuleName": "Table/mname",
