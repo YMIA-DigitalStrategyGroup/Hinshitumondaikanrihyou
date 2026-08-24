@@ -36,7 +36,7 @@
       0,
       1
     ],
-    "Count": 49
+    "Count": 55
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -96,7 +96,8 @@
     "0,5": "TODAY()",
     "7,33": "IF(AH8=\"\",0,AH8)",
     "7,107": "IF(LEFT(CLEAN(TRIM(SUBSTITUTE(CQ8,CHAR(160),\"\"))),1)=\"W\",MID(CLEAN(TRIM(SUBSTITUTE(CQ8,CHAR(160),\"\"))),2,6),\"-\")",
-    "28,27": "M29+R29+W29"
+    "28,27": "M29+R29+W29",
+    "28,50": "ODATA(\"tknow?$select=SEKININBUMON&$filter=W_NBR eq \"&IF(ISBLANK(C29),\"null\",\"'\"&C29&\"'\"))"
   },
   "AttachInfos": {
     "0,24": {
@@ -852,7 +853,7 @@
                     "MessageFormula": "集計完了しました。"
                   }
                 ],
-                "ID": "f1b110aa-aee4-489b-bf53-98dcac2590f7"
+                "ID": "ce376867-ada6-42ac-b9ae-a2299f02c575"
               }
             ]
           }
@@ -1150,7 +1151,7 @@
                     "MessageFormula": "更新完了しました。"
                   }
                 ],
-                "ID": "b61b8ae6-6a38-47ec-a8ca-b0b59634f916"
+                "ID": "048e9fc2-5d27-4929-a8c2-2f540277adae"
               }
             ]
           }
@@ -1163,6 +1164,38 @@
           "Color": "Background 1",
           "UseCellTypeForeColor": true
         }
+      }
+    },
+    "50,10": {
+      "ListViewInfo": {
+        "Name": "リストビュー4",
+        "TableName": "tknow",
+        "RowIndex": 50,
+        "ColumnIndex": 10,
+        "RowCount": 4,
+        "ColumnCount": 11,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "51,10": {
+      "NameUsedInJavaScript": "W_NBR",
+      "BindingInfo": {
+        "TableName": "tknow",
+        "ColumnName": "W_NBR",
+        "GUID": "75fa64bd-0ac8-4b6a-9d3b-a75c8e613686"
+      }
+    },
+    "51,14": {
+      "NameUsedInJavaScript": "SEKININBUMON",
+      "BindingInfo": {
+        "TableName": "tknow",
+        "ColumnName": "SEKININBUMON",
+        "GUID": "5f3c5895-83c8-4287-a234-dd953ac66d51"
       }
     }
   },
@@ -1537,6 +1570,9 @@
         "Background": 15,
         "FontFamily": 1,
         "Formatter": 2
+      },
+      {
+        "Background": null
       }
     ],
     "Types": {
@@ -4084,7 +4120,133 @@
       "46,52": 3,
       "46,53": 3,
       "46,54": 3,
-      "46,55": 3
+      "46,55": 3,
+      "47,36": 45,
+      "47,37": 45,
+      "47,38": 45,
+      "47,39": 45,
+      "47,40": 45,
+      "47,41": 45,
+      "47,42": 45,
+      "47,43": 3,
+      "47,44": 3,
+      "47,45": 3,
+      "47,46": 3,
+      "47,47": 3,
+      "47,48": 45,
+      "47,49": 45,
+      "47,50": 45,
+      "47,51": 45,
+      "47,52": 45,
+      "47,53": 45,
+      "47,54": 45,
+      "47,55": 45,
+      "48,36": 45,
+      "48,37": 45,
+      "48,38": 45,
+      "48,39": 45,
+      "48,40": 45,
+      "48,41": 45,
+      "48,42": 45,
+      "48,43": 3,
+      "48,44": 3,
+      "48,45": 3,
+      "48,46": 3,
+      "48,47": 3,
+      "48,48": 45,
+      "48,49": 45,
+      "48,50": 45,
+      "48,51": 45,
+      "48,52": 45,
+      "48,53": 45,
+      "48,54": 45,
+      "48,55": 45,
+      "49,36": 45,
+      "49,37": 45,
+      "49,38": 45,
+      "49,39": 45,
+      "49,40": 45,
+      "49,41": 45,
+      "49,42": 45,
+      "49,43": 3,
+      "49,44": 3,
+      "49,45": 3,
+      "49,46": 3,
+      "49,47": 3,
+      "49,48": 45,
+      "49,49": 45,
+      "49,50": 45,
+      "49,51": 45,
+      "49,52": 45,
+      "49,53": 45,
+      "49,54": 45,
+      "49,55": 45,
+      "50,36": 45,
+      "50,37": 45,
+      "50,38": 45,
+      "50,39": 45,
+      "50,40": 45,
+      "50,41": 45,
+      "50,42": 45,
+      "50,43": 3,
+      "50,44": 3,
+      "50,45": 3,
+      "50,46": 3,
+      "50,47": 3,
+      "50,48": 45,
+      "50,49": 45,
+      "50,50": 45,
+      "50,51": 45,
+      "50,52": 45,
+      "50,53": 45,
+      "50,54": 45,
+      "50,55": 45,
+      "51,36": 45,
+      "51,37": 45,
+      "51,38": 45,
+      "51,39": 45,
+      "51,40": 45,
+      "51,41": 45,
+      "51,42": 45,
+      "51,43": 3,
+      "51,44": 3,
+      "51,45": 3,
+      "51,46": 3,
+      "51,47": 3,
+      "51,48": 45,
+      "51,49": 45,
+      "51,50": 45,
+      "51,51": 45,
+      "51,52": 45,
+      "51,53": 45,
+      "51,54": 45,
+      "51,55": 45,
+      "52,36": 45,
+      "52,37": 45,
+      "52,38": 45,
+      "52,39": 45,
+      "52,40": 45,
+      "52,41": 45,
+      "52,42": 45,
+      "52,43": 3,
+      "52,44": 3,
+      "52,45": 3,
+      "52,46": 3,
+      "52,47": 3,
+      "52,48": 45,
+      "52,49": 45,
+      "52,50": 45,
+      "52,51": 45,
+      "52,52": 45,
+      "52,53": 45,
+      "52,54": 45,
+      "52,55": 45
+    },
+    "RowStyles": {
+      "47": 57,
+      "48": 57,
+      "49": 57,
+      "50": 57
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -4137,9 +4299,6 @@
     "0,50,2,7",
     "3,45,2,11",
     "24,20,2,14",
-    "8,1,14,55",
-    "8,63,34,46",
-    "29,1,15,55",
     "27,2,1,5",
     "28,2,1,5",
     "27,7,1,5",
@@ -4167,7 +4326,15 @@
     "27,17,1,5",
     "28,50,1,6",
     "27,50,1,6",
-    "26,2,1,5"
+    "26,2,1,5",
+    "8,1,14,55",
+    "8,63,34,46",
+    "29,1,15,55",
+    "52,10,2,11",
+    "51,10,1,4",
+    "50,10,1,4",
+    "51,14,1,7",
+    "50,14,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4225,11 +4392,10 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "RelatedDataTableName": "V_期間費用明細_クレーム費用"
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//cVFIp4IF5zMLPpyqN3NC1vXjzReO+U2mSBQa4KXRjq42la8RUnNn9tnORq5TFdI2bpPIjW2dHjs/jzPTqKv7Y+1+2x/egR8vqpt2+XqSbMl+pHFqXokEU9OgQZnkgyrWixvKhcTUA7fpB6O1zoW1srQq+ntnKEWJ2dp7tV+E6rtV+yUzdDFMmwtYVhKahF0u6ALkQaVsIq+shoSZMA7rjwIEoJl1up8T4WJX+PcLvsU0EMnc06G2/ROP24JcGz/r+719/itv/drn7ptOxsQmBPae+Mf5c8UceisgiGsFM8bkiKR6Z2HpGyexT6+kRmU+N/QwGUESDeaL2SfI0f+YP2X6vfPCo/lHTT/z5COnDaLA4UAKu5gWOXdiNg0jdffPq2uLksAKwcvsB0T2UKOVA5lce4Jp1PvcE8/9ib6RP3PoJMpv0H1BeAHNfRBJUhHSPgDaROB78wBOe+BzV6pylXYEu8IAfBeELMZlm8W/2MOdpLGGJ09Aee/2irV9hJHM8bCrfBVwzKse8Rv8d7rvOcgrfTM/0u8s+wTq15EsPJBAEF/BUJqX6FIQiIasmWvyinRW0tWT1T9sPWQ4nJiRHsRUjwCS2/GhlPAaSiNO80jzMSk1P082cV4k6v62F9Pag1KQRmxVNy+tsWotGAQIItLav0lISb3XNSu/BoOkLNKbGomwo8dOjyj1ikLQfshEfBEmW//J3M4Mt5iU/0Aj648/AFwQ0BB8yABg39n8KSbWv01QENMqxiw9b8UaO7jr6KOSKnXWhMfMIpk09ZIGB2aFedLIkNx0vqzqVjvFTcwbZTaIBlgROuejYXOvoTdj1Hl8T3p+izoL1IWt4ol/a9ex3DTbMRZQlxVZ/YZXBHJNxZkzkJFO2/clv+Z0eOMR7mVxooXZVc6ldewMrQWxGQ==|920
+}//kDd5ionC6v6Tk2aois09fH+g6wVsVbJpYGXuXimzlWsxuZayIn+BmIG2HmMIdeDvPCEMRnCkEbOywS+ZHmqgHEILFPcPZ7UynubkHVVyyNeoNlW8HjMWJpfwJEgRPdJ8DWhd8kAsdAUIv6pXYz9MYOPBpwRAtEij/fbJVUkARNWlVSY7n/KZyZ2h9TbzJnGHKXTOtopIXZPI/4gkmwkPRat+xTiYR6EjXLd9WCZuJmyLvDH7aY3xvLMTs7v9N2s6XeuE82yFieh3MeDqBj8OjZdTpbORAzFIlQ1NVXW0tBuG36XUhh1opK7/7fKW7Ut470s+qHWOZXOot+opKhXVtlGgM9QlhG87ypf83ah+TDcHoQJsIFJy9wyVFrWOft7x5rvAIiVK/iG2IfkUc6QsKi/UG2Y30rlsK46nMcSu6VzmnIM+aamltC9+DZvvGZToI82nuw3sNyalbTPAcgL0heaKu00b27rRxghtRN2PVyWSQ28CpaI3e/OFDwJPcqRk9kw32lH0Ajra5pnhD64prhjXVplKgElCcUE6Kdlw9jMJqV5Fp3T9SQVrltliOTyGdRRXLbxnGMDxkI2b4Otah4XlUAASO5FaYa8XdvB1CnRfeyOrRdsiCmDeDqbr3kAI6g2WaXbmSUlHpKQknKKZcAXOVctG8OxBKXXBxoFZw+rhuiqFF0rQDlxVbkk4/D09zN9Hw8lNlOrT9oeVA2cS7Glp8g93UHDLLPtNtbu+WVsLFSQ2H8xn4WYFFYM12xClaCyhs7KOGc597IXX+urkP7D5pJf6scn3LYKvZ9PAsAT+bAAnVAIE8Zhj/T6ZF++NjP/svq4XSRCVVzPJNSEDE/AH+y5zmJenWZFxh5hYSez0R58/Bg7wdeOhEKW66im0QzREynfORgbTof87S1uwhQ==|920

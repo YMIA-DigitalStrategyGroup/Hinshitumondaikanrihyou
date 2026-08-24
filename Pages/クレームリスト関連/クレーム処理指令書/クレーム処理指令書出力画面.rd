@@ -6,6 +6,7 @@
     "2,27": "LEFT(G3,5)",
     "3,27": "RIGHT(G3,4)",
     "10,8": "CONCATENATE(\"クレーム処理指令書\",\"_\",\"W\",O23,\"_\",H27,\"-\",H28,\"_\",M29)",
-    "25,7": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 91 and MEISHO_CODE eq \"&IF(ISBLANK(AH11),\"null\",AH11))"
+    "25,7": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 91 and MEISHO_CODE eq \"&IF(ISBLANK(AH11),\"null\",AH11))",
+    "62,11": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_CODE eq \"&IF(ISBLANK(I71),\"null\",I71)&\" and MEISHO_KUBUN eq 208\")"
   }
 }
