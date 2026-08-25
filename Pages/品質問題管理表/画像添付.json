@@ -1,0 +1,513 @@
+{
+  "Rows": {
+    "Count": 35
+  },
+  "Cols": {
+    "Count": 32
+  },
+  "Values": {
+    "0,11": "既出番号",
+    "0,21": "採番",
+    "2,1": "W番号",
+    "2,11": "枝番号",
+    "2,21": "明細番号",
+    "5,1": "画像タイトル",
+    "32,1": "登録",
+    "32,9": "削除",
+    "32,25": "キャンセル"
+  },
+  "Formulas": {
+    "0,25": "ODATA(\"品質問題_品質問題管理表_写真情報?$select=明細番号&$filter=W番号 eq \"&IF(ISBLANK(F3),\"null\",\"'\"&F3&\"'\")&\" and 枝番号 eq \"&IF(ISBLANK(P3),\"null\",\"'\"&P3&\"'\")&\"&$top=1&$orderby=明細番号 desc\")",
+    "2,25": "IF(P1=\"\",IF(ISERROR(Z1),1,Z1+1),P1)"
+  },
+  "AttachInfos": {
+    "2,5": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表_写真情報",
+        "ColumnName": "W番号",
+        "GUID": "86ef4cfb-7d30-4eb5-b407-d170ede4ec25"
+      }
+    },
+    "2,15": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表_写真情報",
+        "ColumnName": "枝番号",
+        "GUID": "b1825c76-d3a1-4659-b90b-10d53a163d50"
+      }
+    },
+    "2,25": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表_写真情報",
+        "ColumnName": "明細番号",
+        "GUID": "c34a535f-a38c-43b8-8a2d-bd3319cadc49"
+      }
+    },
+    "5,7": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表_写真情報",
+        "ColumnName": "画像タイトル",
+        "GUID": "5b8b716c-946b-4c29-8d0b-d4fc9d90afe3"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "8,1": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表_写真情報",
+        "ColumnName": "画像",
+        "IsByteArray": true,
+        "GUID": "3ec821b7-4830-470f-a9a1-f44318c709f2"
+      },
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        }
+      }
+    },
+    "32,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "データを登録しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "品質問題_品質問題管理表_写真情報",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_品質問題管理表_写真情報",
+                          "ColumnName": "W番号",
+                          "GUID": "2166d662-ab2e-4436-8afb-616771b1005c"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=画像添付!F3"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_品質問題管理表_写真情報",
+                          "ColumnName": "枝番号",
+                          "GUID": "94e4a18e-ef3e-4889-b77c-609c7b159c08"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=画像添付!P3"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_品質問題管理表_写真情報",
+                          "ColumnName": "明細番号",
+                          "GUID": "afe56715-4dc6-43b4-817e-4b35aff8f9e3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=画像添付!Z3"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_品質問題管理表_写真情報",
+                          "ColumnName": "画像",
+                          "GUID": "d5f65e53-df6d-439d-a29b-46ba5f797558"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=画像添付!B9"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "品質問題_品質問題管理表_写真情報",
+                          "ColumnName": "画像タイトル",
+                          "GUID": "4a3bae1d-88e2-42eb-aa95-5ffc7fa61a62"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=画像添付!H6"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "画像を登録しました！！"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "4ea17e42-4a33-4b6d-be8b-e5c73e1af5cf"
+              }
+            ]
+          }
+        ],
+        "Text": "登録",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "32,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "データを削除しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "品質問題_品質問題管理表_写真情報",
+                    "UpdateType": "delete",
+                    "ShowConfirm": false
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "画像を登録しました！！"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "73671dbe-67bc-472d-95f8-77eaa04f9a20"
+              }
+            ]
+          }
+        ],
+        "Text": "削除",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "32,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Background": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 4,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Text 2 80",
+        "black",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,11": 0,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "2,1": 2,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 4,
+      "2,6": 5,
+      "2,7": 5,
+      "2,8": 5,
+      "2,9": 5,
+      "2,10": 6,
+      "2,11": 7,
+      "2,12": 8,
+      "2,13": 8,
+      "2,14": 8,
+      "2,15": 9,
+      "2,16": 5,
+      "2,17": 5,
+      "2,18": 5,
+      "2,19": 5,
+      "2,20": 6,
+      "2,21": 7,
+      "2,22": 8,
+      "2,23": 8,
+      "2,24": 8,
+      "2,25": 9,
+      "2,26": 5,
+      "2,27": 5,
+      "2,28": 5,
+      "2,29": 5,
+      "2,30": 6,
+      "3,1": 3,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 10,
+      "3,6": 11,
+      "3,7": 11,
+      "3,8": 11,
+      "3,9": 11,
+      "3,10": 12,
+      "3,11": 8,
+      "3,12": 8,
+      "3,13": 8,
+      "3,14": 8,
+      "3,15": 10,
+      "3,16": 11,
+      "3,17": 11,
+      "3,18": 11,
+      "3,19": 11,
+      "3,20": 12,
+      "3,21": 8,
+      "3,22": 8,
+      "3,23": 8,
+      "3,24": 8,
+      "3,25": 10,
+      "3,26": 11,
+      "3,27": 11,
+      "3,28": 11,
+      "3,29": 11,
+      "3,30": 12,
+      "5,1": 13,
+      "5,2": 3,
+      "5,3": 3,
+      "5,4": 3,
+      "5,5": 3,
+      "5,6": 3,
+      "5,7": 14,
+      "5,8": 5,
+      "5,9": 5,
+      "5,10": 5,
+      "5,11": 5,
+      "5,12": 5,
+      "5,13": 5,
+      "5,14": 5,
+      "5,15": 5,
+      "5,16": 5,
+      "5,17": 5,
+      "5,18": 5,
+      "5,19": 5,
+      "5,20": 5,
+      "5,21": 5,
+      "5,22": 5,
+      "5,23": 5,
+      "5,24": 5,
+      "5,25": 5,
+      "5,26": 5,
+      "5,27": 5,
+      "5,28": 5,
+      "5,29": 5,
+      "5,30": 6,
+      "6,1": 3,
+      "6,2": 3,
+      "6,3": 3,
+      "6,4": 3,
+      "6,5": 3,
+      "6,6": 3,
+      "6,7": 10,
+      "6,8": 11,
+      "6,9": 11,
+      "6,10": 11,
+      "6,11": 11,
+      "6,12": 11,
+      "6,13": 11,
+      "6,14": 11,
+      "6,15": 11,
+      "6,16": 11,
+      "6,17": 11,
+      "6,18": 11,
+      "6,19": 11,
+      "6,20": 11,
+      "6,21": 11,
+      "6,22": 11,
+      "6,23": 11,
+      "6,24": 11,
+      "6,25": 11,
+      "6,26": 11,
+      "6,27": 11,
+      "6,28": 11,
+      "6,29": 11,
+      "6,30": 12,
+      "32,9": 0,
+      "32,10": 1,
+      "32,11": 1,
+      "32,12": 1,
+      "32,13": 1,
+      "32,14": 1,
+      "32,25": 0,
+      "32,26": 1,
+      "32,27": 1,
+      "32,28": 1,
+      "32,29": 1,
+      "32,30": 1,
+      "33,9": 1,
+      "33,10": 1,
+      "33,11": 1,
+      "33,12": 1,
+      "33,13": 1,
+      "33,14": 1,
+      "33,25": 1,
+      "33,26": 1,
+      "33,27": 1,
+      "33,28": 1,
+      "33,29": 1,
+      "33,30": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,1,2,4",
+    "2,11,2,4",
+    "2,21,2,4",
+    "5,1,2,6",
+    "32,1,2,6",
+    "32,25,2,6",
+    "0,21,1,4",
+    "0,25,1,6",
+    "0,11,1,4",
+    "0,15,1,6",
+    "2,5,2,6",
+    "2,15,2,6",
+    "2,25,2,6",
+    "8,1,23,30",
+    "5,7,2,24",
+    "32,9,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//COOaiIrEs1BSa13n6fXl1yesa4MT5NZ3u5xt/4NPKNXCodaLhJHyahv2nOQp1FgKXWRMAglZ2Zb661cvfs6JzHyzFrqR1qVSsNwS7YovEn3P9xMPmPABNNcKILhOQbzdfltnJSuMrm6ynGiFduyfQsyynvi2vkLG0EMk41Gy21kUsntkGpJIt499PHrc21bfofWAHSYq0zuA88QYDU1uSRH5Pf5Hoie87IefA6qPZTMtuYLnO/tYFB/ehEA6a6xettohyVfDdyAqTp6sNMntZf7KM7il0LIxPt6+tzUxKrm2YpVprVvFGIQm1dEkv6VI013bmwMjTOt616cDXk7Frjr94SyN+pMTEPm3iF2mVZH35sgXIUDMoh5DELsb9vNaiqIsYo6+AJYZDGSGV2gUY51/Y6yXDxR4umz3fy1/XhLsr7a/FFRTudLNohaqhGKSSxPcd/chfe8Qw94NJoxiOJ66Hmy89E3W6aZGQE7n9dJAq7S7GxVO+9kbnKrwvmqUsGIN4Ischa7r3Pr+8LQvk14nw29oULdzSRZdecqLFysHnpFKQ6VYF6/VGizekSufHV4hOLWfub1u8FDnUoviGyzGVjD3jkSUX+Ane3MUPb6RzBq+exOUtdfIpjVOvOxxZpjoAp3BlGh9pV+W9MzjNEpi6intqkaUyMCPdkkS63hUiLnFhiiJBgc7qv+z6nP/x03PvQNfrBLJxwIXY1Zxop60/84tPTa9WzMjF7vea67rxiUQt50jHnhS4SIkrbj0Q64srh+YlTlB8D4f3nH7SkmxcHX0/Wg1tTyu1dqiqRKU557hJ8op1n6aXjaNFHlOYJplZL2sRR0JYplEr/RUmmugM/fbNwxQw3Ot3+NcVYxBl3UPEWbxPmZ/ago2tYzE1W6dvZCPu26UXGrrgcDNMQ==|920

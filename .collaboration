@@ -9,16 +9,7 @@
   },
   {
     "ModuleName": "Table/tknow",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:19:59.4373768+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tknow.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mname",
@@ -332,31 +323,11 @@
   },
   {
     "ModuleName": "PCPage/品質問題管理表_2",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:01:05.3796145+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\品質問題管理表_2.json",
-      "Pages\\品質問題管理表_2.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:01:05.3794087+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\品質問題管理表.json",
-      "Pages\\品質問題管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
@@ -440,14 +411,7 @@
   },
   {
     "ModuleName": "Upload",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T09:08:43.1882114+09:00",
-    "ModuleType": 26,
-    "ToRemoveFiles": []
+    "ModuleType": 26
   },
   {
     "ModuleName": "PublishConfiguration",
@@ -544,92 +508,38 @@
   },
   {
     "ModuleName": "Table/品質問題_品質問題管理表_写真情報",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T07:52:07.3308712+09:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Table/品質問題_品質問題管理表_添付情報",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T07:52:07.3309445+09:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Pages/品質問題管理表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:00:55.0221826+09:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/画像添付",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:01:30.1802005+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/ファイル添付",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:57:28.9946677+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議用",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T10:17:10.0021783+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議用_2D",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T09:53:40.2699131+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議テスト用",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T10:00:10.8107868+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議用_3D",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T10:17:24.6625873+09:00",
     "ModuleType": 1
   }
 ]

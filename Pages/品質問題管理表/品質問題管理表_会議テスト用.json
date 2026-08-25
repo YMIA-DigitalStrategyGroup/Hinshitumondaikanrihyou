@@ -1,0 +1,146 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,38": "画面遷移"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "品質問題_進捗管理表",
+        "RowIndex": 1,
+        "ColumnIndex": 1,
+        "RowCount": 39,
+        "ColumnCount": 36,
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "品質問題_進捗管理表",
+                "ColumnName": "管理番号",
+                "GUID": "7e2d3d24-93d4-41a6-b9af-79d59c3b4ff1"
+              },
+              "Order": 1
+            }
+          ]
+        },
+        "TopCondition": null,
+        "TableLoadOnDemandInfo": {
+          "IsEnabled": true
+        },
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "2,1": {
+      "NameUsedInJavaScript": "管理番号",
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "管理番号",
+        "GUID": "4470ae91-5457-44f3-bddc-c648506bd1b6"
+      }
+    },
+    "2,5": {
+      "NameUsedInJavaScript": "W番号",
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "W番号",
+        "GUID": "f15687b2-2502-4689-a85c-850620148679"
+      }
+    },
+    "2,9": {
+      "NameUsedInJavaScript": "艇種",
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "艇種",
+        "GUID": "d56a2db6-48c3-4c6d-a3cf-3b3271451a00"
+      }
+    },
+    "2,13": {
+      "NameUsedInJavaScript": "艇番",
+      "BindingInfo": {
+        "TableName": "品質問題_進捗管理表",
+        "ColumnName": "艇番",
+        "GUID": "488ccf64-b95b-47b3-9dc4-bbdf1bd3f640"
+      }
+    },
+    "3,38": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "品質問題管理表_会議用",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_会議テスト用!B3"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_会議用!H1"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "画面遷移",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,1,37,36",
+    "1,1,1,4",
+    "2,1,1,4",
+    "1,5,1,4",
+    "2,5,1,4",
+    "1,9,1,4",
+    "2,9,1,4",
+    "1,13,1,4",
+    "2,13,1,4",
+    "3,38,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//WtUE16490VubQfthB6zT3UIW8ZgXQZWv446OuPisOThyAtxM0CfiUKNaxBYwitG05Z0a/TtK6DWJQwzfaJQ7PRp/0z48qaksSSKli/77ewkz/vxAWoTjTqvGWMDr6zaLZLklnsxFCD9f42Z1tWeToCliVUCfXod+xjz9S51VMOrMh4+4jn+wg/locygy41yhW54bxDAuaW0GbY66tQbcQtOEA7o1PHldFfwU49EW+M6ESAhmzPffSWPvE5NawxtFHK75oiAMdTIh/6RJ8ASkWW0WS1GHu49Z9MZRJlhtUiIvE2NWF7wNdLt5eHloGefVjiPPytc7FesCb625z0jojz/snb3ZUMPnEgyyW2MY1OmeKgwAVKUeIjZaDx1noU+AGbkvbtzttXpz1UN6M0Wpf97+enqsBWuXAZaODB7dK1vQlBbDM9eFV5aWagnrLygrcA6bNiRzilzYjDVvibmI5y3Q7X2m9VYaSHVtSA3KoJsshdLEdegsw0ryLy2m7N1VF0YuXPZybGxFzQDNtGVMHHr6L5KCC4eJFpZkDlaqy0xzJz0rXst1b3iIXJYBILbdBZsi3TPUYTJUmhSk06szKFFRv85afkDmXD91nWlsSRFj1Lbi8QjcEgkRXNvRJGYztOpJxOV6tmVJZzgN/j/AxYuN4pHzo7dm8vyGzdMz9dFAThhpE3mBUWOtsqqMJ6m6JVqasTyFm+Y7PhXcT9KS381tOgcM3nF2NnrEB16vVd4uvN8KVQnkCzIGUXQVTziH0g3joI+2+kmtUcRTRPU7V+uwntmxDEjOznjDs71Ut46QK8DvcQM/accQvZaUOjyEVzkhPeP0wD5uKkpuZOCX1Wv8+ud+si++Mcmcy0hJSkTzj6mRK8VOYiFevQWdGq0qRBKPkS07BvOLBfpgHxtcMw==|920
