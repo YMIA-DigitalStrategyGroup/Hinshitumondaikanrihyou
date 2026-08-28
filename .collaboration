@@ -603,5 +603,15 @@
     },
     "LockDateTime": "2026-08-26T15:34:11.2908988+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TableView/v_Fコスト積極対策",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-28T10:04:58.0764132+09:00",
+    "ModuleType": 23
   }
 ]
