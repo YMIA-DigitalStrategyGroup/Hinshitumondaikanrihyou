@@ -604,7 +604,17 @@
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議用_2D",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-02T14:27:32.6688957+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\品質問題管理表\\品質問題管理表_会議用_2D.json",
+      "Pages\\品質問題管理表\\品質問題管理表_会議用_2D.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議テスト用",
