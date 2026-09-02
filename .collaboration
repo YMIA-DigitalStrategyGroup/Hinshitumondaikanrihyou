@@ -452,7 +452,18 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-02T14:17:36.3300008+09:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": [
+      "Upload\\133238f5-41bb-48a1-9477-8c3374d1bb48_棚卸データベース.xlsx",
+      "Upload\\15b5fec7-56a6-4a67-be74-433b0b91846d_注意事項.xlsx",
+      "Upload\\674c84b7-861b-43af-9dcc-4cff01007a4d_注意事項.xlsx"
+    ]
   },
   {
     "ModuleName": "PublishConfiguration",
