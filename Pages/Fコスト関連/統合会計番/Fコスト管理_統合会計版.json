@@ -97,7 +97,8 @@
     "7,33": "IF(AH8=\"\",0,AH8)",
     "7,107": "IF(LEFT(CLEAN(TRIM(SUBSTITUTE(CQ8,CHAR(160),\"\"))),1)=\"W\",MID(CLEAN(TRIM(SUBSTITUTE(CQ8,CHAR(160),\"\"))),2,6),\"-\")",
     "28,27": "M29+R29+W29",
-    "28,50": "ODATA(\"tknow?$select=SEKININBUMON&$filter=W_NBR eq \"&IF(ISBLANK(C29),\"null\",\"'\"&C29&\"'\"))"
+    "28,34": "ODATA(\"tknow?$select=SEKININBUMON&$filter=W_NBR eq \"&IF(ISBLANK(C29),\"null\",\"'\"&C29&\"'\"))",
+    "28,50": "IFERROR(ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 208 and MEISHO_CODE eq \"&IF(ISBLANK(AI29),\"null\",AI29)),\"-\")"
   },
   "AttachInfos": {
     "0,24": {
@@ -845,6 +846,16 @@
                   {
                     "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
                     "ServerCommandName": "Fコスト集計",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "対象年月",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Fコスト管理_統合会計版!AT4"
+                        }
+                      }
+                    ],
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true
                   },
@@ -853,7 +864,7 @@
                     "MessageFormula": "集計完了しました。"
                   }
                 ],
-                "ID": "ce376867-ada6-42ac-b9ae-a2299f02c575"
+                "ID": "7cd96b25-312d-46db-9ac8-ccf0a835e4d1"
               }
             ]
           }
@@ -907,7 +918,7 @@
           "ColumnBindingInfo": {
             "TableName": "品質問題_Fコスト集計版",
             "ColumnName": "対象年月",
-            "GUID": "8887285c-58b7-4861-99d3-f0f058d2f106"
+            "GUID": "42f8fc59-88c7-4a36-8871-cf4ce3b33397"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1022,6 +1033,21 @@
         "GUID": "d010f6fb-1f3a-49c6-b81c-1668a0353300"
       }
     },
+    "28,34": {
+      "BindingInfo": {
+        "TableName": "品質問題_Fコスト集計版",
+        "ColumnName": "責任部門",
+        "GUID": "e204ff8a-54f0-4adc-a976-ba105a2d1241"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      }
+    },
     "28,35": {
       "NameUsedInJavaScript": "メーカー責任額",
       "BindingInfo": {
@@ -1060,21 +1086,6 @@
         "TableName": "品質問題_Fコスト集計版",
         "ColumnName": "YMIAクレーム費",
         "GUID": "3f9773de-40f8-4787-bf61-db4732ca7887"
-      },
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ]
-      }
-    },
-    "28,50": {
-      "BindingInfo": {
-        "TableName": "品質問題_Fコスト集計版",
-        "ColumnName": "責任部門",
-        "GUID": "e204ff8a-54f0-4adc-a976-ba105a2d1241"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -1151,7 +1162,7 @@
                     "MessageFormula": "更新完了しました。"
                   }
                 ],
-                "ID": "048e9fc2-5d27-4929-a8c2-2f540277adae"
+                "ID": "5ab0286c-d2f6-45df-aaf0-f2c8bb10e9ca"
               }
             ]
           }
@@ -1548,14 +1559,6 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Formatter": 7,
-        "HorizontalAlignment": 13,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 1,
-        "FontSize": 14.666666666666666,
-        "Formatter": 7,
-        "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderLeft": 0
       },
@@ -1563,6 +1566,14 @@
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Formatter": 7,
+        "HorizontalAlignment": 13,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Formatter": 7,
+        "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderLeft": 0
       },
@@ -2590,28 +2601,23 @@
       "28,31": 26,
       "28,32": 48,
       "28,33": 48,
-      "28,34": 49,
-      "28,35": 53,
+      "28,34": 53,
+      "28,35": 54,
       "28,36": 3,
       "28,37": 3,
       "28,38": 3,
       "28,39": 3,
-      "28,40": 54,
+      "28,40": 55,
       "28,41": 25,
       "28,42": 25,
       "28,43": 25,
       "28,44": 26,
-      "28,45": 54,
+      "28,45": 55,
       "28,46": 25,
       "28,47": 25,
       "28,48": 25,
       "28,49": 26,
-      "28,50": 55,
-      "28,51": 51,
-      "28,52": 51,
-      "28,53": 51,
-      "28,54": 51,
-      "28,55": 52,
+      "28,55": 30,
       "28,63": 2,
       "28,64": 2,
       "28,65": 2,
@@ -4324,8 +4330,6 @@
     "45,36,2,7",
     "28,17,1,5",
     "27,17,1,5",
-    "28,50,1,6",
-    "27,50,1,6",
     "26,2,1,5",
     "8,1,14,55",
     "8,63,34,46",
@@ -4334,7 +4338,9 @@
     "51,10,1,4",
     "50,10,1,4",
     "51,14,1,7",
-    "50,14,1,7"
+    "50,14,1,7",
+    "28,50,1,6",
+    "27,50,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4398,4 +4404,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//kDd5ionC6v6Tk2aois09fH+g6wVsVbJpYGXuXimzlWsxuZayIn+BmIG2HmMIdeDvPCEMRnCkEbOywS+ZHmqgHEILFPcPZ7UynubkHVVyyNeoNlW8HjMWJpfwJEgRPdJ8DWhd8kAsdAUIv6pXYz9MYOPBpwRAtEij/fbJVUkARNWlVSY7n/KZyZ2h9TbzJnGHKXTOtopIXZPI/4gkmwkPRat+xTiYR6EjXLd9WCZuJmyLvDH7aY3xvLMTs7v9N2s6XeuE82yFieh3MeDqBj8OjZdTpbORAzFIlQ1NVXW0tBuG36XUhh1opK7/7fKW7Ut470s+qHWOZXOot+opKhXVtlGgM9QlhG87ypf83ah+TDcHoQJsIFJy9wyVFrWOft7x5rvAIiVK/iG2IfkUc6QsKi/UG2Y30rlsK46nMcSu6VzmnIM+aamltC9+DZvvGZToI82nuw3sNyalbTPAcgL0heaKu00b27rRxghtRN2PVyWSQ28CpaI3e/OFDwJPcqRk9kw32lH0Ajra5pnhD64prhjXVplKgElCcUE6Kdlw9jMJqV5Fp3T9SQVrltliOTyGdRRXLbxnGMDxkI2b4Otah4XlUAASO5FaYa8XdvB1CnRfeyOrRdsiCmDeDqbr3kAI6g2WaXbmSUlHpKQknKKZcAXOVctG8OxBKXXBxoFZw+rhuiqFF0rQDlxVbkk4/D09zN9Hw8lNlOrT9oeVA2cS7Glp8g93UHDLLPtNtbu+WVsLFSQ2H8xn4WYFFYM12xClaCyhs7KOGc597IXX+urkP7D5pJf6scn3LYKvZ9PAsAT+bAAnVAIE8Zhj/T6ZF++NjP/svq4XSRCVVzPJNSEDE/AH+y5zmJenWZFxh5hYSez0R58/Bg7wdeOhEKW66im0QzREynfORgbTof87S1uwhQ==|920
+}//dPvbWud6/HOacK1lUxvYYrFsPiH89EDjMtNXS8VaWZApBJ9UBxBTLNC9HEwV0UH4c9rlYin0uMPnWrGLuKP3RDeB9Ml+YZnySVw2PJnbw5zC4YzoblaXuUULevF3vZGRHP50f/quptsobKK+OxMvwWmhuiNpQOa0pTzyXz9UiAFaR3nWDF/rPpmEvDhVu4YPBj++qSQ4REbG/lX2DQAeQ8ANOlE9QFy25ykEEDlwOf1GaDI/HgGfmRUELGJdlUmPRsyOPDx/xUGMm8pMyNG/ME6yzc3RGaYGv8ahw8SXG7gwBWnx02wuCz4ienalSg4s0nPmEVmALOy2Y4iUwIFb04aR2FYHZOy80u0Y/XUkW/Gi2qckKtXRIC1S7vXsmqYMUXofNcOz9aAUi7KR++E+xJzAFdq6+GXCXd5acVQSjKbu7HxNw5A4oNvyyrr+8eBnVzxkTUrh+Jz0OVlowjG1bOPy7In9wLw/fpxd6omXAa7pSjyn3d6fRhvSFL/7xE3nlyivl+SIawLDmnRYXCcFfLhvDZ+jL6BRrhSH1SRQwQ7OxrHQFSmmsxXKwIisuAlorgrpWZgLWNI8pEj53pjACHmlcKt1OInBPR4MYYWmm5X5t9WhmdHpOynegYLsecDQ9vLIT47g5wslp79Yy4F98f4Ej/Xrlu6EoBmP8xXcuALLUhQIZ9i2agMdKm+QSs7NH03IUe2TAJnuNeKsBLuby9NSxnhUo60OYG6R6++hSzEuj4f5/V5KSO5N/z/nnfJuCAhc3zdzYREPxW1hgq1B6eJs+I7o9zfluKJu8WrlbueWNn7Bg0af37fp9qWHZgSXCQos0rugTQLzy3Y91Gxh/q/2vmbf05bYk993e+Tx7TOyj+msVbPVf+azgzlWdVWLzb7IeTA1sCj6QVhX0YMonA==|920

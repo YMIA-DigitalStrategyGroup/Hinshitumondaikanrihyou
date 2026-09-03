@@ -382,7 +382,7 @@
                     "NewOtherName": "00クレームリスト"
                   }
                 ],
-                "ID": "f076bcb4-88eb-4fc5-ad0f-a8ac111bd446"
+                "ID": "f78ffcc7-a512-4136-9137-802702820fc4"
               }
             ]
           }
@@ -501,7 +501,7 @@
                   "SerializeProperty": "=クレームリスト_管理表!CN11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=クレーム処理指令書出力画面!E43"
+                  "SerializeProperty": "=クレーム処理指令書出力画面!E45"
                 }
               },
               {
@@ -510,7 +510,7 @@
                   "SerializeProperty": "=クレームリスト_管理表!DQ11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=クレーム処理指令書出力画面!I71"
+                  "SerializeProperty": "=クレーム処理指令書出力画面!I75"
                 }
               },
               {
@@ -519,7 +519,7 @@
                   "SerializeProperty": "=クレームリスト_管理表!DM11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=クレーム処理指令書出力画面!S76"
+                  "SerializeProperty": "=クレーム処理指令書出力画面!S80"
                 }
               },
               {
@@ -564,7 +564,7 @@
                   "SerializeProperty": "=クレームリスト_管理表!DR11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=クレーム処理指令書出力画面!I69"
+                  "SerializeProperty": "=クレーム処理指令書出力画面!I73"
                 }
               },
               {
@@ -573,7 +573,7 @@
                   "SerializeProperty": "=クレームリスト_管理表!DP11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=クレーム処理指令書出力画面!AB69"
+                  "SerializeProperty": "=クレーム処理指令書出力画面!AB73"
                 }
               }
             ]
@@ -1291,7 +1291,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "YOUIN",
-        "GUID": "4701f13a-cda4-4a51-85c5-36307fee1893"
+        "GUID": "a9d448d1-f76f-42ed-9551-7621a156497b"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1327,7 +1327,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "BUHIN_OR_BASHOBETU",
-        "GUID": "74278224-3c73-4758-ba0d-31232e2f54e8"
+        "GUID": "e0fc7341-781a-4352-a304-9412b9ce9279"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1363,7 +1363,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "GENSHO",
-        "GUID": "baeca0c4-6db2-44ce-ba57-9f33210fa876"
+        "GUID": "dfdd48bf-b14f-4e62-bfa3-6d5a969e5229"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1519,7 +1519,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "SEKININBUMON",
-        "GUID": "646f8543-0fe2-4e6c-9766-ea2a6ace6339"
+        "GUID": "676e4fbd-7607-4d0c-a6e2-8ff5bc2e3188"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1567,7 +1567,7 @@
       "BindingInfo": {
         "TableName": "tknow",
         "ColumnName": "HANSHA_TOKUYAKUTEN",
-        "GUID": "6c67ffcd-fef1-41df-b07e-57831643c846"
+        "GUID": "886c1cc9-8f40-44d5-9eac-32264b7234e3"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1714,7 +1714,7 @@
                     ]
                   }
                 ],
-                "ID": "153a537c-657c-4caa-91fc-27196522ea14"
+                "ID": "50495dd5-e304-4128-8a14-7c0c95622e49"
               }
             ]
           }
@@ -1819,7 +1819,7 @@
                     "UpdateType": 3
                   }
                 ],
-                "ID": "c91e6ddc-c00a-4dd5-b911-6f2169dc84a4"
+                "ID": "a820d8d3-f6c9-4010-b16d-78a4e7d027f8"
               }
             ]
           }
@@ -1857,7 +1857,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "204ef7ec-d10f-43d2-964c-761d37654017"
+                "ID": "882ec691-7ed2-4b73-8912-a2de2f0bef0c"
               }
             ]
           }
@@ -5698,4 +5698,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//gb6wsJVX5n2fpgrQjOUAHXhNgKnmHLq4VF2UPO2qNNY8cRJ0E8FAt5wVUcLJ/+nEDHhTRBaV62xLZpjzKA/9pcbaBkK25tEWjJE2Vld+9bHMRfhRsqceXrXI3nNduN8RY0GrXvp7+HLL47umwvznFmt3t1ugXZKiQYWvK/xFs4j2Fn4iCMGFaeZhKa0LrSl9bylWFp/bFfW4+IlHh9s5kKH+S9+Pjhny/Spp5S1Y7cSy42gWsq94G52m6+iaVgdVtavai99PdbxWjgJXRMv97klTQ3dyHFJkB/odkYnQiUr2ZKOFPNIiOs/TyUkh/2Oyg//pPAFrb6HCRI2XpLFjAyh6pSG5N8kfqxq2JSTmGBsWZN1XvCiAWKfdfcTMaEUG+BGB1Jeh6JXnuz+sFMI0fsWKCfI1I8AnzrBOkx8uxNuX8D88j7/Pl9AElCSwgmQ5Pu/X5lbpdzc7QuJ0R1beMiSHYtlKLGpv4uHmbRgSSMRp1Vn5k3xluwZ1Do5L5OZA1ozLn/4NcFjANxupQthbpq5oQblP7X+Vs9EZnAaFhh7cfGk+6SputsL9aUKQ382nia+0+bGEtT93tlnYM3d7WFcHsdh5T6Xo/NwQB1g7hv5rGSfg2QG4sJ0EDfXL2VNpAQwAB6l2cuwvc4HifXfy1DivDb1zNnKxkZIfSQ8y8HqK8ql+/IYuDBKwNVAvMyeXw2ECLJee1/TuHvCrl4D0epau9Yt7/dQnno6nhCPmIaiI7iZDSoFezoL+5Gr6fVSjV98tX+pDAp54hqrzv3a/BfF/5rniVp5lkWLLZkwtticAs5FOqqH5wWpqPyEuPGWDEt1WZobpj7gkOVNjqs8v+h/yZywl/+MyShB9VFNJ1sglXCsOQV/2+5gZAuaZs4nkHqXVwdOScJNVMY/qQS8lig==|920
+}//jkRZRi7gJaQxrKfxaMPtL42xUSXUtOjHGN0VcKXOKrcQM8EP2NdTAtFoZuVuH+p4xoJy6+LX/paCN+m4JTWtgpHogcbSnZ/0iwMl4VghdOorLK4gv82yRXrw5JfRUU/dTqq5DkXDJnMAOsCs5sGTPI+rOX27ymgceKLggjwWwB1G4O0EKex3SXKTA5+3JOEyBdXCamNcMlrUkrgK59V2B8HW0NWc/UhOSX0H1kgkSMtjXWNuetudg7Kyp/7C2zx01McisLfVstTJv8NQMCUC4hBoY+ctG8LkFya8w0SuDe6L5xqmxwnliWnEdXEG+ogj7tDmYcNnLuUEwGufIdG2EzMKawgapmzhbiPGNW0Qs4eIR2Ir0nQbSqmptuAeYqT2VG19rjAQ1GGj7sgR6TYGX9hXZk83FCAXP0rn3cPG5CngF4C0wyB1eiu3yP2fQKqrOcC3bySvgjcZiuvXXL7FW/9wV5NLbEBoYcH4qttx8N7VfAkTt0m9Y4ZvwEmKpe268qxUXQMCHKcwbYKWqK8dMR7DUEnc4yLLfRLs4CqG3yRaARtsac9Wr1H85hqf2IXvhyQwQigzVJ0tlAtUXxlseACd011MUbteKa4dM1ZBTOuopQAG4M8cSPMpDMzJZf2X4/E+rlRvC+a9RrWAtlXxYX66+CZsGUMNXajQvoqMqvQAw5Fbt+rnwGGAKgoJAYM0Nipej5AFVFGyUOGcU/d6fy0WaQn+hGDv0MU1f1FaiRHoVANtUI/oqtHY9M6TxQxnjuAA670gXfjCo3m3fxYngzFYByIIY5eEn10HEao6EgPNP6T2rAGqjrO4MI69F6++KbvmB1+WjXS3TKq9QQkyG/26mOf9XVeGnMPMM2pm7qS+WuCPIaMezl3eCNxyzbQcfxH2knsLWzsaKfPkMZLIog==|920

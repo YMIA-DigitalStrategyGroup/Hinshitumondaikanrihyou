@@ -438,6 +438,12 @@
       "PrimaryColumn": "W番号",
       "ForeignTable": "tknow",
       "ForeignColumn": "W_NBR"
+    },
+    {
+      "PrimaryTable": "mname",
+      "PrimaryColumn": "MEISHO",
+      "ForeignTable": "tknow",
+      "ForeignColumn": "SEKININBUMON"
     }
   ],
   "Indexes": []

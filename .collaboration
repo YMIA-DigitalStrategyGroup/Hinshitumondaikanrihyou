@@ -9,16 +9,7 @@
   },
   {
     "ModuleName": "Table/tknow",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-01T16:41:10.1291591+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tknow.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mname",
@@ -98,16 +89,7 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト集計版",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T17:11:45.9274902+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\品質問題_Fコスト集計版.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -243,31 +225,11 @@
   },
   {
     "ModuleName": "PCPage/クレームリスト_管理表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T14:26:42.1369211+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.json",
-      "Pages\\クレームリスト関連\\クレームリスト_管理表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/クレームリスト_編集画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T08:49:39.486342+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.json",
-      "Pages\\クレームリスト関連\\クレームリスト_編集画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/クレームリスト関連/クレーム処理指令書",
@@ -275,17 +237,7 @@
   },
   {
     "ModuleName": "PCPage/クレーム処理指令書出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-01T16:41:10.1290705+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.json",
-      "Pages\\クレームリスト関連\\クレーム処理指令書\\クレーム処理指令書出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/ページ2",
@@ -325,17 +277,7 @@
   },
   {
     "ModuleName": "PCPage/Fコスト管理_統合会計版",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T09:17:26.4168461+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\統合会計番\\Fコスト管理_統合会計版.json",
-      "Pages\\Fコスト関連\\統合会計番\\Fコスト管理_統合会計版.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Fコスト最終承認申請",
@@ -391,20 +333,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T16:28:56.3902465+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "image/組み込み画像",
@@ -503,16 +432,7 @@
   },
   {
     "ModuleName": "ServerCommand/Fコスト集計",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T09:17:44.3540199+09:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\Fコスト集計.json"
-    ]
+    "ModuleType": 15
   },
   {
     "ModuleName": "TableView/v_クレーム_件数集計表",
@@ -548,31 +468,11 @@
   },
   {
     "ModuleName": "PCPage/年月度クレーム費集計表_テスト用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T16:29:21.6887423+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表_テスト用.json",
-      "Pages\\Fコスト関連\\統合会計番\\年月度クレーム費集計表_テスト用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/積極対策管理画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T17:11:45.9264738+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Fコスト関連\\統合会計番\\積極対策管理画面.json",
-      "Pages\\Fコスト関連\\統合会計番\\積極対策管理画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Table/積極対策管理",
@@ -604,17 +504,7 @@
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議用_2D",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-09-02T14:27:32.6688957+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\品質問題管理表\\品質問題管理表_会議用_2D.json",
-      "Pages\\品質問題管理表\\品質問題管理表_会議用_2D.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/品質問題管理表_会議テスト用",
@@ -626,22 +516,10 @@
   },
   {
     "ModuleName": "PCPage/Fコスト_グラフ",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-26T15:34:11.2908988+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TableView/v_Fコスト積極対策",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-28T10:04:58.0764132+09:00",
     "ModuleType": 23
   }
 ]
