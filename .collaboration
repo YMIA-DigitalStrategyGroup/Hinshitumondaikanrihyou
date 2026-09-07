@@ -571,5 +571,15 @@
     },
     "LockDateTime": "2026-09-08T08:27:12.1146941+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/品質問題_品質問題管理表_月次管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-08T08:48:04.8866127+09:00",
+    "ModuleType": 7
   }
 ]
