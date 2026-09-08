@@ -564,5 +564,15 @@
     },
     "LockDateTime": "2026-09-08T08:48:04.8866127+09:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/品質問題管理表_月設定",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-08T11:35:00.2664881+09:00",
+    "ModuleType": 1
   }
 ]
