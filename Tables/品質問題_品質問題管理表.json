@@ -114,6 +114,12 @@
       "MaxLength": -1,
       "Name": "責任部門",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "[W番号]&[枝番号]",
+      "Name": "W番号と枝番号",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
   "ExternalDatabaseInfo": {
@@ -122,5 +128,21 @@
     "SourceTableName": "品質問題_品質問題管理表",
     "SourceTableSchema": "dbo"
   },
+  "Relations": [
+    {
+      "PrimaryTable": "品質問題_品質問題管理表_月次管理",
+      "PrimaryColumn": "W番号_枝番号",
+      "ForeignTable": "品質問題_品質問題管理表",
+      "ForeignColumn": "W番号と枝番号",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "tknow",
+      "PrimaryColumn": "W_NBR",
+      "ForeignTable": "品質問題_品質問題管理表",
+      "ForeignColumn": "W番号",
+      "IsDetailTableRelation": false
+    }
+  ],
   "Indexes": []
 }

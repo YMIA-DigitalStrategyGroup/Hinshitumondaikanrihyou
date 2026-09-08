@@ -1,0 +1,1513 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 38.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 113.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "122": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "123": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "124": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "125": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "126": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "127": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "128": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "129": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "130": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "131": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "132": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "133": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      },
+      "134": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      }
+    },
+    "Count": 137
+  },
+  "Values": {
+    "0,4": "W番号",
+    "0,10": "枝番号",
+    "5,122": "絞込ボタン",
+    "6,4": "W番号",
+    "6,16": "艇種",
+    "6,22": "艇番",
+    "6,28": "検索",
+    "6,37": "新規登録",
+    "6,46": "列\r\n閉じる",
+    "6,50": "列\r\n開く",
+    "6,122": "対応月",
+    "8,122": 4,
+    "8,123": 5,
+    "8,124": 6,
+    "8,125": 7,
+    "8,126": 8,
+    "8,127": 9,
+    "8,128": 10,
+    "8,129": 11,
+    "8,130": 12,
+    "8,131": 1,
+    "8,132": 2,
+    "8,133": 3,
+    "9,26": "販社",
+    "9,34": "製造日",
+    "9,40": "納入日",
+    "9,46": "発生\r\n頻度",
+    "9,49": "影響\r\n度",
+    "9,52": "検出\r\n頻度",
+    "9,59": "重要度",
+    "9,63": "クレーム内容",
+    "9,122": 4,
+    "9,123": 5,
+    "9,124": 6,
+    "9,125": 7,
+    "9,126": 8,
+    "9,127": 9,
+    "9,128": 10,
+    "9,129": 11,
+    "9,130": 12,
+    "9,131": 1,
+    "9,132": 2,
+    "9,133": 3,
+    "10,1": "編集",
+    "10,134": "月\r\n設定",
+    "42,1": "更新"
+  },
+  "AttachInfos": {
+    "1,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,10": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "5,122": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "品質問題_品質問題管理表",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号と枝番号",
+                    "GUID": "08a16312-5a79-4a67-9df5-c75bdce95be9",
+                    "RelationBinding": {
+                      "RelatedTable": "品質問題_品質問題管理表_月次管理",
+                      "RelatedColumn": "W番号_枝番号",
+                      "DisplayColumn": "_4月度"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!DS8"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号と枝番号",
+                    "GUID": "9ab091ea-f8f7-4ce2-a04c-1a7c613222d8",
+                    "RelationBinding": {
+                      "RelatedTable": "品質問題_品質問題管理表_月次管理",
+                      "RelatedColumn": "W番号_枝番号",
+                      "DisplayColumn": "_5月度"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!DT8"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号と枝番号",
+                    "GUID": "669bc6b0-3921-4ef2-aafc-fdfd5d9daf6a",
+                    "RelationBinding": {
+                      "RelatedTable": "品質問題_品質問題管理表_月次管理",
+                      "RelatedColumn": "W番号_枝番号",
+                      "DisplayColumn": "_6月度"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!DU8"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号と枝番号",
+                    "GUID": "20c97e9e-6645-46af-88fd-60f16aaf5128",
+                    "RelationBinding": {
+                      "RelatedTable": "品質問題_品質問題管理表_月次管理",
+                      "RelatedColumn": "W番号_枝番号",
+                      "DisplayColumn": "_7月度"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!DV8"
+                  }
+                }
+              ],
+              "RelationType": 1
+            },
+            "ID": "978ac472c5a64b84802ee88d1144f89c"
+          }
+        ],
+        "Text": "絞込ボタン",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "品質問題_品質問題管理表",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号",
+                    "GUID": "ef26b50d-ddec-452d-9e20-95e60509b82b"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!E8"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号",
+                    "GUID": "e0c470af-f535-4fcf-b070-f4cf2e9f1c2d",
+                    "RelationBinding": {
+                      "RelatedTable": "tknow",
+                      "RelatedColumn": "W_NBR",
+                      "DisplayColumn": "艇種"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!Q8"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "品質問題_品質問題管理表",
+                    "ColumnName": "W番号",
+                    "GUID": "bab82235-6934-4450-87e6-276475ddee32",
+                    "RelationBinding": {
+                      "RelatedTable": "tknow",
+                      "RelatedColumn": "W_NBR",
+                      "DisplayColumn": "艇番"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=品質問題管理表_一覧!W8"
+                  }
+                }
+              ]
+            },
+            "ID": "1834c5e60faa4dfdbfd13c17705b722c"
+          }
+        ],
+        "Text": "検索",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "品質問題管理表"
+          }
+        ],
+        "Text": "新規登録",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,46": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "Location": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!BL:DR"
+                },
+                "Value": false
+              }
+            ]
+          }
+        ],
+        "Text": "列\r\n閉じる",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,50": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "Location": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!BL:DR"
+                },
+                "Value": true
+              }
+            ]
+          }
+        ],
+        "Text": "列\r\n開く",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "7,16": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "7,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "7,122": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,123": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,124": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,125": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,126": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,127": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,128": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,129": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,130": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,131": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,132": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "7,133": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      }
+    },
+    "9,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "品質問題_品質問題管理表",
+        "RowIndex": 9,
+        "ColumnIndex": 1,
+        "RowCount": 32,
+        "ColumnCount": 135,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "CurrentRowChangedCommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!E2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!E11"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!K2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!K11"
+                }
+              }
+            ]
+          }
+        ],
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "10,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "品質問題管理表",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!E2"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表!B6"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!K2"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表!J6"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "編集",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "10,4": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "042a7ae1-5ad1-428b-b2c9-443977f57785"
+      }
+    },
+    "10,10": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "枝番号",
+        "GUID": "a4deac04-b344-489a-ac3a-f51d8fba3595"
+      }
+    },
+    "10,16": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "5ec4532f-24ce-4e83-bb2e-39bacfe710fc",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "艇種"
+        }
+      }
+    },
+    "10,22": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "a7f8bc13-0e23-4a8b-8a72-59628f9d1294",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "艇番"
+        }
+      }
+    },
+    "10,26": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "f1a966ea-7fb6-437c-b359-005373992fa4",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "HANSHA_TOKUYAKUTEN_MOJI"
+        }
+      }
+    },
+    "10,34": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "3fbbbaed-13fb-41a6-8c0c-f61342f2962f",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "SEIZOBI"
+        }
+      }
+    },
+    "10,40": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "96cdf30b-f231-4ddf-aba6-f7d16d647b4f",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "NONYUBI"
+        }
+      }
+    },
+    "10,46": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "9aefc443-2e79-4656-bad5-f658539d3b80",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "HASSEIHINDO"
+        }
+      }
+    },
+    "10,49": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "8d571ead-9e99-4ce1-bbf6-d52498f43f8f",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "EIKYOUDO"
+        }
+      }
+    },
+    "10,52": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "35629e61-15e5-4c4d-82f0-1ef956d34a8e",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "KENSHUTUNANIDO"
+        }
+      }
+    },
+    "10,55": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "c77cec35-0e03-4870-8939-030c6d5f87c3",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "RPN"
+        }
+      }
+    },
+    "10,59": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "b5bd4dc0-3ee3-40d4-82fb-5bafbb5c881d",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "JUYOUDO"
+        }
+      }
+    },
+    "10,63": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号",
+        "GUID": "ac4546f9-b806-4344-a55e-68cec3da0c68",
+        "RelationBinding": {
+          "RelatedTable": "tknow",
+          "RelatedColumn": "W_NBR",
+          "DisplayColumn": "NAIYO"
+        }
+      }
+    },
+    "10,80": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "D1_調査解決チーム",
+        "GUID": "25c93762-a34f-4b5f-a14d-fe2243b01560"
+      }
+    },
+    "10,94": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "D2_不具合内容",
+        "GUID": "d91ebfdf-ea5c-4721-a760-9e9ea5fd8464"
+      }
+    },
+    "10,108": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "D3_1_暫定対策",
+        "GUID": "5d5c7ae1-0fe1-4f1f-a107-b374b114db8b"
+      }
+    },
+    "10,122": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "49af338a-8a4e-457b-b1fa-61d701bf69f1",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_4月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,123": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "eebe5877-ecb4-41cf-a158-e7003fb34199",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_5月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,124": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "fe9ddc33-6436-440e-91fd-86df33a332c6",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_6月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,125": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "4a75183a-f6a9-432b-864d-11830dd37822",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_7月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,126": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "f15d2a32-5adb-4678-a0e7-a1bd99277944",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_8月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,127": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "dd62b0e7-25ff-4ba1-96b6-b40d24dfc947",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_9月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,128": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "4aecd9b5-5621-4c69-a2b3-49e890750856",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_10月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,129": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "2c50b5be-39e7-40e5-8b0d-e385aa30a97f",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_11月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,130": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "54300e46-1cf5-485e-aa6d-a9a6c2b11dd7",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_12月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,131": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "c79aadf8-0ba6-41a4-96f1-5a3d12b8f3a6",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_1月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,132": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "2ce77836-e777-415c-a59e-742977c01c15",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_2月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,133": {
+      "BindingInfo": {
+        "TableName": "品質問題_品質問題管理表",
+        "ColumnName": "W番号と枝番号",
+        "GUID": "d25bff7d-3559-4e58-92ae-76a74019d592",
+        "RelationBinding": {
+          "RelatedTable": "品質問題_品質問題管理表_月次管理",
+          "RelatedColumn": "W番号_枝番号",
+          "DisplayColumn": "_3月度"
+        }
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "10,134": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "品質問題管理表_月設定",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!E2"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!B4"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!K2"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!G4"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DS11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!B8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DT11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!E8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DU11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!H8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DV11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!K8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DW11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!N8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DX11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!Q8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DY11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!T8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!DZ11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!W8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!EA11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!Z8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!EB11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!AC8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!EC11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!AF8"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=品質問題管理表_一覧!ED11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=品質問題管理表_月設定!AI8"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "月\r\n設定",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "42,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "データを更新しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "リストビュー1",
+                    "UpdateType": 3
+                  }
+                ],
+                "ID": "6915db97-f810-4cf7-9915-abdbb5cf6ce7"
+              }
+            ]
+          }
+        ],
+        "Text": "更新",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 4
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 1,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 4
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Formatter": 6,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 6,
+        "HorizontalAlignment": 5
+      },
+      {
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 5,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 80",
+        "Body",
+        "black",
+        "@",
+        "[AUTO]General",
+        "Center",
+        "yyyy/m/d"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,4": 0,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 0,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "1,4": 2,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 2,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "6,4": 3,
+      "6,5": 4,
+      "6,6": 4,
+      "6,7": 4,
+      "6,8": 4,
+      "6,9": 4,
+      "6,16": 0,
+      "6,17": 1,
+      "6,18": 1,
+      "6,19": 1,
+      "6,20": 1,
+      "6,21": 1,
+      "6,22": 3,
+      "6,23": 4,
+      "6,24": 4,
+      "6,25": 4,
+      "6,37": 5,
+      "6,38": 6,
+      "6,39": 6,
+      "6,40": 6,
+      "6,41": 6,
+      "6,42": 6,
+      "6,46": 7,
+      "6,50": 8,
+      "6,51": 6,
+      "6,52": 6,
+      "6,122": 9,
+      "6,123": 1,
+      "6,124": 1,
+      "6,125": 1,
+      "6,126": 1,
+      "6,127": 1,
+      "6,128": 1,
+      "6,129": 1,
+      "6,130": 1,
+      "6,131": 1,
+      "6,132": 1,
+      "6,133": 1,
+      "6,134": 10,
+      "7,4": 11,
+      "7,5": 4,
+      "7,6": 4,
+      "7,7": 4,
+      "7,8": 4,
+      "7,9": 4,
+      "7,16": 2,
+      "7,17": 1,
+      "7,18": 1,
+      "7,19": 1,
+      "7,20": 1,
+      "7,21": 1,
+      "7,22": 11,
+      "7,23": 4,
+      "7,24": 4,
+      "7,25": 4,
+      "7,37": 6,
+      "7,38": 6,
+      "7,39": 6,
+      "7,40": 6,
+      "7,41": 6,
+      "7,42": 6,
+      "7,49": 12,
+      "7,50": 6,
+      "7,51": 6,
+      "7,52": 6,
+      "7,54": 6,
+      "7,55": 13,
+      "7,59": 14,
+      "7,60": 6,
+      "7,62": 6,
+      "7,122": 15,
+      "7,123": 9,
+      "7,124": 9,
+      "7,125": 9,
+      "7,126": 9,
+      "7,127": 9,
+      "7,128": 9,
+      "7,129": 9,
+      "7,130": 9,
+      "7,131": 9,
+      "7,132": 9,
+      "7,133": 9,
+      "7,134": 10,
+      "8,49": 6,
+      "8,51": 6,
+      "8,52": 6,
+      "8,54": 6,
+      "8,59": 6,
+      "8,60": 6,
+      "8,62": 6,
+      "8,122": 16,
+      "8,123": 16,
+      "8,124": 16,
+      "8,125": 16,
+      "8,126": 16,
+      "8,127": 16,
+      "8,128": 16,
+      "8,129": 16,
+      "8,130": 16,
+      "8,131": 16,
+      "8,132": 16,
+      "8,133": 16,
+      "8,134": 13,
+      "9,1": 13,
+      "9,4": 13,
+      "9,10": 13,
+      "9,16": 13,
+      "9,22": 13,
+      "9,26": 13,
+      "9,34": 13,
+      "9,40": 13,
+      "9,46": 17,
+      "9,49": 17,
+      "9,52": 17,
+      "9,55": 13,
+      "9,59": 13,
+      "9,63": 13,
+      "9,80": 13,
+      "9,94": 13,
+      "9,108": 13,
+      "9,122": 13,
+      "9,123": 13,
+      "9,124": 13,
+      "9,125": 13,
+      "9,126": 13,
+      "9,127": 13,
+      "9,128": 13,
+      "9,129": 13,
+      "9,130": 13,
+      "9,131": 13,
+      "9,132": 13,
+      "9,133": 13,
+      "9,134": 13,
+      "10,1": 13,
+      "10,4": 13,
+      "10,10": 18,
+      "10,16": 13,
+      "10,22": 13,
+      "10,26": 13,
+      "10,34": 19,
+      "10,40": 20,
+      "10,46": 13,
+      "10,47": 13,
+      "10,49": 13,
+      "10,50": 13,
+      "10,52": 13,
+      "10,53": 13,
+      "10,55": 13,
+      "10,59": 13,
+      "10,63": 13,
+      "10,80": 17,
+      "10,94": 17,
+      "10,108": 17,
+      "10,122": 21,
+      "10,123": 21,
+      "10,124": 21,
+      "10,125": 21,
+      "10,126": 21,
+      "10,127": 21,
+      "10,128": 22,
+      "10,129": 22,
+      "10,130": 22,
+      "10,131": 22,
+      "10,132": 22,
+      "10,133": 22,
+      "10,134": 23
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "10,4,1,6",
+    "9,4,1,6",
+    "10,10,1,6",
+    "9,10,1,6",
+    "10,16,1,6",
+    "9,16,1,6",
+    "10,22,1,4",
+    "9,22,1,4",
+    "10,26,1,8",
+    "9,26,1,8",
+    "10,34,1,6",
+    "9,34,1,6",
+    "10,40,1,6",
+    "9,40,1,6",
+    "10,46,1,3",
+    "9,46,1,3",
+    "10,49,1,3",
+    "9,49,1,3",
+    "10,52,1,3",
+    "9,52,1,3",
+    "10,55,1,4",
+    "9,55,1,4",
+    "10,59,1,4",
+    "9,59,1,4",
+    "10,63,1,17",
+    "9,63,1,17",
+    "10,80,1,14",
+    "9,80,1,14",
+    "10,94,1,14",
+    "9,94,1,14",
+    "10,108,1,14",
+    "9,108,1,14",
+    "11,1,30,135",
+    "6,4,1,6",
+    "7,4,1,6",
+    "6,16,1,6",
+    "7,16,1,6",
+    "6,22,1,4",
+    "7,22,1,4",
+    "6,28,2,6",
+    "10,1,1,3",
+    "9,1,1,3",
+    "6,37,2,6",
+    "42,1,2,7",
+    "0,4,1,6",
+    "1,4,1,6",
+    "0,10,1,6",
+    "1,10,1,6",
+    "6,46,2,3",
+    "6,50,2,3",
+    "6,122,1,12",
+    "5,122,1,12",
+    "10,134,1,2",
+    "9,134,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "品質問題",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": []
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//VAq7CY7zCIUMqhxcRf9JEBHKBUfrZRQtzco60ZDQO86rHQLs+OMzxqMOTgpJgZ5mPZLQZF7s5MYhz/WuGcS1jkht9V4jP/MLaAfITY1XsAhXsnNXrDmkAVyQo+6K3dQ4x7CBIRKvPcMGWNKNvAXJKPsup7AaKoM5Y2Au6hvpRAxMCNYyo7aa5J2zGXf4feFdowJknDCZvntTB2j1dpjO+4nYsU7fJ+g3jHJ9e6QUI1ymW859h0yG7aWTIr+OZzz9AtJub+vuc8sh0IHIf1tDmvOOPJ6MD1dhZoj1BThf5V8lfQlb0YA6v+iSj7x57JGKcqOXcUHVS4xoihEMxWHNA/fZyUod459xQMpMrqr9kzkWLAtSDBk8xYnmgmeKHFbtXdzekavB8LyP5b+jMXRXPNMHkf5lqnvqmJFRneFmb62h298BxZeA7DZ3SDUs2kKmzfY010tQ5MTg5xpBKVdgWJ3ZRK71bRcVfJGcuAHSMVu2uWnDb2blgsHSXSB/Z3RlwvJCQgr7e5AJlK47nh3CZGIhUWMtQQ99pNzRlNBgMc6TdUCphdxbPg8lGrvs/btAy4gI2V3A4csD4KwoZ06WE1JAbFRQkRNlDDjALR/Z70Y/ZZvdEjkQRzvBDgEFpDK/tjtyojtc9HM+8rNicxAVbTDDxsumZ98nobxWZPWSK5AqoTn61YAnZMAtnU93/Fu4fLIuDijRqO64mtzcf9VI15nxW+hciXfP/j/354pvVM7bSIZop8s4AvIvIXOHiu35flv8fys7BG+yxWqp5Q10cRWI0qg7w+OnSjC9tjif1DngmjLfMsRKyjiGlf32KHOg0pc7DGWEGs+jugB3py7zgqhICELsYKdERQG9DXJ8hbNbMxqgAsNYPPFWj8U/GMRhBxZdiHa7Dh1Cl/NLqiJYQQ==|920
