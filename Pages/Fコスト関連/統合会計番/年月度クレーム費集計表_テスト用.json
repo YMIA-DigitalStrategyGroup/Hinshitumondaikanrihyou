@@ -998,7 +998,7 @@
     "19,4": {
       "ListViewInfo": {
         "Name": "リストビュー6",
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "RowIndex": 19,
         "ColumnIndex": 4,
         "RowCount": 6,
@@ -1006,9 +1006,9 @@
         "SqlCondition": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
-            "TableName": "v_Fコスト積極対策",
+            "TableName": "v_積極対策込Fコスト",
             "ColumnName": "対象年月",
-            "GUID": "21329da8-16a2-41ea-b2fa-a06f51ae3466"
+            "GUID": "5b76ab3b-4bad-4e26-8960-5fd95685cfdc"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1033,9 +1033,9 @@
     "21,4": {
       "TotalRowSetting": {},
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "W番号",
-        "GUID": "2892cb0e-fdb6-4f17-a620-7651297d8271"
+        "GUID": "3e2f1bb0-01c5-45ca-a9fe-845c0352e932"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1072,16 +1072,6 @@
           "HorizontalAlignment": 2
         }
       },
-      "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
-        "ColumnName": "W番号",
-        "GUID": "7b002e54-39b2-408a-813c-d8bc0a7649c3",
-        "RelationBinding": {
-          "RelatedTable": "tknow",
-          "RelatedColumn": "W_NBR",
-          "DisplayColumn": "TITLE"
-        }
-      },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
         "136a0505-4ca5-4e32-82ca-05b9533d8308"
@@ -1089,16 +1079,6 @@
     },
     "21,37": {
       "TotalRowSetting": {},
-      "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
-        "ColumnName": "W番号",
-        "GUID": "f3d97cb1-c089-4c70-93e1-f49e1387fa24",
-        "RelationBinding": {
-          "RelatedTable": "tknow",
-          "RelatedColumn": "W_NBR",
-          "DisplayColumn": "HASSEI_DATE"
-        }
-      },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
         "136a0505-4ca5-4e32-82ca-05b9533d8308"
@@ -1106,33 +1086,13 @@
     },
     "21,38": {
       "TotalRowSetting": {},
-      "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
-        "ColumnName": "W番号",
-        "GUID": "e84a179d-d045-4372-8444-16cd0a8f375d",
-        "RelationBinding": {
-          "RelatedTable": "tknow",
-          "RelatedColumn": "W_NBR",
-          "DisplayColumn": "SEIBAN"
-        }
-      },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
         "136a0505-4ca5-4e32-82ca-05b9533d8308"
       ]
     },
     "21,39": {
-      "TotalRowSetting": {},
-      "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
-        "ColumnName": "W番号",
-        "GUID": "4d097b10-fd3c-43ba-a26f-8a24e9f4140f",
-        "RelationBinding": {
-          "RelatedTable": "品質問題_進捗管理表",
-          "RelatedColumn": "W番号",
-          "DisplayColumn": "商品分類"
-        }
-      }
+      "TotalRowSetting": {}
     },
     "21,40": {
       "TotalRowSetting": {},
@@ -1144,9 +1104,9 @@
     "21,41": {
       "TotalRowSetting": {},
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "責任部門",
-        "GUID": "10adc9b2-719d-4bc4-9350-72800b5e879b"
+        "GUID": "7dbbf2a4-f1d5-41d0-b676-276bcb1973fe"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1164,9 +1124,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "支払額",
-        "GUID": "21b687ed-fc0f-46df-a927-b5956ccad082"
+        "GUID": "9ae01a36-f39d-4b9a-a473-40fa35bcff72"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1181,9 +1141,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "倉出",
-        "GUID": "a551f96c-c49a-4b16-8270-1b99b0f94a01"
+        "GUID": "6d3a8987-fc29-40ab-aa37-6ed4db3a8480"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1198,9 +1158,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "運賃",
-        "GUID": "6d51dbb4-cda1-422d-bf37-7e9ecdcac3d3"
+        "GUID": "485d10fc-828c-4437-8af3-7436b4a520b8"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1215,9 +1175,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "総クレーム費",
-        "GUID": "2e39024a-a317-449d-bd59-0baae6310e5f"
+        "GUID": "4664d03c-73ea-44b6-b576-42f2a7f012f1"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1232,9 +1192,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "メーカー責任額",
-        "GUID": "24e2ce47-39ad-4b11-b6b0-b110da98674a"
+        "GUID": "7c872cbe-5aaf-4ab3-a888-2f8a319a6905"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1249,9 +1209,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "求債額",
-        "GUID": "ede5e2a9-af1e-497c-8c26-a22154575688"
+        "GUID": "6d07186d-38d3-4c02-abca-84c59b13f71b"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -1266,9 +1226,9 @@
         }
       },
       "BindingInfo": {
-        "TableName": "v_Fコスト積極対策",
+        "TableName": "v_積極対策込Fコスト",
         "ColumnName": "YMIAクレーム費",
-        "GUID": "71448909-d345-4539-a837-372e61dc8b04"
+        "GUID": "e13683db-c454-4c36-8a78-53bc5e2643ab"
       },
       "RulesGuidList": [
         "6c3bb0f3-ba1f-449c-a1c7-d4ecab7967fd",
@@ -6089,19 +6049,6 @@
     "19,66,1,4",
     "19,70,1,4",
     "20,4,1,70",
-    "21,4,1,4",
-    "21,8,1,6",
-    "21,14,1,5",
-    "21,19,1,4",
-    "21,41,1,5",
-    "21,46,1,4",
-    "21,50,1,4",
-    "21,54,1,4",
-    "21,58,1,4",
-    "21,62,1,4",
-    "21,66,1,4",
-    "21,70,1,4",
-    "21,23,1,14",
     "22,4,3,70",
     "25,4,1,4",
     "25,8,1,6",
@@ -6155,7 +6102,20 @@
     "36,70,1,4",
     "36,62,1,4",
     "36,58,1,4",
-    "12,42,1,4"
+    "12,42,1,4",
+    "21,4,1,4",
+    "21,8,1,6",
+    "21,14,1,5",
+    "21,19,1,4",
+    "21,23,1,14",
+    "21,41,1,5",
+    "21,46,1,4",
+    "21,50,1,4",
+    "21,54,1,4",
+    "21,58,1,4",
+    "21,62,1,4",
+    "21,66,1,4",
+    "21,70,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -6356,4 +6316,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//MxRj9B2gxvqApWEnYZk53h6/YgV5VvQiizY05CIKFSfm2VJDgGJkpAgW97/daE8ngP7+gxkXvO72ZmjUPFv4zyQuiy414VFJccnTPRMUMHYTXghrCm9LxFkP4ANagbVUksNyM+DsUlBIsFlYEr4syriu3CJTgsO+OQTxlbZM2Co09mu2UERn6/vY72MR4tM/8ByzUu9fMvyg2YY4o6tHbz2pMIuswbyfQHCbOXEsIeW/rWpnvJBw9jYNGQD4QHOZZzjAeyzm+UcAGh1yaGpsS+8HXsp/fp4cGMR16A6tz9Va9f2l8NayYRE2wChNPRDBCXvoWCsOFfgV2ndVqhiI91IjAPNZhSumlQFsfSoFNVVnrNqHC47bddOUoVX0DBdinQCbCilfmR8+wuYm+bJyHw5DowKF2Q1BmDnDOllRD7ZocvX+CqNEtxGXY72rBSgsB4LIW2ewhIDX1OPlSpj9Q2h+Nkga5aaAyvYbrq/y2D41867c9Ckv7cWhN3/v8w6o3w6D75xtV8WJmkUt14J1MrYkhJecJzefQNAZSWZepWl8ofySGysPOsCxDeJTng+TTXy7b9jiuYpak3xnoOz7Win1zso6uQiwhFdYLuSaNZh77UNXRT8qU9jWLww+8du5oYC1fFpxVhRrq2USmjccoaEp76q3TX4fzINIss34W0DFu6cOsPmZ3LfGetMr+UYaRlWWJJqTsCqVA8ZWi4LrVAXj03+iFBqhEjGxI2PguYgg7BW05z340wsnXItjrYjg/8P8+bpGmO5xw3zOKTkF6uRXffuM09M0vODD8BDPf1MbpsYHNfF2lxmftsSb3rpw4olJaYFUYuyDnAOPfkRdxDOFPGvgm2g+Jce2g/ysMVdNIpor18DTbNodl7GxEom21EdWMHlNsFUQFXgVAdTV/Q==|920
+}//LMfRgB8k7M889zyUfmeHBBajsaFpgBra6qoiBn5mNjLzXqQgwpavuCM88oE5/msK4ZlYkpvMdUYxJ+KsIoDZG2wuNqPCoy33Wv4guiDjzp+GcdSr/RycWFEo0fgML+D2uB/lpHbS+AZ1NfyXiWv3Hm3dBCF1jiTJlUzLZwBc53VY9Tx5FWzv07fKqfHvpgTNWmTwBI2YDe+qMVpHMa26mnwuKZqqKuCwdhYGxqAp7sjcT2Jt4+ZuWk3i/kz6QRRvVSDQJJHntNuw7ZGbS5DmW2JrQKtKf6kSayc9+epRPSMkFiW4/HVkCfgOkgHq2OhjI8E5gnjINgQ9xsr1guJCPdx8nA75ijR9fJZvmcSMpQqkQftVS73QztsmcZySbN2T+QNPz8ufy89blDgcOdmQ69HEw/HGNzgZh77TErfHEWwoQpAWMQBp1A+yFzTOljeY0DPL48c17vdvdDAZyqFItOXjeMyp8b5pk8hVO5qB40mYetCr1pru8V2KPr1npAi0Q5UiAPkhg3D/cTdQcbf/hxZTbKMiEDN5lZL5Y0vZsSz4NZNfqwsEH7uqvdKR4TDswzxz40QZLkdv1Vo8sY5GQB7MgcHTYQC5rev0MBEQf9MCyVWaQqqiIrA0yTZhRogNEaJMksgVry7Mjw4R5inJ92LiMkfE3F+MJHAyncC+uss3kWQgUvf8n/voa5XZQWqNcNa7jDvpzm5hJun2ohcjX+j0EFvgPtSRJPU+NxW1vBIyY71amYmuWA+MwsWSORfxmCffXHWvmWxJQ0949WbplVbCa1z63g03PGiq8nVSSKkE6tE7ZDsCSeaYF11z22n1dKZ1X/ztn9P1wRd7vXC0EomSy3EDr08urBCbfhNW3WAKNM/Y8PbvJPof0z8gIdAtNpXzkQIki13jAmt5/zSjhA==|920

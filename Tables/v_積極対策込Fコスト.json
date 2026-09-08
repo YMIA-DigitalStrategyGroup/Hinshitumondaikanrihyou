@@ -1,0 +1,116 @@
+{
+  "Name": "v_積極対策込Fコスト",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "管理番号",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": -1,
+      "Name": "W番号",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": -1,
+      "Name": "対象年月",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": -1,
+      "Name": "責任部門",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "支払額",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "倉出",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "運賃",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "総クレーム費",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "メーカー責任額",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "求債額",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "YMIAクレーム費",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "承認番号",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "申請フラグ",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": -1,
+      "Name": "対策状況",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "Sql品質保証部",
+    "SourceTableName": "v_積極対策込Fコスト",
+    "SourceTableSchema": "dbo",
+    "CreateViewSql": "select\r\n    t.*,\r\n    s.対策状況\r\nfrom \r\n    積極対策管理 s\r\nright join\r\n    品質問題_Fコスト集計版 t on s.W番号 = t.W番号",
+    "ViewInfo": {
+      "IsUpdatable": true,
+      "QueryColumns": []
+    }
+  },
+  "Indexes": []
+}
