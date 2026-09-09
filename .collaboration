@@ -89,7 +89,16 @@
   },
   {
     "ModuleName": "Table/品質問題_Fコスト集計版",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-09T11:03:57.85785+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\品質問題_Fコスト集計版.json"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -282,7 +291,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-09-09T11:02:46.004784+09:00",
+    "LockDateTime": "2026-09-09T11:03:57.852917+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\Fコスト関連\\統合会計番\\Fコスト管理_統合会計版.json",
